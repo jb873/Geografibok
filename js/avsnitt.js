@@ -1,19 +1,27 @@
 // avsnitt.js – interaktion för avsnittsmallen
 //
-// Funktioner i detta skede:
+// Funktioner:
 //   1. Flikväxlare  (Läs / Öva / Elevboken)
 //   2. Nivåväljare  (Enkel / Standard / Fördjupning)
-//   3. Auto-expand av elevbokens textareor (växer med innehållet)
+//   3. Underdelsväxlare (A / B / C) – flerdelade avsnitt (modell 2)
+//   4. Auto-expand av elevbokens textareor
+//   5. Brödtextbilder → lightbox
 //
-// Ingen localStorage-logik här – den ligger i elevbok.js / sparning.js.
+// UNDERDELAR (modell 2):
+//   - Avsnittet har EN flikrad (Läs / Öva / Elevboken). Underdelsväljaren
+//     ligger inuti Läs-fliken och styr bara texten: den togglar .dold på
+//     .underdel-text-divar. Öva och Elevboken är gemensamma för hela
+//     avsnittet. Nivåväljaren är gemensam för underdelarnas texter.
+//   - Sidor utan underdelar (t.ex. demografi) fungerar oförändrat – en
+//     enda scope, exakt som tidigare. scopeRotter() behåller stöd för ev.
+//     framtida .underdel-wrappers men returnerar [document] när inga finns.
+//
+// Ingen localStorage-logik för elevsvar här – den ligger i elevbok.js.
 
 (function () {
   'use strict';
 
   // ---------- Auto-expand av textarea ----------
-  // Justerar höjden så hela texten syns utan intern scroll. Exponeras
-  // globalt så avsnittssidan kan kalla den direkt efter att ha fyllt i
-  // sparat svar (rätt initialhöjd utan flimmer).
   function autoExpandTextarea(textarea) {
     textarea.style.height = 'auto';
     textarea.style.height = textarea.scrollHeight + 'px';
@@ -22,80 +30,117 @@
 
   function initAutoExpand() {
     document.querySelectorAll('.elevbok-textarea').forEach(function (textarea) {
-      // Initialhöjd baserad på befintligt innehåll vid sidladdning.
       autoExpandTextarea(textarea);
-      // Justera löpande medan eleven skriver.
-      textarea.addEventListener('input', function () {
-        autoExpandTextarea(textarea);
-      });
+      textarea.addEventListener('input', function () { autoExpandTextarea(textarea); });
     });
   }
 
-  // ---------- Flikväxlare ----------
-  // Varje .flik har data-flik="laes|ova|skriv" som matchar
-  // id på motsvarande .flik-innehall.
+  // ---------- Scope-rötter ----------
+  // Lista av element att scopa flik/nivå-logiken inom. Finns .underdel →
+  // en scope per underdel. Annars hela dokumentet (gamla strukturen).
+  function scopeRotter() {
+    var u = document.querySelectorAll('.underdel');
+    return u.length ? Array.prototype.slice.call(u) : [document];
+  }
+
+  // ---------- Flikväxlare (scoped) ----------
+  // Panelens nyckel = data-flik (ny struktur) eller id (gammal struktur).
   function initFlikar() {
-    var flikar = document.querySelectorAll('.flik');
-    var paneler = document.querySelectorAll('.flik-innehall');
-
-    flikar.forEach(function (flik) {
-      flik.addEventListener('click', function () {
-        var mal = flik.getAttribute('data-flik');
-
-        flikar.forEach(function (f) {
-          f.classList.toggle('aktiv', f === flik);
-        });
-
-        paneler.forEach(function (panel) {
-          panel.classList.toggle('dold', panel.id !== mal);
+    scopeRotter().forEach(function (scope) {
+      var flikar = scope.querySelectorAll('.flik');
+      var paneler = scope.querySelectorAll('.flik-innehall');
+      flikar.forEach(function (flik) {
+        flik.addEventListener('click', function () {
+          var mal = flik.getAttribute('data-flik');
+          flikar.forEach(function (f) { f.classList.toggle('aktiv', f === flik); });
+          paneler.forEach(function (panel) {
+            var nyckel = panel.getAttribute('data-flik') || panel.id;
+            panel.classList.toggle('dold', nyckel !== mal);
+          });
         });
       });
     });
   }
 
-  // ---------- Nivåväljare ----------
-  // Byter aktiv knapp OCH visar rätt nivåinnehåll. Generisk:
-  //   - .niva-valjare kan ha data-niva-nyckel="..." → vald nivå sparas
-  //     i localStorage och återställs vid sidladdning (annars 'standard').
-  //   - Nivåinnehåll: element med klass .niva-innehall och data-niva
-  //     ("enkel" | "standard" | "fordjupning"). Saknas sådana sker bara
-  //     knappväxling (sidor utan nivåtext påverkas inte).
+  // ---------- Nivåväljare (scoped) ----------
   function initNivaer() {
-    var valjare = document.querySelector('.niva-valjare');
-    if (!valjare) { return; }
-    var knappar = valjare.querySelectorAll('.niva-knapp');
-    var nyckel = valjare.getAttribute('data-niva-nyckel');
-    var innehall = document.querySelectorAll('.niva-innehall');
+    scopeRotter().forEach(function (scope) {
+      var valjare = scope.querySelector('.niva-valjare');
+      if (!valjare) { return; }
+      var knappar = valjare.querySelectorAll('.niva-knapp');
+      var nyckel = valjare.getAttribute('data-niva-nyckel');
+      var innehall = scope.querySelectorAll('.niva-innehall');
 
-    function visaNiva(niva, spara) {
-      knappar.forEach(function (k) {
-        k.classList.toggle('aktiv', k.dataset.niva === niva);
+      function visaNiva(niva, spara) {
+        knappar.forEach(function (k) { k.classList.toggle('aktiv', k.dataset.niva === niva); });
+        innehall.forEach(function (block) { block.classList.toggle('dold', block.dataset.niva !== niva); });
+        if (spara && nyckel) {
+          try { localStorage.setItem(nyckel, niva); } catch (e) {}
+        }
+      }
+
+      knappar.forEach(function (knapp) {
+        knapp.addEventListener('click', function () { visaNiva(knapp.dataset.niva, true); });
       });
-      innehall.forEach(function (block) {
-        block.classList.toggle('dold', block.dataset.niva !== niva);
+
+      var start = 'standard';
+      if (nyckel) {
+        try { var s = localStorage.getItem(nyckel); if (s) { start = s; } } catch (e) {}
+      }
+      visaNiva(start, false);
+    });
+  }
+
+  // ---------- Underdelsväxlare (A / B / C) – modell 2 ----------
+  // Ligger inuti Läs-fliken och styr BARA texten: klick på .underdel-knapp
+  // togglar .dold på .underdel-text-divar med matchande data-underdel.
+  // Öva och Elevboken är gemensamma för hela avsnittet. Startval:
+  // URL-fragment (#a/#b) → localStorage → första underdelen.
+  // Körs bara på sidor som har underdelar.
+  function initUnderdelar() {
+    var knappar = document.querySelectorAll('.underdel-knapp');
+    if (!knappar.length) { return; }
+    var texter = document.querySelectorAll('.underdel-text');
+    var avsnitt = (typeof AVSNITT_ID !== 'undefined') ? AVSNITT_ID : '';
+    var delkapitel = (typeof DELKAPITEL_ID !== 'undefined') ? DELKAPITEL_ID : '';
+    var nyckel = 'geo-underdel-' + delkapitel + '-' + avsnitt;
+
+    function finns(bokstav) {
+      if (!bokstav) { return false; }
+      try {
+        return !!document.querySelector('.underdel-text[data-underdel="' + bokstav + '"]');
+      } catch (e) { return false; }
+    }
+
+    function visaUnderdel(bokstav, spara) {
+      texter.forEach(function (t) {
+        t.classList.toggle('dold', t.getAttribute('data-underdel') !== bokstav);
       });
-      if (spara && nyckel) {
-        try { localStorage.setItem(nyckel, niva); } catch (e) {}
+      knappar.forEach(function (b) {
+        b.classList.toggle('aktiv', b.getAttribute('data-underdel') === bokstav);
+      });
+      if (spara) {
+        try { localStorage.setItem(nyckel, bokstav); } catch (e) {}
       }
     }
 
     knappar.forEach(function (knapp) {
       knapp.addEventListener('click', function () {
-        visaNiva(knapp.dataset.niva, true);
+        visaUnderdel(knapp.getAttribute('data-underdel'), true);
       });
     });
 
-    // Initial nivå: sparad (om nyckel) annars 'standard'.
-    var start = 'standard';
-    if (nyckel) {
-      try { var s = localStorage.getItem(nyckel); if (s) { start = s; } } catch (e) {}
+    var start = null;
+    var frag = (location.hash || '').replace(/^#/, '').toLowerCase();
+    if (finns(frag)) { start = frag; }
+    if (!start) {
+      try { var s = localStorage.getItem(nyckel); if (finns(s)) { start = s; } } catch (e) {}
     }
-    visaNiva(start, false);
+    if (!start) { start = knappar[0].getAttribute('data-underdel'); }
+    visaUnderdel(start, false);
   }
 
   // ---------- Brödtextbilder → lightbox ----------
-  // Gör Läs-flikens bilder (.brodtext-bild img) klickbara; öppnar den
-  // universella BildModal med bildtexten (figcaption) under.
   function initBrodtextBilder() {
     if (!window.BildModal) { return; }
     document.querySelectorAll('.brodtext-bild img').forEach(function (img) {
@@ -110,6 +155,7 @@
   document.addEventListener('DOMContentLoaded', function () {
     initFlikar();
     initNivaer();
+    initUnderdelar();
     initAutoExpand();
     initBrodtextBilder();
   });

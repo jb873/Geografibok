@@ -24,14 +24,6 @@
       <p class="subtitel">— Varför bor människor där de bor —</p>
     </header>
 
-    <!-- Nivåväljare: växlar .niva-innehall i Läs-fliken. Vald nivå sparas i
-         localStorage (data-niva-nyckel) och återställs vid sidladdning. -->
-    <div class="niva-valjare" role="group" aria-label="Textnivå" data-niva-nyckel="geo-niva-demografi-avsnitt-2">
-      <button type="button" class="niva-knapp" data-niva="enkel">📗 Enkel</button>
-      <button type="button" class="niva-knapp aktiv" data-niva="standard">📘 Standard</button>
-      <button type="button" class="niva-knapp" data-niva="fordjupning">📕 Fördjupning</button>
-    </div>
-
     <div class="flikar-rad" role="tablist">
       <button type="button" class="flik aktiv" data-flik="laes" role="tab">Läs</button>
       <button type="button" class="flik" data-flik="ova" role="tab">Öva</button>
@@ -41,6 +33,16 @@
     <!-- ===================== LÄS ===================== -->
     <section class="flik-innehall" id="laes" role="tabpanel">
       <div id="forelasningar-lista" class="forelasningar-lista"></div>
+
+      <!-- Nivåväljare: växlar .niva-innehall i Läs-fliken. Vald nivå sparas i
+           localStorage (data-niva-nyckel) och återställs vid sidladdning.
+           Placerad inuti Läs-sektionen så att den automatiskt döljs när
+           Öva eller Elevboken är aktiv flik. -->
+      <div class="niva-valjare" role="group" aria-label="Textnivå" data-niva-nyckel="geo-niva-demografi-avsnitt-2">
+        <button type="button" class="niva-knapp" data-niva="enkel">📗 Enkel</button>
+        <button type="button" class="niva-knapp aktiv" data-niva="standard">📘 Standard</button>
+        <button type="button" class="niva-knapp" data-niva="fordjupning">📕 Fördjupning</button>
+      </div>
 
       <!-- ===== STANDARDNIVÅ ===== -->
       <div class="niva-innehall brodtext" data-niva="standard">
@@ -454,7 +456,7 @@
     <!-- ===================== ÖVA ===================== -->
     <section class="flik-innehall dold" id="ova" role="tabpanel">
       <div id="flipcards-mount"
-           data-fil="../../data/flipcards/avsnitt-2-lokaliseringsfaktorer.json"
+           data-fil="../../data/flipcards/demografi/avsnitt-2-lokaliseringsfaktorer.json"
            data-avsnitt="avsnitt-2">
         <p class="flipcards-fel">Laddar flipcards …</p>
       </div>

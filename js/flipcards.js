@@ -18,14 +18,13 @@
 (function () {
   'use strict';
 
-  var mount = document.getElementById('flipcards-mount');
-  if (!mount) { return; }
+  function initFlipcards(mount) {
 
   var FIL = mount.getAttribute('data-fil');
   var AVSNITT = mount.getAttribute('data-avsnitt') || 'avsnitt';
   var SKATT_KEY = 'geo-flipcards-' + AVSNITT + '-skattning';
   var SESSION_KEY = 'geo-flipcards-' + AVSNITT + '-session';
-  var BILD_BAS = '../../img/demografi/';
+  var BILD_BAS = '../../img/' + (typeof DELKAPITEL_ID !== 'undefined' ? DELKAPITEL_ID : 'demografi') + '/';
 
   var ETIKETT = { begrepp: '🟢 BEGREPP', modell: '🔵 MODELL', redogorelse: '🔴 STOR FRÅGA' };
   var TYPNAMN = { begrepp: 'begreppskort', modell: 'modellkort', redogorelse: 'stora frågor' };
@@ -692,8 +691,8 @@
   // ---- tangentbord --------------------------------------------------
 
   document.addEventListener('keydown', function (e) {
-    var ova = document.getElementById('ova');
-    if (!ova || ova.classList.contains('dold')) { return; }
+    // Bara den synliga instansen (aktiv underdel + aktiv Öva-flik) reagerar.
+    if (mount.offsetParent === null) { return; }
     if (!curKort) { return; }
     var a = document.activeElement;
     if (a && (a.tagName === 'TEXTAREA' || a.tagName === 'INPUT')) { return; }
@@ -746,4 +745,13 @@
       console.warn('Kunde inte ladda flipcards-data (' + FIL + ').', e);
       visaLaddningsfel();
     });
+
+  } // slut initFlipcards (en instans per mount)
+
+  // Bootstrap: en flipcard-instans per mount. Stödjer både gammal
+  // id-baserad (#flipcards-mount) och ny klassbaserad (.flipcards-mount —
+  // flera per sida, en per underdel).
+  document.querySelectorAll('#flipcards-mount, .flipcards-mount').forEach(function (m) {
+    initFlipcards(m);
+  });
 })();

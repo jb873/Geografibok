@@ -1,0 +1,132 @@
+{
+  "avsnitt_id": "a2_plattektonik",
+  "underdel": "d",
+  "underdel_titel": "Förkastningar i Sverige",
+  "kort": [
+    {
+      "id": "2d-b01",
+      "typ": "begreppskort",
+      "kategori": "Begrepp",
+      "fraga": "Vad är en förkastning?",
+      "svar": "En förkastning är en spricka eller svaghetszon i berggrunden där stora bergblock har förskjutits i förhållande till varandra. Bergblocken kan ha sjunkit ner, höjts upp eller förskjutits i sidled."
+    },
+    {
+      "id": "2d-b02",
+      "typ": "begreppskort",
+      "kategori": "Begrepp",
+      "fraga": "Vad är en normalförkastning?",
+      "svar": "En normalförkastning är en förkastning som bildas när jordskorpan dras isär. Ett bergblock sjunker ner i förhållande till ett annat längs en spricka, och en brant blir kvar i landskapet."
+    },
+    {
+      "id": "2d-b03",
+      "typ": "begreppskort",
+      "kategori": "Begrepp",
+      "fraga": "Vad är en gravsänka?",
+      "svar": "En gravsänka är ett område mellan två förkastningar som har sjunkit ner. På båda sidor om sänkan ligger berggrunden kvar högre. I mitten bildas en lång, smal sänka — ofta fylld med vatten."
+    },
+    {
+      "id": "2d-b04",
+      "typ": "begreppskort",
+      "kategori": "Begrepp",
+      "fraga": "Vad är en horst?",
+      "svar": "En horst är ett område mellan två förkastningar som har stått kvar högt medan blocken på sidorna har sjunkit ner. Det syns som en ås eller höjd i landskapet."
+    },
+    {
+      "id": "2d-b05",
+      "typ": "begreppskort",
+      "kategori": "Begrepp",
+      "fraga": "Vad är postglacial landhöjning?",
+      "svar": "Postglacial landhöjning är processen där berggrunden långsamt återgår till sin ursprungliga form efter att en inlandsis har smält bort. Istidens tyngd hade tryckt ner berget, och nu lyfter det sig själv igen — millimeter för millimeter, under tusentals år."
+    },
+    {
+      "id": "2d-b06",
+      "typ": "begreppskort",
+      "kategori": "Begrepp",
+      "fraga": "Var ligger Kolmården, och vad är den ett exempel på?",
+      "svar": "Kolmården ligger vid Bråviken i Östergötland och är ett exempel på en normalförkastning. Där finns en tydlig förkastningsbrant där berggrunden norr om Bråviken en gång sjönk ner i förhållande till söder."
+    },
+    {
+      "id": "2d-b07",
+      "typ": "begreppskort",
+      "kategori": "Begrepp",
+      "fraga": "Var ligger Hallandsåsen, och vad är den ett exempel på?",
+      "svar": "Hallandsåsen ligger mellan Halland och Skåne och är ett exempel på en horst. Den är ungefär 80 kilometer lång och stiger upp till drygt 200 meter — ett bergblock som blivit kvar uppe medan marken på sidorna sjönk ner."
+    },
+    {
+      "id": "2d-m01",
+      "typ": "modellkort",
+      "kategori": "Tillämpning",
+      "fraga": "Varför är Sveriges jordbävningar så små jämfört med Japans?",
+      "svar": "Japan ligger vid en aktiv plattgräns där flera plattor möts — där byggs stora spänningar upp och frigörs som kraftiga jordbävningar. Sverige ligger mitt på den eurasiska plattan, långt från alla aktiva plattgränser. Här rör sig ingenting i samma takt, och då blir jordbävningarna både små och sällsynta."
+    },
+    {
+      "id": "2d-m02",
+      "typ": "modellkort",
+      "kategori": "Tillämpning",
+      "fraga": "Hur kan man se på en sjös form att den ligger i en gravsänka?",
+      "svar": "En gravsänka skapar en lång, smal och ofta djup sänka i berggrunden. När sänkan fylls med vatten får sjön motsvarande form: lång, smal och djup, ofta med raka kanter. Vättern är ett tydligt exempel — över 130 km lång men bara några km bred."
+    },
+    {
+      "id": "2d-m03",
+      "typ": "modellkort",
+      "kategori": "Tillämpning",
+      "fraga": "Vad är skillnaden mellan Vättern och Vänern, geologiskt sett?",
+      "svar": "Vättern ligger i en gravsänka som bildats av förkastningar — därför är den lång, smal och djup. Vänern är inte huvudsakligen formad av förkastningar utan av glacial erosion: inlandsisen gröpte ut en stor, oregelbunden fördjupning som sedan fylldes med vatten. Olika ursprung, olika former."
+    },
+    {
+      "id": "2d-m04",
+      "typ": "modellkort",
+      "kategori": "Tillämpning",
+      "fraga": "Varför skakar Sverige fortfarande lite, trots att vi ligger mitt på en platta?",
+      "svar": "Under istiden trycktes Sveriges berggrund ner av kilometertjock landis. När isen smälte började berget långsamt återgå till sin form — postglacial landhöjning. Rörelsen är inte jämn, och när spänningar släpper i berggrunden uppstår små jordbävningar. Det är istidens efterskalv, inte plattektonik."
+    },
+    {
+      "id": "2d-r01",
+      "typ": "redogörelsekort",
+      "kategori": "Resonemang",
+      "fraga": "Förklara hur Vättern bildades, från det att jordskorpan började röra sig till att sjön blev som den är idag.",
+      "modellsvar": "Vättern ligger i en gravsänka. För länge sedan utsattes berggrunden i området för krafter som drog isär jordskorpan. Berget spruckte längs två långa parallella förkastningar. Området mellan förkastningarna sjönk ner medan sidorna förblev högre. Det skapade en lång, smal sänka i landskapet. Senare fylldes sänkan med vatten — antingen smältvatten från istiden eller regnvatten över tid. Resultatet blev en lång, smal och djup sjö, vars form direkt avspeglar de gamla förkastningarnas läge.",
+      "stodlarare": {
+        "stodord": ["gravsänka", "förkastning", "berggrund", "sjönk ner", "vatten", "lång och smal"],
+        "startfraser": [
+          "Vättern bildades genom att...",
+          "Först rörde sig berggrunden så att...",
+          "Vätterns form speglar..."
+        ],
+        "tip_for_struktur": "Berätta i ordning: 1) Vilken kraft började processen? 2) Vad hände med berggrunden? 3) Vilken form fick landskapet? 4) Hur fylldes sänkan med vatten? Avsluta med att förklara varför Vättern ser ut som den gör idag."
+      }
+    },
+    {
+      "id": "2d-r02",
+      "typ": "redogörelsekort",
+      "kategori": "Resonemang",
+      "fraga": "Jämför normalförkastning, gravsänka och horst. Hur bildas de, och vad är gemensamt för dem?",
+      "modellsvar": "Alla tre formerna uppstår när jordskorpan dras isär och berget spricker. Skillnaden ligger i hur bergblocken rör sig. Vid en normalförkastning är det en enda spricka där ett block sjunker ner i förhållande till ett annat — det syns som en brant. Vid en gravsänka finns två parallella förkastningar, och området mellan dem sjunker ner — det syns som en lång, smal sänka. Vid en horst finns också två parallella förkastningar, men nu är det mittblocket som blir kvar högt medan sidoblocken sjunker — det syns som en upphöjd ås. Gemensamt är att alla tre är resultat av samma underliggande process: jordskorpan sträcks ut, berget spricker, och bergblock rör sig i förhållande till varandra.",
+      "stodlarare": {
+        "stodord": ["jordskorpan dras isär", "spricka", "block sjunker", "block höjs", "normalförkastning", "gravsänka", "horst", "brant", "ås"],
+        "startfraser": [
+          "Alla tre bildas när...",
+          "Skillnaden ligger i...",
+          "Det gemensamma är att..."
+        ],
+        "tip_for_struktur": "Börja med vad alla tre har gemensamt. Beskriv sedan var och en för sig — använd ett tydligt exempel för varje (Kolmården, Vättern, Hallandsåsen). Avsluta med att lyfta fram det underliggande mönstret: samma process, olika resultat."
+      }
+    },
+    {
+      "id": "2d-r03",
+      "typ": "redogörelsekort",
+      "kategori": "Resonemang",
+      "fraga": "Hur kan det komma sig att Sverige har förkastningar, fast vi ligger mitt på en platta och inte vid någon plattgräns?",
+      "modellsvar": "Sveriges berggrund är mycket gammal — miljarder år. Under den långa tiden har den eurasiska plattan inte alltid sett ut som idag. Sverige har varit del av flera olika kontinenter och superkontinenter, och plattorna har pressats samman, dragits isär och vridits på sätt som idag inte är aktiva. Varje gång dessa krafter verkade kunde berggrunden spricka och bergblock röra sig. Förkastningarna vi ser idag är spår av dessa gamla rörelser — gamla, oftast inaktiva, men fortfarande synliga i landskapet som branter, dalar och åsar. Sveriges nuvarande läge mitt på en platta betyder bara att inga nya stora förkastningar bildas just nu. De gamla finns kvar.",
+      "stodlarare": {
+        "stodord": ["gammal berggrund", "miljarder år", "olika kontinenter", "krafter som inte längre verkar", "inaktiva förkastningar", "spår"],
+        "startfraser": [
+          "Även om Sverige idag ligger lugnt...",
+          "Berggrunden är så gammal att...",
+          "Förkastningarna är spår av..."
+        ],
+        "tip_for_struktur": "Lyft tidsperspektivet först — Sveriges berggrund är mycket äldre än dagens plattläge. Förklara sedan att plattorna har rört sig olika under olika perioder. Avsluta med att tydliggöra att förkastningarna är gamla spår, inte aktiva strukturer."
+      }
+    }
+  ]
+}

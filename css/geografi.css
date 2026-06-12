@@ -480,6 +480,75 @@ a.resurs-kort:hover {
   display: none;
 }
 
+/* ---------- Underdelsväljare (A / B / C) ---------- */
+/* Visuellt sekundär mot flikraden men tydlig. Ligger ovanför flikraden
+   och styr "vilken underdel av avsnittet är jag i". */
+.underdel-valjare {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+  margin: 0 0 1.25rem;
+}
+.underdel-knapp {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: var(--paper-light);
+  border: 1px solid rgba(27, 42, 54, 0.18);
+  border-radius: 4px;
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.underdel-knapp:hover { background-color: #faf4e4; }
+.underdel-knapp.aktiv { background-color: var(--brass); border-color: var(--brass); }
+.underdel-knapp.aktiv .underdel-bokstav,
+.underdel-knapp.aktiv .underdel-titel { color: var(--paper); }
+
+.underdel-bokstav {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  line-height: 1;
+  color: var(--brass);
+}
+.underdel-titel {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+/* Underdelstext (modell 2): bara aktiv underdels text visas i Läs-fliken.
+   .underdel.dold behålls för ev. framtida wrapper-struktur. (styrs av avsnitt.js) */
+.underdel-text.dold,
+.underdel.dold { display: none; }
+
+/* Underdel-lista på delkapitlets landningssida (A/B/C under huvudavsnittet) */
+.underdel-lista {
+  list-style: none;
+  margin: 0.35rem 0 0.6rem 3.2rem;
+  padding: 0;
+}
+.underdel-lista li { margin: 0.15rem 0; }
+.underdel-lista a {
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  color: var(--brass);
+  text-decoration: none;
+}
+.underdel-lista a:hover { text-decoration: underline; }
+.underdel-lista .kommer-snart {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--muted);
+}
+
+@media (max-width: 600px) {
+  .underdel-knapp { width: 100%; }
+}
+
 /* ---------- Flikar ---------- */
 
 .flikar-rad {
@@ -2343,6 +2412,25 @@ a.resurs-kort:hover {
   margin-top: 1em;
   margin-bottom: 0.4em;
 }
+
+/* ============================================================
+   Djupdykningssidor (geologi-mallen) – modifierare ovanpå
+   .avsnitt-header och .brodtext, plus en tillbaka-länk.
+   ============================================================ */
+.djupdykning-header { text-align: center; }
+.djupdykning-header .avsnitt-label { color: var(--brass); }
+
+.djupdykning-brodtext { margin-top: 1.5rem; }
+
+.djupdykning-tillbaka { margin: 2rem 0 1rem; }
+.djupdykning-tillbaka a {
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  color: var(--brass);
+  text-decoration: none;
+}
+.djupdykning-tillbaka a:hover { text-decoration: underline; }
 
 /* ============================================================
    Vintage-atlas-tabell (.vintage-tabell)

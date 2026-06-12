@@ -1,0 +1,441 @@
+{
+  "avsnitt": 1,
+  "titel": "Jordens uppbyggnad",
+  "delkapitel": "geologi",
+  "version": "1.0",
+  "kort_totalt": 43,
+  "begreppskort": [
+    {
+      "id": "k1-b1",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad betyder DENSITET?",
+      "svar": "Hur tätt packad materia är — alltså hur mycket den väger jämfört med hur stor plats den tar. Två lika stora föremål kan väga olika mycket. Det som väger mer har högre densitet."
+    },
+    {
+      "id": "k1-b2",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är JORDSKORPAN?",
+      "svar": "Jordens yttersta fasta lager — det vi lever på. Den är tunn jämfört med hela jordklotet — om jorden vore ett äpple skulle skorpan motsvara skalet."
+    },
+    {
+      "id": "k1-b3",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är MANTELN?",
+      "svar": "Jordens näst yttersta skikt, under jordskorpan. Den består av het bergmassa som inte är flytande, men som kan röra sig långsamt över miljontals år — som mycket seg sirap eller varm plast."
+    },
+    {
+      "id": "k1-b4",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är YTTRE KÄRNAN?",
+      "svar": "Jordens näst innersta skikt. Den består av flytande järn och nickel. Rörelser i den yttre kärnan skapar jordens magnetfält."
+    },
+    {
+      "id": "k1-b5",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är INRE KÄRNAN?",
+      "svar": "Jordens innersta skikt. Den består också av järn och nickel, men är **fast** — trots att temperaturen är högre där än någon annanstans. Det beror på det enorma trycket som pressar ihop materialet."
+    },
+    {
+      "id": "k1-b6",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är KONTINENTAL JORDSKORPA?",
+      "svar": "Den jordskorpa som finns under landområdena. Den är tjock (30–70 km) men har låg densitet (relativt lätt). Består framför allt av bergarten granit."
+    },
+    {
+      "id": "k1-b7",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är OCEANISK JORDSKORPA?",
+      "svar": "Den jordskorpa som finns under haven. Den är tunn (5–10 km) men har hög densitet (tung). Består framför allt av bergarten basalt."
+    },
+    {
+      "id": "k1-b8",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en TEKTONISK PLATTA?",
+      "svar": "En av de stora bitar som jordskorpan är uppdelad i. Plattorna omfattar både jordskorpan och den översta fasta delen av manteln. De rör sig några centimeter per år, drivna av konvektionsströmmarna under."
+    },
+    {
+      "id": "k1-b9",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en KONVEKTIONSSTRÖM?",
+      "svar": "En cirkulerande rörelse där varmt material stiger uppåt (för att det har lägre densitet) och kallt material sjunker nedåt (för att det har högre densitet). I jordens mantel skapar detta stora långsamma cirklar som drar med sig plattorna ovanför."
+    },
+    {
+      "id": "k1-b10",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är GRANIT?",
+      "svar": "En relativt lätt bergart med låg densitet. Är den huvudsakliga bergarten i den kontinentala jordskorpan."
+    },
+    {
+      "id": "k1-b11",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är BASALT?",
+      "svar": "En mörk vulkanisk bergart med hög densitet — tyngre än granit. Är den huvudsakliga bergarten i den oceaniska jordskorpan."
+    },
+    {
+      "id": "k1-b12",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Varför är jorden uppbyggd i SKIKT?",
+      "svar": "När jorden var nybildad och hel smält sjönk de tyngsta ämnena (järn, nickel) in mot mitten på grund av sin höga densitet, medan de lättare ämnena hamnade utanför. Densiteten avgjorde alltså var allting hamnade — och därför är jorden uppbyggd som den är idag."
+    },
+    {
+      "id": "k1-b13",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad är SEISMOLOGI?",
+      "svar": "Läran om hur vågor rör sig genom jorden. Genom att mäta seismiska vågor från jordbävningar kan vi rita en karta över vad jordens inre består av — utan att gräva oss dit. Det är hela grunden för vår kunskap om kärnan, manteln och skorpan."
+    },
+    {
+      "id": "k1-b14",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad är en HETSPOT (hot spot)?",
+      "svar": "En plats där en pelare av extra het bergmassa (en mantelpluem) stiger upp från djupt nere i manteln och smälter sig igenom jordskorpan, vilket skapar en vulkan. Hetspots ligger inte vid plattgränser utan mitt på plattor. Hawaii är det mest kända exemplet."
+    },
+    {
+      "id": "k2-b1",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett MAGNETFÄLT?",
+      "svar": "Ett osynligt fält av krafter som omger en magnet och påverkar andra magnetiska eller laddade föremål. Jordens magnetfält omger hela planeten och sträcker sig tusentals kilometer ut i rymden."
+    },
+    {
+      "id": "k2-b2",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilken del av jorden skapar MAGNETFÄLTET, och hur?",
+      "svar": "**Yttre kärnan**, som består av flytande järn och nickel. När den ledande metallen rör sig i konvektionsströmmar och påverkas av jordens rotation skapas elektriska strömmar, och dessa skapar i sin tur magnetfältet."
+    },
+    {
+      "id": "k2-b3",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är GEODYNAMON?",
+      "svar": "Beteckningen på den naturliga process där jordens yttre kärna skapar magnetfältet. Den fungerar som en gigantisk naturlig generator: ledande metall + rörelse + rotation = elektriska strömmar = magnetfält."
+    },
+    {
+      "id": "k2-b4",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är SOLVINDEN?",
+      "svar": "En ström av laddade partiklar (elektroner, protoner och andra) som solen hela tiden skickar ut genom rymden. Den färdas i hög hastighet och skulle skada jordens atmosfär och liv om magnetfältet inte böjde av den."
+    },
+    {
+      "id": "k2-b5",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är MAGNETOSFÄREN?",
+      "svar": "Det område runt jorden där magnetfältet dominerar. Den är hoptryckt på dagsidan (mot solen) och dragen ut i en lång svans på nattsidan. Den fungerar som en sköld mot solvinden."
+    },
+    {
+      "id": "k2-b6",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en SOLSTORM?",
+      "svar": "En händelse då solen skickar ut ovanligt mycket laddade partiklar på en gång. När en solstorm träffar jorden kan magnetfältet störas, polarsken bli kraftigare och synas längre söderut, och teknik som satelliter, GPS, radio och elnät kan påverkas."
+    },
+    {
+      "id": "k2-b7",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är POLARSKEN?",
+      "svar": "Ett ljusfenomen på himlen nära jordens poler. Det uppstår när laddade partiklar från solvinden leds av magnetfältet in mot polerna, krockar med gas-atomer (syre och kväve) i atmosfären, och får dessa att lysa."
+    },
+    {
+      "id": "k2-b8",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är skillnaden mellan NORRSKEN och SYDSKEN?",
+      "svar": "Det är samma fenomen — polarsken — men på olika halvklot. **Norrsken** syns nära nordpolen (på norra halvklotet). **Sydsken** syns nära sydpolen (på södra halvklotet). Båda uppstår på exakt samma sätt."
+    },
+    {
+      "id": "k2-b9",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilka GASER lyser när polarsken syns, och vilka FÄRGER ger de?",
+      "svar": "Två gaser i jordens atmosfär:\n\n• **Syre** ger **grönt** ljus på ca 100–200 km höjd (vanligast), och **rött** ljus på ca 300 km höjd.\n• **Kväve** ger **blått** och **lila** ljus på lägre höjd.\n\nFärgen beror alltså på både vilken gas det är och på vilken höjd kollisionen sker."
+    },
+    {
+      "id": "k2-b10",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad är ett MAGNETISKT POLSKIFTE?",
+      "svar": "När jordens magnetfält vänder riktning — det som var magnetisk nord blir magnetisk syd, och tvärtom. Detta har skett hundratals gånger i jordens historia, ungefär med några hundra tusen års mellanrum. Det senaste fullständiga polskiftet skedde för ca 780 000 år sedan."
+    },
+    {
+      "id": "k2-b11",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad menas med att en atom är EXCITERAD?",
+      "svar": "Att en elektron i atomen har fått extra energi och hoppat upp till ett högre energiläge (ett yttre elektronskal). Detta tillstånd är kortvarigt — efter en bråkdels sekund faller elektronen tillbaka, och den extra energin släpps ut som en foton (ljus). Det är detta som skapar polarskenets ljus."
+    }
+  ],
+  "modellkort": [
+    {
+      "id": "k1-m1",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Inre kärnan är **hetare** än yttre kärnan — men ändå fast. Hur går det ihop?",
+      "svar": "Det är en av geologins mest kontraintuitiva fakta. Svaret är **trycket**.\n\nI inre kärnan trycker vikten av alla skikt ovanför ihop materialet med enorm kraft. Trycket är så stort att atomerna inte kan röra sig fritt, även om värmen försöker spräcka loss dem.\n\n**Tryck vinner över värme.**\n\nI yttre kärnan är trycket lägre, så där kan järnet och nickeln vara flytande. Längre ut, i manteln, är trycket ännu lägre men värmen också lägre — materialet är fast men kan ge sig sakta över tid (sirap-liknande).\n\nDet är alltså balansen mellan tryck och värme på varje djup som avgör om materialet är fast, segt eller flytande."
+    },
+    {
+      "id": "k1-m2",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kan DENSITET förklara varför jorden har just fyra skikt?",
+      "svar": "När jorden bildades för ca 4,5 miljarder år sedan var den hel smält — en glödande boll av blandat material.\n\nMed tiden hände något viktigt: tyngre material sjönk inåt, lättare material steg utåt. Det är samma princip som när olja och vatten skiljer sig åt i ett glas — densitet bestämmer var allting hamnar.\n\n• **Tyngst** (järn, nickel) → sjönk längst in → blev **kärnan**\n• **Medeltungt** (silikater med mycket magnesium och järn) → blev **manteln**\n• **Lättast** (silikater med mycket kisel och aluminium) → flöt upp och blev **jordskorpan**\n\nSkikten är alltså inte slumpmässiga. De är ordnade efter densitet: hög närmast mitten, låg närmast ytan. Detta kallas ibland för **differentiering**."
+    },
+    {
+      "id": "k1-m3",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "När en oceanisk platta möter en kontinental dyker den oceaniska under. Varför just den vägen?",
+      "svar": "Det beror på **densitet**.\n\n• **Oceanisk skorpa** består till stor del av basalt, en mörk tung vulkanisk bergart. Den har **hög** densitet.\n• **Kontinental skorpa** består till stor del av granit, en ljusare och lättare bergart. Den har **låg** densitet.\n\nNär två plattor möts pressar de mot varandra. Den med högre densitet vinner inte — den **förlorar**. Den tunga oceaniska plattan sjunker, drar ner sig själv och glider in under den lätta kontinentala. Det är som om man trycker ihop ett stenblock och en cellplastskiva — stenblocket sjunker, plasten flyter ovanpå.\n\nDär detta händer bildas **djuphavsgravar** vid kusten, **vulkaner** uppe på den kontinentala plattan, och **kraftiga jordbävningar** längs hela zonen.\n\nVi återkommer till detta i avsnitt 2 — plattektonik."
+    },
+    {
+      "id": "k1-m4",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur uppstår KONVEKTIONSSTRÖMMAR i jordens mantel?",
+      "svar": "Tre saker måste finnas för att konvektion ska uppstå: värme, något som kan flöda, och densitetsskillnad.\n\n**1. Värmen finns** — den kommer från jordens bildning (kvarvarande värme) och från radioaktiva ämnen som sönderfaller i jordens inre. Manteln är närmare 3500 grader nära kärnan.\n\n**2. Manteln kan flöda** — inte snabbt som vatten, men över miljontals år ger den sig som mycket seg sirap.\n\n**3. Densitet skapar rörelsen:**\n• Bergmassa nära kärnan värms upp → utvidgas → får **lägre** densitet → **stiger** uppåt\n• När den når jordskorpan kyls den av → drar ihop sig → får **högre** densitet → **sjunker** nedåt igen\n\nTillsammans skapar detta stora **cirkulerande** rörelser — som vatten i en kastrull på spisen. Bara mycket långsammare. Vi pratar centimeter per år.\n\nDet är dessa rörelser som driver allt som händer i jordskorpan."
+    },
+    {
+      "id": "k1-m5",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "På vilket sätt påverkar konvektionsströmmarna i manteln den jordskorpa vi lever på?",
+      "svar": "Konvektionsströmmarna fungerar som **transportband** för plattorna ovanför.\n\n**Där het materia stiger upp:** plattorna ovanför dras isär. Magma stiger upp i sprickan och stelnar — ny havsbotten bildas. Detta händer t.ex. mitt i Atlanten.\n\n**Där materia sjunker ner:** plattorna ovanför pressas ihop. En platta dras med nedåt och dyker in under en granne. Det skapar djuphavsgravar, vulkaner och bergskedjor. Detta händer t.ex. vid Stillahavets västra kant.\n\n**Mellan dessa zoner:** plattorna glider långsamt över manteln, ungefär som flarn på en sirapsfilm.\n\nDet är därför kontinenter glider isär, hav öppnar sig och stänger sig, och bergskedjor växer upp. Allt drivs av densitetsdrivna rörelser hundratals kilometer ner i manteln.\n\nUtan konvektionsströmmar skulle jorden vara död geologiskt — som månen."
+    },
+    {
+      "id": "k1-m6",
+      "type": "modell",
+      "niva": "fordjupning",
+      "fraga": "Hur kan vi veta vad jordens inre består av när vi aldrig kommit ner dit?",
+      "svar": "Svaret heter **seismologi** — vi lyssnar på hur jorden skakar.\n\nNär en jordbävning sker skickas energi ut som **seismiska vågor**. Dessa färdas tvärs igenom jordklotet och registreras av instrument över hela världen. Två typer av vågor är särskilt avslöjande:\n\n• **P-vågor** (tryckvågor) — kan färdas genom **både fast och flytande** material\n• **S-vågor** (skjuvvågor) — kan **bara** färdas genom **fast** material; stoppas av vätska\n\nGenom att mäta var olika vågtyper kommer fram, var de inte gör det, och hur snabbt de färdas, kan vi rita en karta över vad jordens inre består av:\n\n• Vid ca 30–70 km djup ändrar vågorna hastighet → övergången skorpa → mantel (**Moho-diskontinuiteten**, upptäckt av Mohorovičić 1909)\n• Vid ca 2900 km djup försvinner S-vågorna helt → där börjar **flytande** material → **yttre kärnan**\n• Vid ca 5150 km djup kommer P-vågor svagt tillbaka → där börjar **fast** material igen → **inre kärnan** (upptäckt av Inge Lehmann 1936)\n\nHela vår förståelse av jordens inre kommer alltså från att lyssna noggrant på hur det skakar."
+    },
+    {
+      "id": "k2-m1",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Vilka **tre saker** måste finnas för att jordens magnetfält ska skapas?",
+      "svar": "Geodynamon behöver tre saker som samverkar:\n\n**1. Ledande metall.** Yttre kärnan består av järn och nickel, två metaller som leder elektricitet. Utan en ledare kan inga elektriska strömmar skapas.\n\n**2. Rörelse.** Värmen från inre kärnan driver konvektionsströmmar i den flytande yttre kärnan — varm metall stiger uppåt, kall sjunker. Utan rörelse skulle ingenting hända.\n\n**3. Rotation.** Jorden snurrar runt sin egen axel. Rotationen vrider rörelserna till mer ordnade mönster, vilket gör att de elektriska strömmarna får riktning.\n\nTillsammans skapar dessa tre faktorer det elektriska strömsystem som ger upphov till magnetfältet."
+    },
+    {
+      "id": "k2-m2",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur SKYDDAR magnetfältet jorden från solvinden?",
+      "svar": "Magnetfältet fungerar som en osynlig sköld runt jorden.\n\nNär laddade partiklar från solvinden närmar sig jorden påverkas deras bana av magnetfältet. Eftersom partiklarna är **laddade** (med plus eller minus) reagerar de på magnetiska krafter — och magnetfältet böjer av deras färdriktning.\n\nResultatet blir att:\n\n• **De flesta** partiklar styrs runt jorden och fortsätter ut i rymden — de träffar aldrig atmosfären.\n• **Vissa** partiklar leds längs magnetfältslinjerna mot polerna, och det är där polarsken uppstår.\n\nUtan magnetfältet skulle partiklarna träffa atmosfären direkt. Över tid skulle atmosfären brytas ner — och utan atmosfär skulle livet på jorden inte kunna finnas. Det är exakt detta som hänt på Mars."
+    },
+    {
+      "id": "k2-m3",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför syns polarsken nästan alltid nära polerna och inte vid ekvatorn?",
+      "svar": "Det beror på magnetfältets **form**.\n\nMagnetfältslinjerna går ut från jorden vid polerna och böjer sig sedan långa vägar genom rymden. Vid ekvatorn är fältlinjerna parallella med jordytan; vid polerna går de rakt ner mot ytan.\n\nNär laddade partiklar från solvinden fångas in av magnetfältet följer de fältlinjerna. Och eftersom fältlinjerna pekar in mot polerna är det dit partiklarna leds. Vid ekvatorn skulle partiklarna behöva färdas genom magnetfältet på ett sätt som mycket effektivt böjer bort dem.\n\nDet är därför norrsken är vanligast i norra Sverige, Norge, Finland, Island och Alaska — i ett bälte runt magnetiska nordpolen. Vid mycket starka solstormar kan dock så många partiklar tränga in att polarsken syns mycket längre söderut än vanligt."
+    },
+    {
+      "id": "k2-m4",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför får polarsken olika FÄRGER?",
+      "svar": "Färgen beror på två saker: **vilken gas** som partikeln träffar, och **på vilken höjd** kollisionen sker.\n\nAtmosfären består till största delen av två gaser. När en gas-atom blir träffad av en partikel från solvinden får atomen extra energi. När atomen släpper ut energin igen kommer ljuset i en exakt bestämd färg som är typisk för just den gasen och den situationen.\n\n• **Grön** är vanligast. Kommer från **syre** på 100–200 km höjd.\n• **Röd** kommer också från **syre**, men på 300 km höjd. Eftersom det är så högt upp är luften tunn och kollisionerna sker långsammare — atomen hinner då släppa ut energin på det \"röda\" sättet istället för det gröna.\n• **Blå och lila** kommer från **kväve** på lägre höjd.\n\nFärgerna kommer alltså inte från solen utan från jordens egna atmosfäriska gaser. Polarsken är något jorden skapar själv, drivet av energin från solvinden."
+    },
+    {
+      "id": "k2-m5",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Vad händer när en STORK SOLSTORM träffar jordens magnetfält?",
+      "svar": "Solen är inte konstant. Ibland blir den extra aktiv och skickar ut stora mängder laddade partiklar på en gång — en **solstorm**.\n\nNär en solstorm träffar jordens magnetfält händer flera saker:\n\n**På positiva sidan:**\n• Polarsken blir mycket kraftigare och kan synas långt söderut — ibland över hela Sverige, ibland ända ner mot Medelhavet.\n\n**På negativa sidan:**\n• **Satelliter** kan skadas eller störas.\n• **GPS** kan ge felaktiga positioner.\n• **Radiokommunikation** kan slås ut.\n• **Elnät** kan i sällsynta fall kollapsa. År 1989 orsakade en kraftig solstorm ett strömavbrott i hela Quebec som varade i nio timmar.\n\nMagnetfältet skyddar oss alltså inte bara biologiskt utan också tekniskt. Vårt moderna samhälle är mer beroende av magnetfältet än många tänker på."
+    },
+    {
+      "id": "k2-m6",
+      "type": "modell",
+      "niva": "fordjupning",
+      "fraga": "Varför är MARS idag en kall, torr öken trots att den en gång haft flytande vatten?",
+      "svar": "Mars-historien är en varning om hur viktigt ett magnetfält är.\n\n**Mars i forntiden:** För 4 miljarder år sedan hade Mars en tjock atmosfär, flytande vatten på ytan och troligen ett magnetfält som drevs av en flytande kärna — precis som jorden.\n\n**Vad gick fel:** Mars är mindre än jorden. Mindre planeter kyls av snabbare. Mars inre svalnade. Den flytande yttre kärnan stelnade. Geodynamon stannade. Magnetfältet försvann.\n\n**Konsekvenserna:** Utan magnetfält fanns inget skydd mot solvinden. Under miljarder år strippades Mars atmosfär bort, partikel för partikel. När atmosfären försvann blev luften för tunn för att hålla vatten i vätskeform — vattnet avdunstade eller frös.\n\n**Idag:** En tunn atmosfär av framför allt koldioxid. Vatten endast som is. En torr, dammig, frusen yta.\n\n**Lärdomen:** En planet utan magnetfält förlorar sin atmosfär. En planet utan atmosfär förlorar sitt vatten. Det vi ser på Mars är hur jorden hade kunnat se ut — om vår kärna hade hunnit kallna."
+    }
+  ],
+  "redogorelsekort": [
+    {
+      "id": "k1-r1",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar på papper, sedan vänd kortet för att jämföra med modellsvaret.",
+      "fraga": "Redogör för jordklotets uppbyggnad i olika skikt. Beskriv vad varje skikt består av och vad som kännetecknar det. Förklara också varför inre kärnan är fast trots att den är jordens hetaste plats.",
+      "ungefarlig_tid_min": 8,
+      "modellsvar": "Jordklotet är uppbyggt i **fyra skikt**, ordnade efter densitet — tyngst i mitten, lättast ytterst.\n\n**Jordskorpan** är det yttersta lagret och det vi lever på. Den är fast och består av bergarter och mineraler. Jämfört med hela jorden är den extremt tunn — om jorden vore ett äpple skulle skorpan motsvara skalet.\n\n**Manteln** ligger under jordskorpan och är den största delen av jorden. Den består av het bergmassa som inte är flytande, men som kan röra sig långsamt över miljontals år — som mycket seg sirap.\n\n**Yttre kärnan** är flytande och består av järn och nickel. Det är rörelser här som skapar jordens magnetfält.\n\n**Inre kärnan** består också av järn och nickel, men är **fast**. Detta är kontraintuitivt — temperaturen där är ungefär som på solens yta. Förklaringen är **trycket**. Vikten av alla skikt ovanför pressar ihop materialet i mitten så hårt att atomerna inte kan röra sig fritt. Trycket vinner över värmen.\n\n**Helheten:** Skikten är inte slumpmässiga. När jorden bildades var den helt smält. Då sjönk det tyngsta materialet (järn, nickel) in mot mitten medan det lättare (silikater) hamnade utanför. Densitet förklarar hela skiktningen.",
+      "stodlarare": {
+        "stodord": [
+          "jordskorpan",
+          "manteln",
+          "yttre kärnan",
+          "inre kärnan",
+          "järn",
+          "nickel",
+          "densitet",
+          "tryck",
+          "smält"
+        ],
+        "startfraser": [
+          "Jordklotet är uppbyggt i fyra skikt: ...",
+          "Längst ut finns jordskorpan, som ...",
+          "Inre kärnan är fast trots värmen eftersom ..."
+        ],
+        "tip_for_struktur": "Gå från ytan och inåt: skorpa → mantel → yttre kärna → inre kärna. För varje skikt: vad består det av, vad kännetecknar det (fast/flytande/segt). Avsluta med förklaringen av varför inre kärnan är fast (trycket pressar ihop materialet hårdare än värmen kan spräcka det)."
+      }
+    },
+    {
+      "id": "k1-r2",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar på papper, sedan vänd kortet för att jämföra med modellsvaret.",
+      "fraga": "Förklara hur konvektionsströmmar uppstår i jordens mantel och hur de påverkar jordskorpan. Använd begreppen värme och densitet i din förklaring.",
+      "ungefarlig_tid_min": 8,
+      "modellsvar": "Konvektionsströmmar är cirkulerande rörelser som uppstår av en kombination av **värme** och **densitet**.\n\n**Varifrån kommer värmen?**\nInuti jorden finns enorma mängder värme — dels kvar sedan jorden bildades och var helt smält, dels från radioaktiva ämnen i jordens inre som sönderfaller och avger värme. Det gör manteln närmare 3500 grader nära kärnan.\n\n**Hur skapar värmen rörelse?**\nVärme och densitet hänger ihop:\n• Varmt material utvidgas → får **lägre** densitet → **stiger** uppåt\n• Kallt material drar ihop sig → får **högre** densitet → **sjunker** nedåt\n\nI manteln värms bergmassa nära kärnan upp. Den utvidgas, blir lättare och stiger uppåt mot jordskorpan. När den närmar sig ytan kyls den av, blir tyngre och sjunker tillbaka ner. Detta upprepas i stora cirklar — **konvektionsströmmar**. Principen är densamma som vatten i en kastrull på spisen, bara extremt mycket långsammare — vi pratar centimeter per år.\n\n**Hur påverkar detta jordskorpan?**\nKonvektionsströmmarna drar med sig plattorna ovanför, som ett långsamt transportband.\n• Där het materia stiger upp dras plattorna isär — ny havsbotten bildas (t.ex. mitt i Atlanten)\n• Där materia sjunker ner pressas plattorna ihop — en platta dras under en annan, vulkaner och bergskedjor bildas (t.ex. vid Stilla havets västkust)\n\nDet är konvektionsströmmarna som driver allt som händer i jordskorpan — kontinentaldrift, vulkaner, jordbävningar, bergsbildning. Utan dem skulle jorden vara geologiskt död.",
+      "stodlarare": {
+        "stodord": [
+          "värme",
+          "densitet",
+          "manteln",
+          "konvektion",
+          "radioaktiva ämnen",
+          "stiger",
+          "sjunker",
+          "plattor",
+          "transportband"
+        ],
+        "startfraser": [
+          "Konvektionsströmmar uppstår genom samspelet mellan värme och densitet ...",
+          "När materia värms upp får den lägre densitet och ...",
+          "Konvektionsströmmarna påverkar jordskorpan genom att ..."
+        ],
+        "tip_for_struktur": "Gå i tre steg: först varifrån värmen kommer, sedan hur värme och densitet skapar rörelsen (varmt stiger, kallt sjunker), och slutligen hur rörelsen påverkar plattorna ovanför (dras isär där materia stiger, pressas ihop där den sjunker)."
+      }
+    },
+    {
+      "id": "k1-r3",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar på papper, sedan vänd kortet för att jämföra med modellsvaret.",
+      "fraga": "Förklara skillnaden mellan kontinental och oceanisk jordskorpa. Beskriv tjocklek, densitet och bergart för var och en. Förklara också vad som händer när de möts — och varför det händer just så.",
+      "ungefarlig_tid_min": 6,
+      "modellsvar": "Jordskorpan finns i två tydligt olika typer, och skillnaden mellan dem förklarar mycket av jordens dramatik.\n\n**Kontinental jordskorpa:**\n• Finns under landområdena\n• Tjock — ca 30–70 km, ännu tjockare under stora bergskedjor (har en \"rot\" nedåt som ett isberg)\n• **Låg densitet** (relativt lätt)\n• Består framför allt av **granit** och liknande ljusare bergarter\n\n**Oceanisk jordskorpa:**\n• Finns under haven\n• Tunn — bara 5–10 km\n• **Hög densitet** (relativt tung)\n• Består framför allt av **basalt**, en mörk vulkanisk bergart\n\n**Vad händer när de möts?**\nNär en oceanisk och en kontinental platta möts dyker **alltid** den oceaniska under den kontinentala. Det beror på densitetsskillnaden: den oceaniska plattan är tyngre och sjunker, medan den kontinentala är lättare och håller sig kvar på ytan. Det är som om man pressar samman ett stenblock och en cellplastskiva — stenblocket sjunker.\n\nDär detta händer bildas:\n• **Djuphavsgravar** vid kusten (där den oceaniska plattan börjar dyka)\n• **Vulkaner** uppe på den kontinentala plattan (där den nedsjunkna plattan smälter)\n• **Kraftiga jordbävningar** längs hela kontaktzonen\n\nDet är därför Stillahavets västkust är så vulkaniskt och seismiskt aktiv — det är där oceanisk skorpa möter kontinental.",
+      "stodlarare": {
+        "stodord": [
+          "kontinental",
+          "oceanisk",
+          "granit",
+          "basalt",
+          "densitet",
+          "tjocklek",
+          "subduktion",
+          "djuphavsgrav",
+          "vulkaner"
+        ],
+        "startfraser": [
+          "Det finns två huvudtyper av jordskorpa: ...",
+          "Den kontinentala skorpan är ... medan den oceaniska är ...",
+          "När de möts dyker den oceaniska under eftersom ..."
+        ],
+        "tip_for_struktur": "Beskriv först de två typerna parallellt (tjocklek, densitet, bergart) så skillnaderna blir tydliga. Förklara sedan vad som händer när de möts — och knyt det till densitetsskillnaden som orsak. Avsluta gärna med konkreta exempel (t.ex. Stilla havets västkust)."
+      }
+    },
+    {
+      "id": "k2-r1",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar på papper, sedan vänd kortet för att jämföra med modellsvaret.",
+      "fraga": "Redogör för hur kärnans uppbyggnad skapar jordens magnetfält. Beskriv de tre saker som måste samverka och förklara varför var och en behövs.",
+      "ungefarlig_tid_min": 8,
+      "modellsvar": "Jordens magnetfält skapas i den **yttre kärnan** av en process som kallas **geodynamon**. Tre saker måste samverka:\n\n**1. Ledande metall.**\nYttre kärnan består av järn och nickel — två metaller som leder elektricitet. Detta är grundförutsättningen. Utan en ledare kan inga elektriska strömmar bildas, och därmed inget magnetfält.\n\n**2. Rörelse.**\nVärmen från den ännu hetare inre kärnan driver konvektionsströmmar i den flytande yttre kärnan. Varm metall stiger uppåt, kall sjunker — samma princip som i manteln, men i mycket större tempo eftersom yttre kärnan faktiskt är flytande. Utan rörelse skulle metallen stå still och ingenting hända.\n\n**3. Rotation.**\nJorden roterar runt sin egen axel ett varv per dygn. Denna rotation vrider rörelserna i den flytande metallen till mer ordnade mönster. Utan rotation skulle rörelserna vara kaotiska och inte ge upphov till ett stabilt fält.\n\n**Resultatet:**\nNär ledande metall rör sig under påverkan av rotation skapas elektriska strömmar. Och elektriska strömmar skapar magnetfält. Det är samma princip som i en vanlig elektrisk generator — fast i naturlig skala. Det är därför processen kallas geodynamon.\n\nMagnetfältet sträcker sig tusentals kilometer ut i rymden och omger hela planeten som en osynlig bubbla.",
+      "stodlarare": {
+        "stodord": [
+          "yttre kärnan",
+          "järn och nickel",
+          "ledande metall",
+          "konvektionsströmmar",
+          "rotation",
+          "elektriska strömmar",
+          "geodynamo",
+          "magnetfält"
+        ],
+        "startfraser": [
+          "Magnetfältet skapas i jordens yttre kärna genom en process som kallas ...",
+          "Tre saker måste samverka för att magnetfältet ska kunna bildas ...",
+          "När ledande metall rör sig under påverkan av rotation ..."
+        ],
+        "tip_for_struktur": "Gå i tre tydliga steg. Först: vilken del av kärnan handlar det om (yttre kärnan, flytande, järn och nickel). Sedan: de tre faktorerna en i taget (metall — varför behövs den, rörelse — varifrån kommer den, rotation — vad gör den). Avsluta med vad resultatet blir (elektriska strömmar → magnetfält)."
+      }
+    },
+    {
+      "id": "k2-r2",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar på papper, sedan vänd kortet för att jämföra med modellsvaret.",
+      "fraga": "Förklara hur jordens magnetfält skyddar planeten och dess invånare. Beskriv vad solvinden är, hur magnetfältet påverkar den, och vad som händer vid solstormar.",
+      "ungefarlig_tid_min": 8,
+      "modellsvar": "**Vad är hotet?**\nSolen skickar hela tiden ut en ström av laddade partiklar — elektroner, protoner och andra — som färdas i hög hastighet genom rymden. Denna ström kallas **solvinden**. Den är osynlig men ständig, och den är farlig. Utan skydd skulle solvindens partiklar bryta ner jordens atmosfär över tid och skada levande celler.\n\n**Hur skyddar magnetfältet?**\nMagnetfältet fungerar som en osynlig sköld. När laddade partiklar närmar sig jorden böjer fältet av deras bana — eftersom partiklarna är laddade reagerar de på magnetiska krafter. Resultatet blir att:\n\n• De **flesta** partiklarna styrs runt jorden och fortsätter ut i rymden\n• Vissa partiklar leds längs fältlinjerna mot polerna — det är där polarsken uppstår\n\nHela det område där magnetfältet dominerar kallas **magnetosfären**. Den är ihoptryckt på dagsidan (där solvinden trycker in) och dragen ut i en lång svans på nattsidan.\n\n**Vad händer vid solstormar?**\nIbland blir solen extra aktiv och skickar ut stora mängder partiklar på en gång — en **solstorm**. När den träffar jorden:\n\n• Polarsken blir kraftigare och syns längre söderut\n• Satelliter, GPS och radio kan störas eller slås ut\n• I sällsynta fall kan elnät kollapsa (Quebec 1989)\n\n**Vad betyder magnetfältet i längden?**\nMagnetfältet skyddar inte bara liv, utan också den teknik vårt samhälle är beroende av. Mars förlorade sitt magnetfält för miljarder år sedan, och då försvann också atmosfären och vattnet. Jordens magnetfält är en förutsättning för att livet ska kunna finnas här som vi känner det.",
+      "stodlarare": {
+        "stodord": [
+          "solvind",
+          "laddade partiklar",
+          "magnetfält",
+          "magnetosfären",
+          "atmosfär",
+          "solstorm",
+          "polarsken",
+          "elnät",
+          "satelliter"
+        ],
+        "startfraser": [
+          "Solen skickar hela tiden ut en ström av laddade partiklar som kallas ...",
+          "Magnetfältet skyddar jorden genom att ...",
+          "Vid en solstorm händer det att ..."
+        ],
+        "tip_for_struktur": "Bygg svaret i fyra delar: först hotet (vad solvinden är och varför den är farlig), sedan skyddet (hur magnetfältet böjer av partiklarna), sedan undantaget (solstormar och deras konsekvenser), och avslutningsvis varför hela detta system är viktigt (utan magnetfält — ingen atmosfär, ingen liv som vi känner det)."
+      }
+    },
+    {
+      "id": "k2-r3",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar på papper, sedan vänd kortet för att jämföra med modellsvaret.",
+      "fraga": "Redogör för hur polarsken uppstår. Förklara hela orsakskedjan från jordens kärna till ljuset på himlen, och beskriv varför polarsken får olika färger.",
+      "ungefarlig_tid_min": 10,
+      "modellsvar": "Polarsken är ett fenomen där flera delar av jorden samverkar i en lång orsakskedja — från jordens innersta kärna ut till himlen.\n\n**Steg 1 — Magnetfältet skapas.**\nDjupt i jorden ligger den flytande yttre kärnan av järn och nickel. När den ledande metallen rör sig i konvektionsströmmar — och vrids av jordens rotation — skapas elektriska strömmar, och de skapar jordens magnetfält.\n\n**Steg 2 — Solvinden träffar.**\nSolen skickar hela tiden ut laddade partiklar i en ström som kallas solvinden. De flesta av dessa partiklar böjs av runt jorden av magnetfältet och fortsätter ut i rymden.\n\n**Steg 3 — Några partiklar leds mot polerna.**\nMen alla partiklar böjs inte bort. Vissa fångas in av magnetfältslinjerna och leds längs dem. Eftersom fältlinjerna pekar in mot polerna är det dit partiklarna leds. Det är därför polarsken syns just nära polerna.\n\n**Steg 4 — Krockar i atmosfären.**\nNär partiklarna närmar sig jorden krockar de högt uppe i atmosfären med gas-atomer — främst syre och kväve. Krocken överför energi från partikeln till atomen. Atomen blir tillfälligt energiladdad.\n\n**Steg 5 — Atomerna lyser.**\nAtomen behåller inte energin. Efter en bråkdels sekund släpper den ut energin igen som synligt ljus. Det är detta ljus vi ser som polarsken.\n\n**Varför olika färger?**\nFärgen beror på två saker: vilken gas det är och på vilken höjd kollisionen sker.\n\n• **Grön** — vanligast — kommer från **syre** på 100–200 km höjd\n• **Röd** — kommer från **syre** på ca 300 km höjd (där luften är så tunn att kollisionerna sker långsammare)\n• **Blå/lila** — kommer från **kväve** på lägre höjd\n\n**Sammanfattning av kedjan:**\nKärnan → magnetfält → solvinden böjs av → vissa partiklar leds mot polerna → kollisioner med atmosfärens gaser → gaserna lyser → polarsken.\n\nHela fenomenet binder ihop tre olika delar av jorden — kärnan, magnetfältet och atmosfären — i ett enda synligt fenomen på nordhimlen.",
+      "stodlarare": {
+        "stodord": [
+          "yttre kärnan",
+          "magnetfält",
+          "solvinden",
+          "laddade partiklar",
+          "magnetfältslinjer",
+          "polerna",
+          "syre",
+          "kväve",
+          "energi",
+          "ljus"
+        ],
+        "startfraser": [
+          "Polarsken uppstår genom en kedja av händelser som börjar djupt i jordens kärna ...",
+          "Magnetfältet skapas i yttre kärnan genom att ...",
+          "När laddade partiklar krockar med gas-atomer i atmosfären ..."
+        ],
+        "tip_for_struktur": "Berätta som en kedja från orsak till verkan. Börja djupt nere (kärnan, magnetfältet skapas), gå utåt (solvinden möter magnetfältet), zooma in (några partiklar leds mot polerna), avsluta uppe i atmosfären (krockar, energi, ljus). Behandla färgerna som en parallell tråd efter huvudkedjan — vilken gas, vilken höjd."
+      }
+    }
+  ],
+  "policy": "Begreppet densitet löper som röd tråd genom alla tre områden — skiktningen (varför skikt finns alls), jordskorpan (kontinental vs oceanisk) och konvektionen (varför materia stiger/sjunker). Detta är medvetet — densitet är ett av geologins centralaste begrepp och återkommer i avsnitt 3 (plattektonik) och avsnitt 8 (bergarter). | Polarskenets mekanism är pedagogiskt uppdelad i två lager. Huvudtexten beskriver fenomenet som 'partiklar krockar med gas, gas lyser'. Djupdykningen om elektronskal och excitering förklarar samma sak på atomnivå (excitering, fall tillbaka, foton). Modell- och redogörelsekorten håller sig till huvudtextens nivå. Begreppskortet om 'exciterad' (k2-b11) markeras som fördjupning och pekar mot djupdykningen."
+}

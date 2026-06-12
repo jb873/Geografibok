@@ -151,7 +151,7 @@
       if (andradNyckel !== nyckel) {
         return;
       }
-      document.querySelectorAll('#elevbok-fragor .elevbok-textarea').forEach(function (textarea) {
+      document.querySelectorAll('.elevbok-textarea').forEach(function (textarea) {
         var aktuell = Elevbok.hamtaSvar(textarea.dataset.delkapitel, textarea.dataset.fragaId);
         // Skriv inte över rutan eleven just nu redigerar.
         if (document.activeElement !== textarea && textarea.value !== aktuell) {
@@ -164,14 +164,28 @@
     });
   }
 
-  function renderaFragor(data) {
-    var container = document.getElementById('elevbok-fragor');
-    if (!container) {
-      return;
-    }
+  // Alla frågecontainrar på sidan (en per underdel, eller en enda på
+  // gamla id-baserade sidor).
+  function hamtaContainers() {
+    var list = document.querySelectorAll('.elevbok-fragor');
+    if (list.length) { return Array.prototype.slice.call(list); }
+    var byId = document.getElementById('elevbok-fragor');
+    return byId ? [byId] : [];
+  }
 
+  // Scope-id: underdelens data-underdel-id (flerdelade avsnitt) annars
+  // sidans AVSNITT_ID (gamla strukturen).
+  function skopId(container) {
+    var u = container.closest ? container.closest('.underdel') : null;
+    if (u && u.getAttribute('data-underdel-id')) {
+      return u.getAttribute('data-underdel-id');
+    }
+    return (typeof AVSNITT_ID !== 'undefined') ? AVSNITT_ID : null;
+  }
+
+  function renderaIContainer(data, container, scopeId) {
     var avsnitt = (data.avsnitt || []).filter(function (a) {
-      return a.id === AVSNITT_ID;
+      return a.id === scopeId;
     })[0];
 
     container.innerHTML = '';
@@ -202,14 +216,22 @@
       }
     });
 
-    // Egna frågor sist (med "+ Lägg till"-knapp).
+    // Egna frågor sist (per scope, så de hör till rätt underdel).
     if (window.EgnaFragor) {
       var egnaHost = nyEl('div', 'egna-fragor-host');
       container.appendChild(egnaHost);
-      EgnaFragor.renderaEgnaFragor(egnaHost, DELKAPITEL_ID, AVSNITT_ID, { visaLaggTill: true });
+      EgnaFragor.renderaEgnaFragor(egnaHost, DELKAPITEL_ID, scopeId, { visaLaggTill: true });
     }
 
     initTextareor(container);
+  }
+
+  function renderaFragor(data) {
+    var containers = hamtaContainers();
+    if (!containers.length) { return; }
+    containers.forEach(function (container) {
+      renderaIContainer(data, container, skopId(container));
+    });
     startaFlikSynk();
     hanteraHash();
   }
@@ -227,15 +249,15 @@
   }
 
   function visaFel() {
-    var container = document.getElementById('elevbok-fragor');
-    if (container) {
+    hamtaContainers().forEach(function (container) {
       container.innerHTML =
         '<p class="laddar-fel">Kunde inte ladda frågor. Kontrollera ' +
         'att data/fragor.json finns.</p>';
-    }
+    });
   }
 
   function start() {
+    if (!hamtaContainers().length) { return; }
     fetch('data/fragor.json')
       .then(function (r) {
         if (!r.ok) {

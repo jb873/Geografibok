@@ -85,21 +85,29 @@
     return kort;
   }
 
-  function renderaForelasningar(data) {
-    var container = document.getElementById('forelasningar-lista');
-    if (!container) { return; }
+  // Scope-id för en container: underdelens data-underdel-id (flerdelade
+  // avsnitt) annars sidans AVSNITT_ID (gamla strukturen).
+  function skopId(container) {
+    var u = container.closest ? container.closest('.underdel') : null;
+    if (u && u.getAttribute('data-underdel-id')) {
+      return u.getAttribute('data-underdel-id');
+    }
+    return (typeof AVSNITT_ID !== 'undefined') ? AVSNITT_ID : null;
+  }
 
+  function renderaIContainer(data, container, scopeId) {
     var mina = (data.forelasningar || []).filter(function (f) {
-      return f.avsnitt_id === AVSNITT_ID;
+      return f.avsnitt_id === scopeId;
     });
 
     container.innerHTML = '';
 
-    // Inga föreläsningar för avsnittet → dölj hela komponenten.
+    // Inga föreläsningar → dölj just denna komponent.
     if (!mina.length) {
       container.style.display = 'none';
       return;
     }
+    container.style.display = '';
 
     var rubrik = nyEl('div', 'forelasningar-rubrik');
     rubrik.textContent = 'Föreläsningar';
@@ -110,8 +118,17 @@
     });
   }
 
+  function renderaForelasningar(data) {
+    // Klassbaserat → fungerar med flera listor per sida (en per underdel).
+    var containers = document.querySelectorAll('.forelasningar-lista');
+    containers.forEach(function (container) {
+      renderaIContainer(data, container, skopId(container));
+    });
+  }
+
   function start() {
-    if (typeof AVSNITT_ID === 'undefined') { return; }
+    var containers = document.querySelectorAll('.forelasningar-lista');
+    if (!containers.length) { return; }
     fetch('data/forelasningar.json')
       .then(function (r) {
         if (!r.ok) { throw new Error('HTTP ' + r.status); }
@@ -120,8 +137,9 @@
       .then(renderaForelasningar)
       .catch(function (e) {
         console.error('Kunde inte ladda forelasningar.json:', e);
-        var container = document.getElementById('forelasningar-lista');
-        if (container) { container.style.display = 'none'; }
+        document.querySelectorAll('.forelasningar-lista').forEach(function (c) {
+          c.style.display = 'none';
+        });
       });
   }
 

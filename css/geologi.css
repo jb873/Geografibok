@@ -1,0 +1,22 @@
+/* ============================================================
+   Geologi – kapitelspecifika färgaccenter.
+   Läses in EFTER geografi.css och ENBART på geologi-sidor, så att
+   accenterna byts ut mot magmatisk röd / lava-orange utan att påverka
+   andra delkapitel. (Eftersom filen bara länkas på geologi-sidor räcker
+   det att omdefiniera variablerna på :root.)
+
+   Enligt kalibreringsdokumentet:
+   - magmatisk röd  #8a3018  ersätter mässing/guld (--brass)
+   - lava-orange    #d4791f  ersätter blodröd (--blood)
+   --land (mossgrön) och --ocean (marinblå) används INTE som
+   kapitelaccenter i geologi.
+   ============================================================ */
+
+:root {
+  --accent: #8a3018;
+  --accent-2: #d4791f;
+
+  /* Ersätt basramverkets accentvariabler för geologi-sidorna */
+  --brass: #8a3018;
+  --blood: #d4791f;
+}

@@ -1,0 +1,55 @@
+{
+  "delkapitel": "geologi",
+  "_kommentar": "PLATSHÅLLARE skapad av Code – Joachim ersätter frågetexterna med slutgiltigt elevbok-innehåll. Strukturen och id:na är korrekta. Modell 2: Elevboken är gemensam per huvudavsnitt, så varje avsnitts-id matchar AVSNITT_ID i avsnitts-HTML (a1_jordens_uppbyggnad, a2_plattektonik). Frågorna från underdelarna A/B/C samlas i samma avsnittsentry. q-id:na är stabila och ändras aldrig.",
+  "avsnitt": [
+    {
+      "id": "a1_jordens_uppbyggnad",
+      "nummer": 1,
+      "titel": "Jordens uppbyggnad",
+      "fragor": [
+        {
+          "id": "q_jordens_skikt",
+          "typ": "grund",
+          "fraga": "Beskriv jordens fyra huvudskikt från ytan och inåt: jordskorpan, manteln, yttre kärnan och inre kärnan. Vad kännetecknar varje skikt?"
+        },
+        {
+          "id": "q_jordskorpa",
+          "typ": "grund",
+          "fraga": "Vad är skillnaden mellan kontinental och oceanisk jordskorpa? Använd begreppet densitet i ditt svar."
+        },
+        {
+          "id": "q_konvektionsstrommar",
+          "typ": "grund",
+          "fraga": "Förklara vad konvektionsströmmar i manteln är och hur de bildas. Vad har de för betydelse för jordytan?"
+        },
+        {
+          "id": "q_karnan_magnetfalt",
+          "typ": "grund",
+          "fraga": "Hur skapar jordens kärna magnetfältet? Beskriv kopplingen mellan den flytande yttre kärnan och det magnetfält som omger jorden."
+        },
+        {
+          "id": "q_polarsken",
+          "typ": "grund",
+          "fraga": "Förklara hur polarsken uppstår. Vilken roll spelar solvinden och jordens magnetfält?"
+        }
+      ]
+    },
+    {
+      "id": "a2_plattektonik",
+      "nummer": 2,
+      "titel": "Plattektonik",
+      "fragor": [
+        {
+          "id": "q_kontinentaldrift",
+          "typ": "grund",
+          "fraga": "Vad gick Alfred Wegeners kontinentaldriftsteori ut på? Vilka bevis pekade på att kontinenterna en gång hängt ihop?"
+        },
+        {
+          "id": "q_kontinentaldrift_motstand",
+          "typ": "grund",
+          "fraga": "Varför fick Wegeners teori först så mycket motstånd? Vad saknades i hans förklaring som senare kom på plats?"
+        }
+      ]
+    }
+  ]
+}
