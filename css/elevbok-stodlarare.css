@@ -1,0 +1,211 @@
+/* ⏸ AVAKTIVERAD 2026-06-10 (pedagogiskt val) – denna stylesheet länkas INTE
+   in från någon avsnittssida just nu. Bevarad för möjlig återanvändning. */
+
+/* ============================================================
+   Elevbok-stödläraren – sammanfattningsruta, indikator, rapport
+   Vintageatlas-design, mobile-first. Inga LLM-anrop.
+   ============================================================ */
+
+.stodlarare-sammanfattning {
+  margin-top: 2.5rem;
+  padding-top: 1.75rem;
+  border-top: 2px solid var(--brass);
+}
+
+.stodlarare-rubrik {
+  font-family: var(--font-heading);
+  color: var(--ink);
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.4rem;
+}
+
+.stodlarare-instruktion {
+  font-family: var(--font-body);
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.5;
+  margin: 0 0 1rem;
+}
+
+.stodlarare-textarea-wrapper {
+  position: relative;
+}
+
+.stodlarare-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 160px;
+  resize: vertical;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--ink);
+  background-color: var(--paper-light);
+  border: 1px solid rgba(27, 42, 54, 0.25);
+  border-radius: 4px;
+  padding: 0.9rem 1rem;
+}
+
+.stodlarare-textarea:focus {
+  outline: none;
+  border-color: var(--brass);
+  box-shadow: 0 0 0 2px rgba(184, 144, 42, 0.2);
+}
+
+/* Sparstatus återanvänder samma diskreta stil som frågerutorna */
+.stodlarare-sammanfattning .sparstatus {
+  min-height: 1.1rem;
+  margin: 0.3rem 0 0.2rem;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--muted);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.stodlarare-sammanfattning .sparstatus.visar { opacity: 1; }
+
+/* ---- Diskret indikator (alltid synlig) ---- */
+.stodlarare-indikator {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin: 0.6rem 0 1rem;
+  padding: 0.7rem 0.9rem;
+  background-color: var(--paper);
+  border: 1px solid rgba(27, 42, 54, 0.14);
+  border-left: 3px solid var(--brass);
+  border-radius: 3px;
+}
+
+.stodind-rad {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  color: var(--ink);
+}
+
+.stodind-namn {
+  flex: 0 0 5.5rem;
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.stodind-dots { letter-spacing: 0.1em; font-size: 0.7rem; }
+.stodind-symbol { font-size: 0.85rem; }
+.stodind-varde { color: var(--muted); font-size: 0.88rem; }
+
+/* ---- Granska-knapp ---- */
+.stodlarare-granska-knapp {
+  display: inline-block;
+  min-height: 44px;
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  color: var(--paper);
+  background-color: var(--ocean);
+  border: 1px solid var(--ocean);
+  border-radius: 3px;
+  padding: 0.55rem 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+.stodlarare-granska-knapp:hover { background-color: #17485f; }
+
+/* ---- Detaljerad rapport ---- */
+.stodlarare-rapport {
+  margin-top: 1rem;
+  padding: 1rem 1.1rem;
+  background-color: var(--paper-light);
+  border: 1px solid rgba(27, 42, 54, 0.18);
+  border-radius: 4px;
+}
+.stodlarare-rapport.dold { display: none; }
+
+.stodrapport-rubrik {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  margin-bottom: 0.8rem;
+}
+
+.stodrapport-sektion { margin-bottom: 1rem; }
+
+.stodrapport-sektionsrubrik {
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  color: var(--blood);
+  margin-bottom: 0.4rem;
+}
+
+.stodrad {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  padding: 0.15rem 0;
+}
+.stodrad.ok { color: var(--land); }
+.stodrad.tips { color: var(--muted); font-style: italic; margin-top: 0.3rem; }
+
+/* Klickbara förslag (kopiera sambandsled / rätta språk) */
+.stodforslag {
+  display: inline-block;
+  margin: 0.25rem 0.4rem 0.25rem 0;
+  min-height: 36px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--ink);
+  background-color: var(--paper);
+  border: 1px solid rgba(184, 144, 42, 0.5);
+  border-radius: 3px;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.stodforslag:hover { background-color: #faf4e4; border-color: var(--brass); }
+.stodforslag.fix { display: block; width: 100%; text-align: left; color: var(--terra); }
+
+.stodrapport-slutord {
+  margin-top: 0.8rem;
+  padding-top: 0.7rem;
+  border-top: 1px dashed rgba(27, 42, 54, 0.2);
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  color: var(--ink);
+}
+
+/* ---- Toast-notis (kopierat till urklipp) ---- */
+.stodlarare-notis {
+  position: fixed;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translateX(-50%) translateY(1rem);
+  z-index: 1200;
+  background-color: var(--ink);
+  color: var(--paper-light);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.stodlarare-notis.visar {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* ---- Mobil ---- */
+@media (max-width: 600px) {
+  .stodind-namn { flex-basis: 4.8rem; }
+  .stodind-rad { font-size: 0.88rem; }
+  .stodlarare-granska-knapp { width: 100%; }
+}

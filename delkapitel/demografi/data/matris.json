@@ -1,0 +1,104 @@
+{
+  "delkapitel": "demografi",
+  "avsnitt": [
+    {
+      "id": "a1_jordens_befolkning",
+      "nummer": 1,
+      "titel": "Jordens befolkning",
+      "moment": [
+        {"id": "m1_1", "typ": "begrepp", "text": "Kan förklara vad demografi är", "fortydligande": "Du kan förklara att demografi är vetenskapen om mänskliga befolkningar och vad demografer studerar (storlek, sammansättning, förändring över tid)."},
+        {"id": "m1_2", "typ": "begrepp", "text": "Kan förklara begreppen befolkning och befolkningsmängd", "fortydligande": "Du kan förklara vad som menas med ett områdes befolkning, och hur befolkningsmängden mäts vid en viss tidpunkt."},
+        {"id": "m1_3", "typ": "begrepp", "text": "Kan förklara befolkningstäthet", "fortydligande": "Du kan förklara vad befolkningstäthet är och hur den räknas ut (befolkningsmängd dividerat med yta), samt ge exempel på områden med hög och låg täthet."},
+        {"id": "m1_4", "typ": "begrepp", "text": "Kan förklara skillnaden mellan befolkningstillväxt och befolkningsökning", "fortydligande": "Du kan skilja mellan tillväxttakten i procent per år (befolkningstillväxt) och det faktiska antal människor som tillkommer (befolkningsökning)."},
+        {"id": "m1_5", "typ": "begrepp", "text": "Kan förklara vad en befolkningsprognos är", "fortydligande": "Du kan förklara vad en befolkningsprognos är, vilka faktorer som ingår (födelsetal, dödstal, migration), och varför prognoser har inneboende osäkerhet."},
+        {"id": "m1_6", "typ": "fardighet", "text": "Kan beskriva hur jordens befolkning är fördelad", "fortydligande": "Du kan beskriva var i världen det bor många människor, var det bor få, och peka ut globala mönster (tätbefolkade områden i Asien, glesbefolkade öken- och kalla områden)."},
+        {"id": "m1_7", "typ": "fardighet", "text": "Kan beskriva hur jordens befolkning har förändrats över tid", "fortydligande": "Du kan beskriva hur befolkningen ökat från cirka 1 miljard (1800) till 8 miljarder (2024), och nämna de viktigaste orsakerna (förbättrad jordbruk, hygien, medicin)."},
+        {"id": "m1_8", "typ": "fardighet", "text": "Kan förklara varför befolkningsprognoser är viktiga för samhällsplanering", "fortydligande": "Du kan ge konkreta exempel på beslut i samhället där prognoser används (skolplanering, äldreomsorg, infrastruktur) och förstå konsekvenserna av att inte ha bra prognoser."},
+        {"id": "m1_9", "typ": "fardighet", "text": "Kan resonera kring utmaningar för växande och krympande befolkningar", "fortydligande": "Du kan jämföra och kontrastera de olika problemen för länder med snabb befolkningsökning (jobb, bostäder, infrastruktur) och länder med krympande befolkning (äldreomsorg, arbetskraftsbrist, avfolkning)."}
+      ]
+    },
+    {
+      "id": "a2_lokaliseringsfaktorer",
+      "nummer": 2,
+      "titel": "Befolkningens lokaliseringsfaktorer",
+      "moment": [
+        {"id": "m2_1", "typ": "begrepp", "text": "Kan förklara skillnaden mellan tätbygd och glesbygd", "fortydligande": "Du kan förklara vad som kännetecknar tätbygder (många människor på liten yta, närhet till service) respektive glesbygder (få människor på stor yta, längre avstånd till service)."},
+        {"id": "m2_2", "typ": "begrepp", "text": "Kan förklara vad en lokaliseringsfaktor är", "fortydligande": "Du kan förklara att lokaliseringsfaktorer är förhållanden som påverkar var människor väljer att bo, och att de kan vara naturgivna eller mänskliga."},
+        {"id": "m2_3", "typ": "fardighet", "text": "Kan redogöra för naturgivna lokaliseringsfaktorer", "fortydligande": "Du kan förklara hur klimat, vattentillgång, jordmån och topografi påverkar var människor bosätter sig, med konkreta exempel."},
+        {"id": "m2_4", "typ": "fardighet", "text": "Kan redogöra för mänskliga lokaliseringsfaktorer", "fortydligande": "Du kan förklara hur arbetsmöjligheter, kommunikationer, råvaror och historiska faktorer påverkar var människor och verksamheter etableras."},
+        {"id": "m2_5", "typ": "fardighet", "text": "Kan förklara varför Sveriges tätorter ligger där de gör", "fortydligande": "Du kan använda lokaliseringsfaktorer för att förklara varför de stora tätorterna i Sverige ligger där de gör, och varför norra Sverige är glest befolkat."},
+        {"id": "m2_6", "typ": "fardighet", "text": "Kan resonera kring konsekvenser av att bo i tätbygd eller glesbygd", "fortydligande": "Du kan jämföra fördelar och nackdelar med att leva i tätbygd (närhet till service, men höga kostnader) respektive glesbygd (utrymme, natur, men längre avstånd)."}
+      ]
+    },
+    {
+      "id": "a3_demografiska_transitionen",
+      "nummer": 3,
+      "titel": "Den demografiska transitionen",
+      "moment": [
+        {"id": "m3_1", "typ": "begrepp", "text": "Kan förklara begreppen nativitet och fertilitet", "fortydligande": "Du kan förklara skillnaden mellan nativitet (antal födda per 1000 invånare per år) och fertilitet (antal barn per kvinna), samt vad fertil ålder innebär."},
+        {"id": "m3_2", "typ": "begrepp", "text": "Kan förklara begreppen mortalitet, spädbarnsdödlighet och mödradödlighet", "fortydligande": "Du kan förklara vad mortalitet är (antal döda per 1000 invånare per år), vad spädbarnsdödlighet säger om ett samhälle, och vad mödradödlighet innebär."},
+        {"id": "m3_3", "typ": "begrepp", "text": "Kan förklara medellivslängd", "fortydligande": "Du kan förklara vad medellivslängd är, hur den varierar mellan länder, och vilka faktorer som påverkar den (hälsa, näring, säkerhet, sjukvård)."},
+        {"id": "m3_4", "typ": "begrepp", "text": "Kan förklara naturlig befolkningsökning", "fortydligande": "Du kan förklara att naturlig befolkningsökning är skillnaden mellan födda och döda, och att migration räknas separat."},
+        {"id": "m3_5", "typ": "begrepp", "text": "Kan förklara vad familjeplanering är", "fortydligande": "Du kan förklara att familjeplanering är att medvetet bestämma över antal barn och tidpunkt, och nämna faktorer som påverkar (preventivmedel, utbildning, kulturella normer)."},
+        {"id": "m3_6", "typ": "begrepp", "text": "Kan förklara vad en befolkningspyramid är", "fortydligande": "Du kan förklara hur en befolkningspyramid är uppbyggd (män/kvinnor, åldersgrupper) och vad olika former berättar om en befolkning."},
+        {"id": "m3_7", "typ": "begrepp", "text": "Kan förklara reproduktionsnivå", "fortydligande": "Du kan förklara att reproduktionsnivån ligger på cirka 2,1 barn per kvinna, och vad det betyder för en befolknings långsiktiga utveckling."},
+        {"id": "m3_8", "typ": "fardighet", "text": "Kan redogöra för den demografiska transitionens fem skeden", "fortydligande": "Du kan beskriva alla fem skedena: traditionellt samhälle (hög nativitet, hög mortalitet), tidig övergång (nativitet fortsatt hög, mortalitet sjunker), sen övergång (nativitet börjar sjunka), modernt samhälle (båda låga), och postindustriellt samhälle (krympande)."},
+        {"id": "m3_9", "typ": "fardighet", "text": "Kan tolka en befolkningspyramid och placera den i rätt skede", "fortydligande": "Du kan studera en pyramidform (bred bas, klockform, urna) och dra slutsatser om landets nativitet, mortalitet och transitionsskede."},
+        {"id": "m3_10", "typ": "fardighet", "text": "Kan förklara varför befolkningstillväxten varierat över tid", "fortydligande": "Du kan koppla samman skedena med vad som hände med nativitet och mortalitet, och förklara varför ett samhälle har snabb eller långsam tillväxt under olika perioder. Begreppet befolkningsexplosion kan användas."},
+        {"id": "m3_11", "typ": "fardighet", "text": "Kan förklara hur familjeplanering påverkar fertilitet", "fortydligande": "Du kan koppla samman tillgång till preventivmedel, utbildning för kvinnor och samhällsstöd med sjunkande fertilitet i den demografiska transitionen."},
+        {"id": "m3_12", "typ": "fardighet", "text": "Kan resonera kring möjligheter och problem med olika pyramidformer", "fortydligande": "Du kan jämföra ett skede 2-land (t.ex. Uganda) med ett skede 5-land (t.ex. Japan) och resonera om vilka utmaningar varje står inför på kort och lång sikt."}
+      ]
+    },
+    {
+      "id": "a4_migration",
+      "nummer": 4,
+      "titel": "Migration",
+      "moment": [
+        {"id": "m4_1", "typ": "begrepp", "text": "Kan förklara begreppen migration, emigration och immigration", "fortydligande": "Du kan förklara migration som samlingsbegrepp, och skilja mellan att flytta från ett land (emigration) och in till ett land (immigration)."},
+        {"id": "m4_2", "typ": "begrepp", "text": "Kan förklara push- och pull-faktorer", "fortydligande": "Du kan förklara modellen med push-faktorer (sådant som driver bort) och pull-faktorer (sådant som drar till), och ge exempel på vardera."},
+        {"id": "m4_3", "typ": "begrepp", "text": "Kan förklara begreppen flykting och klimatflykting", "fortydligande": "Du kan förklara skillnaden mellan en flykting (skyddad av FN:s flyktingkonvention) och en klimatflykting (utan formellt skydd), och förstå varför skillnaden är viktig."},
+        {"id": "m4_4", "typ": "begrepp", "text": "Kan förklara cirkulär migration och arbetskraftsinvandring", "fortydligande": "Du kan förklara vad cirkulär migration är (säsongsarbete, återkommande rörelse) och vad arbetskraftsinvandring betyder, samt ge exempel."},
+        {"id": "m4_5", "typ": "begrepp", "text": "Kan förklara brain drain (kompetensflykt)", "fortydligande": "Du kan förklara vad brain drain är, varför det uppstår och vilka konsekvenser det har för det avsändande landet och mottagarlandet."},
+        {"id": "m4_6", "typ": "begrepp", "text": "Kan förklara begreppen segregation och integration", "fortydligande": "Du kan förklara segregation (uppdelning, åtskillnad mellan grupper) och integration (process där människor blir del av samhället på lika villkor)."},
+        {"id": "m4_7", "typ": "fardighet", "text": "Kan redogöra för push- och pull-modellen och hur den fungerar som helhet", "fortydligande": "Du kan använda modellen för att förklara varför migration uppstår, ge minst tre exempel på vardera typ, och visa hur push och pull samverkar."},
+        {"id": "m4_8", "typ": "fardighet", "text": "Kan förklara olika skäl till varför människor migrerar", "fortydligande": "Du kan jämföra och skilja mellan ekonomiska, politiska, sociala och miljörelaterade skäl till migration, och koppla dem till push/pull-modellen."},
+        {"id": "m4_9", "typ": "fardighet", "text": "Kan beskriva Sveriges migrationshistoria", "fortydligande": "Du kan beskriva Sveriges utveckling från utvandrarland (1800-talet) till invandrarland (efter andra världskriget och framåt), med konkreta exempel på olika perioder."},
+        {"id": "m4_10", "typ": "fardighet", "text": "Kan resonera kring fördelar och nackdelar med brain drain och cirkulär migration", "fortydligande": "Du kan diskutera konsekvenserna både för det avsändande och mottagande landet, och förstå komplexiteten i frågan."},
+        {"id": "m4_11", "typ": "fardighet", "text": "Kan resonera kring segregation och integration i ett mångkulturellt samhälle", "fortydligande": "Du kan diskutera utmaningar och möjligheter, väga olika perspektiv mot varandra, och förstå att integration är en ömsesidig process."}
+      ]
+    },
+    {
+      "id": "a5_urbanisering",
+      "nummer": 5,
+      "titel": "Urbanisering",
+      "moment": [
+        {"id": "m5_1", "typ": "begrepp", "text": "Kan förklara urbanisering och urbaniseringsgrad", "fortydligande": "Du kan förklara vad urbanisering är (rörelse från landsbygd till stad) och vad urbaniseringsgrad mäter, samt förstå att olika länder definierar tätort olika vilket gör jämförelser knepiga."},
+        {"id": "m5_2", "typ": "begrepp", "text": "Kan förklara begreppet megastad", "fortydligande": "Du kan förklara att en megastad har över 10 miljoner invånare, ge exempel, och beskriva hur antalet megastäder vuxit globalt."},
+        {"id": "m5_3", "typ": "begrepp", "text": "Kan förklara den gröna vågen", "fortydligande": "Du kan förklara den gröna vågen som motrörelse till urbanisering, dess historiska bakgrund (Sverige 1970-talet) och nutida exempel."},
+        {"id": "m5_4", "typ": "fardighet", "text": "Kan beskriva urbaniseringens globala utveckling", "fortydligande": "Du kan beskriva hur urbaniseringen tagit fart sedan 1800-talet, hur andelen stadsbor passerat 50 procent globalt, och varför urbaniseringen idag är snabbast i utvecklingsländer."},
+        {"id": "m5_5", "typ": "fardighet", "text": "Kan förklara push- och pull-faktorer som driver urbanisering", "fortydligande": "Du kan tillämpa push/pull-modellen specifikt på urbanisering (push: jordbrukets mekanisering, fattigdom på landet / pull: jobb, utbildning, service i staden)."},
+        {"id": "m5_6", "typ": "fardighet", "text": "Kan resonera kring möjligheter och problem med megastäder", "fortydligande": "Du kan diskutera både fördelar (ekonomisk dynamik, möjligheter) och problem (slumområden, miljöförstöring, ojämlikhet) i megastäder."},
+        {"id": "m5_7", "typ": "fardighet", "text": "Kan resonera kring konsekvenser av snabb urbanisering för stad och landsbygd", "fortydligande": "Du kan se konsekvenserna åt båda håll: städerna som måste hantera tillväxt, och landsbygden som riskerar avfolkas, och förstå att båda situationer skapar utmaningar."}
+      ]
+    },
+    {
+      "id": "a6_befolkning_resurser",
+      "nummer": 6,
+      "titel": "Befolkning och resurstillgång",
+      "moment": [
+        {"id": "m6_1", "typ": "begrepp", "text": "Kan förklara vad fattigdom är", "fortydligande": "Du kan förklara att fattigdom handlar om brist på resurser för ett värdigt liv, och att det inte bara är pengar utan också mat, sjukvård, utbildning och säkerhet."},
+        {"id": "m6_2", "typ": "begrepp", "text": "Kan förklara extrem fattigdom", "fortydligande": "Du kan förklara Världsbankens gräns (under 2,15 USD per dag), hur andelen i extrem fattigdom utvecklats globalt sedan 1990, och varför minskningen bromsat."},
+        {"id": "m6_3", "typ": "begrepp", "text": "Kan förklara undernäring", "fortydligande": "Du kan förklara vad undernäring är, varför det är ett särskilt allvarligt problem för barn, och hur det skiljer sig från extrem fattigdom."},
+        {"id": "m6_4", "typ": "begrepp", "text": "Kan förklara relativ fattigdom", "fortydligande": "Du kan förklara att relativ fattigdom finns även i rika länder, och vad det innebär att inte kunna delta i samhället på samma villkor som majoriteten."},
+        {"id": "m6_5", "typ": "begrepp", "text": "Kan förklara överbefolkning", "fortydligande": "Du kan förklara begreppet, varför det är omdiskuterat, och förstå att vad som anses vara överbefolkat är relativt."},
+        {"id": "m6_6", "typ": "begrepp", "text": "Kan förklara underbefolkning", "fortydligande": "Du kan förklara att underbefolkning är när för få människor i ett område hindrar samhället att fungera och utvecklas, både genom service som tappar fart och resurser som inte tas tillvara."},
+        {"id": "m6_7", "typ": "fardighet", "text": "Kan redogöra för olika former av fattigdom och deras skillnader", "fortydligande": "Du kan jämföra extrem fattigdom, undernäring och relativ fattigdom, och förklara att fattigdom ser olika ut i fattiga och rika länder."},
+        {"id": "m6_8", "typ": "fardighet", "text": "Kan förklara orsaker till fattigdom i världen", "fortydligande": "Du kan ge exempel på samverkande orsaker (historia, klimat, konflikter, ekonomi, politik) och resonera om hur de hänger ihop."},
+        {"id": "m6_9", "typ": "fardighet", "text": "Kan redogöra för åtgärder för att minska fattigdom", "fortydligande": "Du kan ge exempel på åtgärder på olika nivåer: individ (utbildning), samhälle (välfärdssystem) och internationellt (bistånd, handel, FN-mål)."},
+        {"id": "m6_10", "typ": "fardighet", "text": "Kan resonera kring rika länders möjligheter och problem", "fortydligande": "Du kan diskutera hur rika länder lever idag och om vårt sätt att leva är hållbart om alla på jorden skulle göra likadant."},
+        {"id": "m6_11", "typ": "fardighet", "text": "Kan resonera kring olika modeller för befolkning och resurser", "fortydligande": "Du kan beskriva några olika teorier (t.ex. Malthus pessimism, Boserups optimism, dagens hållbarhetsdebatt) och bedöma hur användbara de är för att förstå vår tid."},
+        {"id": "m6_12", "typ": "fardighet", "text": "Kan resonera kring framtida utmaningar kring befolkning och resurser", "fortydligande": "Du kan reflektera över vilka problem som kan vara stora utmaningar för din generation, och bygga din reflektion på det du lärt dig i kapitlet."}
+      ]
+    }
+  ]
+}

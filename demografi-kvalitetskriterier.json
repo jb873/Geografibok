@@ -1,0 +1,316 @@
+{
+  "delkapitel": "demografi",
+  "version": "1.0",
+  "beskrivning": "Kvalitetskriterier för stödläraren i Elevboken. Definierar vilka begrepp, sambandsled och ortnamn som granskas per avsnitt.",
+  "skapad": "2026-06-09",
+
+  "uppgifter": {
+
+    "elevbok-avsnitt-1": {
+      "titel": "Jordens befolkning",
+      "kommentar": "Grundläggande avsnitt — färre begrepp, fokus på fördelning och vart människor bor",
+      "begrepp": [
+        "befolkning",
+        "befolkningstäthet",
+        "tätbygd",
+        "glesbygd",
+        "demografi",
+        "tätbygdsbälte"
+      ],
+      "sambandsled_minimum": 2,
+      "ortnamn": [
+        "Sverige",
+        "Kina",
+        "Indien",
+        "Bangladesh",
+        "Pakistan",
+        "Nigeria",
+        "Norden",
+        "Asien",
+        "Afrika",
+        "Europa",
+        "Sydostasien",
+        "Sahara"
+      ]
+    },
+
+    "elevbok-avsnitt-2": {
+      "titel": "Lokaliseringsfaktorer",
+      "kommentar": "Modellämne — eleven måste kunna både naturgivna och mänskliga faktorer och hur de samverkar",
+      "begrepp": [
+        "lokaliseringsfaktor",
+        "naturgivna faktorer",
+        "mänskliga faktorer",
+        "klimat",
+        "vatten",
+        "jordmån",
+        "lössjord",
+        "infrastruktur",
+        "tätbygdsbälte"
+      ],
+      "sambandsled_minimum": 3,
+      "ortnamn": [
+        "Sverige",
+        "Kina",
+        "Indien",
+        "Nilen",
+        "Eufrat",
+        "Tigris",
+        "Ganges",
+        "Yangtze",
+        "Mekong",
+        "Mesopotamien",
+        "Egypten",
+        "Sahel",
+        "Sahara",
+        "Norden",
+        "Asien",
+        "Europa"
+      ]
+    },
+
+    "elevbok-avsnitt-3": {
+      "titel": "Demografisk transition",
+      "kommentar": "AVSNITTETS KÄRNA — strikta krav på begrepp och samband",
+      "begrepp": [
+        "demografisk transition",
+        "nativitet",
+        "mortalitet",
+        "fertilitet",
+        "naturlig befolkningstillväxt",
+        "befolkningspyramid",
+        "barnadödlighet",
+        "stadium 1",
+        "stadium 2",
+        "stadium 3",
+        "stadium 4",
+        "stadium 5"
+      ],
+      "begrepp_minimum_anvanda": 6,
+      "sambandsled_minimum": 4,
+      "ortnamn": [
+        "Sverige",
+        "Japan",
+        "Italien",
+        "Sydkorea",
+        "Tyskland",
+        "Indien",
+        "Kina",
+        "Bangladesh",
+        "Afrika",
+        "Asien",
+        "Europa"
+      ],
+      "kommentar_sambandsled": "Detta avsnitt är fullt av orsakskedjor (varför mortalitet sjunker före nativitet) — eleven måste visa förståelse med konnektorer"
+    },
+
+    "elevbok-avsnitt-4": {
+      "titel": "Migration",
+      "kommentar": "Central modell — push/pull och dess fyra kategorier",
+      "begrepp": [
+        "migration",
+        "emigration",
+        "immigration",
+        "push-faktor",
+        "pull-faktor",
+        "flykting",
+        "arbetskraftsinvandring",
+        "klimatflykting",
+        "brain drain",
+        "cirkulär migration",
+        "Genèvekonventionen",
+        "integration",
+        "segregation"
+      ],
+      "begrepp_minimum_anvanda": 6,
+      "sambandsled_minimum": 3,
+      "ortnamn": [
+        "Sverige",
+        "Syrien",
+        "Ukraina",
+        "Mexiko",
+        "USA",
+        "Tyskland",
+        "Polen",
+        "Indien",
+        "Bangladesh",
+        "Filippinerna",
+        "Afghanistan",
+        "Somalia",
+        "Mellanöstern",
+        "Europa",
+        "Afrika",
+        "Asien",
+        "Gulfstaterna"
+      ]
+    },
+
+    "elevbok-avsnitt-5": {
+      "titel": "Urbanisering",
+      "kommentar": "Stadens och landsbygdens dynamik — gröna vågen som motrörelse",
+      "begrepp": [
+        "urbanisering",
+        "urbaniseringsgrad",
+        "megastad",
+        "slum",
+        "infrastruktur",
+        "social rörlighet",
+        "gröna vågen",
+        "distansarbete",
+        "landsbygdens negativa spiral",
+        "skatteunderlag",
+        "jordbrukets mekanisering"
+      ],
+      "begrepp_minimum_anvanda": 5,
+      "sambandsled_minimum": 3,
+      "ortnamn": [
+        "Sverige",
+        "Stockholm",
+        "Tokyo",
+        "Delhi",
+        "Shanghai",
+        "Dhaka",
+        "São Paulo",
+        "Mexico City",
+        "Lagos",
+        "Kinshasa",
+        "Mumbai",
+        "Pajala",
+        "Norrlands inland",
+        "Asien",
+        "Afrika"
+      ]
+    },
+
+    "elevbok-avsnitt-6": {
+      "titel": "Befolkning och resurstillgång",
+      "kommentar": "Bokens stora syntes — fattigdom, välstånd och hållbarhet",
+      "begrepp": [
+        "fattigdom",
+        "extrem fattigdom",
+        "undernäring",
+        "relativ fattigdom",
+        "BNP",
+        "HDI",
+        "höginkomstland",
+        "medelinkomstland",
+        "låginkomstland",
+        "överbefolkning",
+        "underbefolkning",
+        "ekologiskt fotavtryck",
+        "hållbar utveckling"
+      ],
+      "begrepp_minimum_anvanda": 6,
+      "sambandsled_minimum": 4,
+      "ortnamn": [
+        "Sverige",
+        "Norge",
+        "USA",
+        "Kina",
+        "Indien",
+        "Etiopien",
+        "Brasilien",
+        "Japan",
+        "Tyskland",
+        "Bangladesh",
+        "Nigeria",
+        "Subsahariska Afrika",
+        "Norden",
+        "Afrika",
+        "Asien"
+      ]
+    }
+  },
+
+  "globala_kriterier": {
+    "beskrivning": "Inställningar som gäller alla uppgifter i hela delkapitlet",
+    "sprakgranskning": {
+      "stor_bokstav_efter_punkt": true,
+      "punkt_i_slutet": true,
+      "dubbla_mellanslag": true,
+      "mellanslag_fore_skiljetecken": true,
+      "stor_bokstav_i_ortnamn": true,
+      "vanliga_sarskrivningar": true
+    },
+    "vanliga_sarskrivningar": [
+      {"fel": "befolknings tillväxt", "ratt": "befolkningstillväxt"},
+      {"fel": "befolknings täthet", "ratt": "befolkningstäthet"},
+      {"fel": "befolknings pyramid", "ratt": "befolkningspyramid"},
+      {"fel": "barn dödlighet", "ratt": "barnadödlighet"},
+      {"fel": "ekonomi politik", "ratt": "ekonomipolitik"},
+      {"fel": "industri samhälle", "ratt": "industrisamhälle"},
+      {"fel": "jordbruks samhälle", "ratt": "jordbrukssamhälle"},
+      {"fel": "fattig dom", "ratt": "fattigdom"},
+      {"fel": "natur resurser", "ratt": "naturresurser"},
+      {"fel": "mänsklig hets", "ratt": "mänsklighetens"},
+      {"fel": "miljö problem", "ratt": "miljöproblem"},
+      {"fel": "klimat förändring", "ratt": "klimatförändring"},
+      {"fel": "klimat flykting", "ratt": "klimatflykting"},
+      {"fel": "arbets kraft", "ratt": "arbetskraft"},
+      {"fel": "arbets kraftsinvandring", "ratt": "arbetskraftsinvandring"},
+      {"fel": "arbets löshet", "ratt": "arbetslöshet"},
+      {"fel": "lands bygd", "ratt": "landsbygd"},
+      {"fel": "stor stad", "ratt": "storstad"},
+      {"fel": "mega stad", "ratt": "megastad"},
+      {"fel": "industri land", "ratt": "industriland"},
+      {"fel": "utvecklings land", "ratt": "utvecklingsland"},
+      {"fel": "höginkomst land", "ratt": "höginkomstland"},
+      {"fel": "låginkomst land", "ratt": "låginkomstland"},
+      {"fel": "fram tid", "ratt": "framtid"},
+      {"fel": "bak grund", "ratt": "bakgrund"},
+      {"fel": "samman fattning", "ratt": "sammanfattning"},
+      {"fel": "ut bildning", "ratt": "utbildning"},
+      {"fel": "all män", "ratt": "allmän"},
+      {"fel": "över befolkning", "ratt": "överbefolkning"},
+      {"fel": "under befolkning", "ratt": "underbefolkning"}
+    ]
+  },
+
+  "sambandsled_bibliotek": {
+    "beskrivning": "Gemensamt bibliotek av sambandsled som identifieras i texterna",
+    "orsak_verkan": [
+      "därför",
+      "eftersom",
+      "leder till",
+      "beror på",
+      "anledningen är",
+      "vilket gör att",
+      "på grund av",
+      "som en följd",
+      "resulterar i",
+      "orsakar"
+    ],
+    "exempel": [
+      "till exempel",
+      "exempelvis",
+      "ett exempel är",
+      "som vi ser i",
+      "ett tydligt exempel"
+    ],
+    "kontrast": [
+      "däremot",
+      "men",
+      "medan",
+      "å andra sidan",
+      "till skillnad från",
+      "trots detta",
+      "samtidigt"
+    ],
+    "tillagg": [
+      "dessutom",
+      "även",
+      "vidare",
+      "därtill",
+      "utöver detta",
+      "och inte minst"
+    ],
+    "sammanfattning": [
+      "sammanfattningsvis",
+      "det viktigaste",
+      "slutsatsen",
+      "kort sagt",
+      "det centrala",
+      "om man sammanfattar"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geografi – Demografi – Självskattning</title>
+  <link rel="stylesheet" href="../../css/geografi.css">
+</head>
+<body>
+  <main class="sida matris-sida">
+
+    <nav class="brodsmulor" aria-label="Brödsmulor">
+      <a href="../../index.html">Geografi</a>
+      <span class="skiljare" aria-hidden="true">›</span>
+      <a href="index.html">Demografi</a>
+      <span class="skiljare" aria-hidden="true">›</span>
+      <span class="aktuell" aria-current="page">Självskattning</span>
+    </nav>
+
+    <header class="avsnitt-header">
+      <span class="avsnitt-label">Delkapitel III</span>
+      <h1>SJÄLVSKATTNING</h1>
+      <p class="subtitel">— Hur väl behärskar du demografi-kapitlet? —</p>
+    </header>
+
+    <div class="ornament-rad" aria-hidden="true">✦ ✦ ✦</div>
+
+    <div class="matris-forklaring">
+      Grön = jag kan • Gul = jag är osäker • Orange = jag behöver lära mig
+    </div>
+
+    <div class="begreppsbank-layout">
+
+      <nav class="navigation-sidor navigation-mobil" aria-label="Avsnittsnavigation">
+        <div class="navigation-rubrik">Innehåll</div>
+        <div id="matris-nav"></div>
+      </nav>
+
+      <div id="matris-innehall" class="begreppsbank-innehall">
+        <p class="laddar-fragor" style="text-align:center; font-style:italic; color:var(--muted);">Laddar matrisen ...</p>
+      </div>
+
+    </div>
+
+    <p class="footnote">Demografi-piloten. Din skattning sparas lokalt och är bara din egen överblick.</p>
+
+  </main>
+
+  <script>
+    // Konfiguration för sjalvskattning.js (kapitelnivå)
+    const VY_TYP = 'kapitel';
+    const DELKAPITEL_LISTA = [
+      {
+        id: 'demografi',
+        titel: 'Demografi',
+        matrisUrl: 'data/matris.json'
+      }
+    ];
+  </script>
+  <script src="../../js/elevbok.js"></script>
+  <script src="../../js/sjalvskattning.js" defer></script>
+</body>
+</html>

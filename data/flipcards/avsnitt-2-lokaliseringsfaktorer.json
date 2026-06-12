@@ -1,0 +1,218 @@
+{
+  "avsnitt": 2,
+  "titel": "Lokaliseringsfaktorer",
+  "delkapitel": "demografi",
+  "version": "1.0",
+  "kort_totalt": 28,
+
+  "begreppskort": [
+    {
+      "id": "k2-b1",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en LOKALISERINGSFAKTOR?",
+      "svar": "Något som påverkar var människor väljer att bosätta sig. Kan vara natur (klimat, vatten, jord) eller mänskligt (jobb, infrastruktur, transport)."
+    },
+    {
+      "id": "k2-b2",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är NATURGIVNA FAKTORER?",
+      "svar": "Faktorer som naturen bestämt — klimat, vattentillgång, jordmån, naturresurser, topografi. Människan kan inte ändra dem (eller bara med stort arbete)."
+    },
+    {
+      "id": "k2-b3",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är MÄNSKLIGA FAKTORER?",
+      "svar": "Faktorer som människor skapat — infrastruktur, arbetstillfällen, utbildning, sjukvård, transportleder, politisk stabilitet. Förändras snabbare än naturgivna."
+    },
+    {
+      "id": "k2-b4",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är KLIMAT som lokaliseringsfaktor?",
+      "svar": "Temperatur, nederbörd och årstider på en plats. Människor föredrar tempererade och tropiska klimat där jordbruk fungerar och man kan leva utan extrema kläder eller skyddsanordningar."
+    },
+    {
+      "id": "k2-b5",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är JORDMÅN och varför är den viktig?",
+      "svar": "Marken där växter kan slå rot. Bördig jord (rik på näring) ger goda skördar och kan föda många människor. Steniga eller sandiga jordar gör jordbruk svårt."
+    },
+    {
+      "id": "k2-b6",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är LÖSSJORD?",
+      "svar": "Mycket bördig jord bildad av finkornigt damm som blåste in efter istiden. Finns bland annat i norra Kina, USA:s 'Corn Belt', Ukraina och delar av Europa."
+    },
+    {
+      "id": "k2-b7",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är INFRASTRUKTUR?",
+      "svar": "Samhällets grundsystem: vägar, järnvägar, elnät, internet, vatten- och avloppssystem. Måste finnas för att en plats ska kunna växa."
+    },
+    {
+      "id": "k2-b8",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett TÄTBYGDSBÄLTE?",
+      "svar": "Ett stort område där många människor har samlat sig genom historien. De följer ofta floder eller kuster där lokaliseringsfaktorerna varit särskilt goda."
+    },
+    {
+      "id": "k2-b9",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Varför har FLODER varit så viktiga för befolkning?",
+      "svar": "De ger dricksvatten, bevattning till jordbruk, fisk, transportleder och bördigt slamland när de svämmar över. Världens äldsta civilisationer låg vid floder."
+    },
+    {
+      "id": "k2-b10",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Nämn fyra historiska flodkulturer.",
+      "svar": "Mesopotamien (Eufrat och Tigris), Egypten (Nilen), Indus-dalen (Indus), Kina (Yangtze och Gula floden). Alla utvecklades för cirka 5000 år sedan."
+    },
+    {
+      "id": "k2-b11",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad är TOPOGRAFI?",
+      "svar": "Markens form och höjd — berg, slätter, dalar. Slätter och dalar är lättare att bo och odla i. Höga berg och branta sluttningar är svåra för bosättning."
+    },
+    {
+      "id": "k2-b12",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad menas med att en faktor är 'permissiv' kontra 'attraktiv'?",
+      "svar": "**Permissiv:** måste vara godkänd — t.ex. drickbart vatten finns. **Attraktiv:** lockar aktivt — t.ex. många jobb. En plats måste vara permissiv för att kunna bo där, men attraktiva faktorer styr om många flyttar dit."
+    },
+    {
+      "id": "k2-b13",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad är ett 'kulturlandskap'?",
+      "svar": "Landskap som människan har format genom odling, byggande och boende — i kontrast till orört naturlandskap. Det mesta av Europa är kulturlandskap."
+    }
+  ],
+
+  "modellkort": [
+    {
+      "id": "k2-m1",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är en karta över världens lokaliseringsfaktorer. Titta på Norra Afrika och Sahara — varför bor det så få människor där?",
+      "bild": "lokaliseringsfaktorer-modell.webp",
+      "bild_alt": "Modell av lokaliseringsfaktorer — naturgivna och mänskliga",
+      "svar": "Flera faktorer samverkar mot bosättning där:\n\n• **Klimat** — extrem hetta och nästan ingen nederbörd\n• **Vatten** — saknas över stora områden\n• **Jordmån** — ofta sandig och näringsfattig\n• **Vegetation** — knappt något att odla\n\nDe få människor som bor i Sahara samlas vid oaser där grundvatten når ytan, eller längs Nilen där flodens vatten gör jordbruk möjligt. Det visar hur människor kringgår problem genom att söka sig till lokala undantag i en svår miljö."
+    },
+    {
+      "id": "k2-m2",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Kina har enorma tätbygdsbälten längs Yangtze och Gula floden. Vilka lokaliseringsfaktorer förklarar detta?",
+      "bild": "kinas-floder.webp",
+      "bild_alt": "Karta över Kinas stora floder — Yangtze och Gula floden",
+      "svar": "Flera faktorer samverkar:\n\n• **Vatten** — Yangtze är en av världens längsta floder, Gula floden går genom Norra Kina\n• **Lössjord** — extremt bördig jord runt Gula floden\n• **Klimat** — varmt och tillräckligt med regn för risodling\n• **Slätter** — lätta att odla\n• **Transport** — floderna fungerar som vägar\n\nDessa faktorer i kombination har under 5000 år gjort dessa områden till några av världens mest befolkade. Tänk så här: när flera goda faktorer samlas på samma plats blir det en magnet för människor."
+    },
+    {
+      "id": "k2-m3",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför har en plats som London blivit en av världens viktigaste städer trots ganska medelmåttiga naturgivna faktorer?",
+      "svar": "London visar hur **mänskliga faktorer** kan dominera över naturgivna när ett samhälle utvecklas:\n\n• **Hamn vid Themsen** — gjorde tidig handel möjlig\n• **Brittiska imperiet** — gjorde London till centrum för världshandel\n• **Industri** — fabriker, banker, kontor\n• **Infrastruktur** — vägar, järnvägar, flygplatser\n• **Utbildning** — universitet, forskning\n• **Politisk stabilitet** — säkra investeringar i hundratals år\n\nKlimatet är ganska kallt och regnigt. Jorden är inte exceptionell. Men de mänskliga faktorerna har gjort London till en av världens viktigaste städer. Det visar att efter industrialiseringen kan mänskliga faktorer ofta överskugga naturgivna."
+    },
+    {
+      "id": "k2-m4",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är en karta över USA. Östkusten är mycket tätare befolkad än Västkusten och inlandet. Hur kan lokaliseringsfaktorer förklara detta?",
+      "svar": "Östkusten gynnades av:\n\n• **Hamnar** — kontakt med Europa (varifrån kolonisterna kom)\n• **Klimat** — milt och regnigt, bra för jordbruk\n• **Floder** — Mississippi-deltat, Hudson River\n• **Tidig industri** — fabriker i New England från 1800-talet\n• **Tidiga städer** — Boston, New York, Philadelphia\n\nInlandet har stora områden med öken (Nevada, Arizona), berg (Klippiga bergen) och bistert klimat (Nord-Dakota). Västkusten utvecklades senare när Kalifornien blev del av USA och Hollywood/Silicon Valley växte fram.\n\nMönstret visar att **historiska faktorer** också spelar roll — vart man kom in i landet och var samhället växte fram först."
+    },
+    {
+      "id": "k2-m5",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är en karta över världens lössjordområden. Vad är lössjord och varför är de viktiga för befolkning?",
+      "bild": "lossjord-varlden.webp",
+      "bild_alt": "Världskarta som visar lössjord-områden — Kina, USA:s Corn Belt, Ukraina",
+      "svar": "Lössjord är **finkornigt damm** som blåste in efter istiden och bildade extremt bördig jord. Den är:\n\n• **Mjuk** — lätt att plöja\n• **Vattenhållande** — håller fukten\n• **Näringsrik** — höga skördar med liten ansträngning\n\nDetta gör att lössjordsområden kan föda många människor. Därför finns mycket täta befolkningar i:\n\n• **Norra Kina** — kring Gula floden\n• **USA:s 'Corn Belt'** — Iowa, Illinois, Nebraska\n• **Ukrainas svarta jord** — Europas kornbod\n• **Pampas** — Argentina\n\nÄn idag förklarar lössjord var stora delar av världens spannmål produceras."
+    },
+    {
+      "id": "k2-m6",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Vad menas med att lokaliseringsfaktorer 'samverkar'? Ge ett exempel.",
+      "svar": "Det betyder att **flera faktorer måste finnas samtidigt** för att skapa en framgångsrik bosättning. En faktor räcker sällan.\n\n**Exempel — Nilen i Egypten:**\n• Bara vatten räcker inte (öken runtom)\n• Bara bördig jord räcker inte (för torrt)\n• Bara klimat räcker inte (saknar vatten utan floden)\n\nMen tillsammans blir det magiskt: Nilen ger vatten, översvämmar och lägger ny bördig jord varje år, klimatet är varmt nog att odla året runt, slätterna är lätta att bruka.\n\nDärför har Egypten varit befolkat i 5000 år. **Det är samverkan som skapar tätbygd, inte en enskild faktor.**"
+    },
+    {
+      "id": "k2-m7",
+      "type": "modell",
+      "niva": "fordjupning",
+      "fraga": "Här är världens viktigaste tätbygdsbälten. Vilket gemensamt mönster ser du?",
+      "bild": "tatbygdsbalten-varlden.webp",
+      "bild_alt": "Världskarta som visar tre stora tätbygdsbälten",
+      "svar": "De tre stora tätbygdsbältena är:\n\n• **Östasien** — Kina, Korea, Japan, Vietnam\n• **Sydasien** — Indien, Pakistan, Bangladesh\n• **Europa** — från Storbritannien till Ukraina\n\nDet **gemensamma mönstret**:\n\n• Alla ligger i tempererade eller subtropiska klimatzoner\n• Alla har stora floder eller fruktbara slätter\n• Alla har historisk jordbrukstradition\n• Alla har bra hav-kontakter (handel)\n• Alla har varit befolkade i tusentals år\n\nDessutom: ingen ligger i ekvatorialnära områden (Amazonas, Kongo) eller på höga latituder (Sibirien, Kanada). Det visar att **mellanlatituder med floder och slätter är det optimala för stor mänsklig befolkning**."
+    }
+  ],
+
+  "redogorelsekort": [
+    {
+      "id": "k2-r1",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Förklara vad lokaliseringsfaktorer är och ge exempel på naturgivna och mänskliga faktorer. Vilken roll har var och en?",
+      "ungefarlig_tid_min": 7,
+      "modellsvar": "**Lokaliseringsfaktorer** är de förutsättningar som påverkar var människor väljer att bosätta sig. De delas i två stora grupper.\n\n**Naturgivna faktorer** är de som naturen bestämt — människan kan i regel inte ändra dem. Hit hör:\n\n• **Klimat** — temperatur och nederbörd\n• **Vatten** — floder, sjöar, grundvatten\n• **Jordmån** — bördighet, t.ex. lössjord\n• **Topografi** — slätter eller berg\n• **Naturresurser** — kol, järn, olja\n\nDessa faktorer skapar grunden — människor söker sig dit klimatet är hanterbart, vattnet finns och jorden bär grödor. Därför växte de första civilisationerna fram vid floder som Nilen, Eufrat och Yangtze.\n\n**Mänskliga faktorer** är de som människan själv skapat:\n\n• **Infrastruktur** — vägar, järnvägar, hamnar\n• **Arbetstillfällen** — jobb och försörjning\n• **Utbildning och sjukvård**\n• **Politisk stabilitet** och säkerhet\n\nDessa faktorer blir allt viktigare när samhället utvecklas. En modern stad kan växa även där naturgivna faktorer är medelmåttiga — eftersom mänskliga faktorer (industri, handel, utbildning) tar över. London är ett exempel.\n\nLokaliseringsfaktorerna **samverkar** med varandra. En bra plats kräver oftast flera goda faktorer samtidigt.",
+      "stodlarare": {
+        "stodord": ["naturgivna faktorer", "mänskliga faktorer", "klimat", "vatten", "jordmån", "infrastruktur", "Nilen", "London"],
+        "startfraser": [
+          "Lokaliseringsfaktorer är de förutsättningar som...",
+          "Det finns två stora grupper av lokaliseringsfaktorer:",
+          "Naturgivna faktorer är de som naturen bestämt, till exempel..."
+        ],
+        "tip_for_struktur": "Definiera först begreppet. Förklara sedan de två grupperna med exempel. Avsluta med samspelet mellan dem."
+      }
+    },
+    {
+      "id": "k2-r2",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Visa med ett exempel hur flera lokaliseringsfaktorer samverkar för att skapa ett tätbygdsbälte.",
+      "ungefarlig_tid_min": 8,
+      "modellsvar": "Ett tydligt exempel är **Nilen i Egypten** — ett av världens äldsta och tätaste tätbygdsbälten.\n\nHär samverkar flera lokaliseringsfaktorer på ett unikt sätt:\n\n**Vatten:** Nilen är en enorm flod som flyter genom öken. Den ger dricksvatten och bevattning året runt — en grön remsa i en annars torr landskap.\n\n**Jordmån:** När Nilen svämmade över varje år (innan dammarna byggdes) lade den ny bördig slam över åkrarna. Egyptens åkermark förnyades alltså konstant.\n\n**Klimat:** Varmt klimat som tillåter odling året runt — flera skördar per år är möjligt.\n\n**Topografi:** Smala dalsidor som är lätta att bevattna med kanalsystem.\n\n**Transport:** Nilen fungerar som en gigantisk transportled — båtar kan färdas tusentals kilometer.\n\nTill detta kommer **mänskliga faktorer** över tid: tidig statsbildning, bevattningssystem, städer, handelsvägar mot Medelhavet.\n\nResultatet är att Egypten har varit befolkat i över 5000 år. Idag bor omkring 100 miljoner människor på en yta som motsvarar några procent av landets totala area — alla samlade i Nildalen och dess delta.\n\nDetta visar att **det är samverkan mellan faktorer** som skapar tätbygd. Bara klimatet räcker inte (öken runtom). Bara vatten räcker inte (utan jord att odla). Det är när flera faktorer förstärker varandra som magin händer.",
+      "stodlarare": {
+        "stodord": ["Nilen", "Egypten", "vatten", "bördig jord", "klimat", "samverkan", "5000 år"],
+        "startfraser": [
+          "Ett tydligt exempel är Nilen i Egypten där...",
+          "Här samverkar flera lokaliseringsfaktorer:",
+          "Det är samverkan som skapar tätbygd eftersom..."
+        ],
+        "tip_for_struktur": "Välj ETT exempel och beskriv det djupt. Räkna upp 4-5 olika faktorer och hur de samspelar. Avsluta med poängen om samverkan."
+      }
+    },
+    {
+      "id": "k2-r3",
+      "type": "redogorelse",
+      "niva": "fordjupning",
+      "instruktion": "FÖRDJUPNING — Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Jämför hur lokaliseringsfaktorer förändras över tid — vad var viktigt förr, vad är viktigt idag?",
+      "ungefarlig_tid_min": 12,
+      "modellsvar": "Lokaliseringsfaktorernas betydelse har förändrats dramatiskt genom historien. Det som drev bosättning förr är inte detsamma som idag.\n\n**Förr (innan industrialiseringen):**\n\nDe **naturgivna faktorerna** dominerade fullständigt. Människor MÅSTE bo där jordbruk fungerade — för 90% av befolkningen var bonde. Det innebar:\n\n• Bördig jord — avgörande för att kunna odla\n• Vatten — för dricks, bevattning, fisk\n• Lagom klimat — varken för kallt eller torrt\n• Transport via flod eller hav — för handel\n\nDärför växte de stora civilisationerna fram vid floder: Egypten vid Nilen, Mesopotamien vid Eufrat, Kina vid Yangtze, Indien vid Indus. Människor som bodde långt från sådana platser levde ofta som nomader eller i små grupper.\n\n**Under industrialiseringen (1800-tal):**\n\nNya faktorer började dominera:\n\n• **Kol och järn** — fabrikerna behövde råvaror\n• **Hamnar och järnvägar** — transport av varor\n• **Arbetare** — städer växte explosionsartat\n\nMänniskor flyttade till industristäder även där klimatet var dåligt eller jorden steril. Manchester, Pittsburgh och Ruhrområdet växte till miljonstäder på platser med svaga naturgivna faktorer men starka industriella möjligheter.\n\n**Idag (postindustriellt samhälle):**\n\n**Mänskliga faktorer** dominerar i utvecklade länder:\n\n• **Utbildning och universitet**\n• **Tjänsteindustri och kontor**\n• **Internet och digital infrastruktur**\n• **Kreativ ekonomi och kultur**\n\nNu väljer människor plats efter livskvalitet, jobbmöjligheter och sociala nätverk. Klimat spelar fortfarande roll (folk söker sig till varmare områden i pensionsåldern), men det avgörande är jobb, utbildning och nätverk.\n\n**Men naturen kommer tillbaka:**\n\nMed klimatförändringar börjar **naturgivna faktorer återigen bli viktiga**:\n\n• Områden som blir för varma kan bli obeboeliga\n• Vattenresurser blir kritiska\n• Stigande hav hotar kuststäder\n\nDet är möjligt att 2100-talets människor kommer att tänka mer som 1700-talets — om var det är säkert att bo, var det finns vatten, var klimatet håller. Lokaliseringsfaktorerna har gjort en lång resa, och cirkeln kan stänga sig igen.",
+      "stodlarare": {
+        "stodord": ["naturgivna faktorer", "mänskliga faktorer", "industrialisering", "klimatförändringar", "flodkulturer", "Manchester", "utbildning"],
+        "startfraser": [
+          "Lokaliseringsfaktorernas betydelse har förändrats dramatiskt eftersom...",
+          "Förr dominerade naturgivna faktorer eftersom...",
+          "Idag är mänskliga faktorer viktigare, till exempel..."
+        ],
+        "tip_for_struktur": "Beskriv tre tidsperioder: förindustriellt (naturgivna dominerar), industriellt (industri och transport), postindustriellt (utbildning, tjänster). Avsluta med klimatförändringarnas möjliga effekt."
+      }
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "delkapitel": "demografi",
+  "avsnitt": [
+    {
+      "id": "a1_jordens_befolkning",
+      "nummer": 1,
+      "titel": "Jordens befolkning",
+      "fragor": [
+        {
+          "id": "q_fordelning_befolkning",
+          "typ": "grund",
+          "fraga": "Beskriv hur människor är fördelade på jorden. Var bor det många och var bor det få? Använd begreppen befolkningstäthet och befolkning i ditt svar."
+        },
+        {
+          "id": "q_befolkning_over_tid",
+          "typ": "grund",
+          "fraga": "Beskriv hur jordens befolkning har ändrats de senaste 200 åren. Hur såg befolkningstillväxten ut för länge sedan jämfört med idag? Använd begreppen befolkningstillväxt och befolkningsökning."
+        },
+        {
+          "id": "q_befolkningsprognos",
+          "typ": "grund",
+          "fraga": "Vad är en befolkningsprognos och vad används den till? Ge två exempel på beslut i samhället där befolkningsprognoser är viktiga."
+        },
+        {
+          "id": "q_vaxande_krympande",
+          "typ": "fordjupning",
+          "fraga": "Vilka utmaningar kan en växande befolkning ge ett samhälle? Vilka utmaningar kan en krympande befolkning ge? Ge konkreta exempel."
+        }
+      ]
+    },
+    {
+      "id": "a2_lokaliseringsfaktorer",
+      "nummer": 2,
+      "titel": "Befolkningens lokaliseringsfaktorer",
+      "fragor": [
+        {
+          "id": "q_globala_monstret",
+          "typ": "grund",
+          "fraga": "Var på jorden bor det många människor och var bor det få? Beskriv mönstret med konkreta exempel från olika världsdelar."
+        },
+        {
+          "id": "q_lokaliseringsfaktorer_modell",
+          "typ": "grund",
+          "fraga": "Vad är lokaliseringsfaktorer? Förklara med hjälp av minst tre olika faktorer som påverkar var människor väljer att bo."
+        },
+        {
+          "id": "q_sverige_tatorter",
+          "typ": "grund",
+          "fraga": "Var i Sverige bor det många människor och var bor det få? Vilka lokaliseringsfaktorer förklarar var de stora tätorterna ligger?"
+        },
+        {
+          "id": "q_tatbygd_glesbygd_konsekvens",
+          "typ": "grund",
+          "fraga": "Beskriv skillnaden mellan tätbygd och glesbygd. Vilka konsekvenser kan det få att bo i en glesbygd jämfört med en tätbygd?"
+        }
+      ]
+    },
+    {
+      "id": "a3_demografiska_transitionen",
+      "nummer": 3,
+      "titel": "Den demografiska transitionen",
+      "fragor": [
+        {
+          "id": "q_transition_skeden",
+          "typ": "grund",
+          "fraga": "Förklara vad som händer i ett samhälle under den demografiska transitionens fem skeden. Vad förändras med nativitet, mortalitet och befolkningstillväxt i varje skede?"
+        },
+        {
+          "id": "q_befolkningsexplosionen",
+          "typ": "grund",
+          "fraga": "Varför sjönk mortaliteten i västvärlden under 1800-talet, men nativiteten dröjde med att sjunka? Vad gjorde att tillväxten blev så snabb under en period?"
+        },
+        {
+          "id": "q_naturlig_befolkningsokning",
+          "typ": "grund",
+          "fraga": "Vad menas med naturlig befolkningsökning? Hur skiljer sig naturlig befolkningsökning från total befolkningsökning?"
+        },
+        {
+          "id": "q_familjeplanering",
+          "typ": "grund",
+          "fraga": "Vad är familjeplanering, och hur har den påverkat den demografiska transitionen? Ge exempel på hur familjeplanering kan se ut i olika delar av världen."
+        },
+        {
+          "id": "q_pyramidtolkning",
+          "typ": "grund",
+          "fraga": "Studera de fyra befolkningspyramiderna från Uganda, Kenya, Sydafrika och Japan. Placera in varje land i rätt skede av den demografiska transitionen (skede 2, 3, 4 eller 5) och motivera ditt val. Vilka mönster i pyramiderna avslöjar nativitet, mortalitet och tillväxt?",
+          "bilder": [
+            {"src": "/img/demografi/pyramid-uganda.webp", "alt": "Befolkningspyramid Uganda – skede 2", "land": "Uganda", "skede": 2},
+            {"src": "/img/demografi/pyramid-kenya.webp", "alt": "Befolkningspyramid Kenya – skede 3", "land": "Kenya", "skede": 3},
+            {"src": "/img/demografi/pyramid-sydafrika.webp", "alt": "Befolkningspyramid Sydafrika – skede 4", "land": "Sydafrika", "skede": 4},
+            {"src": "/img/demografi/pyramid-japan.webp", "alt": "Befolkningspyramid Japan – skede 5", "land": "Japan", "skede": 5}
+          ]
+        },
+        {
+          "id": "q_pyramid_konsekvenser",
+          "typ": "fordjupning",
+          "fraga": "Välj ett land med skede 2-pyramid (t.ex. Uganda) och ett land med skede 5-pyramid (t.ex. Japan). Vilka möjligheter och problem står varje land inför med sin nuvarande befolkningsstruktur? Resonera kring vad det betyder för samhället på kort och lång sikt.",
+          "bilder": [
+            {"src": "/img/demografi/pyramid-uganda.webp", "alt": "Befolkningspyramid Uganda – skede 2", "land": "Uganda", "skede": 2},
+            {"src": "/img/demografi/pyramid-kenya.webp", "alt": "Befolkningspyramid Kenya – skede 3", "land": "Kenya", "skede": 3},
+            {"src": "/img/demografi/pyramid-sydafrika.webp", "alt": "Befolkningspyramid Sydafrika – skede 4", "land": "Sydafrika", "skede": 4},
+            {"src": "/img/demografi/pyramid-japan.webp", "alt": "Befolkningspyramid Japan – skede 5", "land": "Japan", "skede": 5}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a4_migration",
+      "nummer": 4,
+      "titel": "Migration",
+      "fragor": [
+        {
+          "id": "q_migration_grunder",
+          "typ": "grund",
+          "fraga": "Förklara skillnaden mellan emigration och immigration. Vad menas med migration som ett samlingsbegrepp?"
+        },
+        {
+          "id": "q_push_pull",
+          "typ": "grund",
+          "fraga": "Redogör för push- och pull-modellen och hur den fungerar som helhet. Skriv minst tre exempel på push-faktorer och tre exempel på pull-faktorer."
+        },
+        {
+          "id": "q_flykting_arbetskraft",
+          "typ": "grund",
+          "fraga": "Vad är skillnaden mellan en flykting och en arbetskraftsinvandrare? Vilka olika skäl kan människor ha för att lämna sitt hemland?"
+        },
+        {
+          "id": "q_cirkular_brain_drain",
+          "typ": "grund",
+          "fraga": "Vad menas med cirkulär migration och brain drain? Vilka fördelar och nackdelar kan dessa fenomen ge både för det land människor lämnar och det land de flyttar till?"
+        },
+        {
+          "id": "q_sveriges_migration",
+          "typ": "fordjupning",
+          "fraga": "Beskriv huvuddragen i Sveriges migrationshistoria. Hur har Sverige förändrats från ett utvandrarland till ett invandrarland?"
+        },
+        {
+          "id": "q_segregation_integration",
+          "typ": "fordjupning",
+          "fraga": "Diskutera och resonera kring begreppen segregation och integration. Vilka utmaningar och möjligheter ser du i ett mångkulturellt samhälle?"
+        }
+      ]
+    },
+    {
+      "id": "a5_urbanisering",
+      "nummer": 5,
+      "titel": "Urbanisering",
+      "fragor": [
+        {
+          "id": "q_urbanisering_grunder",
+          "typ": "grund",
+          "fraga": "Vad menas med urbanisering och urbaniseringsgrad? Hur har urbaniseringen sett ut globalt sett under de senaste 200 åren?"
+        },
+        {
+          "id": "q_urbanisering_drivkraft",
+          "typ": "grund",
+          "fraga": "Vilka push- och pull-faktorer driver urbanisering? Varför flyttar människor från landsbygden till städerna?"
+        },
+        {
+          "id": "q_megastader",
+          "typ": "grund",
+          "fraga": "Vad är en megastad? Vilka möjligheter och problem skapar megastäderna för människorna som bor där?"
+        },
+        {
+          "id": "q_grona_vagen",
+          "typ": "fordjupning",
+          "fraga": "Vad menas med den gröna vågen? Hur skiljer sig den från urbanisering, och vilka motiv har människor som väljer att flytta från stad till landsbygd?"
+        },
+        {
+          "id": "q_urbanisering_utmaningar",
+          "typ": "fordjupning",
+          "fraga": "Resonera kring vilka utmaningar snabb urbanisering skapar – både för städerna som växer och för landsbygden som krymper."
+        }
+      ]
+    },
+    {
+      "id": "a6_befolkning_resurser",
+      "nummer": 6,
+      "titel": "Befolkning och resurstillgång",
+      "fragor": [
+        {
+          "id": "q_fattigdom_grunder",
+          "typ": "grund",
+          "fraga": "Vad är fattigdom? Hur kan man dela in länder utifrån välstånd och fattigdom, och varför är det viktigt att kunna mäta fattigdom?"
+        },
+        {
+          "id": "q_fattigdom_former",
+          "typ": "grund",
+          "fraga": "Förklara skillnaden mellan extrem fattigdom, undernäring och relativ fattigdom. Hur skiljer sig fattigdomen i fattiga länder från fattigdomen i rika länder?"
+        },
+        {
+          "id": "q_overbefolkning",
+          "typ": "grund",
+          "fraga": "Vad är överbefolkning? Är jorden överbefolkad idag? Resonera kring vad som påverkar om ett område kan anses överbefolkat eller inte."
+        },
+        {
+          "id": "q_underbefolkning",
+          "typ": "grund",
+          "fraga": "Vad är underbefolkning? När kan ett område anses underbefolkat, och vilka problem kan det skapa – både för samhället idag och för dess framtida utveckling? Resonera kring varför vissa områden, både i Sverige och i världen, brottas med underbefolkning."
+        },
+        {
+          "id": "q_fattigdom_orsaker",
+          "typ": "grund",
+          "fraga": "Vilka är de viktigaste orsakerna till fattigdom i världen idag? Resonera kring hur olika orsaker hänger ihop."
+        },
+        {
+          "id": "q_minska_fattigdom",
+          "typ": "grund",
+          "fraga": "Vad kan göras för att minska fattigdomen i ett land? Ge exempel på åtgärder på olika nivåer (individ, samhälle, internationellt)."
+        },
+        {
+          "id": "q_rika_lander",
+          "typ": "grund",
+          "fraga": "Vilka möjligheter och problem ser du i rika länder som Sverige? Är vårt sätt att leva hållbart om alla på jorden skulle göra likadant?"
+        },
+        {
+          "id": "q_befolkning_resurser_modeller",
+          "typ": "fordjupning",
+          "fraga": "Det finns olika modeller och teorier om hur jordens befolkning och resurstillgångar förhåller sig till varandra. Vilka modeller känner du till? Hur användbara är de när vi tänker på dagens miljö- och konsumtionsdebatt?"
+        },
+        {
+          "id": "q_framtida_problem",
+          "typ": "fordjupning",
+          "fraga": "Resonera kring de viktigaste framtida problemen som kopplas till befolkning och resurstillgång. Vad tror du blir de stora utmaningarna för din generation?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elevbok – testsida (utveckling)</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+    h1 { font-size: 1.3rem; }
+    fieldset { margin-bottom: 1.25rem; border: 1px solid #ccc; border-radius: 6px; padding: 0.75rem 1rem; }
+    legend { font-weight: 600; padding: 0 0.4rem; }
+    label { display: inline-block; margin-right: 0.75rem; }
+    input[type=text] { padding: 0.3rem; }
+    textarea { width: 100%; min-height: 90px; padding: 0.4rem; font: inherit; }
+    button { padding: 0.4rem 0.8rem; margin: 0.25rem 0.25rem 0.25rem 0; cursor: pointer; }
+    .status { color: #888; font-style: italic; margin-left: 0.5rem; }
+    pre { background: #f4f4f4; padding: 0.75rem; border-radius: 6px; overflow: auto; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>Elevbok – manuell testsida</h1>
+  <p>Endast för utveckling. Öppna konsolen och denna sida i två flikar för att testa flik-synk.
+     Tas bort innan leverans.</p>
+
+  <fieldset>
+    <legend>Identitet</legend>
+    <label>Klass <input type="text" id="in-klass" value="7A"></label>
+    <label>Namn <input type="text" id="in-namn" value="Test Elev"></label>
+    <button id="btn-spara-identitet">Spara identitet</button>
+    <button id="btn-visa-identitet">Visa identitet</button>
+    <button id="btn-har-identitet">harIdentitet()?</button>
+  </fieldset>
+
+  <fieldset>
+    <legend>Svar</legend>
+    <label>Delkapitel <input type="text" id="in-delkapitel" value="demografi"></label>
+    <label>Fråge-ID <input type="text" id="in-fraga" value="a1-f1"></label>
+    <textarea id="in-svar" placeholder="Skriv ett svar och spara ..."></textarea>
+    <button id="btn-spara-svar">Spara svar</button>
+    <button id="btn-hamta-svar">Hämta svar</button>
+    <button id="btn-alla-svar">Alla svar (delkapitel)</button>
+    <button id="btn-alla-allt">Alla svar (alla delkapitel)</button>
+  </fieldset>
+
+  <fieldset>
+    <legend>Autospara (debounce 2s)</legend>
+    <textarea id="in-auto" placeholder="Skriv här – sparas automatiskt efter 2s ..."></textarea>
+    <span class="status" id="auto-status"></span>
+  </fieldset>
+
+  <fieldset>
+    <legend>Versionshistorik</legend>
+    <button id="btn-visa-historik">Visa historik</button>
+    <label>Återställ index <input type="text" id="in-snapshot" value="0" size="3"></label>
+    <button id="btn-aterstall">Återställ version</button>
+  </fieldset>
+
+  <fieldset>
+    <legend>Arkiv (borttagna frågor)</legend>
+    <label>Aktuella ID:n (komma) <input type="text" id="in-aktuella" value="a1-f2,a1-f3"></label>
+    <button id="btn-arkiv">Visa arkiv</button>
+  </fieldset>
+
+  <fieldset>
+    <legend>Flik-synk</legend>
+    <button id="btn-synk">Starta flik-synk (lyssna)</button>
+    <span class="status" id="synk-status"></span>
+  </fieldset>
+
+  <h2>Utdata</h2>
+  <pre id="ut">(inget än)</pre>
+
+  <script src="elevbok.js"></script>
+  <script>
+    var ut = document.getElementById('ut');
+    function skriv(etikett, data) {
+      ut.textContent = etikett + '\n' + JSON.stringify(data, null, 2);
+    }
+    function v(id) { return document.getElementById(id).value; }
+
+    document.getElementById('btn-spara-identitet').onclick = function () {
+      Elevbok.sparaIdentitet(v('in-klass'), v('in-namn'));
+      skriv('Identitet sparad.', Elevbok.hamtaIdentitet());
+    };
+    document.getElementById('btn-visa-identitet').onclick = function () {
+      skriv('hamtaIdentitet()', Elevbok.hamtaIdentitet());
+    };
+    document.getElementById('btn-har-identitet').onclick = function () {
+      skriv('harIdentitet()', Elevbok.harIdentitet());
+    };
+
+    document.getElementById('btn-spara-svar').onclick = function () {
+      Elevbok.sparaSvar(v('in-delkapitel'), v('in-fraga'), v('in-svar'));
+      skriv('Svar sparat.', Elevbok.hamtaSvar(v('in-delkapitel'), v('in-fraga')));
+    };
+    document.getElementById('btn-hamta-svar').onclick = function () {
+      skriv('hamtaSvar()', Elevbok.hamtaSvar(v('in-delkapitel'), v('in-fraga')));
+    };
+    document.getElementById('btn-alla-svar').onclick = function () {
+      skriv('hamtaAllaSvar()', Elevbok.hamtaAllaSvar(v('in-delkapitel')));
+    };
+    document.getElementById('btn-alla-allt').onclick = function () {
+      skriv('hamtaAllaSvarAllaDelkapitel()', Elevbok.hamtaAllaSvarAllaDelkapitel());
+    };
+
+    document.getElementById('btn-visa-historik').onclick = function () {
+      skriv('hamtaHistorik()', Elevbok.hamtaHistorik(v('in-delkapitel'), v('in-fraga')));
+    };
+    document.getElementById('btn-aterstall').onclick = function () {
+      Elevbok.aterstallVersion(v('in-delkapitel'), v('in-fraga'), parseInt(v('in-snapshot'), 10));
+      skriv('Återställt. Aktuellt svar:', Elevbok.hamtaSvar(v('in-delkapitel'), v('in-fraga')));
+    };
+
+    document.getElementById('btn-arkiv').onclick = function () {
+      var aktuella = v('in-aktuella').split(',').map(function (s) { return s.trim(); });
+      skriv('hamtaArkiv()', Elevbok.hamtaArkiv(v('in-delkapitel'), aktuella));
+    };
+
+    document.getElementById('btn-synk').onclick = function () {
+      Elevbok.startaFlikSynk(function (nyckel, nyttVarde) {
+        document.getElementById('synk-status').textContent =
+          'Ändring i annan flik: ' + nyckel;
+        skriv('Flik-synk fångade ändring i: ' + nyckel, nyttVarde);
+      });
+      document.getElementById('synk-status').textContent = 'Lyssnar ...';
+    };
+
+    // Autospara-demo (delkapitel "test", fråga "auto-demo")
+    Elevbok.skapaAutospara(
+      document.getElementById('in-auto'),
+      'test', 'auto-demo',
+      document.getElementById('auto-status')
+    );
+  </script>
+</body>
+</html>

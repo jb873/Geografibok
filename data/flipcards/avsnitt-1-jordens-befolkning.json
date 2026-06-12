@@ -1,0 +1,198 @@
+{
+  "avsnitt": 1,
+  "titel": "Jordens befolkning",
+  "delkapitel": "demografi",
+  "version": "1.0",
+  "kort_totalt": 25,
+
+  "begreppskort": [
+    {
+      "id": "k1-b1",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad betyder BEFOLKNING?",
+      "svar": "Det totala antalet människor som bor i ett område — en stad, ett land eller hela världen."
+    },
+    {
+      "id": "k1-b2",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är BEFOLKNINGSTÄTHET?",
+      "svar": "Hur många människor som bor per kvadratkilometer. Räknas: invånare ÷ landyta i km²."
+    },
+    {
+      "id": "k1-b3",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är TÄTBYGD?",
+      "svar": "Ett område där det bor många människor per kvadratkilometer. Ofta städer och bördiga jordbruksområden."
+    },
+    {
+      "id": "k1-b4",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är GLESBYGD?",
+      "svar": "Ett område där det bor få människor per kvadratkilometer. Ofta öken, fjäll, regnskog eller polära områden."
+    },
+    {
+      "id": "k1-b5",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är DEMOGRAFI?",
+      "svar": "Läran om befolkningar — hur många människor som finns, var de bor, hur befolkningen förändras över tid."
+    },
+    {
+      "id": "k1-b6",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett TÄTBYGDSBÄLTE?",
+      "svar": "Stora områden där människor har samlat sig genom historien — ofta vid floder eller längs kuster där förutsättningarna varit goda."
+    },
+    {
+      "id": "k1-b7",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Ungefär hur många människor finns på jorden idag (2024)?",
+      "svar": "Omkring 8 miljarder människor."
+    },
+    {
+      "id": "k1-b8",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilken är världens folkrikaste stat?",
+      "svar": "Indien (~1,45 miljarder), strax före Kina (~1,41 miljarder). Indien gick förbi Kina 2023."
+    },
+    {
+      "id": "k1-b9",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilken kontinent har flest invånare?",
+      "svar": "Asien — över 4,7 miljarder människor, alltså cirka 60% av världens befolkning."
+    },
+    {
+      "id": "k1-b10",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Ungefär hur stor är Sveriges befolkningstäthet?",
+      "svar": "Ungefär 25 invånare per km² — mycket lågt jämfört med exempelvis Bangladesh (1100/km²)."
+    },
+    {
+      "id": "k1-b11",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vilka är världens fem mest tätbefolkade länder (efter befolkningstäthet)?",
+      "svar": "Bangladesh, Sydkorea, Nederländerna, Indien, Filippinerna. (Småstater som Monaco och Singapore har högre täthet men räknas ofta inte med eftersom de bara består av en stad.)"
+    },
+    {
+      "id": "k1-b12",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Hur snabbt växer världens befolkning idag?",
+      "svar": "Med cirka 70 miljoner människor per år (2024). Tillväxttakten har sjunkit kraftigt sedan 1980-talets topp och fortsätter minska."
+    }
+  ],
+
+  "modellkort": [
+    {
+      "id": "k1-m1",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är en världskarta över befolkning. Du ser att Asien är extremt tätbefolkat medan Sibirien och Sahara är glesbefolkade. Vad förklarar detta mönster?",
+      "bild": "varldskarta-befolkning.webp",
+      "bild_alt": "Världskarta som visar befolkningsfördelning — Asien tätt, polära områden och öknar glesa",
+      "svar": "Människor samlas där förutsättningarna är goda: bördig jord, vatten, lagom klimat. Asien har många floddalar (Ganges, Yangtze) och bördiga jordbruksområden. Sibirien är för kallt, Sahara för torr. Mönstret visar att naturen sätter ramarna för var människor kan bo."
+    },
+    {
+      "id": "k1-m2",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Är ett område med 1 miljon invånare automatiskt en tätbygd? Förklara.",
+      "svar": "Nej. Befolkningstäthet handlar om antal per kvadratkilometer, inte totalantal. En miljon människor utspridda över ett stort land (som Australien) ger glesbygd. Samma miljon i en liten stadsmiljö ger extrem tätbygd. Tänk så här: det är fördelningen som räknas, inte antalet."
+    },
+    {
+      "id": "k1-m3",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Indien har 1,45 miljarder invånare. Kanada har 40 miljoner. Vad säger detta om hur jordens befolkning är fördelad?",
+      "svar": "Att fördelningen är extremt ojämn. Indien är cirka 35 gånger folkrikare än Kanada, men Indien är ungefär en tredjedel så stort som Kanada till ytan. Det innebär att befolkningstätheten skiljer sig dramatiskt — det handlar inte bara om var människor bor, utan HUR tätt."
+    },
+    {
+      "id": "k1-m4",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Sverige har en befolkningstäthet på cirka 25 inv/km². Bangladesh har över 1100. Vad innebär detta praktiskt?",
+      "svar": "I Bangladesh bor det cirka 44 gånger fler människor per kvadratkilometer än i Sverige. Det betyder trängre städer, mindre mark per person, hårdare konkurrens om resurser som vatten och bostäder. Men det betyder också mer levande gator, fler sociala mötesplatser och ofta mer dynamisk ekonomi."
+    },
+    {
+      "id": "k1-m5",
+      "type": "modell",
+      "niva": "fordjupning",
+      "fraga": "Mellan 1800 och 2024 har världens befolkning ökat från cirka 1 miljard till 8 miljarder. Vad har orsakat denna dramatiska ökning?",
+      "svar": "Inte att fler barn föds — utan att färre dör. Industriella revolutionen gav bättre mat, sanitet, vaccin och sjukvård. Medellivslängden ökade från 30 till 73 år. Barnadödligheten föll från cirka 40% till under 4%. Människor lever helt enkelt mycket längre nu än förr."
+    },
+    {
+      "id": "k1-m6",
+      "type": "modell",
+      "niva": "fordjupning",
+      "fraga": "Trots att världens befolkning ökar — varför säger forskare att tillväxten saktar ner?",
+      "svar": "Eftersom kvinnor över hela världen får färre barn. Fertiliteten (antal barn per kvinna) har sjunkit från 5 till 2,3 sedan 1950. Många länder är redan under 2,1 (där befolkningen krymper). FN beräknar att världens befolkning toppar vid cirka 10 miljarder kring år 2080 — sedan börjar den minska."
+    }
+  ],
+
+  "redogorelsekort": [
+    {
+      "id": "k1-r1",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Beskriv hur jordens befolkning är fördelad och ge exempel på en tätbefolkad och en glesbefolkad region. Vad förklarar fördelningen?",
+      "ungefarlig_tid_min": 5,
+      "modellsvar": "Jordens befolkning är **extremt ojämnt fördelad**. Vissa områden är mycket tätbefolkade medan andra är nästan obebodda.\n\n**Tätbefolkade regioner:** Östra och södra Asien (Kina, Indien, Bangladesh, Japan) — här bor en stor del av världens 8 miljarder människor. Andra exempel är Västeuropa och östra USA.\n\n**Glesbefolkade regioner:** Sahara, Sibirien, Amazonas, Kanada, Australien, Grönland.\n\nFördelningen förklaras av **lokaliseringsfaktorer** — vad naturen tillåter. Människor samlas där det finns bördig jord, vatten, lagom klimat och bra transportleder. Floder som Ganges, Yangtze och Nilen har lockat befolkning i tusentals år. Polära områden, öknar och regnskog avskräcker.\n\nTill exempel bor över 4,7 miljarder människor i Asien, medan hela Oceanien har bara 45 miljoner — det visar tydligt att jordens befolkning samlas där förutsättningarna är goda.",
+      "stodlarare": {
+        "stodord": ["tätbygd", "glesbygd", "befolkningstäthet", "Asien", "Sibirien", "lokaliseringsfaktorer", "klimat", "vatten"],
+        "startfraser": [
+          "Jordens befolkning är extremt ojämnt fördelad eftersom...",
+          "Ett tydligt exempel på en tätbefolkad region är...",
+          "Skillnaden mellan tätbygd och glesbygd beror på..."
+        ],
+        "tip_for_struktur": "Börja med påståendet att fördelningen är ojämn. Ge ett tätt och ett glest exempel. Förklara sedan VARFÖR — vilka faktorer som styr."
+      }
+    },
+    {
+      "id": "k1-r2",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Förklara varför befolkningen är så ojämnt fördelad på jorden.",
+      "ungefarlig_tid_min": 5,
+      "modellsvar": "Befolkningen är ojämnt fördelad eftersom **människan är beroende av naturen**. Människor samlar sig där det finns goda förutsättningar att leva, och undviker områden där livet är svårt.\n\n**Klimatet** är en grundläggande faktor. Polära områden som Sibirien och Grönland är för kalla för jordbruk. Öknar som Sahara saknar vatten. Regnskogar är våta och sjukdomsfyllda. Människor söker sig till tempererade och tropiska områden där klimatet är hanterbart.\n\n**Vatten** är livsavgörande. Därför finns världens äldsta civilisationer vid floder — Nilen, Eufrat, Indus, Yangtze. Floder ger dricksvatten, bevattning och transportvägar.\n\n**Bördig jord** lockar bönder. Lössjord, slättland och floddalar har goda jordar som kan föda många människor. Steniga eller näringsfattiga jordar avskräcker.\n\n**Tillgång till transport och handel** spelar också roll. Kuster och floder är naturliga transportleder, vilket gör att städer ofta växer upp där.\n\nSlutligen byggs framgång på framgång — när människor börjat samla sig på en plats blir det attraktivt för fler. Därför är världens tätbygder ofta tusentals år gamla, medan de glesbefolkade områdena har förblivit glesa.",
+      "stodlarare": {
+        "stodord": ["klimat", "vatten", "bördig jord", "lokaliseringsfaktorer", "floder", "kuster"],
+        "startfraser": [
+          "Befolkningen är ojämnt fördelad eftersom människan är beroende av...",
+          "En av de viktigaste faktorerna är klimatet — till exempel...",
+          "Vatten är livsavgörande vilket förklarar varför..."
+        ],
+        "tip_for_struktur": "Räkna upp flera orsaker (klimat, vatten, jord, transport) och förklara hur var och en påverkar var människor bor."
+      }
+    },
+    {
+      "id": "k1-r3",
+      "type": "redogorelse",
+      "niva": "fordjupning",
+      "instruktion": "FÖRDJUPNING — Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Vad har gjort att världens befolkning vuxit så snabbt under de senaste 200 åren — och vad händer nu?",
+      "ungefarlig_tid_min": 10,
+      "modellsvar": "Världens befolkning har vuxit från cirka **1 miljard år 1800 till 8 miljarder år 2024**. Det är en av de mest dramatiska förändringarna i mänsklighetens historia. Och den beror inte på att fler barn föds — utan på att **färre människor dör**.\n\n**Före 1800:** Människor levde i genomsnitt 30 år. Barnadödligheten var enorm — kanske 40% av barnen dog före fem års ålder. Hungersnöd, pest och krig drog regelbundet ner befolkningen. Trots att kvinnor födde många barn (5-7 per kvinna) växte befolkningen knappt.\n\n**Vad förändrades under 1800- och 1900-talet:**\n- **Industriella revolutionen** gav mer mat, fler kalorier, bättre näring\n- **Sanitet** — rent vatten och avlopp förändrade städerna\n- **Vacciner** — smittkoppor utrotades, mässling och polio kontrollerades\n- **Antibiotika** kunde bota tidigare dödliga infektioner\n- **Bättre sjukvård** — fler födslar med läkare, fler liv räddade\n\nResultatet: medellivslängden steg från 30 till 73 år. Barnadödligheten föll från 40% till under 4%. Människor levde plötsligt mycket längre.\n\n**Vad händer nu:** Trots att vi är fler än någonsin **saktar tillväxten ner**. Anledningen är att kvinnor över hela världen får färre barn. Fertiliteten har fallit från 5 barn per kvinna år 1950 till 2,3 idag. Många länder är redan under 2,1 (där befolkningen krymper).\n\nFN beräknar att världens befolkning toppar vid cirka **10 miljarder kring år 2080** — sedan börjar den minska. För första gången i mänsklighetens moderna historia kommer befolkningen att gå nedåt.",
+      "stodlarare": {
+        "stodord": ["barnadödlighet", "medellivslängd", "sanitet", "vaccin", "fertilitet", "1800", "8 miljarder"],
+        "startfraser": [
+          "Världens befolkning har vuxit dramatiskt sedan 1800, men inte för att...",
+          "Det som verkligen förändrades var att färre människor dog, vilket beror på...",
+          "Trots att vi är så många nu saktar tillväxten in eftersom..."
+        ],
+        "tip_for_struktur": "Beskriv läget före 1800 (mycket dödlighet) → vad som förändrades (industri, medicin, sanitet) → vad som händer nu (fertilitet sjunker, tillväxten saktar in). Avsluta gärna med framtidsprognos."
+      }
+    }
+  ]
+}

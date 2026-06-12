@@ -1,0 +1,229 @@
+{
+  "avsnitt": 6,
+  "titel": "Befolkning och resurstillgång",
+  "delkapitel": "demografi",
+  "version": "1.0",
+  "kort_totalt": 28,
+
+  "begreppskort": [
+    {
+      "id": "k6-b1",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är FATTIGDOM?",
+      "svar": "När en människa saknar grundläggande resurser för ett värdigt liv — mat, bostad, vatten, sjukvård, utbildning. Mer än bara låg inkomst."
+    },
+    {
+      "id": "k6-b2",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är EXTREM FATTIGDOM?",
+      "svar": "Att leva på mindre än 3 dollar per dag (Världsbankens gräns, justerad köpkraft). Cirka 700 miljoner människor lever i extrem fattigdom 2024."
+    },
+    {
+      "id": "k6-b3",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är UNDERNÄRING?",
+      "svar": "Brist på tillräcklig och näringsrik mat — leder till svält, tillväxthämning hos barn, sjukdom. Cirka 800 miljoner människor lever i hunger globalt (2024)."
+    },
+    {
+      "id": "k6-b4",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är RELATIV FATTIGDOM?",
+      "svar": "Att vara fattig jämfört med samhället man lever i — kan inte delta på lika villkor. T.ex. att inte ha råd med vinterkläder, datorer eller fritidsaktiviteter i Sverige. Annorlunda än extrem fattigdom."
+    },
+    {
+      "id": "k6-b5",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är BNP?",
+      "svar": "Bruttonationalprodukt — det samlade värdet av allt som produceras i ett land under ett år. BNP per invånare ger ett mått på landets ekonomi men säger inget om hur jämnt välståndet är fördelat."
+    },
+    {
+      "id": "k6-b6",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är HDI?",
+      "svar": "Human Development Index — FN:s mått som väger samman tre faktorer: livslängd, utbildning och inkomst. Bredare än BNP. Värde 0-1. Norge: 0,97. Centralafrikanska republiken: 0,40."
+    },
+    {
+      "id": "k6-b7",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett HÖGINKOMSTLAND?",
+      "svar": "Land med hög inkomst per invånare och välutvecklad ekonomi. Sverige, Norge, USA, Tyskland, Japan, Australien. Världsbanken: BNI över ~$13 500/inv."
+    },
+    {
+      "id": "k6-b8",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett MEDELINKOMSTLAND?",
+      "svar": "Land i mellanskiktet — varken fattigt eller rikt. Kina, Brasilien, Indien, Mexiko, Sydafrika. Världens befolkning bor till stor del i medelinkomstländer."
+    },
+    {
+      "id": "k6-b9",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett LÅGINKOMSTLAND?",
+      "svar": "Land med låg inkomst, ofta beroende av jordbruk och råvaror. Etiopien, Madagaskar, Afghanistan, många länder i Afrika söder om Sahara."
+    },
+    {
+      "id": "k6-b10",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ÖVERBEFOLKNING?",
+      "svar": "När ett område har fler invånare än vad resurserna räcker till — brist på mat, vatten, arbete, bostäder, fungerande samhällsservice. Inte samma som tätbefolkat."
+    },
+    {
+      "id": "k6-b11",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är UNDERBEFOLKNING?",
+      "svar": "När ett område har för få invånare för att samhället ska fungera — service kan inte upprätthållas, ekonomin krymper. Sverige har underbefolkning i Norrlands inland."
+    },
+    {
+      "id": "k6-b12",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är EKOLOGISKT FOTAVTRYCK?",
+      "svar": "Mått på hur mycket av jordens resurser en människa eller ett land förbrukar — uttryckt i 'antal jordklot'. Världsgenomsnittet: 1,7 jordklot. USA: 5,1. Sverige: 4,2. Indien: 0,8."
+    },
+    {
+      "id": "k6-b13",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad är HÅLLBAR UTVECKLING?",
+      "svar": "Utveckling som tillgodoser dagens behov utan att äventyra framtida generationers möjligheter. Brundtlandkommissionens definition från 1987. Tre dimensioner: ekonomisk, social och miljömässig hållbarhet."
+    },
+    {
+      "id": "k6-b14",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad menas med 'KÖPKRAFTSJUSTERAD' inkomst?",
+      "svar": "Inkomst räknad om så att man kan jämföra länder rättvist. 3 dollar i Bangladesh köper mer än 3 dollar i Sverige. Köpkraftsjustering tar hänsyn till detta. Förkortas PPP (Purchasing Power Parity)."
+    },
+    {
+      "id": "k6-b15",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad är 'BRAIN DRAIN' (återigen relevant här)?",
+      "svar": "När utbildade människor lämnar låginkomstländer för bättre möjligheter i höginkomstländer. Skadar utflyttningslandet som förlorar viktig kompetens — en av globaliseringens dilemman."
+    }
+  ],
+
+  "modellkort": [
+    {
+      "id": "k6-m1",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är världens HDI-karta. Vilket geografiskt mönster ser du, och hur kan det förklaras?",
+      "bild": "hdi-varlden.webp",
+      "bild_alt": "Världskarta med HDI-värden i olika nyanser",
+      "svar": "Mönstret är tydligt:\n\n**Högsta HDI** — Västeuropa, Nordamerika, Australien, Nya Zeeland, Japan, Sydkorea, delar av Sydamerikas södra del\n\n**Lägsta HDI** — Centrala och västra Afrika, Afghanistan, Jemen, Haiti, Papua Nya Guinea\n\n**Förklaringar:**\n\n• **Historisk industrialisering** — länder som industrialiserades tidigt (Europa, Nordamerika, Japan) har haft längre tid att bygga välstånd\n• **Kolonialismens arv** — många av dagens fattigaste områden var kolonier som tjänade som råvaruleverantörer till de rika\n• **Geografiska faktorer** — sjukdomar (malaria), klimat, naturresurser\n• **Politisk stabilitet** — länder med fungerande institutioner utvecklas snabbare\n• **Investeringar i utbildning och hälsa** — Sydkorea är ett bra exempel på snabb utveckling genom skola och sjukvård\n\nMönstret är inte ödesbestämt — Kina, Sydkorea och flera andra länder har gått från fattigdom till välstånd på en generation."
+    },
+    {
+      "id": "k6-m2",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är världens extrema fattigdom 1990-2024. Vad har hänt och varför?",
+      "bild": "extrem-fattigdom-1990-2024.webp",
+      "bild_alt": "Linjegrafik som visar fallande extrem fattigdom från 38% till 8,5%",
+      "svar": "Andelen extremt fattiga har minskat från **38% (1990) till 8,5% (2024)** — en av mänsklighetens största framgångar.\n\n**Vad har drivit förändringen:**\n\n• **Kinas ekonomiska tillväxt** — 800 miljoner kineser har lämnat extrem fattigdom\n• **Indiens utveckling** — 270 miljoner har klivit ur extrem fattigdom\n• **Tillväxt i andra delar av Asien** — Bangladesh, Vietnam, Indonesien\n• **Bättre sjukvård och vaccinering**\n• **Globala mål** — FN:s millenniemål och hållbarhetsmål\n\n**Men det finns mörkare moln:**\n\n• **Subsahariska Afrika** — andelen har minskat MEN det absoluta antalet har ökat med 60 miljoner\n• **Covid-19** — första uppgången på 30 år (2020)\n• **Klimatkriser och krig** — hotar fortsatta framsteg\n\nFortfarande lever 700 miljoner i extrem fattigdom — människor som inte fått del av den globala framgången."
+    },
+    {
+      "id": "k6-m3",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Mänskligheten använder 1,7 jordklot. Vad betyder det egentligen och hur är belastningen fördelad?",
+      "bild": "ekologiskt-fotavtryck.webp",
+      "bild_alt": "Infografik om ekologiska fotavtryck — länders konsumtion",
+      "svar": "**1,7 jordklot** betyder att vi förbrukar naturens resurser 70% snabbare än jorden hinner återskapa dem. Vi 'lånar' från framtiden.\n\n**Fördelningen är extremt ojämn:**\n\n• **USA:** 5,1 jordklot — om alla levde som amerikaner skulle vi behöva 5 jordklot\n• **Sverige:** 4,2 — också långt över hållbar nivå\n• **Tyskland:** 3,1\n• **Kina:** 2,4\n• **Brasilien:** 1,8\n• **Indien:** 0,8 — under den hållbara gränsen\n• **Etiopien:** 0,5 — bland de lägsta\n\n**Vad detta betyder:**\n\nProblemet är **inte främst antalet människor** — det är **hur mycket varje människa konsumerar**. En genomsnittlig svensk konsumerar 8 gånger mer än en genomsnittlig etiopier.\n\nDet skapar ett etiskt dilemma: människor i låginkomstländer vill (med rätta) leva som vi i västvärlden. Men om alla 8 miljarder skulle göra det skulle vi behöva flera jordklot.\n\n**Lösningen** måste ligga i att vi i de rika länderna minskar vår konsumtion, samtidigt som låginkomstländer får utvecklas inom hållbara ramar. Detta är 2000-talets stora utmaning."
+    },
+    {
+      "id": "k6-m4",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är 'världens framsteg 1990-2024'. Vad har förbättrats — och vad har inte?",
+      "bild": "varldens-framsteg-1990-2024.webp",
+      "bild_alt": "Infografik som visar framsteg sedan 1990 — fattigdom, barnadödlighet, läs- och skrivkunnighet, vaccinationer",
+      "svar": "**Stora framsteg:**\n\n• **Extrem fattigdom:** 38% → 8,5%\n• **Barnadödlighet:** 93/1000 → 36/1000\n• **Läs- och skrivkunnighet:** 76% → 87%\n• **Vaccinationer:** 75% → 84%\n\nDetta är historiska framgångar — miljarder människors liv har förbättrats radikalt på 30 år.\n\n**Vad har INTE förbättrats:**\n\n• **Klimatkrisen** har förvärrats kraftigt\n• **Ekonomisk ojämlikhet** har ökat inom många länder\n• **Demokratisk tillbakagång** i flera regioner (Ryssland, Turkiet, delar av Afrika)\n• **Hungern** har börjat öka igen efter 2015 (krig, klimat, covid)\n• **Subsahariska Afrika** har stora utmaningar trots vissa framsteg\n\n**Slutsats:** Den globala bilden är **både hoppfull och allvarlig**. Det är fel att säga 'allt är dåligt' (massor har blivit bättre). Men det är också fel att säga 'allt är bra' (klimat och konflikt är stora hot). Verkligheten är komplex — Hans Roslings stora poäng."
+    },
+    {
+      "id": "k6-m5",
+      "type": "modell",
+      "niva": "fordjupning",
+      "fraga": "Här är världens regioners bidrag till fattigdomsminskning sedan 1990. Vem driver utvecklingen?",
+      "bild": "vem-driver-utvecklingen.webp",
+      "bild_alt": "Stapeldiagram över olika regioners bidrag till fattigdomsminskning",
+      "svar": "**Två länder dominerar fullständigt:**\n\n• **Kina:** 800 miljoner har lämnat extrem fattigdom\n• **Indien:** 270 miljoner har lämnat extrem fattigdom\n\nTillsammans står de för cirka 70% av världens fattigdomsminskning.\n\n**Övriga Asien:** 150 miljoner — Vietnam, Indonesien, Bangladesh, Thailand\n\n**Latinamerika:** 40 miljoner — Brasilien, Mexiko\n\n**Subsahariska Afrika:** Andelen har minskat MEN det absoluta antalet har ökat med 60 miljoner. Befolkningen växte snabbare än fattigdomen minskade.\n\n**Vad detta betyder:**\n\nGlobala framsteg är till stor del **Östasiens framgångshistoria**. Kinas och Indiens ekonomiska transformation har varit historiens snabbaste fattigdomsminskning.\n\nAfrika söder om Sahara står inför särskilda utmaningar: snabb befolkningstillväxt, klimatkriser, svaga institutioner i många länder, kolonialismens efterverkningar. Det är där 2000-talets utvecklingsutmaning ligger."
+    },
+    {
+      "id": "k6-m6",
+      "type": "modell",
+      "niva": "fordjupning",
+      "fraga": "Här är Roslings 'okunnighet-test'. Varför tror så många människor att världen är värre än den faktiskt är?",
+      "bild": "roslings-okunnighet.webp",
+      "bild_alt": "Visualisering av Hans Roslings okunnighetstest",
+      "svar": "Hans Rosling visade i sina studier att även välutbildade människor i västvärlden **regelmässigt underskattar världens framsteg**. När folk tillfrågas:\n\n• 'Hur många procent av världens flickor går i skola?' — folk tror 30-50%. **Sanningen:** 90%.\n• 'Vad är medellivslängden?' — folk tror 50-60 år. **Sanningen:** 73 år.\n• 'Hur många lever i extrem fattigdom?' — folk tror 40-50%. **Sanningen:** 8,5%.\n\n**Varför är vi så okunniga?**\n\n• **Mediekonsumtion:** Nyheter fokuserar på dramatiska problem och katastrofer. Långsam framgång rapporteras sällan.\n\n• **Gammal information:** Vi lärde oss i skolan om en värld som var sann då (1980-tal) men inte längre är det. Vår världsbild uppdateras inte med data.\n\n• **'Vi mot dem'-tänkande:** Vi delar upp världen i 'utvecklade' och 'utvecklingsländer'. Verkligheten är ett kontinuum.\n\n• **Klimat- och pessimismbubblor:** Sociala medier förstärker negativa budskap. Det är 'modernt' att vara pessimistisk.\n\n**Roslings poäng:**\n\nVärlden är inte bara 'bra'. Den är inte heller bara 'dålig'. Den är **bättre än vi tror MEN långt ifrån bra**. Båda dessa sanningar måste hållas samtidigt — det är vad Rosling kallade 'faktafullt' tänkande."
+    }
+  ],
+
+  "redogorelsekort": [
+    {
+      "id": "k6-r1",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Förklara skillnaden mellan extrem fattigdom, undernäring och relativ fattigdom. Använd exempel.",
+      "ungefarlig_tid_min": 7,
+      "modellsvar": "Fattigdom är inte ett enhetligt begrepp — det finns olika typer som måste hållas isär.\n\n**Extrem fattigdom** är den allvarligaste formen. Världsbankens gräns är att leva på **mindre än 3 dollar per dag** (köpkraftsjusterat). Det innebär att man knappt kan köpa mat, ofta inte har säker bostad, ingen tillgång till sjukvård eller utbildning.\n\n*Exempel:* En bonde i Madagaskar som odlar sin egen mat men har nästan inga kontanter. Eller en barnafamilj i Centralafrikanska republiken där föräldrarna inte kan ge barnen tre måltider om dagen.\n\nGlobalt lever cirka **700 miljoner människor** i extrem fattigdom (2024). Andelen har sjunkit från 38% (1990) till 8,5% — en stor framgång.\n\n**Undernäring** handlar om mat. När människor inte får tillräckligt med näringsrik mat blir de undernärda. Barn växer inte normalt, immunförsvaret försvagas, människor blir sjuka.\n\n*Exempel:* Ett barn i Jemen som lever i krigszon och inte får tillräcklig mat. Eller en familj i Etiopien efter flera år av torka.\n\nGlobalt lider cirka **800 miljoner människor av hunger** (2024). Antalet har ökat sedan 2015 — främst på grund av krig och klimat.\n\n**Relativ fattigdom** är fattigdom **jämfört med samhället man lever i**. Man kanske inte svälter, men kan inte delta på lika villkor som andra.\n\n*Exempel:* En familj i Sverige som inte har råd med dator till skolarbete, eller barnaktiviteter, eller en semester. De svälter inte, men är fattiga relativt sett.\n\nI Sverige lever cirka **20% av barnen i relativ fattigdom** enligt vissa mått. Det är inte samma allvarsgrad som extrem fattigdom, men det skapar utanförskap och försvårar barns möjligheter.\n\n**Skillnaden är viktig:** Lösningarna är olika. Extrem fattigdom kräver direkt hjälp med mat och basresurser. Relativ fattigdom kräver social politik — bidrag, fri utbildning, fri sjukvård, billig bostadssektor.",
+      "stodlarare": {
+        "stodord": ["extrem fattigdom", "undernäring", "relativ fattigdom", "Världsbanken", "Sverige", "Etiopien"],
+        "startfraser": [
+          "Fattigdom är inte ett enhetligt begrepp utan delas in i flera typer:",
+          "Extrem fattigdom är den allvarligaste formen och innebär...",
+          "Relativ fattigdom är fattigdom jämfört med samhället man lever i, till exempel..."
+        ],
+        "tip_for_struktur": "Definiera de tre typerna med tydliga gränser. Ge konkreta exempel för var och en. Avsluta med poängen att de kräver olika lösningar."
+      }
+    },
+    {
+      "id": "k6-r2",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Beskriv det ekologiska fotavtrycket — vad mäter det och vad säger det oss?",
+      "ungefarlig_tid_min": 7,
+      "modellsvar": "**Ekologiskt fotavtryck** är ett mått som visar hur mycket av jordens resurser en människa, ett land eller hela mänskligheten förbrukar. Det mäts i 'antal jordklot' — hur många jordar skulle behövas om alla levde som du.\n\n**Vad räknas med:**\n\n• **Mat** — odling, kött, fisk\n• **Bostad** — byggmaterial, energi för uppvärmning\n• **Transport** — bil, flyg, kollektivtrafik\n• **Konsumtion** — kläder, elektronik, möbler\n• **Avfall** — sopor, koldioxidutsläpp\n• **Mark** — det utrymme som krävs för att producera allt detta\n\n**Mänskligheten globalt använder 1,7 jordklot** — vi konsumerar resurser 70% snabbare än jorden hinner återskapa dem.\n\n**Men belastningen är extremt ojämn:**\n\n• **USA:** 5,1 jordklot\n• **Sverige:** 4,2 jordklot\n• **Tyskland:** 3,1\n• **Kina:** 2,4\n• **Brasilien:** 1,8\n• **Indien:** 0,8\n• **Etiopien:** 0,5\n\nEn genomsnittlig svensk använder cirka **8 gånger mer resurser** än en genomsnittlig etiopier.\n\n**Vad detta säger oss:**\n\n1. **Problemet är inte främst antalet människor** — det är hur mycket varje människa konsumerar. Indier och etiopier är inte 'för många' — det är västvärlden som konsumerar för mycket.\n\n2. **Det moraliska dilemmat:** Människor i låginkomstländer vill (med rätta) leva som vi gör. Men om alla 8 miljarder skulle göra det skulle vi behöva flera jordar.\n\n3. **Hållbarhetsutmaningen:** Vi behöver minska vår konsumtion i västvärlden och samtidigt låta utvecklingsländer få välstånd — inom planetära gränser.\n\nEkologiskt fotavtryck visualiserar varför **dagens utveckling inte är hållbar** — och varför det är en fråga om rättvisa, inte bara miljö.",
+      "stodlarare": {
+        "stodord": ["ekologiskt fotavtryck", "1,7 jordklot", "USA", "Sverige", "Indien", "konsumtion", "hållbar utveckling"],
+        "startfraser": [
+          "Ekologiskt fotavtryck är ett mått som visar...",
+          "Mänskligheten globalt använder 1,7 jordklot, vilket betyder att...",
+          "Belastningen är extremt ojämn mellan länder, till exempel..."
+        ],
+        "tip_for_struktur": "Definiera begreppet. Förklara vad som räknas med. Visa globala genomsnittet (1,7). Jämför mellan länder. Avsluta med vad det betyder för hållbarhet och rättvisa."
+      }
+    },
+    {
+      "id": "k6-r3",
+      "type": "redogorelse",
+      "niva": "fordjupning",
+      "instruktion": "FÖRDJUPNING — Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Diskutera frågan: Hur kan alla människor få ett bättre liv utan att jordens resurser förstörs?",
+      "ungefarlig_tid_min": 15,
+      "modellsvar": "Detta är 2000-talets största fråga — kanske mänsklighetens viktigaste utmaning. Den kräver att två motstridiga mål uppfylls samtidigt: **fortsatt utveckling** för de fattiga OCH **minskat tryck på planeten**.\n\n**Utmaningens storlek:**\n\nIdag använder mänskligheten 1,7 jordklots resurser per år. Om alla 8 miljarder skulle leva som genomsnittssvensken skulle vi behöva 4 jordklot. Som amerikaner: 5 jordklot. Detta är **matematiskt omöjligt** — vi har bara en jord.\n\nSamtidigt har 700 miljoner människor inte tillräckligt att äta. 800 miljoner lever i hunger. Vi kan inte be dem nöja sig med fattigdom 'för planetens skull' — det vore moraliskt oförsvarligt.\n\n**Den dubbla utmaningen kräver alltså:**\n• Att låginkomstländer får utvecklas\n• Att höginkomstländer minskar sin konsumtion drastiskt\n\n**Möjliga vägar framåt:**\n\n**1. Förnybar energi och teknik**\nSolcells- och vindkraft blir snabbt billigare. Elbilar ersätter bensinbilar. Värmepumpar ersätter olja. Tekniska genombrott kan minska vårt fotavtryck utan att vi behöver leva sämre.\n\n**2. Cirkulär ekonomi**\nIstället för 'producera-använda-slänga' — återanvändning, reparation, materialåtervinning. Sverige har kommit långt med pant och återvinning, men det räcker inte. Vi behöver mer.\n\n**3. Beteendeförändring i västvärlden**\n• Mindre kött (köttproduktion är resurskrävande)\n• Mindre flyg (största koldioxidkällan per person)\n• Mer kollektivtrafik\n• Mindre nya prylar, mer reparation\n• Mindre fast fashion\n\nDetta är svårt — folk vill inte 'leva sämre'. Men måste ses som **bättre liv på annat sätt**: mer tid, mindre stress, mer närnatur.\n\n**4. Utbildning och kvinnors rättigheter**\nNär flickor får gå i skola sjunker fertiliteten. Befolkningstillväxten saktar in. Detta är inte tvång — det är frivilligt val. Och det minskar trycket på planeten.\n\n**5. Politiska och internationella åtgärder**\n• Klimatavtal (Parisavtalet)\n• Koldioxidskatter\n• FN:s hållbarhetsmål\n• Bistånd och samarbete\n\n**6. Etisk omfördelning**\nRika länder konsumerar för mycket. Vi behöver kanske acceptera lägre tillväxt — eller annorlunda sorts tillväxt (välmående istället för konsumtion). Bhutans 'Gross National Happiness' är ett radikalt alternativ.\n\n**Realismens dimension:**\n\nSvaren är inte enkla. Politik, ekonomi och kultur sätter gränser för förändring. Klimatkrisen accelererar. Många regeringar prioriterar fortfarande kortsiktig tillväxt.\n\nMen optimismens dimension finns också. På 30 år har miljarder människor lämnat extrem fattigdom. Tekniken utvecklas snabbt. Unga generationer ifrågasätter konsumtionssamhället. Det finns hopp.\n\n**Den stora insikten:**\n\nFrågan är inte 'kan vi rädda planeten' — den är **'kan vi förändra vårt sätt att leva snabbt nog'**. Tiden är knapp. Klimatkrisen kommer förvärras de närmaste decennierna. Men mänskligheten har genomfört enorma omställningar förr — industriella revolutionen, demokratiseringen, kvinnors rättigheter.\n\nVi kan klara det. Men det kräver politiskt mod, individuella val och en grundläggande omtanke av vad ett gott liv är. Inte mer prylar, utan mer mening. Det är den verkliga utmaningen.",
+      "stodlarare": {
+        "stodord": ["hållbar utveckling", "ekologiskt fotavtryck", "förnybar energi", "cirkulär ekonomi", "klimatkrisen", "kvinnors utbildning"],
+        "startfraser": [
+          "Detta är 2000-talets största fråga eftersom...",
+          "Utmaningens storlek är enorm: om alla skulle leva som...",
+          "Möjliga vägar framåt inkluderar..."
+        ],
+        "tip_for_struktur": "Beskriv utmaningens storlek (mattematiken). Räkna upp möjliga vägar framåt (teknik, beteende, politik). Avsluta med realism + hopp. Detta är en stor fråga som förtjänar ett rikt svar."
+      }
+    }
+  ]
+}

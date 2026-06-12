@@ -1,0 +1,512 @@
+/* ============================================================
+   Flipcards – Öva-fliken. Vintageatlas-design, mobile-first.
+   Tre korttyper: begrepp (land/mossgrön), modell (ink/marinblå),
+   redogörelse (blood/blodröd). Inga LLM-anrop.
+   ============================================================ */
+
+.flipcards {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ---------- Startskärm: plugga-lägen ---------- */
+.flip-start-rubrik {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  margin: 0 0 1rem;
+}
+
+.flip-lage {
+  display: block;
+  border: 1px solid rgba(27, 42, 54, 0.18);
+  border-left: 3px solid var(--brass);
+  border-radius: 4px;
+  background-color: var(--paper-light);
+  padding: 0.85rem 1rem;
+  margin-bottom: 0.7rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.flip-lage:hover { background-color: #faf4e4; }
+.flip-lage.vald { border-color: var(--ocean); background-color: #faf4e4; }
+
+/* Nivåfärger på startsidans val (vänsterkant) – matchar textnivåerna */
+.flip-lage.lage-niva1 { border-left-color: var(--land); }
+.flip-lage.lage-niva2 { border-left-color: var(--ocean); }
+.flip-lage.lage-niva3 { border-left-color: var(--blood); }
+
+.flip-lage input { margin-right: 0.5rem; }
+
+.flip-lage-titel {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+}
+.flip-lage-beskr {
+  display: block;
+  margin-top: 0.2rem;
+  margin-left: 1.6rem;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.flip-anpassa {
+  margin: 0.4rem 0 0.8rem 1.6rem;
+  padding: 0.6rem 0.8rem;
+  border-left: 2px dashed rgba(27, 42, 54, 0.2);
+}
+.flip-anpassa.dold { display: none; }
+.flip-anpassa fieldset { border: none; margin: 0 0 0.5rem; padding: 0; }
+.flip-anpassa legend {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  padding: 0;
+  margin-bottom: 0.3rem;
+}
+.flip-anpassa label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-right: 1rem;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  color: var(--ink);
+}
+
+.flip-borja-knapp,
+.flip-knapp {
+  min-height: 44px;
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  color: var(--paper);
+  background-color: var(--ocean);
+  border: 1px solid var(--ocean);
+  border-radius: 3px;
+  padding: 0.6rem 1.3rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+.flip-borja-knapp:hover,
+.flip-knapp:hover { background-color: #17485f; }
+
+.flip-knapp.sekundar {
+  color: var(--ink);
+  background-color: transparent;
+  border-color: rgba(27, 42, 54, 0.3);
+}
+.flip-knapp.sekundar:hover { background-color: var(--paper-light); }
+
+/* ---------- Sessionsheader: läge-väljare (dropdown) ---------- */
+.flip-session-header {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0.7rem;
+}
+.flip-lage-vald {
+  min-height: 40px;
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  background-color: var(--paper-light);
+  border: 1px solid var(--brass);
+  border-radius: 3px;
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+}
+.flip-lage-vald:hover { background-color: #faf4e4; }
+.flip-lage-vald .pil { margin-left: 0.4rem; color: var(--muted); }
+
+.flip-lage-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 40;
+  min-width: 240px;
+  background-color: var(--paper);
+  border: 1px solid var(--brass);
+  border-radius: 4px;
+  box-shadow: 0 4px 14px rgba(27, 42, 54, 0.18);
+  overflow: hidden;
+}
+.flip-lage-dropdown.dold { display: none; }
+.flip-lage-dropdown button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(27, 42, 54, 0.08);
+  padding: 0.7rem 0.9rem;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--ink);
+  cursor: pointer;
+}
+.flip-lage-dropdown button:last-child { border-bottom: none; }
+.flip-lage-dropdown button:hover { background-color: var(--paper-light); }
+.flip-lage-dropdown button.aktiv {
+  color: var(--ocean);
+  font-weight: 600;
+  background-color: #f3eccf;
+}
+
+/* Nivåfärger i dropdown + på header-knappen */
+.flip-lage-dropdown button[data-lage="niva1"] { color: var(--land); }
+.flip-lage-dropdown button[data-lage="niva2"] { color: var(--ocean); }
+.flip-lage-dropdown button[data-lage="niva3"] { color: var(--blood); }
+.flip-lage-vald.lage-niva1 { border-color: var(--land); }
+.flip-lage-vald.lage-niva2 { border-color: var(--ocean); }
+.flip-lage-vald.lage-niva3 { border-color: var(--blood); }
+
+/* ---------- Session: progress ---------- */
+.flip-progress {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.9rem;
+}
+.flip-progress-spar {
+  flex: 1;
+  height: 7px;
+  background-color: rgba(27, 42, 54, 0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.flip-progress-fyll {
+  height: 100%;
+  background-color: var(--brass);
+  width: 0;
+  transition: width 0.3s ease;
+}
+.flip-progress-text {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* ---------- Kortet + vändanimation ---------- */
+.flipcard {
+  perspective: 1200px;
+  margin-bottom: 1rem;
+}
+.flipcard-yta {
+  background-color: var(--paper-light);
+  border: 1px solid rgba(27, 42, 54, 0.2);
+  border-top: 4px solid var(--brass);
+  border-radius: 6px;
+  padding: 1.2rem 1.2rem 1.4rem;
+  min-height: 180px;
+  transition: transform 0.3s ease;
+  transform-style: preserve-3d;
+}
+.flipcard-yta.vand-ut { transform: rotateY(90deg); }
+
+/* Korttypsaccenter (toppram + etikett) */
+.flipcard-yta.typ-begrepp { border-top-color: var(--land); }
+.flipcard-yta.typ-modell { border-top-color: var(--ocean); }
+.flipcard-yta.typ-redogorelse { border-top-color: var(--blood); }
+
+.flip-etikett-rad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+.flip-etikett {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+}
+.typ-begrepp .flip-etikett { color: var(--land); }
+.typ-modell .flip-etikett { color: var(--ocean); }
+.typ-redogorelse .flip-etikett { color: var(--blood); }
+.flip-raknare {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.flip-fraga {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  line-height: 1.45;
+  color: var(--ink);
+  margin-bottom: 0.8rem;
+}
+.flipcard-yta.typ-redogorelse .flip-fraga { font-size: 1.2rem; }
+
+.flip-svar {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--ink);
+}
+.flip-svar p { margin: 0 0 0.6em; }
+.flip-svar ul { margin: 0.3em 0 0.6em; padding-left: 1.3em; }
+.flip-svar li { margin-bottom: 0.2em; }
+.flip-svar strong { color: var(--blood); }
+
+.flip-bild {
+  display: block;
+  max-width: 100%;
+  margin: 0.5rem auto;
+  border: 1px solid rgba(27, 42, 54, 0.3);
+  border-radius: 4px;
+  background-color: var(--paper);
+  cursor: zoom-in;
+}
+
+/* Redogörelsekort – textarea + stödlärarknapp */
+.flip-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 120px;
+  resize: vertical;
+  font-family: var(--font-body);
+  font-size: 1.02rem;
+  line-height: 1.5;
+  color: var(--ink);
+  background-color: var(--paper);
+  border: 1px solid rgba(27, 42, 54, 0.25);
+  border-radius: 4px;
+  padding: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+.flip-textarea:focus { outline: none; border-color: var(--brass); }
+
+.flip-hjalp-knapp {
+  display: inline-block;
+  min-height: 40px;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  color: var(--terra);
+  background: none;
+  border: 1px dashed rgba(176, 106, 58, 0.6);
+  border-radius: 3px;
+  padding: 0.4rem 0.8rem;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+}
+.flip-hjalp-knapp:hover { background-color: #faf1e6; }
+
+/* Baksida – ditt svar + modellsvar */
+.flip-svarspaneler { display: flex; flex-direction: column; gap: 0.8rem; }
+.flip-panel { border-radius: 4px; padding: 0.8rem 0.9rem; }
+.flip-panel-rubrik {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+.flip-panel.ditt-svar { background-color: #efe3c6; border: 1px solid rgba(176, 106, 58, 0.3); }
+.flip-panel.modellsvar { background-color: var(--paper); border: 1px solid rgba(27, 42, 54, 0.18); }
+.flip-panel .flip-svar { font-size: 1rem; }
+.flip-fraga-repris {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: var(--muted);
+  margin-bottom: 0.7rem;
+}
+
+/* Knapprad under kortet */
+.flip-knapprad {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+.flip-vand-knapp { flex: 1 1 auto; }
+
+/* Självskattning */
+.flip-skattning {
+  margin-top: 1rem;
+  padding-top: 0.8rem;
+  border-top: 1px dashed rgba(27, 42, 54, 0.2);
+}
+.flip-skattning-rubrik {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+.flip-skatt-knappar { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.flip-skatt {
+  flex: 1 1 30%;
+  min-height: 44px;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  border: 1px solid rgba(27, 42, 54, 0.25);
+  border-radius: 4px;
+  background-color: var(--paper);
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.flip-skatt:hover { background-color: var(--paper-light); }
+.flip-skatt.vald-ova { background-color: #f3e0d9; border-color: var(--terra); }
+.flip-skatt.vald-ok { background-color: #f3eccf; border-color: var(--brass); }
+.flip-skatt.vald-bra { background-color: #e4ecdd; border-color: var(--land); }
+
+/* Navigering */
+.flip-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-top: 0.8rem;
+}
+
+/* ---------- Interstitial + sammanfattning ---------- */
+.flip-interstitial,
+.flip-sammanfattning {
+  text-align: center;
+  background-color: var(--paper-light);
+  border: 1px solid rgba(27, 42, 54, 0.18);
+  border-radius: 6px;
+  padding: 1.6rem 1.2rem;
+}
+.flip-interstitial h3,
+.flip-sammanfattning h3 {
+  font-family: var(--font-heading);
+  color: var(--ink);
+  letter-spacing: 0.04em;
+  margin: 0 0 0.6rem;
+}
+.flip-sammanfattning ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.6rem 0 1rem;
+  font-family: var(--font-body);
+  color: var(--ink);
+}
+.flip-sammanfattning li { margin: 0.2rem 0; }
+.flip-interstitial-knappar,
+.flip-sammanfattning-knappar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+.flipcards-fel {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: var(--muted);
+  text-align: center;
+  padding: 1.5rem;
+}
+
+/* ---------- Textbyggar-stödläraren (modal) ---------- */
+.txbygg-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1150;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.txbygg-overlay.dold { display: none; }
+.txbygg-panel {
+  background-color: var(--paper);
+  border: 1px solid var(--brass);
+  border-radius: 6px;
+  max-width: 460px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 1.2rem;
+}
+.txbygg-rubrik {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  margin: 0 0 0.8rem;
+}
+.txbygg-sektion { margin-bottom: 1rem; }
+.txbygg-sektion-rubrik {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.4rem;
+}
+.txbygg-chip,
+.txbygg-fras,
+.txbygg-konn {
+  display: inline-block;
+  margin: 0.2rem 0.3rem 0.2rem 0;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  border-radius: 3px;
+  padding: 0.35rem 0.6rem;
+  cursor: default;
+}
+.txbygg-chip {
+  background-color: var(--paper-light);
+  border: 1px solid rgba(94, 122, 62, 0.5);
+  color: var(--land);
+}
+.txbygg-fras,
+.txbygg-konn {
+  cursor: pointer;
+  background-color: var(--paper-light);
+  border: 1px solid rgba(184, 144, 42, 0.5);
+  color: var(--ink);
+  min-height: 36px;
+}
+.txbygg-fras { display: block; width: 100%; text-align: left; margin: 0.3rem 0; }
+.txbygg-fras:hover,
+.txbygg-konn:hover { background-color: #faf4e4; border-color: var(--brass); }
+
+.txbygg-tip {
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  font-style: italic;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.txbygg-konn-grupp { margin-bottom: 0.6rem; }
+.txbygg-konn-grupp.dold { display: none; }
+.txbygg-konn-kategori {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  color: var(--brass);
+  margin: 0.5rem 0 0.2rem;
+}
+.txbygg-knapprad {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+}
+
+/* ---------- Responsivt ---------- */
+@media (min-width: 769px) {
+  .flip-svarspaneler.tva { flex-direction: row; }
+  .flip-svarspaneler.tva .flip-panel { flex: 1 1 50%; }
+}
+@media (max-width: 600px) {
+  .flip-skatt { flex-basis: 100%; }
+  .flip-borja-knapp,
+  .flip-vand-knapp { width: 100%; }
+  .txbygg-panel { max-width: 100%; max-height: 100vh; border-radius: 0; }
+  .txbygg-overlay { padding: 0; align-items: stretch; }
+}

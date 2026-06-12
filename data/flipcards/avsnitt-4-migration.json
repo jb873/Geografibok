@@ -1,0 +1,257 @@
+{
+  "avsnitt": 4,
+  "titel": "Migration",
+  "delkapitel": "demografi",
+  "version": "1.0",
+  "kort_totalt": 32,
+
+  "begreppskort": [
+    {
+      "id": "k4-b1",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är MIGRATION?",
+      "svar": "När människor flyttar från en plats till en annan. Kan vara inom ett land (intern migration) eller mellan länder (internationell migration)."
+    },
+    {
+      "id": "k4-b2",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är EMIGRATION?",
+      "svar": "När en person flyttar UT från ett land. Sett från utflyttningslandets perspektiv. Personen kallas emigrant."
+    },
+    {
+      "id": "k4-b3",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är IMMIGRATION?",
+      "svar": "När en person flyttar IN till ett land. Sett från mottagarlandets perspektiv. Personen kallas immigrant."
+    },
+    {
+      "id": "k4-b4",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en PUSH-FAKTOR?",
+      "svar": "Något som driver bort människor från sitt hemområde — krig, fattigdom, torka, förtryck. Pushar bort."
+    },
+    {
+      "id": "k4-b5",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en PULL-FAKTOR?",
+      "svar": "Något som lockar människor till ett nytt område — jobb, säkerhet, utbildning, frihet, släktingar redan där. Drar dit."
+    },
+    {
+      "id": "k4-b6",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Nämn de fyra kategorierna av push/pull-faktorer.",
+      "svar": "1) Demografiska/sociala (befolkning, familj)\n2) Ekonomiska (jobb, fattigdom)\n3) Politiska (krig, förtryck, demokrati)\n4) Ekologiska (klimat, naturkatastrofer)"
+    },
+    {
+      "id": "k4-b7",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en FLYKTING?",
+      "svar": "En person som tvingas lämna sitt hemland på grund av förföljelse, krig eller våld. Har rätt till skydd enligt FN:s flyktingkonvention."
+    },
+    {
+      "id": "k4-b8",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ARBETSKRAFTSINVANDRING?",
+      "svar": "När människor flyttar till ett annat land för att arbeta. Frivillig migration driven av jobbmöjligheter."
+    },
+    {
+      "id": "k4-b9",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en KLIMATFLYKTING?",
+      "svar": "En person som tvingas flytta på grund av klimatförändringar eller naturkatastrofer — torka, översvämningar, stigande hav. Får oftast INTE skydd enligt flyktingkonventionen idag."
+    },
+    {
+      "id": "k4-b10",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är BRAIN DRAIN?",
+      "svar": "När välutbildade människor (läkare, ingenjörer, forskare) lämnar sitt hemland för bättre möjligheter utomlands. Skadar utflyttningslandet som förlorar viktig kompetens."
+    },
+    {
+      "id": "k4-b11",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är CIRKULÄR MIGRATION?",
+      "svar": "När människor flyttar fram och tillbaka mellan länder — arbetar utomlands periodvis, återvänder hem. Vanligt mellan EU-länder och från Filippinerna/Bangladesh till Gulfstaterna."
+    },
+    {
+      "id": "k4-b12",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är INTEGRATION?",
+      "svar": "Processen där nyanlända blir en del av samhället — lär sig språket, får jobb, deltar i samhällslivet. Tvåvägsprocess som kräver insats från både inflyttare och mottagarsamhälle."
+    },
+    {
+      "id": "k4-b13",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är SEGREGATION?",
+      "svar": "Motsatsen till integration. När olika grupper i samhället lever åtskilda från varandra — geografiskt, ekonomiskt, socialt. Skapar parallella samhällen."
+    },
+    {
+      "id": "k4-b14",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad är GENÈVEKONVENTIONEN?",
+      "svar": "FN:s flyktingkonvention från 1951 som definierar vem som är flykting och vilka rättigheter de har. Grunden för internationell flyktingrätt än idag."
+    },
+    {
+      "id": "k4-b15",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad är en ASYLSÖKANDE?",
+      "svar": "En person som sökt skydd som flykting men ännu inte fått sitt ärende prövat. När prövningen är klar kan personen antingen få flyktingstatus (stanna) eller avslag (utvisas)."
+    },
+    {
+      "id": "k4-b16",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad menas med REMITTANCES (pengaöverföringar)?",
+      "svar": "Pengar som invandrare skickar hem till familjen i ursprungslandet. Globalt sett över 800 miljarder dollar per år — flera gånger mer än allt bistånd. Viktig inkomstkälla för många länder."
+    }
+  ],
+
+  "modellkort": [
+    {
+      "id": "k4-m1",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är push/pull-modellen. En familj flyttar från Syrien till Tyskland 2015. Vilka push- och pullfaktorer är troligen verksamma?",
+      "bild": "push-pull-modell.webp",
+      "bild_alt": "Push/pull-modellen med pilar från hemland och mottagarland",
+      "svar": "**Push-faktorer (från Syrien):**\n• **Politiska:** Krig, förföljelse, förstörda städer\n• **Ekonomiska:** Kollapsad ekonomi, ingen försörjning\n• **Sociala:** Söndertrasade familjer, ingen framtid\n• **Ekologiska:** Förstörd infrastruktur, ofta vattenbrist\n\n**Pull-faktorer (till Tyskland):**\n• **Politiska:** Säkerhet, demokrati, rättssystem\n• **Ekonomiska:** Jobbmöjligheter, ekonomi i tillväxt\n• **Sociala:** Andra syrier finns redan där (nätverk), generös asylpolitik 2015\n• **Demografiska:** Tyskland behöver arbetskraft (åldrande befolkning)\n\nDetta är ett klassiskt fall där FLERA faktorer i alla fyra kategorier samverkar för att driva en stor migrationsström."
+    },
+    {
+      "id": "k4-m2",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "En läkare flyttar från Indien till USA för bättre lön. Vilken typ av migration är detta och vilken konsekvens får det för Indien?",
+      "svar": "Det är **brain drain** — kunskapsdränage.\n\nLäkaren är ett resultat av Indiens utbildningssystem. Indien har investerat resurser i hennes utbildning. När hon flyttar förlorar Indien:\n\n• En läkare som behövs där fattiga patienter saknar vård\n• Skatteintäkter från hennes framtida arbete\n• En förebild som kunde utbilda andra\n\nFör läkaren själv är det bra — högre lön, bättre arbetsförhållanden, säkerhet för familjen. För USA är det också bra — de får en utbildad arbetare gratis (utan att betala för utbildningen).\n\nFör Indien är det förlust. **Detta är en av globaliseringens svåra dilemman** — individens bästa kan vara samhällets förlust."
+    },
+    {
+      "id": "k4-m3",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är världens fem största migrationskorridorer. Vilket gemensamt mönster ser du?",
+      "bild": "migration-ursprungsregioner.webp",
+      "bild_alt": "Världskarta över migrationskorridorer",
+      "svar": "De fem stora korridorerna är:\n• Mexiko → USA (~11 milj)\n• Mellanöstern → Europa (~8 milj)\n• Sydostasien → Gulfstaterna (~12 milj)\n• Subsahariska Afrika → Europa (~5 milj)\n• Ukraina → Västeuropa (~6 milj)\n\n**Gemensamt mönster:** Människor rör sig från fattigare/farligare områden TILL rikare/säkrare. Korridorerna går nästan alltid från:\n\n• Globala syd → Globala nord\n• Konfliktområden → Fred\n• Låga inkomster → Höga inkomster\n• Mindre demokrati → Mer demokrati\n\nDetta är push/pull-modellen i geografisk skala. Migration är inte slumpmässig — den följer **strukturella skillnader** i världen."
+    },
+    {
+      "id": "k4-m4",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Vad är skillnaden mellan en arbetskraftsinvandrare och en flykting? Ge exempel.",
+      "svar": "**Arbetskraftsinvandrare** flyttar **frivilligt** för att arbeta. Söker bättre möjligheter — högre lön, karriär, sparande för familjen hemma.\n\n*Exempel:* En polsk svetsare som flyttar till Sverige för att arbeta. Han kunde stanna i Polen men väljer Sverige för bättre lön.\n\n**Flykting** flyttar **tvångsvis** på grund av förföljelse, krig eller våld. Kan inte stanna kvar utan risk för liv eller frihet.\n\n*Exempel:* En syrisk familj som flyr undan inbördeskriget. De har inte valt att flytta — de TVINGADES.\n\n**Avgörande skillnad:** Flyktingar har särskilda rättigheter enligt FN:s flyktingkonvention. Arbetskraftsinvandrare följer vanliga immigrationsregler. Båda är legitima former av migration men hanteras olika juridiskt."
+    },
+    {
+      "id": "k4-m5",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är en bild av världens stora flyktingströmmar 2022. Vilket land tar emot flest flyktingar i världen?",
+      "bild": "flyktingsiffror-2022.webp",
+      "bild_alt": "Världskarta över flyktingar och deras ursprungsländer 2022",
+      "svar": "**Turkiet** — med över 3,5 miljoner flyktingar, främst från Syrien. Andra länder som tar emot stort antal flyktingar är:\n\n• **Iran** (~3 miljoner, främst från Afghanistan)\n• **Tyskland** (~2,5 miljoner, från olika länder)\n• **Pakistan** (~1,5 miljoner, från Afghanistan)\n• **Uganda** (~1,5 miljoner, från Sydsudan, DR Kongo)\n\nEtt vanligt missförstånd är att Europa eller USA tar emot flest flyktingar. Sanningen är att **de flesta flyktingar stannar i grannländer** — fattiga länder med fattiga grannar tar oftast hand om sina egna. Det är inte främst rika länder som bär bördan."
+    },
+    {
+      "id": "k4-m6",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Sverige har en lång historia av både ut- och invandring. Hur har den utvecklats sedan 1800-talet?",
+      "bild": "sveriges-migrationshistoria.webp",
+      "bild_alt": "Sveriges migrationshistoria 1800 - idag",
+      "svar": "**1800-talets mitt – 1930:** Sverige var ett UTVANDRINGSLAND. Cirka 1,3 miljoner svenskar utvandrade, främst till USA, på grund av fattigdom och missväxt.\n\n**1930-1945:** Sverige förblev relativt stängt — låg invandring.\n\n**1945-1970:** Efterkrigsperioden — arbetskraftsinvandring från Finland, Jugoslavien, Italien, Grekland för att fylla industrin.\n\n**1970-talet:** Invandringen blir mer flyktingrelaterad — chilenska, polska, latinamerikanska flyktingar.\n\n**1990-talet:** Stora flyktingströmmar från Balkan (Bosnien, Kosovo).\n\n**2000-talet:** Globalt — irakier, afghaner, somalier, etc.\n\n**2015:** Stor flyktingmottagning, främst från Syrien.\n\n**Idag:** Begränsad migrationspolitik, främst Ukraina-flyktingar och arbetskraftsinvandring inom EU.\n\nMönstret visar att **migrationsströmmar förändras med tiden** — påverkade av krig, konjunktur och politik."
+    },
+    {
+      "id": "k4-m7",
+      "type": "modell",
+      "niva": "fordjupning",
+      "fraga": "Filippinerna har enorm utvandring av sjuksköterskor och hushållsarbetare till Gulfstaterna. Är detta bra eller dåligt för Filippinerna?",
+      "svar": "**Komplicerat — både och.**\n\n**Bra:**\n• **Remittances:** Filippinerna får över 35 miljarder dollar/år i pengaöverföringar. Stor del av BNP.\n• **Lägre arbetslöshet** hemma\n• **Internationell erfarenhet** för dem som återvänder\n\n**Dåligt:**\n• **Brain drain** — Filippinerna förlorar sjuksköterskor de själva behöver\n• **Splittrade familjer** — barn växer upp utan föräldrar\n• **Utnyttjande** — många arbetar under svåra förhållanden i Gulfen\n• **Beroende** — landet blir beroende av att exportera människor\n\nDetta är ett exempel på **utvecklingslandets dilemma**: kortsiktigt vinner ekonomin på remittances, men långsiktigt utarmas landet på arbetskraft. Filippinerna är cirkulär migration som en hel ekonomisk modell."
+    }
+  ],
+
+  "redogorelsekort": [
+    {
+      "id": "k4-r1",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Förklara push- och pullfaktorer och deras fyra kategorier. Använd exempel.",
+      "ungefarlig_tid_min": 8,
+      "modellsvar": "**Push- och pullfaktorer** är en modell för att förstå varför människor migrerar.\n\n**Push-faktorer** är de som driver bort en människa från sitt hemland — det som gör att man inte längre vill eller kan stanna.\n\n**Pull-faktorer** är de som lockar till ett nytt land — det som gör en plats attraktiv.\n\nDessa faktorer delas in i **fyra kategorier:**\n\n**1. Demografiska/sociala:**\nFamiljeband, befolkningstryck, sociala nätverk. Till exempel: en person flyttar till Sverige eftersom syskonen redan bor där (pull). Eller en person lämnar en överbefolkad by där det inte finns plats för fler (push).\n\n**2. Ekonomiska:**\nJobb, lön, fattigdom. Till exempel: människor lämnar Bangladesh för Gulfstaterna eftersom lönen är 10 gånger högre (pull). Eller flyr en ekonomisk kollaps i Venezuela (push).\n\n**3. Politiska:**\nKrig, förföljelse, demokrati. Till exempel: syrier flyr undan inbördeskriget (push) till Tyskland som erbjuder demokrati och säkerhet (pull). Eller någon förföljs på grund av sin religion och söker asyl.\n\n**4. Ekologiska:**\nKlimat, naturkatastrofer, miljöförstöring. Till exempel: Människor flyr torka i Sahel (push), eller flyttar från översvämmade öar (push). Klimatförändringarna gör denna kategori allt viktigare.\n\nDessa fyra kategorier **samverkar oftast**. En migrant kan ha flera skäl samtidigt — ekonomiska, politiska OCH familjeskäl. Modellen hjälper oss att förstå migration som något komplext, inte ett enkelt val.",
+      "stodlarare": {
+        "stodord": ["push-faktor", "pull-faktor", "demografiska", "ekonomiska", "politiska", "ekologiska", "Syrien", "Bangladesh"],
+        "startfraser": [
+          "Push- och pullfaktorer är en modell för att förstå...",
+          "Push-faktorer driver bort människor medan pull-faktorer lockar...",
+          "Faktorerna delas in i fyra kategorier:"
+        ],
+        "tip_for_struktur": "Definiera först push och pull. Gå sedan igenom de fyra kategorierna med konkreta exempel för varje. Avsluta med att faktorerna samverkar."
+      }
+    },
+    {
+      "id": "k4-r2",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Använd push/pull-modellen för att förklara en konkret migrationsström — välj t.ex. Syrien till Europa 2015.",
+      "ungefarlig_tid_min": 7,
+      "modellsvar": "Migrationsströmmen **Syrien till Europa 2015** är ett av 2000-talets mest dramatiska exempel på migration. Push/pull-modellen ger god förståelse för varför.\n\n**Push-faktorer (Syrien):**\n\n*Politiska:* Inbördeskrig sedan 2011. Förstörda städer (Aleppo, Homs). Förföljelse av civila. Risk att bli inkallad till militärtjänst eller dödad i bombningar.\n\n*Ekonomiska:* Total kollaps av ekonomin. Företag förstörda, jobben försvunna, valutan urholkad. Vanliga familjer kunde inte längre försörja sig.\n\n*Sociala:* Familjer söndertrasade. Skolor stängda. Sjukvården kraschad. Många unga såg ingen framtid alls.\n\n*Ekologiska:* En torka 2006-2010 hade redan tvingat hundratusentals bönder till städerna och bidragit till revoltens utbrott. Vattenresurser är förstörda.\n\n**Pull-faktorer (Europa, särskilt Tyskland):**\n\n*Politiska:* Säkerhet, demokrati, rättssystem. Tyskland förklarade 2015 att man skulle ta emot syriska flyktingar.\n\n*Ekonomiska:* Hög efterfrågan på arbetskraft i Tyskland. Stark ekonomi. Möjligheter för utbildade och oerfarna.\n\n*Sociala:* Många syrier hade redan släktingar i Tyskland och Sverige. Tankar om att 'det är möjligt att bygga ett nytt liv där'.\n\n*Demografiska:* Tyskland har en åldrande befolkning och behöver yngre människor.\n\n**Resultatet** blev att hundratusentals syrier tog sig till Europa, främst via Turkiet, Grekland och Balkan. Det var den största flyktingströmmen i Europa sedan andra världskriget.\n\nPush/pull-modellen visar att det inte var en enskild orsak — det var **flera faktorer i alla fyra kategorier** som tillsammans tvingade människor att lämna och drog dem till Europa.",
+      "stodlarare": {
+        "stodord": ["Syrien", "inbördeskrig", "Tyskland", "push-faktor", "pull-faktor", "demokrati", "säkerhet"],
+        "startfraser": [
+          "Migrationsströmmen från Syrien till Europa 2015 var dramatisk eftersom...",
+          "Push-faktorerna i Syrien var många:",
+          "Tyskland blev en attraktiv pull eftersom..."
+        ],
+        "tip_for_struktur": "Räkna upp push-faktorer i Syrien (i alla 4 kategorier). Räkna upp pull-faktorer i Europa/Tyskland. Avsluta med poängen att det är flera faktorer som samverkar."
+      }
+    },
+    {
+      "id": "k4-r3",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Förklara skillnaden mellan frivillig och påtvingad migration. Ge exempel.",
+      "ungefarlig_tid_min": 6,
+      "modellsvar": "Migration delas grovt i två typer beroende på i vilken grad människan VÄLJER att flytta.\n\n**Frivillig migration** innebär att personen aktivt väljer att flytta för bättre möjligheter. Hen kunde ha stannat men ser värde i att flytta.\n\n*Exempel:*\n- En polsk svetsare som flyttar till Sverige för högre lön\n- En läkare från Indien som söker jobb i USA\n- Filippinska sjuksköterskor som arbetar i Gulfstaterna\n- En svensk som flyttar till Spanien för bättre väder som pensionär\n\nFrivillig migration drivs främst av **pull-faktorer** — sådant som lockar.\n\n**Påtvingad migration** innebär att personen tvingas flytta. Att stanna kvar är inte ett rimligt val — det skulle innebära fara, fattigdom, eller död.\n\n*Exempel:*\n- Syrier som flyr inbördeskriget\n- Rohingya-folket som drevs från Myanmar\n- Klimatflyktingar från översvämmade öar (Tuvalu, Bangladesh)\n- Människor som flyr förföljelse på grund av religion eller sexualitet\n\nPåtvingad migration drivs främst av **push-faktorer** — sådant som tvingar bort.\n\n**Den juridiska skillnaden** är viktig: påtvingade migranter har rätt till skydd enligt FN:s flyktingkonvention (Genèvekonventionen 1951). Frivilliga migranter följer vanliga immigrationsregler.\n\n**Verkligheten är ofta gråskalig.** En person kan ha flera skäl samtidigt — både en kris att fly från OCH ett bättre liv att söka. Modellen är ett verktyg för att förstå, inte en exakt klassificering.",
+      "stodlarare": {
+        "stodord": ["frivillig migration", "påtvingad migration", "flykting", "Genèvekonventionen", "Syrien", "klimatflykting"],
+        "startfraser": [
+          "Migration delas grovt i två typer:",
+          "Frivillig migration innebär att personen aktivt väljer...",
+          "Påtvingad migration innebär att personen tvingas..."
+        ],
+        "tip_for_struktur": "Definiera först båda typer. Ge konkreta exempel för varje. Förklara den juridiska skillnaden (Genèvekonventionen). Avsluta med att verkligheten ofta är gråskalig."
+      }
+    },
+    {
+      "id": "k4-r4",
+      "type": "redogorelse",
+      "niva": "fordjupning",
+      "instruktion": "FÖRDJUPNING — Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Diskutera 'brain drain' — vad innebär det och vilka är konsekvenserna för utflyttningslandet?",
+      "ungefarlig_tid_min": 10,
+      "modellsvar": "**Brain drain** är begreppet för när **välutbildade människor** lämnar sitt hemland för bättre möjligheter utomlands. Det är en av globaliseringens svåra dilemman — eftersom det är BÅDE en frivillig migration (individens rätt) OCH en allvarlig förlust för utvecklingsländer.\n\n**Vilka migrerar?**\n\nTypiskt: läkare, sjuksköterskor, ingenjörer, forskare, IT-utvecklare, professorer. Människor som landet investerat i — utbildningssystemet har lagt resurser på att utbilda dem.\n\n**Klassiska exempel:**\n\n- **Indien** förlorar cirka 70 000 läkare per år till USA, UK och Mellanöstern\n- **Filippinerna** är världens största utvandrare av sjuksköterskor\n- **Afrika söder om Sahara** förlorar tiotusentals läkare till väst — Malawi har bara cirka 200 läkare för 20 miljoner människor\n- **Iran** förlorar en stor del av sina studenter efter att de utbildats\n\n**Konsekvenser för utflyttningslandet:**\n\n*Direkt förlust:*\n- Färre läkare → sämre sjukvård\n- Färre lärare → sämre utbildning\n- Färre ingenjörer → långsammare utveckling\n- Förlorade skatteintäkter\n\n*Indirekt förlust:*\n- Förebilder försvinner — unga ser ingen anledning att utbilda sig\n- Forskning och innovation lider\n- Beroende av utländsk kompetens växer\n\n**Men det finns också positiva effekter:**\n\n*Remittances:* Indien får över 100 miljarder dollar/år i pengaöverföringar. Filippinerna får 30+ miljarder. Mer än vad bistånd ger.\n\n*Kunskapsåterföring:* Vissa migranter återvänder med erfarenheter, kontakter och kapital. Sydkorea fick stor del av sin IT-revolution från återvändande migranter.\n\n*Globala nätverk:* Diaspora-grupper kan hjälpa hemlandet genom investeringar, lobbyarbete, kunskap.\n\n**Etisk dimension:**\n\nDilemmat är svårt. Individen har rätt att söka bättre liv. Men det rika landet (USA, Sverige, etc.) får utbildad arbetskraft GRATIS — de har inte betalat utbildningen. Det är en form av strukturell ojämlikhet i globaliseringen.\n\n**Möjliga lösningar:**\n- 'Brain circulation' istället för 'brain drain' — uppmuntra cirkulär migration\n- Bilateral utbildningsfinansiering — rika länder hjälper utbilda i utvecklingsländer\n- Bättre arbetsförhållanden i utvecklingsländer\n\nMen så länge stora ekonomiska skillnader finns mellan länder kommer brain drain fortsätta. Det är en strukturell konsekvens av en ojämn värld.",
+      "stodlarare": {
+        "stodord": ["brain drain", "läkare", "sjuksköterskor", "remittances", "Indien", "Filippinerna", "Afrika", "Genèvekonventionen"],
+        "startfraser": [
+          "Brain drain innebär att välutbildade människor lämnar sitt hemland för...",
+          "Konsekvenserna för utflyttningslandet är allvarliga eftersom...",
+          "Men det finns också positiva effekter, till exempel..."
+        ],
+        "tip_for_struktur": "Definiera brain drain. Ge konkreta exempel (länder och yrkesgrupper). Diskutera negativa konsekvenser. Lyft positiva (remittances, kunskapsåterföring). Avsluta med etiska dilemmat."
+      }
+    }
+  ]
+}

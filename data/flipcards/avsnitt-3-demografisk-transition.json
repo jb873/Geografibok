@@ -1,0 +1,330 @@
+{
+  "avsnitt": 3,
+  "titel": "Demografisk transition",
+  "delkapitel": "demografi",
+  "version": "1.3",
+  "kort_totalt": 28,
+  "begreppskort": [
+    {
+      "id": "k3-b1",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad betyder NATIVITET?",
+      "svar": "Födelsetal — antal födda barn per 1000 invånare och år."
+    },
+    {
+      "id": "k3-b2",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad betyder MORTALITET?",
+      "svar": "Dödstal — antal döda per 1000 invånare och år."
+    },
+    {
+      "id": "k3-b3",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad betyder FERTILITET?",
+      "svar": "Antal barn en kvinna i genomsnitt föder under sitt liv. För att en befolkning ska vara stabil krävs cirka 2,1 barn per kvinna."
+    },
+    {
+      "id": "k3-b4",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är NATURLIG BEFOLKNINGSTILLVÄXT?",
+      "svar": "Skillnaden mellan nativitet och mortalitet (utan migration). Om nativiteten är högre växer befolkningen. Om mortaliteten är högre minskar den."
+    },
+    {
+      "id": "k3-b5",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är BARNADÖDLIGHET?",
+      "svar": "Antalet barn under fem år som dör per 1000 födda barn. Ett av de viktigaste måtten på ett lands hälsa och utveckling."
+    },
+    {
+      "id": "k3-b6",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är FÖRVÄNTAD MEDELLIVSLÄNGD?",
+      "svar": "Det antal år en nyfödd förväntas leva i genomsnitt. Stiger när hälsa och levnadsstandard förbättras."
+    },
+    {
+      "id": "k3-b7",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en BEFOLKNINGSPYRAMID?",
+      "svar": "En grafik som visar hur en befolkning är fördelad efter ålder och kön. Formen avslöjar var i den demografiska transitionen ett land befinner sig."
+    },
+    {
+      "id": "k3-b8",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är den DEMOGRAFISKA TRANSITIONEN?",
+      "svar": "En modell som beskriver hur ett samhälles nativitet och mortalitet förändras när landet utvecklas — från höga tal i jordbrukssamhället till låga tal i moderna samhällen. Sker i fem stadier."
+    },
+    {
+      "id": "k3-b9",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad kännetecknar STADIUM 1?",
+      "svar": "Det förindustriella jordbrukssamhället. Både nativitet och mortalitet är höga. Befolkningen växer långsamt och oregelbundet på grund av krig, svält och epidemier."
+    },
+    {
+      "id": "k3-b10",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad kännetecknar STADIUM 2?",
+      "svar": "Övergångssamhället. Mortaliteten har börjat sjunka tack vare bättre sanitet, vaccin och mat. Nativiteten är fortfarande hög. Resultat: mycket snabb befolkningstillväxt."
+    },
+    {
+      "id": "k3-b11",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad kännetecknar STADIUM 3?",
+      "svar": "Industrisamhället. Både nativitet och mortalitet sjunker, men nativiteten snabbare än mortaliteten. Befolkningstillväxten saktar in."
+    },
+    {
+      "id": "k3-b12",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad kännetecknar STADIUM 4?",
+      "svar": "Det postindustriella samhället. Både nativitet och mortalitet är låga. Befolkningstillväxten är nära noll."
+    },
+    {
+      "id": "k3-b13",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad kännetecknar STADIUM 5?",
+      "svar": "Det krympande samhället. Nativiteten är lägre än mortaliteten — befolkningen minskar. Andelen äldre ökar dramatiskt. Japan, Italien och Sydkorea är de tydligaste exemplen."
+    },
+    {
+      "id": "k3-b14",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad menas med ÅLDRANDE BEFOLKNING?",
+      "svar": "När andelen äldre i ett samhälle ökar och andelen unga minskar. Skapar problem eftersom färre arbetar och betalar skatt medan fler behöver vård och pension."
+    },
+    {
+      "id": "k3-b15",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad är FÖRSÖRJNINGSKVOT?",
+      "svar": "Andelen av befolkningen som inte arbetar (barn + pensionärer) jämfört med dem som arbetar. Hög försörjningskvot betyder större belastning på arbetande befolkning."
+    }
+  ],
+  "modellkort": [
+    {
+      "id": "k3-m1",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför sjunker mortaliteten FÖRE nativiteten i den demografiska transitionen?",
+      "svar": "Mortaliteten sjunker av **mekaniska orsaker** som påverkar alla snabbt: bättre sanitet, vaccin, läkemedel, mer mat, fred. Människor börjar leva längre nästan över en natt.\n\nNativiteten är en **kulturell och ekonomisk** fråga som tar längre tid att förändra. Föräldrar måste börja se barn som en investering (utbildning) snarare än arbetskraft. Detta tar generationer.\n\nTidsglappet skapar stadium 2 — då befolkningen växer mycket snabbt."
+    },
+    {
+      "id": "k3-m2",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "I ett land är nativiteten hög och mortaliteten sjunker snabbt. Vad händer med befolkningen?",
+      "svar": "Befolkningen växer **mycket snabbt**. Detta är typiskt för **stadium 2** i den demografiska transitionen.\n\nNär många barn föds (hög nativitet) och få dör (sjunkande mortalitet) blir den naturliga befolkningstillväxten stor. Befolkningen kan dubbleras på 20-30 år.\n\nDetta är vad som hänt i många afrikanska och asiatiska länder under 1900-talets andra hälft."
+    },
+    {
+      "id": "k3-m3",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är en pyramid med MYCKET bred bas och få äldre. Vilket utvecklingsstadium befinner sig landet troligen i?",
+      "svar": "Landet är troligen ett **utvecklingsland i stadium 2** av den demografiska transitionen.\n\nDen breda basen betyder att många barn föds (hög nativitet — kanske 5-6 barn per kvinna). Få äldre betyder att medellivslängden fortfarande är relativt låg och mortaliteten i de äldre åldersgrupperna är hög.\n\nLandet har förmodligen:\n- Begränsad sjukvård men sjunkande barnadödlighet\n- Stor andel av befolkningen i jordbruk\n- Snabb befolkningstillväxt\n- Stora utmaningar att bygga ut skolor, vägar och bostäder i samma takt",
+      "bild": "pyramid-ovning-stadium-2.webp",
+      "bild_alt": "Befolkningspyramid med mycket bred bas och smal topp - klassisk pyramidform"
+    },
+    {
+      "id": "k3-m4",
+      "type": "modell",
+      "niva": "fordjupning",
+      "fraga": "Japan har idag en befolkningspyramid i urnform med smal bas. Vilket stadium är det och vilka utmaningar har landet?",
+      "svar": "**Stadium 5** — krympande befolkning.\n\nJapans utmaningar:\n- Befolkningen minskar med ~600 000 per år\n- Var fjärde japan är över 65 år\n- Brist på arbetskraft inom vård, jordbruk, service\n- Tomma byar och skolor stänger\n- Höga sjukvårdskostnader, pensionssystem under press\n\nJapan har länge motverkat invandring och har låg fertilitet (1,3 barn per kvinna). Detta är världens kanske mest extrema demografiska situation idag.",
+      "bild": "pyramid-ovning-stadium-5.webp",
+      "bild_alt": "Befolkningspyramid med smal bas och bredare övre del - urnform, typisk för krympande befolkning"
+    },
+    {
+      "id": "k3-m5",
+      "shuffla": true,
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är Tanzanias befolkningspyramid. Vilket stadium visar den? Vad säger pyramiden om nativitet, mortalitet och befolkningstillväxt?",
+      "bild": "pyramid-riktig-stadium-2-tanzania.webp",
+      "bild_alt": "Tanzanias befolkningspyramid med mycket bred bas och smal topp",
+      "svar": "Tanzania befinner sig i **stadium 2** av den demografiska transitionen.\n\n**Vad pyramiden visar:**\n\n• **Mycket bred bas** — många barn föds\n• **Pyramiden smalnar snabbt uppåt** — många dör i tidiga åldrar\n• **Få äldre** — låg medellivslängd\n\n**De tre begreppen:**\n\n• **Nativitet:** Hög — många barn per kvinna (cirka 5)\n• **Mortalitet:** Sjunker — fler barn överlever, men spädbarnsdödligheten är fortfarande hög\n• **Befolkningstillväxt:** Mycket hög — Tanzania växer snabbt eftersom nativiteten ligger kvar på höga nivåer medan mortaliteten redan börjat sjunka\n\n**Helheten:** Tanzania är typexempel på ett land i övergångssamhället. Sjukvård och vaccin når fler, vilket räddar liv. Men fertiliteten är fortfarande hög eftersom familjekultur, ekonomi och kvinnors situation inte hunnit förändras än. Det är klyftan mellan dessa två som skapar den snabba befolkningstillväxten."
+    },
+    {
+      "id": "k3-m6",
+      "shuffla": true,
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är Indiens befolkningspyramid. Vilket stadium visar den? Vad säger pyramiden om nativitet, mortalitet och befolkningstillväxt?",
+      "bild": "pyramid-riktig-stadium-3-indien.webp",
+      "bild_alt": "Indiens befolkningspyramid med bred mellandel och något smalare bas",
+      "svar": "Indien befinner sig i **stadium 3** av den demografiska transitionen.\n\n**Vad pyramiden visar:**\n\n• **Bred bas — men inte längst bred längst ner** — färre barn föds idag än för 10-15 år sedan\n• **Stora årskullar i tonår och unga vuxna** — den största gruppen är 10-29 år\n• **Smalnar uppåt** — färre äldre, men inte lika brant som stadium 2\n\n**De tre begreppen:**\n\n• **Nativitet:** Sjunker — fertiliteten är cirka 2 barn per kvinna, snabbt fallande\n• **Mortalitet:** Låg — moderna sjukvård och näring\n• **Befolkningstillväxt:** Fortfarande hög men avtagande — Indien växer än men kommer snart stabilisera sig\n\n**Helheten:** Indien är klassiskt stadium 3 — det moderna utvecklingsstadiet. Pyramiden visar att Indien just nu har en enorm 'demografisk utdelning': stora årskullar av unga vuxna i arbetsför ålder, medan färre barn behöver tas om hand. Det är denna fas som kan driva ekonomisk tillväxt — om jobb skapas tillräckligt snabbt."
+    },
+    {
+      "id": "k3-m7",
+      "shuffla": true,
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är Sveriges befolkningspyramid. Vilket stadium visar den? Vad säger pyramiden om nativitet, mortalitet och befolkningstillväxt?",
+      "bild": "pyramid-riktig-stadium-4-sverige.webp",
+      "bild_alt": "Sveriges befolkningspyramid som är ungefär jämn från botten till topp",
+      "svar": "Sverige befinner sig i **stadium 4** av den demografiska transitionen.\n\n**Vad pyramiden visar:**\n\n• **Ungefär lika många i alla åldrar** — inte längre en pyramid utan mer som en pelare\n• **Smalare topp** — folk lever längre men de äldsta är fortfarande färre\n• **Stabil bas** — ungefär lika många barn föds som tidigare generationer\n\n**De tre begreppen:**\n\n• **Nativitet:** Låg — cirka 1,7 barn per kvinna i Sverige\n• **Mortalitet:** Låg — människor lever till 80+ år i genomsnitt\n• **Befolkningstillväxt:** Nästan noll — den naturliga tillväxten är låg. Sverige växer mest genom invandring\n\n**Helheten:** Sverige är ett klassiskt stadium 4-land — det utvecklade industrisamhället. Pyramiden visar ett samhälle där människor har valt att skaffa få barn (kvinnors utbildning, dyra bostäder, karriärval), men där folk samtidigt lever mycket länge. Det är den moderna västvärldens demografi: stabil men åldrande."
+    },
+    {
+      "id": "k3-m8",
+      "shuffla": true,
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är Bulgariens befolkningspyramid. Vilket stadium visar den? Vad säger pyramiden om nativitet, mortalitet och befolkningstillväxt?",
+      "bild": "pyramid-riktig-stadium-5-bulgarien.webp",
+      "bild_alt": "Bulgariens befolkningspyramid med smal bas och bredare övre del — uppochnedvänd",
+      "svar": "Bulgarien befinner sig i **stadium 5** av den demografiska transitionen.\n\n**Vad pyramiden visar:**\n\n• **Smal bas** — färre barn föds än för en generation sedan\n• **Bredare i mitten och uppåt** — fler medelålders och äldre än yngre\n• **Pyramiden är 'uppochnedvänd'** — färre i botten än i mitten\n\n**De tre begreppen:**\n\n• **Nativitet:** Mycket låg — cirka 1,5 barn per kvinna\n• **Mortalitet:** Låg — människor lever länge\n• **Befolkningstillväxt:** Negativ — Bulgarien KRYMPER. Fler dör än föds varje år\n\n**Helheten:** Bulgarien är typexempel på stadium 5 — det krympande samhället. Pyramiden visar ett land där varje ny generation är mindre än den föregående. Det skapar utmaningar: färre arbetande måste försörja fler pensionärer, skolor stänger, arbetskraftsbrist. Stadium 5 är ett historiskt nytt läge — mänskligheten har aldrig tidigare sett krympande befolkningar i fredstid."
+    }
+  ],
+  "redogorelsekort": [
+    {
+      "id": "k3-r1",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar på papper, sedan vänd kortet för att jämföra med modellsvaret.",
+      "fraga": "Vilket stadium av den demografiska transitionen hör denna pyramid till? Förklara hur du kan se det. Vad säger pyramiden om nativitet, mortalitet och befolkningstillväxt i landet?",
+      "bild": "pyramid-stadium-2.webp",
+      "bild_alt": "Befolkningspyramid för stadium 2",
+      "ungefarlig_tid_min": 5,
+      "modellsvar": "Pyramiden visar **stadium 2** av den demografiska transitionen, alltså ett **övergångssamhälle**.\n\nJag ser det på pyramidens form: den har en **mycket bred bas** vilket betyder att många barn föds (hög nativitet), och den smalnar **gradvis** uppåt utan tydliga 'hack' eller oregelbundenheter. Det visar att färre människor dör i unga och medelålders — alltså att mortaliteten har börjat sjunka.\n\nDetta säger oss att i landet:\n- **Nativiteten är fortfarande hög** (många barn per kvinna)\n- **Mortaliteten har börjat sjunka** tack vare bättre sanitet, vaccin och mat\n- **Befolkningstillväxten är mycket snabb** — befolkningen kan dubbleras på 20-30 år\n\nLandet är troligen ett utvecklingsland i en fas av snabb modernisering. Många länder i Subsahariska Afrika och delar av Asien befinner sig i detta stadium idag.",
+      "stodlarare": {
+        "stodord": [
+          "stadium 2",
+          "övergångssamhälle",
+          "nativitet",
+          "mortalitet",
+          "snabb befolkningstillväxt",
+          "Subsahariska Afrika"
+        ],
+        "startfraser": [
+          "Pyramiden visar stadium ... av den demografiska transitionen, alltså ...",
+          "Jag ser det på pyramidens form: ...",
+          "Detta säger oss att i landet är nativiteten ..."
+        ],
+        "tip_for_struktur": "Identifiera först stadium → motivera utifrån pyramidens form → förklara vad det betyder för nativitet, mortalitet och tillväxt → ge gärna exempel på land."
+      }
+    },
+    {
+      "id": "k3-r2",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar på papper, sedan vänd kortet för att jämföra med modellsvaret.",
+      "fraga": "Redogör för den demografiska transitionens fem stadier. Beskriv vad som händer med nativitet, mortalitet och befolkningstillväxt i varje stadium. Ge gärna exempel på länder.",
+      "ungefarlig_tid_min": 10,
+      "modellsvar": "Den demografiska transitionen är en modell som beskriver hur ett samhälles födelsetal (nativitet) och dödstal (mortalitet) förändras när landet utvecklas. Den sker i fem stadier:\n\n**Stadium 1 — Förindustriellt jordbrukssamhälle:**\nBåde nativitet och mortalitet är höga. Befolkningen växer långsamt och oregelbundet på grund av krig, svält och epidemier. Inget land befinner sig här idag, men det var Europas situation före 1700-talet.\n\n**Stadium 2 — Övergångssamhälle:**\nMortaliteten sjunker snabbt tack vare bättre sanitet, vaccin och mat. Nativiteten är fortfarande hög. Befolkningen växer mycket snabbt. Många länder i Subsahariska Afrika befinner sig här idag.\n\n**Stadium 3 — Industrisamhälle:**\nNativiteten börjar sjunka när barn blir en ekonomisk investering snarare än arbetskraft. Mortaliteten fortsätter sjunka. Befolkningstillväxten saktar in. Indien, Indonesien och Mexiko är exempel.\n\n**Stadium 4 — Postindustriellt samhälle:**\nBåde nativitet och mortalitet är låga. Befolkningen är stabil eller växer mycket långsamt. Sverige, USA och de flesta höginkomstländer är här.\n\n**Stadium 5 — Krympande samhälle:**\nNativiteten är lägre än mortaliteten. Befolkningen minskar. Andelen äldre ökar dramatiskt. Japan, Italien och Sydkorea är de tydligaste exemplen.\n\nDen övergripande poängen är att alla länder följer ungefär samma kurva — men i olika takt och med olika utmaningar.",
+      "stodlarare": {
+        "stodord": [
+          "nativitet",
+          "mortalitet",
+          "befolkningstillväxt",
+          "stadium 1-5",
+          "förindustriellt",
+          "industrisamhälle",
+          "postindustriellt",
+          "krympande",
+          "Sverige",
+          "Japan"
+        ],
+        "startfraser": [
+          "Den demografiska transitionen är en modell som beskriver hur ...",
+          "Modellen sker i fem stadier. I stadium 1 ...",
+          "Jag börjar med stadium 1, det förindustriella jordbrukssamhället ..."
+        ],
+        "tip_for_struktur": "Gå igenom alla fem stadier i ordning. För varje stadium: vad händer med nativitet, mortalitet och befolkningstillväxt? Ge gärna ett exempel på ett land i varje stadium."
+      }
+    },
+    {
+      "id": "k3-r3",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar på papper, sedan vänd kortet för att jämföra med modellsvaret.",
+      "fraga": "Förklara orsakerna till varför mortaliteten sjunker FÖRE nativiteten i den demografiska transitionen. Vad gör att övergången från stadium 1 till 2 sker, och vad gör att övergången från 2 till 3 sker?",
+      "ungefarlig_tid_min": 8,
+      "modellsvar": "Att mortaliteten sjunker före nativiteten är hjärtat i den demografiska transitionen — och det skapar den snabba befolkningstillväxten i stadium 2.\n\n**Övergången 1 → 2 (mortaliteten sjunker):**\nDetta sker av **mekaniska och biologiska orsaker** som påverkar människor snabbt:\n- Bättre **sanitet** — rent vatten och avlopp slår ut många sjukdomar\n- **Vacciner** mot smittkoppor, mässling, polio\n- **Antibiotika** botar tidigare dödliga infektioner\n- **Bättre näring** — fler kalorier, mer protein\n- **Färre krig** och hungersnöd\n\nMänniskor börjar plötsligt leva längre. Barnadödligheten faller dramatiskt.\n\n**Övergången 2 → 3 (nativiteten sjunker):**\nDetta sker av **kulturella och ekonomiska orsaker** som tar mycket längre tid:\n- **Urbanisering** — barn blir kostnader istället för arbetskraft\n- **Utbildning** — särskilt flickors utbildning förändrar allt\n- **Preventivmedel** blir tillgängliga\n- **Lägre barnadödlighet** — föräldrar behöver inte föda många barn för att 'försäkra sig' om överlevande\n- **Pensionssystem** — barn behövs inte som ålderdomsförsäkring\n\nDetta tar generationer. Resultatet: under stadium 2 är nativiteten hög men mortaliteten sjunker — och då växer befolkningen snabbt. När även nativiteten börjar sjunka kommer vi till stadium 3.",
+      "stodlarare": {
+        "stodord": [
+          "sanitet",
+          "vaccin",
+          "antibiotika",
+          "näring",
+          "urbanisering",
+          "utbildning",
+          "preventivmedel",
+          "barnadödlighet",
+          "mekaniska",
+          "kulturella"
+        ],
+        "startfraser": [
+          "Anledningen till att mortaliteten sjunker först är att ...",
+          "Övergången från stadium 1 till 2 drivs av ...",
+          "Det finns två typer av orsaker bakom den demografiska transitionen ..."
+        ],
+        "tip_for_struktur": "Förklara först varför mortaliteten sjunker (mekaniska orsaker, snabbt). Förklara sedan varför nativiteten tar längre tid att sjunka (kulturella orsaker, generationer). Använd konkreta exempel som sanitet, vaccin, urbanisering, kvinnors utbildning."
+      }
+    },
+    {
+      "id": "k3-r4",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar på papper, sedan vänd kortet för att jämföra med modellsvaret.",
+      "fraga": "Förklara hur nativitet, mortalitet och naturlig befolkningstillväxt hänger ihop. Vad händer med befolkningen vid olika kombinationer av höga och låga värden?",
+      "ungefarlig_tid_min": 7,
+      "modellsvar": "De tre begreppen hänger ihop matematiskt:\n\n**Naturlig befolkningstillväxt = nativitet − mortalitet**\n\n(Detta gäller utan migration, alltså bara födelse minus dödsfall.)\n\n**Fyra grundläggande kombinationer:**\n\n**Hög nativitet + hög mortalitet** → Långsam tillväxt\nDetta är stadium 1. Många föds men många dör. Befolkningen växer knappt alls.\n\n**Hög nativitet + sjunkande mortalitet** → Mycket snabb tillväxt\nDetta är stadium 2 — den 'demografiska bomben'. Många barn föds samtidigt som färre dör. Befolkningen kan dubbleras på 20-30 år. Detta är vad många afrikanska länder upplever idag.\n\n**Sjunkande nativitet + låg mortalitet** → Tillväxten saktar in\nDetta är stadium 3. Färre barn föds, men de som föds överlever. Befolkningen växer fortfarande men i avtagande takt.\n\n**Låg nativitet + låg mortalitet** → Stabil eller minskande befolkning\nStadium 4 har stabil befolkning. Om nativiteten sjunker UNDER mortaliteten kommer vi till stadium 5 — befolkningen krymper. Japan idag.\n\nDen viktigaste insikten: **det är inte antalet människor som föds eller dör som är intressant, utan FÖRHÅLLANDET mellan dem.**",
+      "stodlarare": {
+        "stodord": [
+          "nativitet",
+          "mortalitet",
+          "naturlig befolkningstillväxt",
+          "stadium 2",
+          "stadium 5",
+          "formel",
+          "kombinationer"
+        ],
+        "startfraser": [
+          "De tre begreppen hänger ihop matematiskt genom att ...",
+          "Naturlig befolkningstillväxt räknas som ...",
+          "Om nativiteten är högre än mortaliteten ..."
+        ],
+        "tip_for_struktur": "Definiera först varje begrepp kort. Förklara sedan formeln (naturlig tillväxt = nativitet − mortalitet). Avsluta med exempel på olika kombinationer och vad de leder till."
+      }
+    },
+    {
+      "id": "k3-r5",
+      "type": "redogorelse",
+      "niva": "fordjupning",
+      "instruktion": "FÖRDJUPNING — Skriv ditt svar på papper, sedan vänd kortet för att jämföra med modellsvaret.",
+      "fraga": "Diskutera vad som händer med ett samhälle som kommer in i stadium 5 (krympande befolkning). Vilka utmaningar uppstår? Hur kan de hanteras? Använd Japan som exempel.",
+      "ungefarlig_tid_min": 15,
+      "modellsvar": "Stadium 5 är ett **historiskt nytt** läge för mänskligheten. Aldrig tidigare har samhällen frivilligt haft så få barn att befolkningen krymper utan att svält eller krig orsakat det. Det skapar flera unika utmaningar.\n\n**Japan som tydligaste exempel:**\n- Befolkningen minskar med cirka 600 000 personer per år\n- Var fjärde japan är över 65 år (snart var tredje)\n- Fertiliteten är 1,3 barn per kvinna (under 2,1 som krävs för stabil befolkning)\n- Förväntad medellivslängd är världens högsta — 84 år\n\n**Utmaningarna:**\n\n*Ekonomiska:* Försörjningskvoten blir mycket hög — färre arbetare måste försörja fler pensionärer. Pensionssystem riskerar bryta samman. Sjukvårdens kostnader exploderar. BNP riskerar krympa.\n\n*Sociala:* Brist på arbetskraft i många branscher — särskilt vård, jordbruk, service. Skolor stänger när det inte finns barn. Hela byar töms.\n\n*Politiska:* Politiska beslut präglas av äldres intressen — Japan har en stor demokratisk obalans där pensionärer dominerar val. Det blir svårare att satsa på framtiden.\n\n**Möjliga lösningar:**\n\n*Senare pensionsålder:* Människor måste arbeta längre. Japan har höjt åldern och uppmuntrar arbete till 70+.\n\n*Ökad invandring:* Skulle vara lösningen, men Japan har länge motverkat invandring. Detta håller på att förändras — fler arbetsvisum delas nu ut.\n\n*Automatisering och robotar:* Japan investerar massivt i robotteknik för vård och industri.\n\n*Höjd fertilitet:* Politiska insatser för att uppmuntra fler barn (barnbidrag, föräldraledighet, barnomsorg) — har visat sig vara extremt svårt att lyckas med.\n\n**Slutsats:** Stadium 5 är ingen katastrof i sig — det är en konsekvens av framgång (lång livslängd, hög utbildning, kvinnors rättigheter). Men det kräver djupgående samhällsförändringar. Sydkorea, Italien, Tyskland, Spanien och flera andra länder är på samma väg. Hur de hanterar det kommer prägla 2000-talet.",
+      "stodlarare": {
+        "stodord": [
+          "stadium 5",
+          "krympande",
+          "åldrande",
+          "försörjningskvot",
+          "Japan",
+          "fertilitet",
+          "pensionssystem",
+          "invandring",
+          "automatisering"
+        ],
+        "startfraser": [
+          "Stadium 5 är ett historiskt nytt läge eftersom ...",
+          "Japan är det tydligaste exemplet — där har befolkningen ...",
+          "Ett krympande samhälle skapar flera utmaningar. För det första ..."
+        ],
+        "tip_for_struktur": "Förklara först vad stadium 5 innebär. Använd Japan som konkret exempel (siffror, fertilitet). Gå sedan igenom utmaningarna (ekonomiska, sociala, politiska). Avsluta med möjliga lösningar (pensionsålder, invandring, automatisering)."
+      }
+    }
+  ],
+  "policy": "Modellkort använder enbart riktiga eller övnings-pyramider för visuell tolkning. Idealiserade pyramider med stadium-rubrik används endast som illustrationer i läsningstexten — inte som flipcards-frågor."
+}

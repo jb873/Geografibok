@@ -1,0 +1,16 @@
+ # Claude-internt
+.claude/
+CLAUDE.md
+TODO.md
+STATUS.md
+
+# Designdokument (interna)
+flipcards-ui-spec-v2.md
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/

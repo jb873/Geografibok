@@ -1,0 +1,197 @@
+{
+  "avsnitt": 5,
+  "titel": "Urbanisering",
+  "delkapitel": "demografi",
+  "version": "1.0",
+  "kort_totalt": 26,
+
+  "begreppskort": [
+    {
+      "id": "k5-b1",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är URBANISERING?",
+      "svar": "När en större andel av befolkningen flyttar från landsbygden till städer. Andelen som bor i städer ökar."
+    },
+    {
+      "id": "k5-b2",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är URBANISERINGSGRAD?",
+      "svar": "Andelen av befolkningen som bor i städer. Sverige: ca 88%. Världen i genomsnitt: ca 57% (2024). Bangladesh: ca 40%. Norge: ca 83%."
+    },
+    {
+      "id": "k5-b3",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en MEGASTAD?",
+      "svar": "En stad med över 10 miljoner invånare. Exempel: Tokyo, Delhi, Shanghai, Dhaka, São Paulo, Mexico City. Antalet megastäder växer snabbt — från 10 år 1990 till ~35 idag."
+    },
+    {
+      "id": "k5-b4",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är SLUM?",
+      "svar": "Informella bostadsområden där människor bor i fattigdom med dålig infrastruktur — sämre vatten, avlopp, sjukvård. Cirka 1 miljard människor bor i slum globalt."
+    },
+    {
+      "id": "k5-b5",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är INFRASTRUKTUR i städer?",
+      "svar": "Stadens grundsystem: vägar, kollektivtrafik, elnät, vatten- och avloppssystem, internet, sjukhus, skolor. Måste finnas för att en stad ska fungera."
+    },
+    {
+      "id": "k5-b6",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är SOCIAL RÖRLIGHET?",
+      "svar": "Möjligheten att förändra sin samhällsposition under livet — t.ex. att en fattig kan bli rik genom utbildning och arbete. Städer erbjuder ofta större social rörlighet än landsbygd."
+    },
+    {
+      "id": "k5-b7",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är GRÖNA VÅGEN?",
+      "svar": "Motrörelse till urbaniseringen — när människor flyttar från städer till landsbygd för att söka enklare liv. Tre vågor: 1970-talet, 2000-talet, och 2020-talet (driven av distansarbete)."
+    },
+    {
+      "id": "k5-b8",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är DISTANSARBETE och hur påverkar det urbaniseringen?",
+      "svar": "Att arbeta hemifrån via internet — slog igenom på allvar under covid-19-pandemin 2020. Möjliggör en ny våg av människor som lämnar storstäder för mindre orter med billigare boende."
+    },
+    {
+      "id": "k5-b9",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är 'LANDSBYGDENS NEGATIVA SPIRAL'?",
+      "svar": "När unga flyttar bort → skatteunderlaget krymper → service stänger (skolor, vårdcentraler) → ännu fler flyttar bort. En självförstärkande nedåtspiral som är svår att bryta."
+    },
+    {
+      "id": "k5-b10",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är SKATTEUNDERLAG?",
+      "svar": "De pengar kommunen samlar in i skatt — beror på hur många invånare som arbetar och tjänar pengar. När unga flyttar bort krymper skatteunderlaget och kommunen får mindre resurser."
+    },
+    {
+      "id": "k5-b11",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad är JORDBRUKETS MEKANISERING och hur driver det urbanisering?",
+      "svar": "När maskiner (traktorer, skördetröskor) ersätter mänsklig arbetskraft i jordbruket. En traktor kan göra arbetet som tidigare krävde 10 bönder. Människorna 'frigörs' och söker jobb i städerna."
+    },
+    {
+      "id": "k5-b12",
+      "type": "begrepp",
+      "niva": "fordjupning",
+      "fraga": "Vad är 'INFORMELL EKONOMI'?",
+      "svar": "Den del av ekonomin som inte är registrerad — gatuförsäljning, tillfälligt arbete, slumtillverkning. I många megastäder lever en stor del av befolkningen i den informella ekonomin. Cirka en miljard människor globalt."
+    }
+  ],
+
+  "modellkort": [
+    {
+      "id": "k5-m1",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Vad har drivit den globala urbaniseringen från 7% år 1800 till 57% idag?",
+      "bild": "urbanisering-kurva-1800-2050.webp",
+      "bild_alt": "Linjegrafik som visar urbaniseringskurvan från 1800 till 2050",
+      "svar": "Flera samverkande faktorer:\n\n• **Industriella revolutionen** skapade fabriker som behövde många arbetare på samma plats\n• **Jordbrukets mekanisering** gjorde att färre människor behövdes på landsbygden\n• **Bättre transport** (järnvägar) gjorde det möjligt att försörja stora städer\n• **Bättre sanitet** gjorde städer mer beboeliga (på 1800-talet dog många i städer av kolera)\n• **Skolor och universitet** växte i städer och drog till sig unga\n• **Möjligheter och drömmar** — staden lockar med mer än bara jobb\n\nMönstret är globalt — alla länder som industrialiserats har genomgått samma resa från landsbygd till stad."
+    },
+    {
+      "id": "k5-m2",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Här är världens sex största megastäder 2024. Vilket geografiskt mönster ser du?",
+      "bild": "megastader-varlden-2024.webp",
+      "bild_alt": "Världskarta över sex största megastäderna 2024",
+      "svar": "De sex största är Tokyo (37 milj), Delhi (32 milj), Shanghai (28 milj), Dhaka (23 milj), São Paulo (22 milj), Mexico City (22 milj).\n\n**Mönster: Fyra av sex finns i Asien.** Det beror på:\n\n• Asien har världens största befolkning\n• Asien är mitt i sin urbaniseringsfas\n• Många asiatiska länder hade gigantiska floddalar med tät befolkning som blivit grunden för moderna städer\n\n**Europa har inga megastäder idag** — London och Paris är de största (~10 milj), precis i gränsen. Europa urbaniserades tidigt men har långsam tillväxt nu.\n\n**USA har bara New York** som närmar sig. Amerikansk urbanisering följde annan logik — fler men mindre storstäder.\n\n**Afrika kommer snart** — Lagos, Kairo och Kinshasa växer extremt snabbt."
+    },
+    {
+      "id": "k5-m3",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kommer världens megastäder förmodligen se ut 2060?",
+      "bild": "megastader-2024-vs-2060-stapeldiagram.webp",
+      "bild_alt": "Stapeldiagram över megastäder 2024 vs 2060-prognos",
+      "svar": "Tyngdpunkten flyttar dramatiskt från Asien till **Afrika**:\n\n**Prognos 2060:**\n• **Lagos** (Nigeria): ~75 milj — kanske världens största\n• **Kinshasa** (DR Kongo): ~55 milj\n• **Delhi** (Indien): ~50 milj\n• **Dar es Salaam** (Tanzania): ~40 milj\n• **Mumbai** (Indien): ~40 milj\n• **Kairo** (Egypten): ~35 milj\n\n**Tokyo försvinner** från topp-listan — Japans befolkning krymper (stadium 5 i den demografiska transitionen).\n\n**Vad detta innebär:**\n• Afrika söder om Sahara går igenom samma urbaniseringsfas som Asien gjort\n• Klimatutmaningar — många av dessa städer är vid kuster eller floddalar med klimatrisk\n• Politiska utmaningar — många av dessa länder har svaga institutioner och korruption\n• Infrastrukturkris om städerna växer snabbare än vägar och avlopp"
+    },
+    {
+      "id": "k5-m4",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur fungerar landsbygdens negativa spiral? Beskriv steg för steg.",
+      "bild": "negativa-landsbygdsspiralen.webp",
+      "bild_alt": "Cirkulär bild av landsbygdens negativa spiral",
+      "svar": "Spiralen är **självförstärkande** — varje steg leder till nästa:\n\n**Steg 1:** Unga flyttar till städerna för utbildning och jobb.\n\n**Steg 2:** Landsbygdens befolkning blir äldre och färre. Färre arbetar och betalar skatt.\n\n**Steg 3:** Skatteunderlaget krymper. Kommunen får mindre resurser.\n\n**Steg 4:** Service stänger — först småskolorna, sedan vårdcentraler, butiker, kollektivtrafik. Ortens grundläggande infrastruktur försvagas.\n\n**Steg 5:** Orten blir mindre attraktiv. Ännu fler unga flyttar för att de inte kan få utbildning eller service där.\n\nOch tillbaka till steg 1. **Cirkeln sluter sig.**\n\nDärför är spiralen så svår att bryta — när den väl är igång förstärks den av sin egen mekanism. Sverige har fört en aktiv glesbygdspolitik sedan 1970-talet just för att försöka motverka detta."
+    },
+    {
+      "id": "k5-m5",
+      "type": "modell",
+      "niva": "fordjupning",
+      "fraga": "Varför är Tokyo världens största stad men ändå inte 'överbefolkad' i samma mening som t.ex. Dhaka?",
+      "svar": "Tokyo är världens största stad (37 miljoner) MEN är **funktionellt** välmående medan Dhaka kämpar trots att den är mindre. Skälet är hur **infrastrukturen** har byggts.\n\n**Tokyo:**\n• Världens bästa kollektivtrafik (tunnelbana, järnväg)\n• Avancerat vatten- och avloppssystem\n• Säker el-försörjning\n• Modern sjukvård\n• Politisk stabilitet och planering över decennier\n• Genomtänkt stadsplanering\n\n**Dhaka:**\n• Otillräcklig kollektivtrafik\n• Bristande vatten/avlopp\n• Frekventa elavbrott\n• Bristande sjukvård\n• Snabb tillväxt utan planering\n• Stor slum (en tredjedel av befolkningen)\n\n**Slutsats:** Det är **inte antalet människor** som avgör om en stad är 'överbefolkad' — det är förhållandet mellan invånare och infrastruktur. En stad är överbefolkad när den inte kan ge sina invånare grundläggande service.\n\nDärför kan Tokyo med 37 miljoner fungera bättre än Dhaka med 23 miljoner. Det visar att urbanisering kan göras bra eller dåligt — det är politiska och planeringsmässiga val."
+    }
+  ],
+
+  "redogorelsekort": [
+    {
+      "id": "k5-r1",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Förklara vad urbanisering är och vad som driver den. Ge exempel.",
+      "ungefarlig_tid_min": 7,
+      "modellsvar": "**Urbanisering** är när en allt större andel av befolkningen bor i städer istället för på landsbygden. Det är inte främst att städer växer (de gör de också), utan att **förhållandet** mellan stads- och landsbygdsbefolkning förändras.\n\nÅr 1800 bodde cirka 7% av världens befolkning i städer. Idag är siffran cirka 57%. FN beräknar att 70% kommer bo i städer år 2050.\n\n**Vad driver urbanisering?**\n\n**1. Industrialiseringen** är den historiska huvudfaktorn. När fabriker byggdes behövdes många arbetare på samma plats. Människor flyttade från landsbygden till fabriksstäder. Detta hände i Europa på 1800-talet, i USA i slutet av 1800-talet, i Asien från 1950-talet och pågår fortfarande i Afrika.\n\n**2. Jordbrukets mekanisering** är den andra sidan av samma mynt. Traktorer och skördetröskor minskar behovet av människor på åkrarna. En modern bonde i Sverige kan göra arbetet som tidigare krävde 50 personer. De som 'frigörs' söker sig till städerna.\n\n**3. Bättre möjligheter:** I städerna finns mer arbete, högre löner, bättre utbildning, sjukvård och kultur. Sociala rörlighet är större i städer.\n\n**4. Pull-faktorer hos den unga generationen:** Stadens 'liv', oberoende från familjen, möten med nya människor, drömmar.\n\n**Exempel: Kina** har genomgått världshistoriens snabbaste urbanisering. På 40 år har över **600 miljoner kineser** flyttat från landsbygd till städer. Det har skapat dynamiska megastäder som Shanghai och Shenzhen, men också enorm tryck på infrastruktur, miljö och samhällsplanering.\n\n**Sverige** är ett urbaniserat land — 88% bor i städer. Stockholm växer fortfarande, samtidigt som många glesbygdskommuner krymper.",
+      "stodlarare": {
+        "stodord": ["urbanisering", "urbaniseringsgrad", "industrialisering", "jordbrukets mekanisering", "Kina", "Stockholm"],
+        "startfraser": [
+          "Urbanisering är när en större andel av befolkningen...",
+          "Den drivs av flera faktorer:",
+          "Industrialiseringen är den historiska huvudfaktorn eftersom..."
+        ],
+        "tip_for_struktur": "Definiera begreppet. Räkna upp drivkrafterna (industri, mekanisering, möjligheter, livsstil). Ge konkret exempel (Kina eller Sverige). Avsluta med dagens situation."
+      }
+    },
+    {
+      "id": "k5-r2",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "instruktion": "Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Beskriv den negativa landsbygdsspiralen och hur den uppstår.",
+      "ungefarlig_tid_min": 6,
+      "modellsvar": "Den **negativa landsbygdsspiralen** är en självförstärkande process där landsbygdens nedgång driver fortsatt nedgång. När den väl är igång är den mycket svår att bryta.\n\n**Så här fungerar spiralen:**\n\nDet börjar med att **unga flyttar** från landsbygden till städer för utbildning och jobb. Detta är naturligt — städerna erbjuder mer.\n\nNär unga lämnar blir **befolkningen kvar äldre och färre**. Pensionärer dominerar. Färre arbetar.\n\nFärre arbetande betyder att **skatteunderlaget krymper**. Kommunen får mindre pengar att jobba med.\n\nKommunen tvingas **stänga service** — först de små byskolorna, sedan vårdcentraler, sedan kollektivtrafiklinjer, sedan butiker. Ortens grundläggande infrastruktur försvagas.\n\nNu blir orten **mindre attraktiv** att bo i. Unga familjer flyttar inte dit — varför skulle de? Ännu fler av de unga som redan bor där lämnar.\n\nOch så börjar cykeln om från början. **Cirkeln sluter sig.**\n\n**Konkret exempel — Norrlands inland:**\n\nPajala i Tornedalen hade 17 000 invånare år 1950. Idag bor cirka 5 800 där. Skolorna har stängts. Vårdcentralen är liten. Affärerna har minskat. En generations försök att hålla orten levande har varit svårt.\n\n**Varför spiralen är så svår att bryta:**\n\nVarje steg är **logiskt** ur kommunens perspektiv. Om det finns för få elever kan man inte hålla en skola. Om butiken inte går runt måste den stänga. Var och en av besluten är rimliga. Men tillsammans skapar de spiralen.\n\nDärför kräver det **medvetna politiska insatser** att bryta. Sverige har sedan 1970-talet fört aktiv regionalpolitik. Det kan handla om bättre kommunikationer, satsningar på distansarbete, eller särskilda investeringar i nya industrier (som gruvor i Pajala).",
+      "stodlarare": {
+        "stodord": ["negativa spiral", "skatteunderlag", "service", "Pajala", "kommun", "infrastruktur"],
+        "startfraser": [
+          "Den negativa landsbygdsspiralen är en självförstärkande process där...",
+          "Det börjar med att unga flyttar, vilket leder till...",
+          "Spiralen är svår att bryta eftersom..."
+        ],
+        "tip_for_struktur": "Beskriv stegen i spiralen i ordning. Förklara varför var och en av dem är logisk men tillsammans skapar problem. Ge konkret exempel (Pajala). Diskutera möjliga lösningar."
+      }
+    },
+    {
+      "id": "k5-r3",
+      "type": "redogorelse",
+      "niva": "fordjupning",
+      "instruktion": "FÖRDJUPNING — Skriv ditt svar i textfältet om du vill, eller tänk igenom det i huvudet innan du vänder kortet.",
+      "fraga": "Diskutera megastäders möjligheter och problem med exempel.",
+      "ungefarlig_tid_min": 12,
+      "modellsvar": "**Megastäder** — städer över 10 miljoner invånare — är 2000-talets dominerande stadsform. Idag finns cirka 35 megastäder globalt, och de spelar enorm roll i världsekonomin och människors liv.\n\n**Möjligheter:**\n\n*Ekonomisk dynamik:* Megastäder är ofta motorerna i sina länders ekonomier. Tokyo står för ~40% av Japans BNP. London står för ~25% av Storbritanniens. Shanghai är centrum för Kinas ekonomi.\n\n*Innovation:* Universitet, forskning, startups, kreativ ekonomi blomstrar i megastäder. Bangalore i Indien har blivit Asiens 'Silicon Valley'.\n\n*Social rörlighet:* En ung människa från en fattig by har bättre chans att förändra sitt liv i en megastad — där finns utbildning, jobb, nätverk, alternativ.\n\n*Kulturell mångfald:* Människor från hela världen möts. Restauranger, konst, musik, idéer flödar. Det skapar dynamik som småorter inte kan erbjuda.\n\n*Effektivitet:* Människor som bor tätt är mer effektiva — kortare resor till jobbet, delade kollektiva tjänster, mindre energiåtgång per person (om infrastrukturen är god).\n\n**Problem:**\n\n*Slum och fattigdom:* Cirka 1 miljard människor globalt bor i slum. I Dhaka är cirka en tredjedel av befolkningen i slumområden. Brist på rent vatten, avlopp, sjukvård.\n\n*Trafikkollaps:* Bangkok, Manila, Lagos, Karachi — städer där det kan ta 2-3 timmar att åka 10 km. Förlorad produktivitet och livskvalitet.\n\n*Miljöproblem:* Luftföroreningar (Delhi har världens värsta luft delar av året). Vattenbrist. Avfallshantering. Värmeöar.\n\n*Bostadskris:* I storstäder runt om i världen — från San Francisco till Mumbai — är bostäder ofta så dyra att unga inte har råd. Detta hämmar tillväxt och skapar ojämlikhet.\n\n*Sårbarhet:* Megastäder är sårbara — för pandemier (covid drabbade dem hårdast), klimatkriser (Mumbai översvämmas, Lagos kan hamna under havet), eller försörjningskedjor som bryts.\n\n*Sociala spänningar:* Stark ojämlikhet inom samma stad. I Mumbai bor miljonärer hundra meter från slumområden. Det skapar spänningar.\n\n**Exempel — Tokyo vs Lagos:**\n\nTokyo (37 miljoner) är världens största stad MEN fungerar fantastiskt välmående. Tunnelbanan är världens bästa. Renlighet är extrem. Sjukvård är utmärkt. Det visar att megastäder KAN fungera om de byggs rätt.\n\nLagos (15 miljoner och växande) är världens mest kaotiska megastad. Trafikkollaps, ständiga elavbrott, omfattande slum, hög kriminalitet. Visar vad som händer när urbanisering går snabbare än planering.\n\n**Skillnaden** är inte storleken — det är **politik, planering och ekonomi**. Megastäder är varken bra eller dåliga i sig själva. De är vad vi gör dem till.\n\nVärldens framtid kommer i stor utsträckning att utspela sig i dessa städer. Hur Lagos, Kinshasa, Dhaka och andra växande megastäder utvecklas under 2000-talet kommer prägla mänsklighetens väg.",
+      "stodlarare": {
+        "stodord": ["megastad", "Tokyo", "Lagos", "Dhaka", "slum", "infrastruktur", "social rörlighet"],
+        "startfraser": [
+          "Megastäder erbjuder enorma möjligheter, till exempel...",
+          "Men problemen är också enorma:",
+          "Skillnaden mellan en välfungerande och en kaotisk megastad är..."
+        ],
+        "tip_for_struktur": "Räkna upp möjligheter (ekonomi, innovation, social rörlighet). Räkna upp problem (slum, trafik, miljö, bostäder). Använd Tokyo vs Lagos som kontrast. Avsluta med insikten att det handlar om planering, inte storlek."
+      }
+    }
+  ]
+}

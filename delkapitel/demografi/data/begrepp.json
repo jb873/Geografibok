@@ -1,0 +1,325 @@
+{
+  "delkapitel": "demografi",
+  "avsnitt": [
+    {
+      "id": "a1_jordens_befolkning",
+      "nummer": 1,
+      "titel": "Jordens befolkning",
+      "begrepp": [
+        {
+          "id": "b_demografi",
+          "term": "demografi",
+          "etymologi": "Demografi kommer från grekiskan – demos betyder folk, grafi betyder beskriva eller skriva. Demografi är alltså 'läran om att beskriva folk'.",
+          "forklaring": "Demografi är vetenskapen om mänskliga befolkningar. Demografer studerar hur stor en befolkning är, hur den är sammansatt (till exempel åldersfördelning), och hur den förändras över tid genom födslar, dödsfall och migration.",
+          "nyckelord": ["folk", "befolkn", "studi"]
+        },
+        {
+          "id": "b_befolkning",
+          "term": "befolkning",
+          "forklaring": "Befolkning är alla människor som bor i ett visst område, till exempel ett land, en stad eller en region. Befolkningens storlek kan mätas vid en viss tidpunkt och förändras hela tiden genom födelser, dödsfall och migration.",
+          "nyckelord": ["människor", "områd", "bor"]
+        },
+        {
+          "id": "b_befolkningsmangd",
+          "term": "befolkningsmängd",
+          "forklaring": "Befolkningsmängd är antalet människor som bor i ett område vid en viss tidpunkt. Sveriges befolkningsmängd är ungefär 10,5 miljoner, medan jordens befolkningsmängd är cirka 8 miljarder.",
+          "nyckelord": ["antal", "människor", "områd"]
+        },
+        {
+          "id": "b_befolkningstathet",
+          "term": "befolkningstäthet",
+          "forklaring": "Befolkningstäthet mäter hur tätt människor bor i ett område. Det räknas ut genom att dela befolkningsmängden med områdets yta, och anges oftast som antal invånare per kvadratkilometer. Bangladesh har hög befolkningstäthet medan Mongoliet har låg.",
+          "nyckelord": ["tät", "yta", "kvadrat"]
+        },
+        {
+          "id": "b_befolkningstillvaxt",
+          "term": "befolkningstillväxt",
+          "forklaring": "Befolkningstillväxt beskriver hur snabbt en befolkning förändras, oftast uttryckt i procent per år. Det är takten på förändringen, inte den totala mängden. Ett land med 2 % befolkningstillväxt per år får dubbelt så stor befolkning på cirka 35 år.",
+          "nyckelord": ["öka", "minska", "procent"]
+        },
+        {
+          "id": "b_befolkningsokning",
+          "term": "befolkningsökning",
+          "forklaring": "Befolkningsökning är när antalet människor i ett område blir fler. Ökningen kan ske på två sätt: genom att fler föds än dör (naturlig befolkningsökning), eller genom att fler flyttar in än ut (migrationsöverskott). Det motsatta – när befolkningen blir färre – kallas befolkningsminskning och sker när fler dör än föds, eller fler flyttar ut än in. Sverige har befolkningsökning idag, medan Japan har befolkningsminskning.",
+          "nyckelord": ["fler", "färre", "föd"]
+        },
+        {
+          "id": "b_befolkningsprognos",
+          "term": "befolkningsprognos",
+          "etymologi": "Prognos kommer från grekiskan – pro betyder 'i förväg', gnosis betyder 'kunskap'. En prognos är alltså 'förhandskunskap' eller en kvalificerad gissning om framtiden.",
+          "forklaring": "Befolkningsprognos är en beräkning av hur stor en befolkning kommer att vara i framtiden. Demografer använder dagens befolkningsstruktur och antaganden om födelsetal, dödstal och migration för att räkna ut prognoser. Prognoser används av regeringar, kommuner och företag för att planera framåt.",
+          "nyckelord": ["framtid", "beräkn", "planera"]
+        }
+      ]
+    },
+    {
+      "id": "a2_lokaliseringsfaktorer",
+      "nummer": 2,
+      "titel": "Befolkningens lokaliseringsfaktorer",
+      "begrepp": [
+        {
+          "id": "b_tatbygd",
+          "term": "tätbygd",
+          "forklaring": "Tätbygd är ett område där många människor bor tätt tillsammans. Det handlar oftast om städer, men även förstäder och tätorter räknas till tätbygden. I tätbygden finns service, arbetsplatser, kollektivtrafik och kulturutbud nära.",
+          "nyckelord": ["tätt", "stad", "många"]
+        },
+        {
+          "id": "b_glesbygd",
+          "term": "glesbygd",
+          "forklaring": "Glesbygd är områden där få människor bor på en stor yta. Glesbygden präglas ofta av jordbruk, skogsbruk och natur. Avstånden till service som affärer, vård och skola är längre, men närheten till naturen och utrymmet är större.",
+          "nyckelord": ["få", "stor yta", "lands"]
+        },
+        {
+          "id": "b_lokaliseringsfaktor",
+          "term": "lokaliseringsfaktor",
+          "etymologi": "Lokal kommer från latinets locus som betyder 'plats'. En lokaliseringsfaktor är alltså något som styr platsen.",
+          "forklaring": "Lokaliseringsfaktor är något som påverkar var människor väljer att bo eller var verksamheter etableras. Faktorerna brukar delas in i naturgivna faktorer (klimat, vattentillgång, jordmån, topografi) och mänskliga faktorer (arbetsmöjligheter, traditioner, transport, närhet till andra människor).",
+          "nyckelord": ["plats", "påverkar", "bor"]
+        }
+      ]
+    },
+    {
+      "id": "a3_demografiska_transitionen",
+      "nummer": 3,
+      "titel": "Den demografiska transitionen",
+      "begrepp": [
+        {
+          "id": "b_nativitet",
+          "term": "nativitet",
+          "etymologi": "Nativitet kommer från latinets nativus som betyder 'född'. Begreppet är besläktat med ord som 'nation' och 'naturlig'.",
+          "forklaring": "Nativitet är antalet barn som föds i ett område under en viss tid, oftast räknat som antal födda per 1000 invånare per år. Hög nativitet betyder att det föds många barn, låg nativitet att det föds få.",
+          "nyckelord": ["föd", "1000", "år"]
+        },
+        {
+          "id": "b_fertilitet",
+          "term": "fertilitet",
+          "etymologi": "Från latinets fertilis = fruktbar. Samma rot som i 'fertilizer' (gödningsmedel) på engelska.",
+          "forklaring": "Fertilitet är ett mått på hur många barn kvinnor i ett område föder i genomsnitt under sin livstid. Sveriges fertilitet ligger idag runt 1,5 barn per kvinna, medan Niger har bland världens högsta fertilitet med över 6 barn per kvinna.",
+          "nyckelord": ["barn", "kvinna", "föd"]
+        },
+        {
+          "id": "b_fertil_alder",
+          "term": "fertil ålder",
+          "forklaring": "Fertil ålder är den period i livet då en person biologiskt kan få barn. För kvinnor räknas det vanligen från cirka 15 till 49 års ålder. Hur stor andel av ett lands kvinnor som befinner sig i fertil ålder påverkar landets nativitet.",
+          "nyckelord": ["ålder", "barn", "kvinn"]
+        },
+        {
+          "id": "b_mortalitet",
+          "term": "mortalitet",
+          "etymologi": "Från latinets mors/mortis = död. Samma rot som i 'mortal' (dödlig) och 'mördare'.",
+          "forklaring": "Mortalitet är antalet människor som dör i ett område under en viss tid, oftast räknat som antal döda per 1000 invånare per år. Hög mortalitet kan bero på dåliga levnadsförhållanden, sjukdomar eller krig, medan låg mortalitet är ett tecken på god hälsa och välfärd.",
+          "nyckelord": ["dör", "döda", "1000"]
+        },
+        {
+          "id": "b_spadbarnsdodlighet",
+          "term": "spädbarnsdödlighet",
+          "forklaring": "Spädbarnsdödlighet är andelen barn som dör innan ett års ålder, oftast räknat per 1000 levande födda. Det är ett av de viktigaste måtten på ett samhälles hälsa och utveckling – låg spädbarnsdödlighet visar att vården, näringen och hygienen fungerar.",
+          "nyckelord": ["barn", "år", "1000"]
+        },
+        {
+          "id": "b_modradodlighet",
+          "term": "mödradödlighet",
+          "forklaring": "Mödradödlighet är andelen kvinnor som dör i samband med graviditet eller förlossning. I länder med god mödravård är mödradödligheten mycket låg, medan den fortfarande är hög i delar av Afrika söder om Sahara där tillgången till vård är begränsad.",
+          "nyckelord": ["kvinn", "förlossn", "graviditet"]
+        },
+        {
+          "id": "b_medellivslangd",
+          "term": "medellivslängd",
+          "forklaring": "Medellivslängd är hur länge en nyfödd person förväntas leva i genomsnitt, om dagens dödstal fortsätter att gälla. I Sverige är medellivslängden cirka 83 år, medan den i vissa länder är under 60 år. Medellivslängden påverkas av hälsa, näring, sjukvård och säkerhet.",
+          "nyckelord": ["genomsnitt", "leva", "år"]
+        },
+        {
+          "id": "b_naturlig_befolkningsokning",
+          "term": "naturlig befolkningsökning",
+          "forklaring": "Naturlig befolkningsökning är skillnaden mellan antal födda och antal döda i ett område under en viss tid. Om fler föds än dör är den naturliga befolkningsökningen positiv. Migration räknas inte in i den naturliga befolkningsökningen – bara födslar och dödsfall.",
+          "nyckelord": ["födda", "döda", "skillnad"]
+        },
+        {
+          "id": "b_familjeplanering",
+          "term": "familjeplanering",
+          "forklaring": "Familjeplanering är när människor medvetet bestämmer hur många barn de vill ha och när. Det kan handla om preventivmedel, utbildning om reproduktiv hälsa och samhällsstöd. Familjeplanering har en stor effekt på ett lands fertilitet och därmed på den demografiska utvecklingen.",
+          "nyckelord": ["barn", "bestäm", "preventiv"]
+        },
+        {
+          "id": "b_demografisk_transition",
+          "term": "demografisk transition",
+          "etymologi": "Transition kommer från latinets transitio = övergång. En demografisk transition är alltså en befolkningsövergång.",
+          "forklaring": "Demografisk transition är en modell som beskriver hur ett samhälles befolkningsmönster förändras när landet utvecklas. Modellen delar utvecklingen i fem skeden, från ett jordbrukssamhälle med hög nativitet och hög mortalitet, genom snabb befolkningstillväxt, till ett modernt samhälle med låg nativitet och låg mortalitet.",
+          "nyckelord": ["modell", "skede", "övergång"]
+        },
+        {
+          "id": "b_befolkningspyramid",
+          "term": "befolkningspyramid",
+          "forklaring": "Befolkningspyramid är ett diagram som visar hur ett lands befolkning är fördelad på åldersgrupper och kön. Männen visas till vänster om en mittlinje, kvinnorna till höger, och åldersgrupperna staplas på varandra med de yngsta längst ner. Genom att studera en pyramids form kan man läsa av mycket om landet: en bred bas betyder hög nativitet och växande befolkning, en jämn pelare visar en stabil befolkning, och en uppåtsmal form med liten bas avslöjar en åldrande och krympande befolkning. Pyramiderna används därför som ett av demografernas viktigaste verktyg.",
+          "nyckelord": ["ålder", "kön", "diagram"]
+        },
+        {
+          "id": "b_reproduktionsniva",
+          "term": "reproduktionsnivå",
+          "forklaring": "Reproduktionsnivå är den fertilitetsnivå som krävs för att en befolkning ska hålla sig konstant från generation till generation, om man bortser från migration. Reproduktionsnivån ligger på cirka 2,1 barn per kvinna i utvecklade länder (något högre i länder med hög barnadödlighet). Tanken är enkel: varje par behöver ersätta sig själva med två barn, plus en liten marginal för de barn som inte lever till vuxen ålder. Om fertiliteten är under reproduktionsnivån, som i många europeiska länder och Japan, kommer befolkningen på sikt att minska utan inflyttning. Reproduktionsnivån är en central tröskel i den demografiska transitionens skede 5.",
+          "nyckelord": ["2,1", "barn", "ersätt"]
+        }
+      ]
+    },
+    {
+      "id": "a4_migration",
+      "nummer": 4,
+      "titel": "Migration",
+      "begrepp": [
+        {
+          "id": "b_migration",
+          "term": "migration",
+          "etymologi": "Migration kommer från latinets migratio som betyder 'förflyttning' eller 'vandring'.",
+          "forklaring": "Migration är när människor flyttar från ett område till ett annat, antingen inom samma land eller mellan olika länder. Migration är en av de tre faktorer som påverkar en befolknings storlek, vid sidan av nativitet och mortalitet.",
+          "nyckelord": ["flytt", "områd", "människor"]
+        },
+        {
+          "id": "b_emigration",
+          "term": "emigration",
+          "etymologi": "Emigration kommer från latinets emigrare där e- betyder 'ut' och migrare betyder 'flytta'. En emigrant är alltså någon som 'flyttar ut'.",
+          "forklaring": "Emigration är när människor flyttar från sitt hemland för att bosätta sig i ett annat land. Den som emigrerar kallas emigrant eller utvandrare. Under 1800-talet emigrerade omkring 1,3 miljoner svenskar till framför allt Nordamerika.",
+          "nyckelord": ["lämn", "ut", "hemland"]
+        },
+        {
+          "id": "b_immigration",
+          "term": "immigration",
+          "etymologi": "Immigration kommer från latinets immigrare där im- (in-) betyder 'in' och migrare betyder 'flytta'. En immigrant 'flyttar in'.",
+          "forklaring": "Immigration är när människor flyttar in till ett land för att bosätta sig där. Den som immigrerar kallas immigrant eller invandrare. Sverige är idag ett invandrarland som tar emot människor från många olika delar av världen.",
+          "nyckelord": ["in", "bosätt", "land"]
+        },
+        {
+          "id": "b_push_faktor",
+          "term": "push-faktor",
+          "forklaring": "Push-faktorer är sådant som driver bort människor från ett område eller ett land. Det kan handla om krig, förföljelse, fattigdom, miljöproblem, arbetslöshet eller bristen på framtidsutsikter. Push-faktorerna är 'negativa krafter' som gör att människor inte vill stanna kvar.",
+          "nyckelord": ["driv", "bort", "negativ"]
+        },
+        {
+          "id": "b_pull_faktor",
+          "term": "pull-faktor",
+          "forklaring": "Pull-faktorer är sådant som drar människor till ett område eller ett land. Det kan handla om jobb, högre löner, fred och säkerhet, bättre utbildning, sjukvård eller chansen att återförenas med familj. Pull-faktorerna är 'positiva krafter' som gör att människor vill flytta dit.",
+          "nyckelord": ["drar", "till", "positiv"]
+        },
+        {
+          "id": "b_cirkular_migration",
+          "term": "cirkulär migration",
+          "forklaring": "Cirkulär migration är när människor flyttar fram och tillbaka mellan länder, oftast för att arbeta säsongsvis eller under en begränsad tid innan de återvänder hem. Bärplockare som kommer till Sverige varje sommar och sedan åker tillbaka är ett exempel.",
+          "nyckelord": ["fram", "tillbaka", "tid"]
+        },
+        {
+          "id": "b_brain_drain",
+          "term": "brain drain",
+          "forklaring": "Brain drain, eller 'kompetensflykt' på svenska, är när välutbildade människor – läkare, ingenjörer, forskare – lämnar sitt hemland för att arbeta i ett rikare land. Det avsändande landet förlorar då kompetens som det ofta satsat stora resurser på att utbilda, medan mottagarlandet vinner.",
+          "nyckelord": ["välutbildad", "lämn", "kompetens"]
+        },
+        {
+          "id": "b_flykting",
+          "term": "flykting",
+          "forklaring": "Flykting är en person som tvingats lämna sitt hemland på grund av krig, förföljelse eller väpnade konflikter. Enligt FN:s flyktingkonvention från 1951 har flyktingar rätt till skydd i andra länder. Det finns idag omkring 110 miljoner flyktingar och tvångsförflyttade människor i världen.",
+          "nyckelord": ["tvunge", "krig", "förfölj"]
+        },
+        {
+          "id": "b_klimatflykting",
+          "term": "klimatflykting",
+          "forklaring": "Klimatflyktingar är människor som tvingas lämna sina hem på grund av miljö- och klimatförändringar – stigande havsnivåer, torka, översvämningar eller andra naturkatastrofer. Antalet klimatflyktingar väntas öka kraftigt under 2000-talet. Begreppet är dock omdiskuterat eftersom klimatflyktingar inte är skyddade av FN:s flyktingkonvention.",
+          "nyckelord": ["klimat", "miljö", "tvinga"]
+        },
+        {
+          "id": "b_arbetskraftsinvandring",
+          "term": "arbetskraftsinvandring",
+          "forklaring": "Arbetskraftsinvandring är när människor flyttar till ett annat land för att arbeta. Sverige hade en stor arbetskraftsinvandring under 1950- och 1960-talen, framför allt från Finland, Italien, Jugoslavien och Grekland. Det berodde på att svensk industri behövde fler arbetare än vad landet själv kunde leverera.",
+          "nyckelord": ["arbeta", "flytt", "land"]
+        },
+        {
+          "id": "b_segregation",
+          "term": "segregation",
+          "etymologi": "Segregation kommer från latinets segregare = 'skilja från flocken' (se- 'från' + grex 'flock').",
+          "forklaring": "Segregation betyder uppdelning eller åtskillnad. När man talar om segregation i ett samhälle handlar det ofta om att olika grupper bor, arbetar eller går i skola åtskilda från varandra – exempelvis att invandrare och svenskfödda bor i olika stadsdelar. Segregation kan leda till ojämlikhet, minskad rörlighet och svårare integration.",
+          "nyckelord": ["uppdeln", "åtskild", "grupp"]
+        },
+        {
+          "id": "b_integration",
+          "term": "integration",
+          "etymologi": "Integration kommer från latinets integrare = 'göra hel' eller 'förena'. Samma rot som i 'integer' (heltal).",
+          "forklaring": "Integration betyder samhörighet eller infogning. När man talar om integration i ett samhälle handlar det om att människor från olika bakgrunder ska bli en del av samhället på lika villkor – genom språk, utbildning, arbete och delaktighet. Integration är en ömsesidig process där både nyanlända och samhället måste anpassa sig.",
+          "nyckelord": ["delaktig", "samhäll", "förena"]
+        }
+      ]
+    },
+    {
+      "id": "a5_urbanisering",
+      "nummer": 5,
+      "titel": "Urbanisering",
+      "begrepp": [
+        {
+          "id": "b_urbanisering",
+          "term": "urbanisering",
+          "etymologi": "Urbanisering kommer från latinets urbs = 'stad'. Samma rot som i orden 'urban' och 'suburb' (förort).",
+          "forklaring": "Urbanisering är processen då allt fler människor flyttar från landsbygd till städer, så att städernas andel av befolkningen ökar. Urbaniseringen tog fart under industrialiseringen på 1800-talet och fortsätter än idag, särskilt i utvecklingsländer. För drygt 100 år sedan bodde bara cirka 15 procent av jordens befolkning i städer. Idag bor över hälften i städer.",
+          "nyckelord": ["stad", "landsbygd", "flytt"]
+        },
+        {
+          "id": "b_urbaniseringsgrad",
+          "term": "urbaniseringsgrad",
+          "forklaring": "Urbaniseringsgrad är andelen av ett lands befolkning som bor i städer, oftast angivet i procent. Sveriges urbaniseringsgrad är cirka 88 procent, medan Burundi har en av världens lägsta med omkring 14 procent. Det är dock svårt att jämföra siffrorna mellan länder eftersom varje land har sin egen definition av vad som räknas som tätbygd. I Sverige räknas en tätort som ett område med minst 200 invånare och bebyggelse på högst 200 meters avstånd, medan Japan kräver minst 50 000 invånare för att området ska kallas stad. Det betyder att samma ort kan vara 'tätbygd' i Sverige men 'landsbygd' i Japan, vilket gör direkta jämförelser missvisande.",
+          "nyckelord": ["andel", "procent", "definition"]
+        },
+        {
+          "id": "b_megastad",
+          "term": "megastad",
+          "etymologi": "'Mega-' kommer från grekiskan och betyder 'stor' eller 'miljon'. En megastad är alltså en miljonstad – fast i nyare definition tio gånger så stor.",
+          "forklaring": "Megastad är en stad med mer än 10 miljoner invånare. År 1950 fanns bara två megastäder – New York och Tokyo. Idag finns över 30 megastäder, varav de flesta i Asien och Afrika. Megastäder skapar både möjligheter (arbete, utbildning, ekonomisk dynamik) och problem (trafikkaos, slumområden, miljöförstöring, ojämlikhet).",
+          "nyckelord": ["10 miljon", "stor", "stad"]
+        },
+        {
+          "id": "b_grona_vagen",
+          "term": "gröna vågen",
+          "forklaring": "Gröna vågen är en motrörelse till urbaniseringen där människor flyttar från staden till landsbygden för att söka ett enklare, mer naturnära liv. Begreppet myntades i Sverige under 1970-talet, då många unga lämnade städerna för att starta jordbruk eller bo i mindre orter. En liknande rörelse syns idag, delvis driven av distansarbete och miljötänkande efter coronapandemin.",
+          "nyckelord": ["lands", "stad", "natur"]
+        }
+      ]
+    },
+    {
+      "id": "a6_befolkning_resurser",
+      "nummer": 6,
+      "titel": "Befolkning och resurstillgång",
+      "begrepp": [
+        {
+          "id": "b_fattigdom",
+          "term": "fattigdom",
+          "forklaring": "Fattigdom är när människor saknar resurser för att leva ett värdigt liv. Det handlar inte bara om brist på pengar, utan också om brist på mat, vatten, sjukvård, utbildning, säkerhet och möjlighet att påverka sitt eget liv. Fattigdom kan definieras och mätas på olika sätt beroende på vilket land och vilken tid man pratar om.",
+          "nyckelord": ["brist", "resurser", "leva"]
+        },
+        {
+          "id": "b_extrem_fattigdom",
+          "term": "extrem fattigdom",
+          "forklaring": "Extrem fattigdom är när en person lever på mindre än cirka 2,15 US-dollar om dagen, enligt Världsbankens definition. Människor i extrem fattigdom har svårt att klara grundläggande behov som mat, kläder och tak över huvudet. År 1990 levde cirka 36 procent av jordens befolkning i extrem fattigdom – idag är siffran nere kring 9 procent, men minskningen har bromsat in.",
+          "nyckelord": ["2,15", "dollar", "dag"]
+        },
+        {
+          "id": "b_undernaring",
+          "term": "undernäring",
+          "forklaring": "Undernäring är när människor inte får i sig tillräckligt med näring för att kroppen ska fungera normalt. Det kan handla om för lite mat (svält) eller om ensidig kost som saknar viktiga näringsämnen. Undernäring är vanligast i fattiga länder och drabbar barn extra hårt – ett undernärt barn riskerar livslånga skador på både kropp och utveckling.",
+          "nyckelord": ["näring", "mat", "tillräck"]
+        },
+        {
+          "id": "b_relativ_fattigdom",
+          "term": "relativ fattigdom",
+          "forklaring": "Relativ fattigdom är när en person har betydligt mindre resurser än vad som är normalt i det samhälle hen lever i. Den mäts oftast som att man har mindre än 60 procent av landets medianinkomst. Relativ fattigdom finns även i rika länder som Sverige – det handlar inte om att svälta, utan om att inte kunna delta i samhället på samma villkor som andra (köpa kläder, gå på aktiviteter, fira högtider).",
+          "nyckelord": ["mindre", "samhäll", "normal"]
+        },
+        {
+          "id": "b_overbefolkning",
+          "term": "överbefolkning",
+          "forklaring": "Överbefolkning är när antalet människor i ett område är större än vad miljön och resurserna klarar av att försörja på lång sikt. Begreppet är omdiskuterat – vissa menar att jorden redan är överbefolkad, andra att det inte är antalet människor som är problemet utan hur vi konsumerar och fördelar resurser. Det som anses vara överbefolkat förändras också över tid när tekniken utvecklas.",
+          "nyckelord": ["antal", "resurs", "miljö"]
+        },
+        {
+          "id": "b_underbefolkning",
+          "term": "underbefolkning",
+          "forklaring": "Underbefolkning är när antalet människor i ett område är så få att samhället får svårt att fungera och utvecklas. Det handlar dels om att samhällsservice tappar fart – skolor stängs när det inte finns nog med elever, butiker och vårdcentraler läggs ned, och infrastruktur som vägar och kollektivtrafik blir för dyr att underhålla per invånare. Men det handlar också om att resurser och möjligheter inte tas tillvara: jordbruksmark som ingen brukar, mineraltillgångar som inte utvinns, eller en industri som saknar arbetskraft. Underbefolkning kan därför hindra ett område, en region eller till och med en hel nation från att utvecklas ekonomiskt. Underbefolkning är vanligt i glesbygd – i Sverige drabbas särskilt inlandskommuner i norr, medan flera europeiska länder (som Italien och Tyskland) ser hela byar avfolkas. Liksom överbefolkning är begreppet relativt: vad som är 'för få' beror på samhällets behov, resurser och utvecklingspotential.",
+          "nyckelord": ["få", "utveckl", "resurs"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "delkapitel": "demografi",
+  "forelasningar": [
+    {
+      "id": "f_befolkning_varlden",
+      "avsnitt_id": "a1_jordens_befolkning",
+      "titel": "Demografi: Befolkning i världen",
+      "youtube_id": "jrd-sDdUi-Q",
+      "langd": "12:17"
+    },
+    {
+      "id": "f_lokaliseringsfaktorer",
+      "avsnitt_id": "a2_lokaliseringsfaktorer",
+      "titel": "Lokaliseringsfaktorer – befolkning",
+      "youtube_id": "BsFl26FpU_M",
+      "langd": "9:35"
+    },
+    {
+      "id": "f_demografi_begrepp",
+      "avsnitt_id": "a1_jordens_befolkning",
+      "titel": "Demografi begrepp",
+      "youtube_id": "HOxtl-E9aXw",
+      "langd": "7:17"
+    },
+    {
+      "id": "f_modell_befolkningstillvaxt",
+      "avsnitt_id": "a3_demografiska_transitionen",
+      "titel": "Modell över befolkningstillväxt",
+      "youtube_id": "bAbaYcShn-s",
+      "langd": "4:36"
+    },
+    {
+      "id": "f_push_pull",
+      "avsnitt_id": "a4_migration",
+      "titel": "Modell: push- och pullfaktorer",
+      "youtube_id": "rfxgw8M4J-A",
+      "langd": "13:10"
+    },
+    {
+      "id": "f_transition_del1",
+      "avsnitt_id": "a3_demografiska_transitionen",
+      "titel": "Den demografiska transitionen – del 1",
+      "youtube_id": "qUoOZVzJ-so",
+      "langd": "8:55"
+    },
+    {
+      "id": "f_transition_del2",
+      "avsnitt_id": "a3_demografiska_transitionen",
+      "titel": "Den demografiska transitionen – del 2",
+      "youtube_id": "xWcdOy0jDno",
+      "langd": "15:11"
+    },
+    {
+      "id": "f_levnadsstandard_fattigdom",
+      "avsnitt_id": "a6_befolkning_resurser",
+      "titel": "Levnadsstandard och fattigdom",
+      "youtube_id": "xuGFBAbRrSU",
+      "langd": "11:43"
+    },
+    {
+      "id": "f_segregation_integration",
+      "avsnitt_id": "a4_migration",
+      "titel": "Segregation, integration och assimilering",
+      "youtube_id": "bfoj6qVORl8",
+      "langd": "13:45"
+    }
+  ]
+}

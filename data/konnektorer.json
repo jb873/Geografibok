@@ -1,0 +1,90 @@
+{
+  "version": "1.0",
+  "beskrivning": "Universellt konnektor-bibliotek för textbyggar-stödläraren. Används på alla redogörelsekort oavsett avsnitt.",
+
+  "kategorier": [
+    {
+      "id": "orsak-verkan",
+      "rubrik": "Orsak och verkan",
+      "beskrivning": "När du vill förklara varför något händer eller vad det leder till",
+      "fraser": [
+        "därför",
+        "eftersom",
+        "vilket leder till",
+        "det beror på att",
+        "anledningen är",
+        "som en följd av",
+        "detta resulterar i",
+        "på grund av"
+      ]
+    },
+    {
+      "id": "tillagg",
+      "rubrik": "Lägga till",
+      "beskrivning": "När du vill bygga vidare på en tanke",
+      "fraser": [
+        "dessutom",
+        "även",
+        "vidare",
+        "en annan viktig faktor är",
+        "samtidigt",
+        "utöver detta",
+        "därtill kommer",
+        "för det andra"
+      ]
+    },
+    {
+      "id": "exempel",
+      "rubrik": "Ge exempel",
+      "beskrivning": "När du vill konkretisera med exempel",
+      "fraser": [
+        "till exempel",
+        "ett exempel är",
+        "detta syns i",
+        "vi kan se det i",
+        "exempelvis",
+        "som ett konkret fall",
+        "ett tydligt exempel"
+      ]
+    },
+    {
+      "id": "kontrast",
+      "rubrik": "Visa motsatser",
+      "beskrivning": "När du vill jämföra eller visa skillnader",
+      "fraser": [
+        "däremot",
+        "å andra sidan",
+        "men",
+        "samtidigt",
+        "i kontrast till",
+        "till skillnad från",
+        "trots detta"
+      ]
+    },
+    {
+      "id": "samband",
+      "rubrik": "Visa samband",
+      "beskrivning": "När du vill koppla ihop tankar",
+      "fraser": [
+        "detta hänger ihop med",
+        "det finns ett tydligt samband mellan",
+        "kopplingen är att",
+        "på samma sätt",
+        "liknande mönster ser vi"
+      ]
+    },
+    {
+      "id": "sammanfattning",
+      "rubrik": "Sammanfatta",
+      "beskrivning": "När du vill avsluta eller dra slutsats",
+      "fraser": [
+        "sammanfattningsvis",
+        "det viktigaste är",
+        "slutsatsen blir",
+        "kort sagt",
+        "den centrala poängen är",
+        "om man sammanfattar"
+      ]
+    }
+  ]
+}
