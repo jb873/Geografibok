@@ -124,9 +124,24 @@
       }
     }
 
-    knappar.forEach(function (knapp) {
+    // Klick + ARIA-tablist-tangentbord (pil/Home/End). Loopar över alla
+    // knappar – inget hårdkodat antal, så 2/3/4+ underdelar fungerar lika.
+    var knapparArr = Array.prototype.slice.call(knappar);
+    knapparArr.forEach(function (knapp, i) {
       knapp.addEventListener('click', function () {
         visaUnderdel(knapp.getAttribute('data-underdel'), true);
+      });
+      knapp.addEventListener('keydown', function (e) {
+        var ny = -1;
+        if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { ny = (i + 1) % knapparArr.length; }
+        else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { ny = (i - 1 + knapparArr.length) % knapparArr.length; }
+        else if (e.key === 'Home') { ny = 0; }
+        else if (e.key === 'End') { ny = knapparArr.length - 1; }
+        else { return; }
+        e.preventDefault();
+        var mal = knapparArr[ny];
+        mal.focus();
+        visaUnderdel(mal.getAttribute('data-underdel'), true);
       });
     });
 

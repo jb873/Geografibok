@@ -1,0 +1,182 @@
+{
+  "delkapitel": "geologi",
+  "version": "1.2",
+  "beskrivning": "Kvalitetskriterier för stödläraren i Elevboken. Speglar demografi-kvalitetskriterier.json. OBS: stödläraren (elevbok-stodlarare.js) är PAUSAD och laddas inte i någon HTML ännu – denna fil bevarar kravord/stödfraser per underdel så de är redo när funktionen återaktiveras. Kravorden vävs redan in i frågetexten i fragor.json så eleven ser dem även utan stödläraren.",
+  "uppgifter": {
+
+    "a3_jordbavningar-a": {
+      "titel": "Hur jordbävningar uppstår",
+      "fraga_id": "q_a3a_uppstar",
+      "begrepp": ["plattor", "förkastning", "spänning", "fokus", "epicentrum", "seismiska vågor"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "startfraser": [
+        "Det börjar med att plattorna...",
+        "Spänningen byggs upp tills...",
+        "När berget brister...",
+        "Energin sprids sedan..."
+      ]
+    },
+
+    "a3_jordbavningar-b": {
+      "titel": "Att mäta jordbävningar",
+      "fraga_id": "q_a3b_mata",
+      "begrepp": ["magnitud", "Richterskalan", "momentmagnitud", "Mercalliskalan", "logaritmisk", "energi"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "startfraser": [
+        "Magnitudskalor som Richterskalan och momentmagnitud mäter...",
+        "Att skalan är logaritmisk betyder att...",
+        "Mercalliskalan mäter däremot...",
+        "Skillnaden mellan skalorna är..."
+      ]
+    },
+
+    "a3_jordbavningar-c": {
+      "titel": "Följdkatastrofer",
+      "fraga_id": "q_a3c_foljd",
+      "begrepp": ["tsunami", "jordskred", "markförvätskning", "bränder", "subduktionszon", "plats"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "startfraser": [
+        "Själva skalvet är ofta bara början...",
+        "Vid kusten kan en tsunami...",
+        "I bergiga områden...",
+        "I tätbebyggda städer...",
+        "Vilken följd som blir farligast beror på..."
+      ]
+    },
+
+    "a3_jordbavningar-d": {
+      "titel": "Konsekvenser och sårbarhet",
+      "fraga_id": "q_a3d_sarbarhet",
+      "begrepp": ["magnitud", "byggnormer", "sårbarhet", "beredskap", "samhälle"],
+      "sambandsled_minimum": 3,
+      "ortnamn": ["Haiti", "Chile"],
+      "startfraser": [
+        "Trots att Chiles jordbävning var mycket starkare...",
+        "I Haiti...",
+        "Skillnaden handlar inte om naturen utan om...",
+        "Sårbarhet betyder att...",
+        "Beredskap betyder att..."
+      ]
+    },
+
+    "a4_vulkaner-a": {
+      "titel": "Var vulkaner finns",
+      "fraga_id": "q_a4a_var",
+      "begrepp": ["magma", "plattgränser", "spridningszon", "subduktionszon", "hot spot", "Eldringen"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "startfraser": [
+        "Vulkaner uppstår när magma...",
+        "Vid spridningszoner...",
+        "Vid subduktionszoner...",
+        "Vid hot spots...",
+        "Därför följer vulkanerna ett tydligt mönster..."
+      ]
+    },
+
+    "a4_vulkaner-b": {
+      "titel": "Olika vulkantyper",
+      "fraga_id": "q_a4b_typer",
+      "begrepp": ["viskositet", "sköldvulkan", "stratovulkan", "sprickvulkan", "lättflytande", "trögflytande", "kiseldioxid"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "startfraser": [
+        "Viskositet betyder...",
+        "Sköldvulkaner bildas av...",
+        "Stratovulkaner har däremot...",
+        "Sprickvulkaner uppstår där...",
+        "Det är magmas egenskaper som avgör..."
+      ]
+    },
+
+    "a4_vulkaner-c": {
+      "titel": "Vulkaniska faror",
+      "fraga_id": "q_a4c_faror",
+      "begrepp": ["pyroklastiskt flöde", "lahar", "aska", "gaser", "stratosfären", "klimatpåverkan", "följdkatastrof"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "startfraser": [
+        "Lava är sällan det farligaste...",
+        "Ett pyroklastiskt flöde är...",
+        "En lahar uppstår när...",
+        "Vid stora utbrott kan svaveldioxid...",
+        "Det betyder att klimatet kan..."
+      ]
+    },
+
+    "a4_vulkaner-d": {
+      "titel": "Risker och nytta",
+      "fraga_id": "q_a4d_risker_nytta",
+      "begrepp": ["bördig jord", "geotermisk energi", "mineraler", "sårbarhet", "beredskap", "avvägning", "jordbruk"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "startfraser": [
+        "Vulkaner är samtidigt fara och resurs...",
+        "På farosidan...",
+        "På fördelssidan ger vulkaner...",
+        "Människor accepterar risken eftersom...",
+        "Beredskap kan minska konsekvenserna..."
+      ]
+    },
+
+    "a5_vittring-a": {
+      "titel": "Exogena processer",
+      "fraga_id": "q_a5a_exogena",
+      "begrepp": ["exogena processer", "endogena processer", "vittring", "erosion", "avlagring", "solens energi", "tyngdkraft"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "startfraser": [
+        "Exogena processer kommer utifrån, endogena inifrån...",
+        "Exogena processer drivs av solens energi och tyngdkraft...",
+        "Kedjan börjar med vittring...",
+        "Sedan transporteras materialet genom erosion...",
+        "Till slut sker avlagring när transporten tappar kraft..."
+      ]
+    },
+
+    "a5_vittring-b": {
+      "titel": "Mekanisk vittring",
+      "fraga_id": "q_a5b_mekanisk",
+      "begrepp": ["mekanisk vittring", "frostvittring", "temperaturvittring", "rotvittring", "talus", "sprickor", "klimat"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "startfraser": [
+        "Mekanisk vittring förändrar inte ämnet i berget...",
+        "Frostvittring uppstår när vatten i sprickor fryser...",
+        "Temperaturvittring sker när berg värms och kyls...",
+        "Rotvittring beror på att växters rötter...",
+        "I Sverige dominerar frostvittring eftersom..."
+      ]
+    },
+
+    "a5_vittring-c": {
+      "titel": "Kemisk vittring",
+      "fraga_id": "q_a5c_kemisk",
+      "begrepp": ["kemisk vittring", "kolsyra", "kalksten", "kalkstensvittring", "stalaktit", "stalagmit", "karstlandskap"],
+      "sambandsled_minimum": 3,
+      "ortnamn": ["Lummelunda"],
+      "startfraser": [
+        "Kemisk vittring förändrar själva ämnet i berget...",
+        "Regnvatten tar upp koldioxid och bildar kolsyra...",
+        "Kolsyran löser upp kalksten över tid...",
+        "Grottor bildas när sprickor vidgas...",
+        "Stalaktiter hänger från taket, stalagmiter växer från golvet...",
+        "Ett karstlandskap har typiska ytformer som..."
+      ]
+    }
+
+  },
+  "sarskrivningar_att_lagga_till": [
+    "jordbävningssäker", "jordbävningsförberedd", "jordbävningsdrabbad",
+    "subduktionszon", "markförvätskning", "följdkatastrof", "magnitudskala",
+    "byggnormer", "byggteknik", "varningssystem", "räddningstjänst",
+    "vulkanutbrott", "vulkanaktivitet", "vulkanrisker", "spridningszon",
+    "magmakammare", "sköldvulkan", "stratovulkan", "sprickvulkan", "kägelvulkan",
+    "pyroklastisk", "slamström", "mantelplym", "klimatpåverkan", "geotermisk", "vulkanjord",
+    "frostvittring", "temperaturvittring", "rotvittring", "kalkstensvittring",
+    "karstlandskap", "droppstensformation", "slukhål", "torrdal"
+  ]
+}

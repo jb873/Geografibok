@@ -1,0 +1,423 @@
+{
+  "avsnitt": 3,
+  "titel": "Jordbävningar",
+  "delkapitel": "geologi",
+  "version": "2.0",
+  "kort_totalt": 39,
+  "begreppskort": [
+    {
+      "id": "3a-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en jordbävning?",
+      "svar": "En jordbävning är när bergmassor i jordskorpan plötsligt rör sig längs en förkastning och frigör energi som sprids genom marken som seismiska vågor. Den uppstår när spänningar som byggts upp under lång tid plötsligt släpper."
+    },
+    {
+      "id": "3a-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är fokus (eller hypocentrum)?",
+      "svar": "Fokus är punkten nere i jordskorpan där en jordbävning startar — där bergmassorna brister först och rörelsen börjar. Fokus kan ligga några kilometer ner i berget, eller flera hundra kilometer djupt."
+    },
+    {
+      "id": "3a-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är epicentrum?",
+      "svar": "Epicentrum är punkten på markytan rakt ovanför fokus. Det är den plats man markerar på en karta när man pratar om var en jordbävning hände. Nära epicentrum känns skakningarna oftast som starkast."
+    },
+    {
+      "id": "3a-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är seismiska vågor?",
+      "svar": "Seismiska vågor är energin från en jordbävning som sprids genom marken. De sprids från fokus åt alla håll — både genom jordens inre och längs jordytan. Vågorna längs ytan är ofta de farligaste eftersom de påverkar byggnader."
+    },
+    {
+      "id": "3a-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är Eldringen?",
+      "svar": "Eldringen är ett bälte av jordbävningar och vulkaner som löper runt Stilla havets kanter — från Sydamerika upp längs Nordamerika, över Alaska, ner genom Japan, Filippinerna och vidare till Nya Zeeland. Mer än 80 procent av världens kraftigaste jordbävningar sker längs Eldringen."
+    },
+    {
+      "id": "3a-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en intraplate-jordbävning?",
+      "svar": "En intraplate-jordbävning är en jordbävning som sker inne på en platta, långt från plattgränserna. De är ofta små och sällsynta och beror oftast på gamla, inaktiva förkastningar som tillfälligt reaktiveras. Sveriges små jordbävningar är intraplate-jordbävningar."
+    },
+    {
+      "id": "3b-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är Richterskalan?",
+      "svar": "Richterskalan är en skala för att mäta jordbävningars styrka. Den skapades på 1930-talet av seismologen Charles Richter. Den mäter utslaget på en seismograf — alltså ett instrument som registrerar markrörelser. Skalan är logaritmisk."
+    },
+    {
+      "id": "3b-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad betyder det att Richterskalan är logaritmisk?",
+      "svar": "Att skalan är logaritmisk betyder att varje steg på skalan inte är ett vanligt likastort steg. Markrörelsen är ungefär tio gånger större för varje magnitudsteg, och den frigjorda energin är ungefär 32 gånger större. En jordbävning med magnitud 7 frigör alltså ungefär 1000 gånger mer energi än en med magnitud 5."
+    },
+    {
+      "id": "3b-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är momentmagnitudskalan (Mw)?",
+      "svar": "Momentmagnitudskalan är den moderna standarden för att mäta jordbävningars styrka. Den skrivs Mw. Den räknar ut den totala energin från jordbävningen genom att titta på hur stor yta i förkastningen som rört sig, hur långt berggrunden förskjutits och hur stark berggrunden är. Den fungerar bättre än Richterskalan för stora jordbävningar."
+    },
+    {
+      "id": "3b-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är Mercalliskalan?",
+      "svar": "Mercalliskalan är en skala som beskriver hur kraftigt marken skakar och vilka skador en jordbävning orsakar. Den mäter inte energin i jordbävningen utan hur den upplevs och vilka effekter den har på en viss plats. Den graderas med romerska siffror från I (knappt märkbar) till XII (total förstörelse)."
+    },
+    {
+      "id": "3b-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en seismograf?",
+      "svar": "En seismograf är ett instrument som registrerar markrörelser. Den används för att mäta jordbävningar — både hur kraftiga de är och var deras epicentrum ligger. Hundratals seismografer världen över samverkar för att övervaka jordens seismiska aktivitet i realtid."
+    },
+    {
+      "id": "3c-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en tsunami?",
+      "svar": "En tsunami är en kedja av mycket kraftiga havsvågor, oftast utlöst av en jordbävning under havsbottnen. När havsbottnen plötsligt rör sig sätts en enorm vattenmassa i rörelse. Vågorna är låga ute på öppet hav men växer kraftigt när de närmar sig kusten. Ordet kommer från japanskan och betyder ungefär 'hamnvåg'."
+    },
+    {
+      "id": "3c-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett jordskred?",
+      "svar": "Ett jordskred är när stora massor av jord, lera eller stenmaterial börjar glida nedför en sluttning. Det kan utlösas av att marken skakar vid en jordbävning, särskilt i områden med lera eller vattenmättad jord. Skred kan dra med sig hus, vägar, träd och människor — och om de sker ner i sjöar eller fjordar kan de skapa lokala tsunamier."
+    },
+    {
+      "id": "3c-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är markförvätskning?",
+      "svar": "Markförvätskning är när vattenmättad sandig mark börjar bete sig nästan som en vätska under en jordbävning. Skakningarna får sandkornen att röra sig oberoende av varandra. Då kan byggnader sjunka, luta eller välta, även om marken såg ut att vara fast. Det är särskilt farligt i städer byggda på gammal havsbotten, floddeltan eller utfylld mark."
+    },
+    {
+      "id": "3c-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vid vilken typ av plattgräns är tsunamier farligast?",
+      "svar": "Tsunamier är farligast vid subduktionszoner — där en oceanplatta pressas ner under en annan platta. När förkastningen brister kan havsbottnen rycka till kraftigt på ett ögonblick, och hela vattenmassan ovanför sätts i rörelse. Två av historiens värsta tsunamier (Sumatra 2004 och Japan 2011) inträffade vid sådana subduktionszoner."
+    },
+    {
+      "id": "3d-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad menas med sårbarhet i samband med jordbävningar?",
+      "svar": "Sårbarhet handlar om hur utsatt ett samhälle är när en jordbävning inträffar. Det inkluderar hur byggnaderna är konstruerade, var människor bor, hur tätt befolkat området är, hur fattig eller rik befolkningen är, hur stark sjukvård och räddningstjänst är, och hur sårbar samhällsstrukturen är från början."
+    },
+    {
+      "id": "3d-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad menas med beredskap i samband med jordbävningar?",
+      "svar": "Beredskap handlar om hur väl ett samhälle är förberett för en jordbävning innan den inträffar. Det inkluderar övning på vad man ska göra under ett skalv, utrymningsplaner för skolor och arbetsplatser, varningssystem för tsunamier, reservförråd av mat och vatten, och utbildning av räddningstjänsten. Ett land kan ha hög sårbarhet men ändå klara sig bra om beredskapen är hög — Japan är ett exempel."
+    },
+    {
+      "id": "3d-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är jordbävningssäker byggteknik?",
+      "svar": "Jordbävningssäker byggteknik är konstruktionsmetoder som gör byggnader förmögna att klara starka skalv utan att rasa. Det kan handla om att låta höghus svänga som långa pendlar, att placera fjädrande dämpare under hela byggnader, eller att förstärka betong med stålarmering. Japan, Chile och Kalifornien har alla utvecklat strikta byggnormer för jordbävningar."
+    }
+  ],
+  "modellkort": [
+    {
+      "id": "3a-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur en jordbävning uppstår, från plattornas rörelse till själva skalvet.",
+      "svar": "Plattorna rör sig långsamt — bara några centimeter per år. När de pressas mot varandra fastnar berggrunden längs förkastningarna. Eftersom plattorna ändå fortsätter att röra sig, byggs spänningar upp i berget. Spänningarna kan byggas upp under tiotals till tusentals år. När trycket till slut blir för stort brister berget. Bergmassorna rör sig plötsligt flera meter på några sekunder. All uppbyggd energi frigörs på en gång — det är jordbävningen."
+    },
+    {
+      "id": "3a-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför skakar marken starkast nära epicentrum?",
+      "svar": "Energin från en jordbävning sprids som vågor från fokus åt alla håll. Ju längre vågorna har färdats genom berget, desto mer energi har de tappat på vägen. Epicentrum ligger rakt ovanför fokus, så där når vågorna ytan via den kortaste vägen och har förlorat minst energi. Längre från epicentrum har vågorna färdats längre, blivit svagare, och därför skakar marken där svagare."
+    },
+    {
+      "id": "3a-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför har Japan så många jordbävningar men Sverige så få?",
+      "svar": "Japan ligger ovanpå en av världens mest aktiva subduktionszoner — en plattgräns där två plattor pressar mot varandra och en oceanplatta dyker ner under landet. Där byggs ständigt nya spänningar upp i berggrunden, och jordbävningar är en del av landets vardag. Sverige ligger mitt på den eurasiska plattan, långt från alla aktiva plattgränser. Här rör sig ingenting i någon stor takt, och därför är jordbävningarna både små och sällsynta."
+    },
+    {
+      "id": "3a-m04",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Vad är pinneanalogin, och vad förklarar den?",
+      "svar": "Pinneanalogin är ett sätt att förstå hur spänningar byggs upp och släpper. Om man böjer en pinne mellan händerna händer först ingenting — pinnen blir bara mer och mer böjd. Men till slut når den sin gräns och knäcker plötsligt, allt på en gång. Berggrunden vid en förkastning fungerar likadant. Plattornas rörelse böjer berget, spänningar byggs upp, och när berget inte längre klarar trycket brister det plötsligt. Det är jordbävningens grundprincip."
+    },
+    {
+      "id": "3b-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "En jordbävning har magnitud 8. Hur mycket starkare är den än en jordbävning med magnitud 6?",
+      "svar": "Eftersom skalan är logaritmisk innebär varje magnitudsteg ungefär 32 gånger mer energi. Mellan magnitud 6 och magnitud 8 finns två steg, så energin är 32 × 32 ≈ 1000 gånger större. En jordbävning av magnitud 8 frigör alltså ungefär 1000 gånger mer energi än en av magnitud 6. Det är därför skillnaden mellan dessa magnituder är så enorm — en stark jordbävning och en katastrof av helt olika storlek."
+    },
+    {
+      "id": "3b-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför kan samma jordbävning ha olika Mercalli-värden på olika platser?",
+      "svar": "Mercalliskalan mäter hur kraftigt marken skakar och vilka skador som uppstår på en specifik plats. Nära epicentrum är skakningarna kraftiga och kan vara av högt Mercalli-värde (till exempel VIII eller IX). Långt bort från epicentrum har de seismiska vågorna förlorat mycket av sin energi, så marken skakar svagare och Mercalli-värdet blir lägre (kanske III eller IV). En jordbävning har bara en magnitud — den totala energin — men många olika Mercalli-värden, ett för varje plats där den upplevdes."
+    },
+    {
+      "id": "3b-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför använder forskare oftast momentmagnitudskalan istället för Richterskalan idag?",
+      "svar": "Momentmagnitudskalan är mer exakt än Richterskalan, särskilt för stora jordbävningar. Richterskalan kunde 'mätta sig' vid mycket kraftiga skalv — den slutade öka även om jordbävningen blev mycket starkare. Det betyder att två olika jordbävningar kunde få samma Richter-värde även om en var betydligt kraftigare. Momentmagnitudskalan räknar istället ut den totala energin från hela förkastningen som rört sig, vilket ger en korrekt mätning även för de allra största jordbävningarna. Därför är Mw idag den vetenskapliga standarden, även om vardagsspråket fortfarande använder 'Richterskalan'."
+    },
+    {
+      "id": "3c-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför syns en tsunami knappt ute på öppet hav, men växer dramatiskt när den närmar sig kusten?",
+      "svar": "Ute på öppet hav rör sig hela vattenmassan från botten till topp — flera kilometer djup. Vågen är därför låg på ytan (kanske bara några tiotal centimeter) men sträcker sig oerhört djupt och rör sig extremt snabbt, runt 700 km/h. När tsunamin närmar sig kusten bromsas vattnets botten av den grunda havsbottnen, medan toppen fortsätter framåt med kraft. Det är som om vågen pressas ihop. Resultatet är att vågen växer på höjden — en tsunami som var 30 cm ute till havs kan bli flera meter när den når kusten."
+    },
+    {
+      "id": "3c-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är den första tsunamivågen inte alltid den största?",
+      "svar": "En tsunami består inte av en enda våg utan av en hel kedja av vågor som följer på varandra med några minuters mellanrum. Den första vågen markerar att en tsunami pågår, men efterföljande vågor kan vara lika stora eller större. Det är därför många människor dör i tsunamier — efter den första vågen tror de att faran är över och återvänder till sina hem eller till kustlinjen. Då kommer den andra eller tredje vågen, ofta värre än den första."
+    },
+    {
+      "id": "3c-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför dog så många i bränderna efter jordbävningen i San Francisco 1906?",
+      "svar": "Jordbävningen utlöste bränder över hela staden — gasledningar bröts, eldstäder spillde glöd, oljelampor välte. Vinden hjälpte bränderna att sprida sig. Och samtidigt hade skalvet förstört vattenledningarna, så brandkåren hade ingenting att släcka med. Bränderna pågick i flera dagar och förstörde stora delar av staden. Det är ett tydligt exempel på hur följdkatastroferna efter en jordbävning ibland blir farligare än själva skalvet."
+    },
+    {
+      "id": "3d-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför dog så många i Haiti 2010 men så få i Chile samma år, trots att Chiles jordbävning var mycket starkare?",
+      "svar": "Skillnaden handlar inte om jordbävningens storlek utan om samhället den drabbade. Chile hade sedan länge strikta byggnormer som krävde att byggnader skulle klara kraftiga skalv. När jorden skakade 2010 svängde byggnaderna men stod kvar. Räddningstjänst, sjukhus och transporter återhämtade sig snabbt — cirka 500 människor dog. Haiti hade inga motsvarande byggnormer. Många byggnader i huvudstaden Port-au-Prince var byggda med betong utan tillräcklig armering. Trots att jordbävningen var cirka 500 gånger svagare än Chiles, rasade hela bostadsområden samman, och uppskattningsvis 100 000–230 000 människor dog. Det visar att samhället, inte naturen, bestämmer hur stor en katastrof blir."
+    },
+    {
+      "id": "3d-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är de ekonomiska kostnaderna för en jordbävning ofta högre i rika länder än i fattiga, men de mänskliga kostnaderna ofta lägre?",
+      "svar": "I rika länder är infrastrukturen dyr — moderna byggnader, högteknologiska fabriker, avancerade transportsystem är dyra att reparera. När de skadas blir den ekonomiska räkningen enorm. Tohoku-jordbävningen i Japan 2011 kostade nästan 240 miljarder dollar. Men samma rika länder har också resurser att minska de mänskliga kostnaderna: jordbävningssäkra byggnader, snabb räddningstjänst, fungerande sjukvård och varningssystem. I fattigare länder är infrastrukturen billigare, så de absoluta ekonomiska skadorna är mindre. Men byggnader är ofta svagare, sjukvården är mindre utvecklad, räddningstjänsten har färre resurser. Då dör fler människor i själva katastrofen, även om totalkostnaden i pengar blir lägre."
+    },
+    {
+      "id": "3d-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur har Japan lärt sig leva med jordbävningar?",
+      "svar": "Japan har under hundra år lärt sig av tre stora katastrofer: Tokyo 1923 (eldstormarna), Kobe 1995 (höghus och motorvägar som föll) och Tohoku 2011 (tsunamin och Fukushima). Varje gång har byggnormerna skärpts, samhällets beredskap ökats. I dag är japanska byggnader bland världens säkraste vid jordbävningar — skyskrapor är konstruerade att svänga som pendlar, hus sitter på fjädrande dämpare, höghastighetståg stannar automatiskt när tidiga varningar tas emot. Skolbarn övar regelbundet, mobiltelefoner får automatiska varningar några sekunder före kraftiga skalv. Det är därför Japan, trots att landet ligger på en av världens mest aktiva subduktionszoner, klarar de flesta jordbävningar med relativt få dödsfall."
+    }
+  ],
+  "redogorelsekort": [
+    {
+      "id": "3a-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara skillnaden mellan fokus och epicentrum, och varför båda begreppen behövs.",
+      "modellsvar": "Fokus är den punkt nere i jordskorpan där jordbävningen faktiskt startar — där berget brister först. Epicentrum är punkten på markytan rakt ovanför fokus. Båda begreppen behövs eftersom de beskriver olika saker. Fokus är jordbävningens fysiska ursprung — den plats där rörelsen börjar. Epicentrum är den plats människor använder för att lokalisera jordbävningen på en karta, eftersom det är där skakningarna oftast känns som starkast. När nyheter rapporterar att en jordbävning hade epicentrum nära en viss stad, menar de alltså den plats på ytan rakt ovanför där skalvet började nere i berget. Fokus kan ligga djupt, ibland flera hundra kilometer ner, vilket också påverkar hur kraftigt skakningarna känns vid ytan.",
+      "stodlarare": {
+        "stodord": [
+          "fokus",
+          "hypocentrum",
+          "epicentrum",
+          "nere i berget",
+          "markytan",
+          "rakt ovanför",
+          "starkast"
+        ],
+        "startfraser": [
+          "Fokus är...",
+          "Epicentrum är...",
+          "Båda begreppen behövs för att..."
+        ],
+        "tip_for_struktur": "Förklara först fokus, sedan epicentrum. Avsluta med att visa varför båda används — den ena beskriver var jordbävningen startar, den andra var den lokaliseras på kartan. Använd gärna ett konkret exempel (nyhetsrapportering om en jordbävning)."
+      }
+    },
+    {
+      "id": "3a-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Varför är jordbävningar inte slumpmässigt utspridda över jordklotet?",
+      "modellsvar": "Jordbävningar uppstår där berggrunden brister, och berggrunden brister där spänningar byggs upp. Spänningar byggs upp där plattorna pressar mot eller glider förbi varandra — alltså vid plattgränser. Därför är jordbävningar starkt koncentrerade till plattgränserna. Det syns tydligt på en världskarta över jordbävningar: de bildar långa bälten längs Anderna, längs Stillahavets västkust, genom Japan och Indonesien, längs Himalayas fot. Mer än 80 procent av världens kraftigaste jordbävningar sker längs Eldringen runt Stilla havet, just där flera plattor möts i subduktionszoner och parallellzoner. Områden långt från plattgränserna, som Sverige eller stora delar av Sibirien, har mycket få jordbävningar. När de väl sker där handlar det oftast om gamla förkastningar som tillfälligt reaktiveras — intraplate-jordbävningar.",
+      "stodlarare": {
+        "stodord": [
+          "plattgränser",
+          "spänningar",
+          "förkastningar",
+          "Eldringen",
+          "subduktionszoner",
+          "intraplate"
+        ],
+        "startfraser": [
+          "Jordbävningar uppstår där...",
+          "Det är därför de följer plattgränserna...",
+          "Inne på plattor är jordbävningar..."
+        ],
+        "tip_for_struktur": "Börja med själva mekanismen — varför uppstår jordbävningar? Förklara sedan kopplingen till plattgränserna. Avsluta med att jämföra plattgränser (många jordbävningar) med inne på plattor (få jordbävningar). Nämn Eldringen som tydligt exempel."
+      }
+    },
+    {
+      "id": "3b-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara skillnaden mellan magnitudskalor (som Richter och Mw) och Mercalliskalan. Varför behövs båda typerna?",
+      "modellsvar": "Magnitudskalor och Mercalliskalan svarar på två olika frågor. Magnitudskalor som Richterskalan och momentmagnitudskalan svarar på frågan 'hur stor var jordbävningen?'. De mäter den totala energin som frigjordes i jordbävningen, oavsett var man var. En jordbävning har en bestämd magnitud. Mercalliskalan svarar däremot på frågan 'hur kraftigt skakade marken just här?'. Den mäter inte energin utan upplevelsen och skadorna på en specifik plats. Samma jordbävning kan ha olika Mercalli-värden på olika platser — nära epicentrum kraftigt, längre bort svagare. Båda typerna behövs eftersom de tjänar olika syften. För forskare som vill jämföra jordbävningar är magnitudskalor centrala — de gör det möjligt att säga att en jordbävning är 'större' eller 'mindre' än en annan. För människor och samhällen som planerar för katastrofer är Mercalliskalan ofta minst lika viktig, eftersom den beskriver vad människor faktiskt upplever och vad byggnader behöver tåla.",
+      "stodlarare": {
+        "stodord": [
+          "magnitud",
+          "energi",
+          "Mercalli",
+          "upplevelse",
+          "skador",
+          "epicentrum",
+          "Mw",
+          "Richterskalan"
+        ],
+        "startfraser": [
+          "Magnitudskalor mäter...",
+          "Mercalliskalan mäter däremot...",
+          "Båda behövs eftersom..."
+        ],
+        "tip_for_struktur": "Ställ de två frågorna mot varandra: 'hur stor var jordbävningen?' vs 'hur kändes den här?'. Förklara att magnitudskalor svarar på den första, Mercalliskalan på den andra. Avsluta med att visa varför båda perspektiven behövs."
+      }
+    },
+    {
+      "id": "3b-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Varför är det viktigt att förstå att magnitudskalan är logaritmisk, när man läser om jordbävningar i nyheterna?",
+      "modellsvar": "Om man inte vet att skalan är logaritmisk är det lätt att underskatta skillnader mellan jordbävningar. Magnitud 8 låter inte 'så mycket större' än magnitud 6 — det är ju bara två siffror skillnad. Men eftersom skalan är logaritmisk innebär varje steg cirka 32 gånger mer energi. Två steg betyder alltså cirka 1000 gånger mer energi. En jordbävning av magnitud 8 är inte 'lite kraftigare' än en av magnitud 6 — den är i en helt annan kategori av katastrof. Om man läser i nyheterna att det inträffat en jordbävning av magnitud 7,8 är det viktigt att förstå att den är dramatiskt kraftigare än de jordbävningar man kanske känner från Sverige, som ligger på magnitud 1-3. Den intuitiva siffran är missvisande. Den logaritmiska skalan ger oss möjligheten att uttrycka oerhört stora skillnader med små tal, men det betyder också att man behöver tänka annorlunda om vad skillnaden mellan två tal innebär.",
+      "stodlarare": {
+        "stodord": [
+          "logaritmisk",
+          "varje steg",
+          "32 gånger",
+          "intuitivt missvisande",
+          "tusen gånger",
+          "kategorier"
+        ],
+        "startfraser": [
+          "Skalan är logaritmisk, vilket betyder...",
+          "Det är lätt att underskatta...",
+          "Det innebär att en jordbävning av magnitud 8..."
+        ],
+        "tip_for_struktur": "Förklara först vad logaritmisk betyder konkret. Använd ett tydligt exempel (magnitud 6 vs 8). Avsluta med att förklara varför detta är viktigt att förstå när man läser nyheter — så att man inte underskattar stora jordbävningar."
+      }
+    },
+    {
+      "id": "3c-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara varför en jordbävning bäst förstås som en kedja av händelser, inte en enskild händelse.",
+      "modellsvar": "Själva skalvet — när bergmassorna rycker till och marken skakar — är bara början. En jordbävning kan utlösa flera följdkatastrofer som var och en kan vara minst lika farlig. Vid kusten kan en tsunami följa, om havsbottnen rört sig. I bergiga områden kan ras eller jordskred utlösas av skakningarna. I städer på lös mark kan markförvätskning få byggnader att sjunka eller välta. Brutna gasledningar och förstörda vattenledningar kan leda till bränder som är omöjliga att släcka. I bergsbyar kan laviner utlösas. Vilken följd som blir farligast beror helt på var jordbävningen sker. Vid en kust är tsunami det stora hotet. I bergig terräng är det ras och skred. I tätbebyggda städer är det bränder. Det är därför jordbävningar är så svåra att förbereda sig för — det är inte en enda risk, utan flera olika typer av katastrofer som kan utlösas av samma händelse.",
+      "stodlarare": {
+        "stodord": [
+          "kedja",
+          "följdkatastrof",
+          "tsunami",
+          "ras",
+          "skred",
+          "markförvätskning",
+          "bränder",
+          "laviner",
+          "beror på plats"
+        ],
+        "startfraser": [
+          "Själva skalvet är bara början...",
+          "En jordbävning kan utlösa...",
+          "Vilken följd som blir farligast beror på..."
+        ],
+        "tip_for_struktur": "Börja med att förklara att skalvet bara är första länken. Räkna sedan upp de viktigaste följdkatastroferna och vad som utlöser dem. Avsluta med att visa varför just plats avgör vilken följd som blir mest farlig. Använd gärna konkreta exempel (Sumatra, San Francisco, Peru)."
+      }
+    },
+    {
+      "id": "3c-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Varför blev Fukushima 2011 en kärnkraftsolycka, även om Japan var ett av världens mest jordbävningsförberedda länder?",
+      "modellsvar": "Japan hade förberett sig väl för jordbävningar. Byggnaderna var konstruerade för att klara mycket kraftiga skalv, och kärnkraftverket Fukushima Daiichi var inget undantag. När Tohoku-jordbävningen inträffade fungerade säkerhetssystemen som planerat. Reaktorerna stängdes ner automatiskt. Reservgeneratorer startade för att kyla reaktorerna i flera dagar efter avstängningen. Det var inte jordbävningen som blev problemet — det var tsunamin. Vågen som följde var långt högre än man hade förberett sig för, och översvämmade de byggnader där reservgeneratorerna stod. Kylningen gick sönder. Reaktorerna värmdes upp okontrollerat. Härdsmälta inträffade, vätgas exploderade, radioaktivt material läckte ut. Fukushima visar att även de bäst förberedda samhällen kan slås ut när flera risker kombineras på sätt som ingen tänkt igenom. Det var kedjan av händelser — jordbävning, tsunami, översvämning av generatorer — som tillsammans överskred säkerhetsmarginalerna.",
+      "stodlarare": {
+        "stodord": [
+          "jordbävningssäker",
+          "tsunamin",
+          "reservgeneratorer",
+          "översvämmade",
+          "kylning",
+          "härdsmälta",
+          "kombination av risker"
+        ],
+        "startfraser": [
+          "Japan hade förberett sig...",
+          "Det var inte jordbävningen — det var tsunamin...",
+          "Fukushima visar att..."
+        ],
+        "tip_for_struktur": "Beskriv först Japans beredskap. Visa sedan hur jordbävningen själv inte var problemet. Förklara hur tsunamin slog ut säkerhetssystemen. Avsluta med den större lärdomen: att kombinationer av risker är svårare att förbereda sig för än enskilda risker."
+      }
+    },
+    {
+      "id": "3d-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara varför Haiti 2010 och Chile 2010 ger en så viktig lärdom om vad som gör en jordbävning till en katastrof.",
+      "modellsvar": "Haiti och Chile drabbades av jordbävningar samma år, 2010. Chiles jordbävning var cirka 500 gånger kraftigare än Haitis — magnitud 8,8 mot 7,0. Om jordbävningens storlek var det avgörande borde Chile haft mycket fler dödsfall. Men verkligheten blev den motsatta. I Haiti dog uppskattningsvis 100 000 till 230 000 människor. I Chile dog ungefär 500. Skillnaden handlar inte om naturen utan om samhället. Chile hade sedan en stor jordbävning 1985 utvecklat strikta byggnormer för jordbävningar. Byggnader var konstruerade för att svänga utan att rasa. Räddningstjänsten var organiserad, sjukvården kunde fortsätta fungera. Haiti hade inga motsvarande byggnormer. Många byggnader i Port-au-Prince var konstruerade utan tanke på jordbävningar. Räddningsinsatserna var långsamma. Samhället var redan utsatt före katastrofen. Den viktiga lärdomen är att en jordbävning blir en katastrof först när naturens krafter möter ett sårbart samhälle. Magnitud är viktig, men inte hela bilden. Hur huset är byggt, hur snabb räddningstjänsten är, hur stark samhällsstrukturen är — allt detta påverkar hur stor katastrofen faktiskt blir. Det betyder också att samhällen kan minska sin sårbarhet genom medvetna val: byggnormer, krishantering, investeringar.",
+      "stodlarare": {
+        "stodord": [
+          "Haiti",
+          "Chile",
+          "samma år",
+          "magnitud",
+          "byggnormer",
+          "sårbarhet",
+          "samhälle",
+          "natur"
+        ],
+        "startfraser": [
+          "Haiti och Chile drabbades samma år...",
+          "Trots att Chile hade en mycket starkare jordbävning...",
+          "Skillnaden handlar om..."
+        ],
+        "tip_for_struktur": "Börja med fakta — magnitud och dödssiffror för båda länderna. Visa kontrasten tydligt. Förklara varför samhället är det som avgör. Avsluta med den större lärdomen: katastrof uppstår när natur möter sårbarhet, och sårbarhet är något samhället kan påverka."
+      }
+    },
+    {
+      "id": "3d-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Varför är det viktigt att förstå skillnaden mellan sårbarhet och beredskap när man tänker på naturkatastrofer?",
+      "modellsvar": "Sårbarhet och beredskap är två olika saker som båda påverkar hur stor en katastrof blir. Sårbarhet handlar om hur utsatt samhället är — alltså omständigheter som ofta finns på plats innan katastrofen inträffar. Det kan vara att man bor nära en plattgräns, att byggnaderna är gamla, att området är tättbebyggt, eller att landet är fattigt. Beredskap handlar om hur väl samhället är förberett — alltså aktiva åtgärder som vidtagits för att klara katastrofen bättre. Det kan vara byggnormer, varningssystem, utrymningsövningar, reservförråd. Skillnaden är viktig av två skäl. För det första: ett samhälle kan ha hög sårbarhet men ändå klara sig hyfsat om beredskapen är hög. Japan är det tydligaste exemplet — sårbarheten är enorm (landet ligger ovanpå en aktiv subduktionszon) men beredskapen är också enorm. För det andra: samhällen kan inte ändra mycket av sin sårbarhet — Japan kan inte flytta från plattgränsen, Sverige måste hantera sin postglaciala landhöjning. Men beredskap är något man kan välja att investera i. Det är därför skillnaden är viktig: sårbarhet sätter ramarna, beredskap avgör hur väl man klarar sig inom dem.",
+      "stodlarare": {
+        "stodord": [
+          "sårbarhet",
+          "beredskap",
+          "två olika saker",
+          "kan inte ändras",
+          "kan investeras i",
+          "Japan som exempel"
+        ],
+        "startfraser": [
+          "Sårbarhet handlar om...",
+          "Beredskap handlar om...",
+          "Skillnaden är viktig eftersom..."
+        ],
+        "tip_for_struktur": "Definiera båda begreppen först. Visa sedan hur de skiljer sig (passiva omständigheter vs aktiva förberedelser). Avsluta med varför skillnaden spelar roll: beredskap är något samhället kan välja att förbättra, sårbarheten är ofta given."
+      }
+    }
+  ]
+}

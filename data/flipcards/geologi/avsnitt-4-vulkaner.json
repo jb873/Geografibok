@@ -1,0 +1,435 @@
+{
+  "avsnitt": 4,
+  "titel": "Vulkaner",
+  "delkapitel": "geologi",
+  "version": "2.0",
+  "kort_totalt": 40,
+  "begreppskort": [
+    {
+      "id": "4a-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är magma?",
+      "svar": "Magma är smält berg som finns nere i jordens mantel eller i den nedre delen av jordskorpan. När magman når ytan och rinner ut får den ett nytt namn — lava. Magma innehåller också gaser som vattenånga, koldioxid och svaveldioxid."
+    },
+    {
+      "id": "4a-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är skillnaden mellan magma och lava?",
+      "svar": "Det är samma material — smält berg — men det får olika namn beroende på var det finns. Så länge det är nere i jorden kallas det magma. När det når jordytan och rinner ut kallas det lava. Lava innehåller också mindre gaser än magma, eftersom de flesta gaser frigörs när magman når ytan."
+    },
+    {
+      "id": "4a-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en spridningszon?",
+      "svar": "En spridningszon är en plattgräns där två plattor rör sig bort från varandra. Sprickor bildas i jordskorpan, och magma från manteln kan stiga upp genom sprickorna och stelna till ny jordskorpa. Mittatlantiska ryggen är världens längsta spridningszon. Island är en av få spridningszoner som syns på land."
+    },
+    {
+      "id": "4a-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en subduktionszon, och varför skapar den vulkaner?",
+      "svar": "En subduktionszon är en plattgräns där två plattor pressas mot varandra och den ena (oftast en oceanplatta) pressas ner under den andra. När oceanplattan sjunker tar den med sig vatten ner i manteln. Vattnet gör att berget ovanför smälter lättare. Då bildas magma som kan stiga upp och skapa vulkaner. Det är därför Eldringen runt Stilla havet har så många vulkaner."
+    },
+    {
+      "id": "4a-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en hot spot?",
+      "svar": "En hot spot är ett område där ovanligt varm magma stiger upp som en lång plym från djupt nere i manteln. Magman kan bränna sig genom jordskorpan och skapa vulkaner mitt på en platta, långt från plattgränserna. Hawaii är världens mest kända exempel."
+    },
+    {
+      "id": "4a-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är Eldringen i samband med vulkaner?",
+      "svar": "Eldringen är ett bälte av vulkaner och jordbävningar som löper runt Stilla havets kanter. Här finns ett stort antal vulkaner — i Japan, Indonesien, Filippinerna, Chile och längs Nordamerikas västkust. Eldringen är resultatet av att flera plattor möts i subduktionszoner runt Stilla havet. Cirka 75 procent av världens aktiva vulkaner ligger längs Eldringen."
+    },
+    {
+      "id": "4b-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad betyder viskositet?",
+      "svar": "Viskositet betyder hur trögflytande något är. Vatten har låg viskositet eftersom det rinner lätt. Honung har hög viskositet eftersom den rinner långsamt. Magma kan vara mer eller mindre trögflytande, och det avgör nästan allt om hur en vulkan beter sig."
+    },
+    {
+      "id": "4b-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilka tre faktorer påverkar magmas viskositet?",
+      "svar": "Tre saker påverkar hur trögflytande magma är: (1) Temperaturen — varmare magma rinner lättare. (2) Kiseldioxidinnehållet — ju mer kiseldioxid, desto trögflytande blir magman. (3) Gasinnehållet — gaser kan röra sig lättare i lättflytande magma, vilket påverkar hur utbrottet sker."
+    },
+    {
+      "id": "4b-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en sköldvulkan?",
+      "svar": "En sköldvulkan är en bred och flack vulkan som nästan ser ut som en sköld liggande på marken. Den byggs upp av lättflytande lava som rinner långt innan den stelnar. Sköldvulkaner har oftast basaltisk magma med låg viskositet. Utbrotten är sällan explosiva — lavan rinner snarare än sprängs ut. Hawaiis Mauna Loa är ett känt exempel."
+    },
+    {
+      "id": "4b-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en stratovulkan (kägelvulkan)?",
+      "svar": "En stratovulkan är en hög, brant och konformad vulkan. Ordet 'strato' betyder lager — vulkanen byggs upp av många lager av stelnad lava, aska och sten. Stratovulkaner har trögflytande, gasrik magma, vilket gör utbrotten ofta explosiva. Mount Fuji, Vesuvius och Mount St. Helens är alla stratovulkaner."
+    },
+    {
+      "id": "4b-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en sprickvulkan?",
+      "svar": "En sprickvulkan har ingen vanlig vulkankägla. Istället kommer lava upp ur en lång spricka i jordskorpan. Utbrottet sker längs en linje, inte från en enskild öppning. Sprickvulkaner är vanliga vid spridningszoner och har oftast lättflytande basaltisk lava. Island har många sprickvulkaner."
+    },
+    {
+      "id": "4b-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är basaltisk magma?",
+      "svar": "Basaltisk magma är en typ av magma med relativt lågt kiseldioxidinnehåll och hög temperatur (runt 1 200 grader). Den är lättflytande och innehåller mindre gaser än andra magmatyper. Basaltisk magma är typisk för sköldvulkaner och sprickvulkaner och ger lugnare lavaflöden snarare än explosiva utbrott."
+    },
+    {
+      "id": "4c-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett pyroklastiskt flöde?",
+      "svar": "Ett pyroklastiskt flöde är en glödhet blandning av gas, aska och sten som rusar nerför en vulkans sluttning i hög hastighet — ibland 700 km/h. Det kan vara flera hundra grader varmt. Pyroklastiska flöden är en av de farligaste naturhändelserna som finns. De dödar genom värme, kvävning från gaser och tryckvågor. Det var pyroklastiska flöden som förstörde Pompeji år 79 e.Kr."
+    },
+    {
+      "id": "4c-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en lahar (slamström)?",
+      "svar": "En lahar är en slamström som uppstår vid ett vulkanutbrott. Vulkanisk aska och löst material blandas med vatten — från regn, smält snö, smält glaciäris eller en kratersjö. Resultatet blir en flod av cementliknande lera som rusar nerför vulkanens dalgångar. Lahars kan färdas långt från vulkanen och är ofta en av de farligaste följdkatastroferna. Armero-katastrofen 1985 i Colombia dödade över 23 000 människor i en lahar."
+    },
+    {
+      "id": "4c-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är vulkanisk aska, och varför är den farlig?",
+      "svar": "Vulkanisk aska är inte som askan från en brasa. Den består av mycket små, vassa bitar av sten och vulkaniskt glas. Den kan irritera ögon, hud och lungor, och kan vara livsfarlig för människor med astma. Aska kan också få tak att rasa om lagret blir tjockt, förstöra dricksvatten, döda boskap och stoppa flygtrafik (eftersom partiklarna kan skada flygplansmotorer)."
+    },
+    {
+      "id": "4c-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är vulkanisk klimatpåverkan?",
+      "svar": "Vid stora vulkanutbrott kan svaveldioxid skickas upp till stratosfären — det luftskikt som ligger ovanför vädret. Där bildas små partiklar som reflekterar bort solljus. Mindre solljus når jordytan, och temperaturen sjunker tillfälligt. Tambora-utbrottet 1815 var så kraftigt att året efter, 1816, kallades 'året utan sommar' på norra halvklotet. Effekten är kortvarig — partiklarna faller ner ur atmosfären efter månader eller år."
+    },
+    {
+      "id": "4d-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är geotermisk energi?",
+      "svar": "Geotermisk energi är när man tar vara på naturligt het vatten och ånga från marken för att producera el eller värma upp byggnader. I vulkanområden är jordens inre värme ovanligt nära ytan, så geotermisk energi är extra tillgänglig där. Island är världens mest spektakulära exempel — nästan all el kommer från vattenkraft och geotermisk energi, och cirka 90 procent av alla hus värms direkt med varmt vatten från marken."
+    },
+    {
+      "id": "4d-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Varför är vulkanjord så bördig?",
+      "svar": "Vulkanisk aska och lava vittrar sönder med tiden och bildar mineralrik jord. Den innehåller kalium, kalcium, magnesium, fosfor, järn och andra ämnen som växter behöver. På få andra platser i världen är jorden så naturligt rik. Det är därför vulkanlandskap är några av jordens viktigaste jordbruksområden — Indonesiens risodlingar, Italiens vingårdar på Vesuvius sluttningar, Centralamerikas kaffeplantage."
+    },
+    {
+      "id": "4d-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilka värdefulla mineraler kan utvinnas i vulkanområden?",
+      "svar": "Vulkaniska processer skapar koncentrationer av flera värdefulla mineraler och metaller — bland annat koppar, guld, silver och svavel. Andernas vulkanbälte i Chile, Peru och Bolivia är världens viktigaste kopparproducent. Indonesien och Filippinerna har stora guld- och koppartillgångar i samband med sina vulkaner. Gruvdriften är därför en viktig industri i många vulkanländer."
+    }
+  ],
+  "modellkort": [
+    {
+      "id": "4a-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är Island en av världens mest vulkanaktiva platser?",
+      "svar": "Island är ovanligt eftersom det samtidigt är en spridningszon och en hot spot. Mittatlantiska ryggen löper rakt genom landet — där rör sig den nordamerikanska och den eurasiska plattan isär. Samtidigt finns en mantelplym (hot spot) under Island som ger en extra dos av varm magma underifrån. Denna kombination är ovanlig, och utan plymen skulle Island troligen inte ens ha funnits — den hade legat under havsytan likt resten av Mittatlantiska ryggen."
+    },
+    {
+      "id": "4a-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur bildas vulkanöarna i Hawaii?",
+      "svar": "Under Hawaii finns en hot spot — en het mantelplym som stigit upp på samma plats i miljontals år. Stillahavsplattan rör sig långsamt över hot spoten. Där plattan just nu ligger över hot spoten bildas en aktiv vulkan. När plattan rör sig vidare bildas en ny vulkanö där, medan den gamla blir slocknad och förskjuten åt sidan. Resultatet är en hel kedja av vulkanöar — den aktiva ligger längst åt det håll plattan rört sig från, och de äldre öarna ligger i rad i den riktning plattan rört sig."
+    },
+    {
+      "id": "4a-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför finns det vulkaner längs Anderna, men inte mitt i Sydamerika?",
+      "svar": "Längs Sydamerikas västkust finns en subduktionszon där Nazcaplattan pressas ner under den sydamerikanska plattan. Vatten från Nazcaplattan tränger upp i manteln ovanför och får berg att smälta. Magman stiger upp och bildar vulkaner längs hela Anderna. Mitt i Sydamerika finns däremot inga plattgränser, så det skapas ingen ny magma — och därför inga vulkaner. Vulkanernas placering avslöjar var plattorna möts."
+    },
+    {
+      "id": "4b-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är stratovulkaner ofta så explosiva?",
+      "svar": "Stratovulkaner har trögflytande magma som innehåller mycket kiseldioxid och gaser. Eftersom magman är trögflytande har gaserna svårt att ta sig ut, och de blir kvar i magman på vägen upp. Tryckkokarens princip gäller: när trycket av instängda gaser blir för stort kan det inte längre hållas inne — och då sker explosionen plötsligt och med kraft. Det är därför vulkaner som Vesuvius, Mount St. Helens och Mount Fuji kan få så våldsamma utbrott."
+    },
+    {
+      "id": "4b-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är sköldvulkaner så breda och flacka jämfört med stratovulkaner?",
+      "svar": "Sköldvulkaner har lättflytande lava som kan rinna långt innan den stelnar. När lavan väl runnit en lång väg utåt över sluttningarna är vulkanen mer bred än hög. Vid stratovulkaner är magman däremot trögflytande och stannar nära öppningen — den hopar sig i lager och bygger vulkanen brant och hög. Det är alltså magmans viskositet, inte vulkanens 'storlek', som avgör formen."
+    },
+    {
+      "id": "4b-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför finns sprickvulkaner särskilt vid spridningszoner?",
+      "svar": "Vid spridningszoner dras jordskorpan isär av plattornas rörelse. Sprickor öppnas naturligt i berget. När magma från manteln stiger upp följer den lättast de sprickor som redan finns — istället för att samla sig vid en enda punkt. Resultatet blir att lavan kommer upp längs en lång linje, inte från en krater. Det är därför just spridningszoner som Mittatlantiska ryggen och Östafrikanska riftvalleyn har många sprickvulkaner. Vid subduktionszoner är jordskorpan istället hoppressad, så där bildas oftast vanliga vulkankäglor."
+    },
+    {
+      "id": "4b-m04",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför heter stratovulkaner just 'stratovulkaner'? Vad förklarar namnet om vulkanens uppbyggnad?",
+      "svar": "Ordet 'strato' betyder lager. Namnet syftar på att stratovulkaner byggs upp av många lager — varvade skikt av stelnad lava, vulkanisk aska, sten och bombmaterial. Varje skikt motsvarar ett tidigare utbrott. Om man skulle skära igenom en stratovulkan skulle man kunna se vulkanens historia som ränder i tvärsnittet. Det berättar något viktigt om dessa vulkaner: de har haft många utbrott, ibland under tusentals år, och de byggs upp gradvis. Sköldvulkaner har också lager, men dessa är dolda i den breda, flacka strukturen och är inte vad som ger vulkanen dess form."
+    },
+    {
+      "id": "4c-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är lava sällan den farligaste delen av ett vulkanutbrott?",
+      "svar": "Lava är dramatisk att se på, men den rör sig oftast långsamt — människor hinner fly. De farligaste följderna är andra: pyroklastiska flöden som rusar snabbare än en bil, lahars som kan begrava städer långt från vulkanen, askmoln som kan kollapsa tak och fördärva skördar, giftiga gaser som kan kväva människor i sömnen, och vid mycket stora utbrott klimatpåverkan som kan förstöra skördar världen över. Lava förstör fastigheter, men följdkatastroferna dödar människor."
+    },
+    {
+      "id": "4c-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför kan en lahar vara farligare än själva vulkanutbrottet?",
+      "svar": "En lahar kan färdas mycket långt från vulkanen — tiotals eller hundratals kilometer — längs dalgångar. Människor som bor långt från vulkanen kan drabbas, även om de aldrig direkt utsatts för utbrottet. När Nevado del Ruiz fick utbrott 1985 var själva utbrottet ganska litet (VEI 3). Men det smälte glaciärisen på vulkantoppen, och slamströmmen som följde rusade 50 km nerför floddalen och begravde staden Armero. Över 23 000 människor dog — i en lahar från en relativt liten vulkan."
+    },
+    {
+      "id": "4c-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kan en vulkan i Indonesien påverka klimatet i Sverige?",
+      "svar": "Om utbrottet är tillräckligt stort, kan svaveldioxid skickas högt upp i stratosfären. Där sprids den med jordens stora luftströmmar över hela planeten. Partiklarna reflekterar bort solljus, och temperaturen sjunker globalt — också i Sverige. Tambora-utbrottet 1815, från en vulkan i Indonesien, gav Sverige och resten av Europa ovanligt kalla somrar 1816. Snö föll i juni på vissa platser. Skördar slog fel och människor svalt. Det visar att stora vulkaner inte är lokala händelser — de är globala."
+    },
+    {
+      "id": "4d-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför bor människor nära vulkaner trots farorna?",
+      "svar": "Det handlar om en avvägning. De positiva effekterna — bördig jord för jordbruk, geotermisk värme och energi, mineraler, vacker natur — märks varje dag. De negativa effekterna — utbrotten, lahars, askmoln — sker sällan, kanske bara vart hundrade eller femhundrade år. Människor accepterar därför risken eftersom fördelarna är konstanta medan riskerna är sällsynta. Dessutom har många av världens äldsta civilisationer vuxit fram i vulkanområden, och att flytta hela samhällen är svårt. Tillsammans gör detta att människor stannar — och samhället behöver istället förbereda sig för riskerna när de väl inträffar."
+    },
+    {
+      "id": "4d-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är Island ett bra exempel på vulkaners positiva sida?",
+      "svar": "Island ligger på en spridningszon och en hot spot samtidigt, så det har ovanligt mycket vulkanism och ovanligt mycket geotermisk värme nära ytan. Detta har omvandlats till en av världens mest hållbara energi-infrastrukturer. Cirka 90 procent av alla isländska hus värms direkt med varmt vatten från marken, och en stor del av elen kommer från geotermisk energi. Island har därför nästan inga fossila bränslen i sitt energisystem för byggnader. Det är ett tydligt exempel på hur vulkanism, som ofta ses som fara, kan vara en av jordens viktigaste förnybara energikällor."
+    },
+    {
+      "id": "4d-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kan ett samhälle minska konsekvenserna av vulkanutbrott även om de inte kan stoppa själva vulkanen?",
+      "svar": "Samhället kan inte stoppa en vulkan från att få ett utbrott. Men det kan minska konsekvenserna kraftigt genom beredskap. Det inkluderar: övervakningssystem som mäter jordbävningar, markhöjning och gasutsläpp för att upptäcka tecken på ett kommande utbrott; varningssystem som snabbt når människor; utrymningsplaner som har testats genom övningar; byggnormer som gör att hus klarar asknedfall och inte rasar; reservförråd av mat och vatten; och utbildning så att människor vet vad de ska göra. Detta är samma princip som vi såg med jordbävningar i avsnitt 3 — naturkraften ensam bestämmer inte hur stor en katastrof blir, samhällets beredskap är minst lika viktig."
+    }
+  ],
+  "redogorelsekort": [
+    {
+      "id": "4a-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara varför världens vulkaner inte är slumpmässigt utspridda, utan följer tydliga mönster.",
+      "modellsvar": "Vulkaner uppstår där magma kan bildas och stiga upp till ytan. Magma bildas inte överallt i jordens inre. Den bildas på tre typer av platser. Vid spridningszoner — där plattor glider isär och tryckavlastning gör att manteln smälter — kan magma tränga upp genom sprickorna. Vid subduktionszoner — där en oceanplatta sjunker ner och tar med sig vatten — sänks smältpunkten i manteln ovanför och magma bildas. Och vid hot spots — där en ovanligt het plym stiger upp från djupt nere i manteln — kan magma bildas mitt under en platta. Två av tre platser ligger vid plattgränser, en tredje finns mitt på plattor. Det är därför världens vulkaner samlas i bestämda mönster: längs Eldringen runt Stilla havet, längs Mittatlantiska ryggen, längs Sundaöarna i Indonesien, och vid spridda hot spots som Hawaii. Eftersom plattgränser och hot spots är geologiskt bestämda platser, är vulkanernas läge också bestämt — inte slumpmässigt.",
+      "stodlarare": {
+        "stodord": [
+          "magma",
+          "plattgränser",
+          "spridningszon",
+          "subduktionszon",
+          "hot spot",
+          "Eldringen",
+          "mönster"
+        ],
+        "startfraser": [
+          "Magma bildas inte överallt — bara där...",
+          "Det finns tre platser där vulkaner uppstår...",
+          "Därför följer vulkanerna ett mönster..."
+        ],
+        "tip_for_struktur": "Börja med principen — vulkaner uppstår där magma kan bildas. Gå sedan igenom de tre platserna (spridning, subduktion, hot spot) och förklara mekanismen för var. Avsluta med att visa att detta förklarar de globala mönstren — Eldringen, Mittatlantiska ryggen, Hawaii."
+      }
+    },
+    {
+      "id": "4a-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara varför subduktionszoner ofta har explosivare vulkaner än spridningszoner.",
+      "modellsvar": "Skillnaden ligger i hur magman bildas och vilka egenskaper den får. Vid spridningszoner bildas magma genom tryckavlastning — när plattorna glider isär minskar trycket på manteln, och berget smälter. Magman som bildas är het och rinnande, ofta basaltisk, och innehåller relativt lite kiseldioxid. Gaserna kan ta sig ut ganska lätt. Resultatet blir oftast lugna lavaflöden, som vid Mittatlantiska ryggen eller på Island. Vid subduktionszoner är det däremot vatten som triggar smältningen. När en oceanplatta sjunker ner i manteln tar den med sig havsvatten. Vattnet får berget ovanför att smälta — men den magma som bildas är ofta rikare på kiseldioxid och innehåller mer gaser. Den blir trögflytande, och gaserna kan inte komma ut lätt. Då byggs trycket upp inne i magmakammaren, tills det till slut släpper med kraft. Det är därför vulkanerna i Eldringen, längs Anderna och på Sundaöarna är så ofta explosiva, medan vulkanerna på Island vanligen är mer lugna.",
+      "stodlarare": {
+        "stodord": [
+          "spridningszon",
+          "subduktionszon",
+          "tryckavlastning",
+          "vatten",
+          "kiseldioxid",
+          "viskositet",
+          "gaser",
+          "explosiv"
+        ],
+        "startfraser": [
+          "Vid spridningszoner bildas magma genom...",
+          "Vid subduktionszoner är det däremot vatten som...",
+          "Skillnaden i magma gör att..."
+        ],
+        "tip_for_struktur": "Förklara först hur magma bildas vid spridningszoner och vilka egenskaper den får. Gör sedan motsvarande för subduktionszoner. Avsluta med att jämföra och visa varför skillnaden i magmas egenskaper leder till olika utbrottsbeteenden — det kommer också täckas i nästa underdel."
+      }
+    },
+    {
+      "id": "4b-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara varför magmas egenskaper är viktigare för en vulkans beteende än var vulkanen ligger.",
+      "modellsvar": "Var en vulkan ligger berättar hur magman bildades — vid en spridningszon, subduktionszon eller hot spot. Men hur vulkanen sedan ser ut och beter sig avgörs av vilken sorts magma som stiger upp. Lättflytande, het, basaltisk magma med låg viskositet bygger breda sköldvulkaner och ger lugna lavaflöden, eftersom gaser lätt kan komma ut och lavan kan rinna långt. Trögflytande, kiseldioxidrik magma med hög viskositet bygger däremot höga stratovulkaner och ger explosiva utbrott, eftersom gaser fastnar kvar och bygger upp tryck tills det släpper med kraft. Det är därför två vulkaner i samma plattgränstyp kan se mycket olika ut: även om subduktionszonens vulkaner oftast har mer trögflytande magma och blir explosiva, varierar magmas exakta sammansättning. Och det är därför Mauna Loa på Hawaii (hot spot) och Eyjafjallajökull på Island (spridningszon + hot spot) ser olika ut — magman har olika egenskaper. Att förstå vulkaner är därför inte bara att förstå plattektonik. Det är också att förstå vad själva magman består av.",
+      "stodlarare": {
+        "stodord": [
+          "magma",
+          "viskositet",
+          "kiseldioxid",
+          "gaser",
+          "sköldvulkan",
+          "stratovulkan",
+          "lättflytande",
+          "trögflytande"
+        ],
+        "startfraser": [
+          "Var vulkanen ligger berättar hur magman bildades, men...",
+          "Lättflytande magma ger...",
+          "Trögflytande magma ger däremot..."
+        ],
+        "tip_for_struktur": "Börja med att skilja på två frågor: var bildas magma, och vad gör magma sedan? Förklara att det andra avgör vulkanens beteende. Beskriv de två extremfallen — lättflytande vs trögflytande magma. Avsluta med slutsatsen: att förstå vulkaner är att förstå magman."
+      }
+    },
+    {
+      "id": "4b-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Jämför sköldvulkaner och stratovulkaner. Vad är likt och vad är olika, och varför?",
+      "modellsvar": "Båda är vulkaner — alltså öppningar i jordskorpan där magma tagit sig upp till ytan. Båda bygger upp landskap genom upprepade utbrott över lång tid. Men där likheterna slutar börjar skillnaderna, och de är många. Sköldvulkaner är breda och flacka, medan stratovulkaner är höga och branta. Sköldvulkaner har lättflytande, basaltisk magma med låg viskositet. Stratovulkaner har trögflytande, kiseldioxidrik magma med hög viskositet. Sköldvulkaner får oftast lugna utbrott med långa lavaflöden, eftersom gaserna lätt kan komma ut. Stratovulkaner får ofta explosiva utbrott, eftersom gaserna stängs in och bygger upp tryck. Sköldvulkaner finns ofta vid hot spots (som Hawaii) eller spridningszoner. Stratovulkaner finns oftast vid subduktionszoner (som längs Eldringen). Den underliggande orsaken till alla dessa skillnader är magmas egenskaper. Magmas viskositet bestämmer både hur långt lavan rinner (och därmed vulkanens form), hur lätt gaser kan ta sig ut (och därmed hur explosivt utbrottet blir), och i förlängningen vilken sorts faror vulkanen utgör för människor. En sköldvulkan är farlig genom långa lavaflöden. En stratovulkan är farlig genom explosioner, askmoln och pyroklastiska flöden — något vi kommer titta på i nästa underdel.",
+      "stodlarare": {
+        "stodord": [
+          "sköldvulkan",
+          "stratovulkan",
+          "lättflytande",
+          "trögflytande",
+          "kiseldioxid",
+          "explosiv",
+          "Hawaii",
+          "Vesuvius"
+        ],
+        "startfraser": [
+          "Båda är vulkaner, men...",
+          "Sköldvulkaner är... medan stratovulkaner är...",
+          "Den underliggande orsaken är magmas..."
+        ],
+        "tip_for_struktur": "Börja med likheterna (kort). Gå sedan systematiskt genom skillnaderna: form, magma, utbrottstyp, vanliga platser. Avsluta med att visa att alla skillnader bottnar i samma sak — magmas egenskaper — och säg vad det betyder för farligheten."
+      }
+    },
+    {
+      "id": "4c-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara varför man säger att en vulkans verkliga farlighet ofta visar sig först efter utbrottet.",
+      "modellsvar": "Själva vulkanutbrottet — den dramatiska explosionen eller lavaflödet — är ofta inte det som dödar flest människor. Det är följdkatastroferna som kommer efter eller under utbrottet som blir farligast. Pyroklastiska flöden rusar nerför vulkansidor med hastigheter på flera hundra kilometer i timmen och dödar allt i sin väg — det var dessa flöden som förstörde Pompeji, inte lavan. Lahars uppstår när vulkanisk aska blandas med vatten, och kan färdas tiotals kilometer från vulkanen — Armero-katastrofen 1985 visade detta tydligt. Aska kan färdas hundratals eller tusentals kilometer med vinden och fördärva åkrar, vattenförsörjning och flygtrafik långt från vulkanen. Giftiga gaser som koldioxid kan ansamlas i låga områden och kväva människor utan att synas — som vid Lake Nyos 1986. Och vid mycket stora utbrott kan klimatpåverkan ge världsomspännande skördekris i flera år. Det är därför vulkanrisk inte är en enkel sak att förbereda sig för. Det är inte bara att hålla sig undan från lavan. Det är att förstå att en vulkan kan slå till på många olika sätt, vid olika tider, på olika platser — och varje vulkan har sin egen blandning av risker beroende på var den ligger, vilken magma den har och vad som omger den.",
+      "stodlarare": {
+        "stodord": [
+          "pyroklastiska flöden",
+          "lahar",
+          "aska",
+          "gaser",
+          "klimatpåverkan",
+          "följdkatastrof",
+          "Pompeji",
+          "Armero"
+        ],
+        "startfraser": [
+          "Själva utbrottet är ofta inte det farligaste...",
+          "Pyroklastiska flöden, lahars och aska...",
+          "Det är därför vulkanrisk är så komplex..."
+        ],
+        "tip_for_struktur": "Börja med principen — utbrottet är sällan det värsta. Räkna sedan upp följdkatastroferna med konkreta exempel (Pompeji, Armero, Lake Nyos, Tambora). Avsluta med slutsatsen att vulkanrisk är många olika risker i en, och vad det betyder för förberedelser."
+      }
+    },
+    {
+      "id": "4c-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur ett vulkanutbrott i ett land kan få konsekvenser i andra länder.",
+      "modellsvar": "Vulkanutbrott är inte alltid lokala händelser. Konsekvenserna kan sprida sig på flera sätt. Vulkanisk aska kan färdas mycket långt med vinden — flera hundra eller tusentals kilometer. När Eyjafjallajökull på Island fick utbrott 2010 stoppades flygtrafiken över stora delar av Europa i flera dagar. Hundratals flygplatser stängdes och tio miljoner passagerare blev strandsatta. Allt detta från en relativt liten vulkan på en glesbefolkad ö. Vid mycket stora utbrott kan klimatet påverkas globalt. Svaveldioxid i stratosfären reflekterar bort solljus och ger lägre temperaturer på hela jorden. Tambora-utbrottet 1815 gav 'året utan sommar' 1816 i Europa och Nordamerika, med misslyckade skördar och svält. Tsunamier från vulkaniska kollapser kan svepa över hela hav — som vid Krakatau 1883, där vågorna nådde många länder runt Indiska oceanen. Och i moderna globala leveranskedjor kan ett utbrott i Indonesien påverka priser och tillgänglighet av varor i resten av världen, eftersom hamnar, fabriker och transporter slås ut. Det är därför vulkaner inte är lokala fenomen utan globala — och varför internationellt samarbete kring varningssystem och katastrofförberedelse är så viktigt.",
+      "stodlarare": {
+        "stodord": [
+          "aska",
+          "vind",
+          "klimat",
+          "stratosfären",
+          "tsunami",
+          "flygtrafik",
+          "leveranskedja",
+          "internationellt"
+        ],
+        "startfraser": [
+          "Konsekvenser från ett vulkanutbrott kan sprida sig på flera sätt...",
+          "Vulkanisk aska kan färdas med vinden...",
+          "Vid mycket stora utbrott kan klimatet påverkas..."
+        ],
+        "tip_for_struktur": "Räkna upp de olika spridningsvägarna — aska via vind, klimat via stratosfären, tsunami via hav, ekonomi via globala leveranskedjor. Använd konkreta exempel för varje (Eyjafjallajökull, Tambora, Krakatau). Avsluta med varför detta gör internationellt samarbete viktigt."
+      }
+    },
+    {
+      "id": "4d-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara varför man kan beskriva vulkaner som havande 'ett dubbelt ansikte'.",
+      "modellsvar": "Vulkaner är samtidigt fara och resurs. På farosidan kan de döda människor genom pyroklastiska flöden, lahars, gaser och asknedfall. De kan förstöra hem, infrastruktur och hela städer. De kan fördärva skördar och påverka klimatet långt bortom själva vulkanen. Allt detta är verkligt och allvarligt. På fördelssidan ger vulkaner några av jordens mest värdefulla resurser. Vulkanisk aska och lava vittrar sönder och blir mineralrik jord, perfekt för jordbruk — det är därför kaffe, vin, ris och frukt odlas i vulkanlandskap världen över. Geotermisk värme nära ytan kan användas för el och uppvärmning, som Island visat. Vulkaner skapar värdefulla mineraler som koppar, guld och svavel. Och vulkaniska landskap lockar turister som ger arbetstillfällen åt lokala samhällen. Det är detta dubbla ansikte som förklarar varför människor bor nära vulkaner trots farorna — fördelarna märks varje dag, riskerna sker sällan. Avvägningen är inte oförnuftig, även om den är riskfylld. För att förstå vulkaner ur ett samhällsperspektiv måste man se båda sidor: vulkanen är inte en motståndare som ska bekämpas, utan en mäktig granne som samhället måste lära sig att leva med.",
+      "stodlarare": {
+        "stodord": [
+          "dubbelt ansikte",
+          "fara",
+          "resurs",
+          "bördig jord",
+          "geotermisk energi",
+          "mineraler",
+          "avvägning"
+        ],
+        "startfraser": [
+          "Vulkaner är samtidigt fara och resurs...",
+          "På farosidan kan de...",
+          "På fördelssidan ger de oss..."
+        ],
+        "tip_for_struktur": "Beskriv tydligt båda sidor — riskerna och resurserna. Använd konkreta exempel för var och en (Pompeji för fara, Island för resurs). Avsluta med att förklara avvägningen — varför människor bor där trots farorna och vad det betyder för hur vi tänker om vulkaner."
+      }
+    },
+    {
+      "id": "4d-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur lärdomarna från avsnitt 3 om jordbävningar kan tillämpas också på vulkaner.",
+      "modellsvar": "I avsnitt 3 lärde vi oss att en naturkatastrofs storlek inte enbart bestäms av naturen själv, utan av mötet mellan natur och samhälle. Haiti och Chile fick båda jordbävningar 2010, men resultatet blev helt olika eftersom Chile var bättre förberett. Samma princip gäller för vulkaner. Ett vulkanutbrott är förödande eller hanterligt beroende på hur samhället är förberett. Japan, som ligger på en av världens mest aktiva subduktionszoner, har utvecklat avancerade övervakningssystem, varningssystem och byggnormer som gör att de flesta utbrott kan hanteras med relativt få dödsfall. Indonesien har efter tsunamin 2004 byggt upp varningssystem som hade kunnat varna kustbefolkningar vid framtida vulkaniska tsunamier. Island har avancerad övervakning av sina många vulkaner. Sårbarhet och beredskap är de två viktiga begreppen från jordbävningskapitlet, och båda gäller också för vulkaner. Sårbarhet handlar om hur utsatt samhället är — bor människor nära aktiva vulkaner, är byggnaderna konstruerade för asklast, är vägarna byggda så att utrymning kan ske? Beredskap handlar om aktiva förberedelser — varningssystem, utrymningsövningar, reservförråd. En vulkan blir en katastrof först när naturkraften möter ett sårbart samhälle. Beredskap minskar inte vulkanens kraft, men den minskar dess konsekvenser för människor. Detta är en av de viktigaste lärdomarna i hela geologi-kapitlet: naturkatastrofer formas av både natur och samhälle.",
+      "stodlarare": {
+        "stodord": [
+          "sårbarhet",
+          "beredskap",
+          "varningssystem",
+          "byggnormer",
+          "Japan",
+          "Indonesien",
+          "avsnitt 3",
+          "samhälle"
+        ],
+        "startfraser": [
+          "I avsnitt 3 lärde vi oss att...",
+          "Samma princip gäller för vulkaner...",
+          "Sårbarhet och beredskap är..."
+        ],
+        "tip_for_struktur": "Börja med principen från avsnitt 3 — natur möter samhälle. Visa sedan att samma princip gäller för vulkaner. Använd Japan och Indonesien som exempel. Avsluta med att knyta ihop temat för hela geologi-kapitlet — naturkatastrofer formas av både natur och samhälle."
+      }
+    }
+  ]
+}

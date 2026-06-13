@@ -1,0 +1,353 @@
+{
+  "avsnitt": 5,
+  "titel": "Vittring",
+  "delkapitel": "geologi",
+  "version": "2.0",
+  "kort_totalt": 32,
+  "begreppskort": [
+    {
+      "id": "5a-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är exogena processer?",
+      "svar": "Exogena processer är jordens yttre krafter — de som arbetar på jordytan och bryter ner, transporterar eller bygger upp material. Ordet exogen betyder 'som kommer utifrån'. De drivs av solens energi (som ger oss väder, vind, vatten, is) och av tyngdkraften. Vittring, erosion och avlagring är alla exogena processer."
+    },
+    {
+      "id": "5a-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är skillnaden mellan endogena och exogena processer?",
+      "svar": "Endogena processer kommer inifrån jorden — drivs av värme från jordens inre. Plattektonik, jordbävningar och vulkaner är endogena. Exogena processer kommer utifrån — drivs av solens energi och tyngdkraften. Vittring, erosion och avlagring är exogena. Endogena processer bygger upp landskap. Exogena processer bryter ner och flyttar material. Tillsammans formar de jordens yta i en pågående cykel."
+    },
+    {
+      "id": "5a-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är vittring?",
+      "svar": "Vittring är när berg och sten bryts ner där det står. Materialet flyttas alltså inte — själva nedbrytningen sker på platsen. En bergvägg kan spricka, en sten kan smulas sönder, eller mineral kan lösas upp av vatten. Vittring är det första steget i de exogena processerna, innan material kan transporteras genom erosion."
+    },
+    {
+      "id": "5a-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är erosion, och hur skiljer det sig från vittring?",
+      "svar": "Erosion är när löst material nöts bort och transporteras till en ny plats. Det sker genom rinnande vatten, vågor, vind eller glaciärer. Skillnaden mot vittring är viktig: vittring bryter sönder berget på plats, medan erosion tar med sig materialet och flyttar det. Det är som skillnaden mellan att hugga ner ett träd och att flytta veden bort."
+    },
+    {
+      "id": "5a-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är avlagring (sedimentation)?",
+      "svar": "Avlagring eller sedimentation är när transporterat material läggs ner på en ny plats. När vatten, vind eller is tappar sin kraft sjunker det medförda materialet ner. Floder bygger upp deltan vid sina mynningar. Vinden bygger upp sanddyner. Glaciärer lämnar moränhögar. Det är så nytt land byggs upp av material som tidigare var en del av berg någonstans annars."
+    },
+    {
+      "id": "5b-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är mekanisk vittring?",
+      "svar": "Mekanisk vittring är när berg bryts sönder i mindre bitar utan att själva ämnet förändras kemiskt. Stenen är fortfarande samma sten — den har bara spruckit, krossats eller delats upp. Det är skillnaden mot kemisk vittring, där mineralerna i berget faktiskt förändras. De tre vanligaste typerna är frostvittring, temperaturvittring och rotvittring."
+    },
+    {
+      "id": "5b-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är frostvittring?",
+      "svar": "Frostvittring är när vatten i bergets sprickor fryser till is och vidgar sprickorna. När vatten fryser blir det ungefär 9 procent större i volym. Det betyder att isen pressar mot sprickans väggar med stor kraft. När frys-och-tina-cykeln upprepas tusentals gånger kan stora stenblock brytas loss. Frostvittring är den dominerande mekaniska vittringsprocessen i Sverige och i fjälltrakterna."
+    },
+    {
+      "id": "5b-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är temperaturvittring?",
+      "svar": "Temperaturvittring är när berg värms upp och kyls ner gång på gång, och spänningar mellan yta och inre får skikt att lossna. När sten värms upp utvidgas den. När den kyls ner krymper den. Om detta sker många gånger försvagas berget och kan spricka. Det är vanligast i områden med stora temperaturskillnader mellan dag och natt — som öknar. Fenomenet att tunna skikt flagnar av kallas exfoliering."
+    },
+    {
+      "id": "5b-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är rotvittring?",
+      "svar": "Rotvittring är när växters rötter växer ner i sprickor i berg och långsamt pressar isär dem. Först är roten tunn och tränger lätt in. När växten växer blir roten tjockare och pressar mot sprickans väggar. Med tiden kan sprickan vidgas så mycket att bitar av berget bryts loss. Rotvittring visar att även levande organismer kan bryta ner berg — långsamt men ihärdigt."
+    },
+    {
+      "id": "5b-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är talus (eller blockhav)?",
+      "svar": "Talus eller blockhav är de samlingar av lösa stenar och stenblock som ligger nedanför branta bergssidor. De har brutits loss av främst frostvittring uppe i berget och sedan rasat ner med tyngdkraften. I Skanderna är talus mycket vanligt — vid foten av nästan varje brant fjällsida finns sådana sluttningar. Storleken på lavar på stenarna kan ibland användas för att uppskatta hur länge ett talus har funnits."
+    },
+    {
+      "id": "5b-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är exfoliering?",
+      "svar": "Exfoliering (eller skalvittring) är när tunna skikt av ett berg lossnar och flagnar av — ungefär som lökskal. Det sker genom temperaturvittring: solens hetta värmer ytan snabbare än det inre, och spänningar mellan skikten gör att de yttersta lossnar. Exfoliering är karakteristiskt för öknar och torra bergsområden där dygnsvariationerna är stora. Det ger berg en rundad, släthuden form."
+    },
+    {
+      "id": "5c-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är kemisk vittring?",
+      "svar": "Kemisk vittring är när mineraler i berg reagerar med vatten, syre eller svaga syror och förändras till nya ämnen, eller löses upp helt. Det är skillnaden mot mekanisk vittring — där bryts berget sönder men ämnet är samma. Vid kemisk vittring förändras själva ämnet. Kemisk vittring dominerar i varma, fuktiga klimat (tropikerna), medan mekanisk vittring dominerar i kalla, torra klimat."
+    },
+    {
+      "id": "5c-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är kolsyra och hur bildas den?",
+      "svar": "Kolsyra är en svag syra som bildas när vatten och koldioxid reagerar med varandra. När regnvatten faller genom luften och rinner genom marken tar det upp koldioxid och blir svagt surt. Det är samma kolsyra som ger bubblor i läsk, fast i mycket mindre mängd. Kolsyra är inte aggressiv som starkare syror, men den är tillräckligt stark för att över mycket lång tid lösa upp vissa bergarter — främst kalksten."
+    },
+    {
+      "id": "5c-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är kalkstensvittring?",
+      "svar": "Kalkstensvittring är processen där surt vatten löser upp kalksten. Kalksten består av kalciumkarbonat (CaCO₃), samma ämne som finns i musselskal och äggskal. När kolsyra möter kalciumkarbonat sker en kemisk reaktion som löser upp kalken — den följer med vattnet bort som lösta joner. Över tusentals år kan kalkstensvittring vidga sprickor till gångar, gångar till grottor, och skapa hela grottsystem som Lummelundagrottorna på Gotland."
+    },
+    {
+      "id": "5c-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en stalaktit?",
+      "svar": "En stalaktit är en droppstensformation som hänger ner från ett grottak. Den bildas av vatten som droppar långsamt från taket och lämnar mikroskopiska kalkavlagringar efter sig vid varje droppe. Över tusentals år byggs en kalkpinne upp som pekar nedåt. En minnesregel: stalaktit har T som i tak — den hänger från taket. Stalaktiter växer extremt långsamt, kanske bara några millimeter per århundrade."
+    },
+    {
+      "id": "5c-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en stalagmit?",
+      "svar": "En stalagmit är en droppstensformation som växer uppåt från grottgolvet. När en droppe vatten landar på golvet avlagras kalk där, och över tid bildas en kalkpinne som pekar uppåt. Minnesregel: stalagmit har G som i golv — den växer från golvet. När en stalagmit och en stalaktit möts varandra bildar de tillsammans en pelare. Stalagmiter är ofta lite trubbigare och bredare än stalaktiter."
+    },
+    {
+      "id": "5c-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett karstlandskap?",
+      "svar": "Ett karstlandskap är ett landskap som formats av kemisk vittring i en löslig berggrund, oftast kalksten. Karst är inte bara grottor — det är ett helt system där ytan och underjorden hänger ihop. På ytan finns typiska former: slukhål (där vatten försvinner ner), doliner (runda sänkor), torrdalar (gamla dalgångar utan vatten), och källor (där vatten kommer upp). Under marken finns nätverk av grottor och underjordiska vattendrag. Gotland är ett klassiskt karstlandskap."
+    },
+    {
+      "id": "5c-b07",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett slukhål?",
+      "svar": "Ett slukhål är en plats på markytan där vatten försvinner ner i berggrunden. De är typiska för karstlandskap, där kalksten har lösts upp och skapat öppningar mellan ytan och underjordiska gångar. Vatten från regn eller bäckar kan rinna in i ett slukhål och fortsätta sin väg genom grottsystem under marken. Slukhål är ett av de tydligaste tecknen på att man är i ett karstlandskap."
+    }
+  ],
+  "modellkort": [
+    {
+      "id": "5a-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Vad driver de exogena processerna, och varför fungerar de över hela jorden?",
+      "svar": "Exogena processer drivs i grunden av två krafter. Den första är solens energi. Solen värmer atmosfären och haven, vilket ger oss väder, vind, regn, snö och temperaturskillnader. Den andra är tyngdkraften, som gör att löst material faller nedåt. Eftersom både solen och tyngdkraften påverkar alla platser på jorden, fungerar exogena processer överallt — också i områden utan vulkanism eller aktiv plattektonik. Inget berg är säkert från dem."
+    },
+    {
+      "id": "5a-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför kan man säga att endogena och exogena processer balanserar varandra?",
+      "svar": "Endogena processer bygger upp landskap — plattorna pressar ihop bergskedjor, vulkaner reser sig, marken höjs. Exogena processer bryter ner — vittring spränger berget, erosion flyttar materialet, avlagring lägger det någon annanstans. Om bara endogena processer fanns skulle bergen växa oavbrutet. Om bara exogena fanns skulle jorden bli platt. Verkligheten är en balans: Mount Everest växer fortfarande med några millimeter per år, men nöts samtidigt ner ungefär lika mycket. Aktiva bergskedjor (Himalaya) stiger eftersom uppbyggnaden går snabbare än nedbrytningen. Gamla bergskedjor (Skanderna) krymper eftersom nedbrytningen fortsätter medan uppbyggnaden avstannat."
+    },
+    {
+      "id": "5b-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är frostvittring extra effektiv där temperaturen ofta pendlar runt nollpunkten?",
+      "svar": "Frostvittringens motor är frys-och-tina-cykeln. Vatten i en spricka måste först frysa (för att utvidgas och pressa isär sprickan), sedan tina (så nytt vatten kan rinna in), och sedan frysa igen. Varje cykel vidgar sprickan något. I områden där det är konstant minusgrader hela vintern fryser sprickorna till is en gång och stannar så — då är processen pausad. I områden där det aldrig fryser händer ingenting. Men i områden där det fryser och tinar ofta — vår och höst i Sverige, eller på höglandsplatser där dygnsvariationen korsar nollpunkten — kan cykeln upprepas hundratals gånger per år. Det är där frostvittring är som mest aggressiv."
+    },
+    {
+      "id": "5b-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kan en mjuk växtrot bryta sönder hård sten?",
+      "svar": "Trots att rötter är mjuka och berg är hårt, vinner roten i längden — av två skäl. Det första är att rötter växer från insidan och utåt, vilket ger stor kraft per yta. En tjock rot kan utöva tryck på flera atmosfärs styrka mot sprickans väggar. Det andra och kanske viktigare är tidsfaktorn. En rot växer kanske en millimeter per vecka, men den ger ändå ifrån sig ständig press månad efter månad, år efter år, ibland i flera decennier. Berget är hårt mot snabb stöt — men det är inte hårt mot långsam, oavbruten press. Det är samma princip som ofta gäller i naturen: konstant kraft över lång tid övervinner det som vid första ögonkastet ser oförstörbart ut. Vatten formar Grand Canyon, rötter spränger berg, plattorna bygger bergskedjor — allt genom samma långsamma, ihärdiga arbete."
+    },
+    {
+      "id": "5b-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför ser ökenberg ofta rundade ut, medan fjällberg är skarpa och kantiga?",
+      "svar": "Skillnaden bottnar i vilken sorts vittring som dominerar. I öknar dominerar temperaturvittring, som arbetar på bergets ytskikt och får dem att flagna av. Det gör att skarpa kanter slipas av över tid, och bergen får en rundad, slätskuren form. Klassiska ökenformer som de stora stenkullarna i Sahara är resultatet av detta. I fjällen dominerar frostvittring, som tränger djupt in i bergets sprickor och bryter loss stora stenblock. Resultatet är skarpa kanter, branta klippor och stora samlingar av kantiga block (talus) vid bergets fot. Båda processerna nöter ner berg — men de gör det på olika sätt, och slutresultaten ser fundamentalt olika ut."
+    },
+    {
+      "id": "5c-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är kalksten särskilt känslig för kemisk vittring?",
+      "svar": "Kalksten består till största delen av mineralet kalcit (kalciumkarbonat, CaCO₃). Detta ämne reagerar lätt med surt vatten — även svagt sura lösningar som kolsyra kan lösa upp kalken över tid. Den kemiska reaktionen är ganska enkel och går av sig själv om förutsättningarna är rätt. Andra bergarter, som granit och kvarts, har mineraler som är mycket mer motståndskraftiga mot kemisk vittring och löser sig praktiskt taget inte i kolsyra. Det är därför karstlandskap nästan alltid bildas i kalkstensområden — och varför Sverige bara har karst på Gotland, Öland och i vissa delar av Skåne och fjällen, där berggrunden är kalkrik."
+    },
+    {
+      "id": "5c-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför går kemisk vittring snabbare i tropikerna än i Sverige?",
+      "svar": "Kemisk vittring behöver två saker för att fungera effektivt: vatten och värme. I tropikerna finns båda i överflöd — det regnar mycket och temperaturen är hög året om. Kemiska reaktioner går snabbare vid högre temperatur, vilket är en generell princip i kemin. Därför kan kalksten lösas upp betydligt snabbare i ett tropiskt klimat än i ett kallt och tempererat. I Sverige är vintrarna kalla och en stor del av vattnet är låst som snö och is — då kan kemisk vittring knappast fungera. Resultatet är att tropikerna har dramatiskt formade karstlandskap (som i delar av Kina och Sydostasien) som tagit kortare tid att bildas än motsvarande landskap skulle göra i tempererade områden."
+    },
+    {
+      "id": "5c-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur bildas en grotta i kalksten — steg för steg?",
+      "svar": "Det börjar med att regnvatten faller och tar upp koldioxid från luften, vilket gör vattnet svagt surt — kolsyra. Detta sura vatten rinner ner i naturliga sprickor i kalkstenen. Där sprickan finns löses lite kalk upp och följer med vattnet bort. Sprickan blir något bredare. När sprickan är bredare kan mer vatten rinna igenom, vilket löser upp mer kalk. Det är en förstärkande process: större spricka → mer vatten → mer upplösning → ännu större spricka. Efter hundratals eller tusentals år har sprickan vidgats till en gång. Efter ännu längre tid kan flera gångar möta varandra och bilda salar. Lummelundagrottorna är resultatet av exakt denna process pågående under hundratusentals år."
+    }
+  ],
+  "redogorelsekort": [
+    {
+      "id": "5a-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara den fullständiga kedjan från ett berg till sediment på havsbotten. Använd begreppen vittring, erosion och avlagring.",
+      "modellsvar": "Det börjar med ett berg. Genom vittring bryts berget ner där det står. Mekanisk vittring spränger berget i mindre bitar genom frost, temperaturväxlingar eller växtrötter. Kemisk vittring förändrar själva ämnena i berget genom reaktioner med vatten, syre eller svaga syror. Efter vittringen finns löst material vid bergets fot — sten, grus, sand, lera. Sedan börjar erosionen. Vatten från regn, snösmältning eller floder för med sig materialet. Vinden kan transportera fina partiklar. Glaciärer kan skjuta enorma mängder framför sig. Materialet flyttas, ibland några meter, ibland tusentals kilometer. Till slut tappar transporten sin kraft. När en flod rinner långsammare nära sin mynning sjunker tunga partiklar först — sand och grus. Sedan lerpartiklarna. Till slut, ute i havet, sjunker även de finaste partiklarna till botten. Det är avlagring eller sedimentation. Det material som en gång var en del av ett berg ligger nu som ett tunt lager sediment på havsbottnen. Hela processen — vittring, erosion, avlagring — kan ha tagit miljoner år, men har förflyttat material som en gång var högt upp på ett berg ner till havets djup. Detta är en av jordens grundläggande cykler. Landskap byggs upp av endogena processer, och bryts ner och flyttas av exogena processer. Aldrig något är riktigt i vila.",
+      "stodlarare": {
+        "stodord": [
+          "vittring",
+          "erosion",
+          "avlagring",
+          "berg",
+          "transport",
+          "sediment",
+          "tid"
+        ],
+        "startfraser": [
+          "Det börjar med ett berg och slutar med sediment...",
+          "Genom vittring bryts berget ner där det står...",
+          "Sedan tar erosionen vid och transporterar materialet...",
+          "Till slut sker avlagring när transporten tappar kraft..."
+        ],
+        "tip_for_struktur": "Följ kedjan i tidsordning: berget först, sedan vittringen som bryter ner, sedan erosionen som transporterar, sedan avlagringen som lägger ner materialet. Avsluta med att placera processen i sin geologiska tidsskala — det handlar om miljontals år."
+      }
+    },
+    {
+      "id": "5a-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara skillnaden mellan endogena och exogena processer. Ge exempel på var och en, och förklara hur de tillsammans formar landskapet.",
+      "modellsvar": "Endogena och exogena processer är två fundamentalt olika sätt som jorden formas. Endogena processer kommer inifrån jorden. De drivs av värme från jordens inre, som ger plattorna sin rörelse. Plattektonik, jordbävningar och vulkanism är alla endogena. Plattorna pressas ihop och bygger upp bergskedjor som Himalaya och Anderna. Magma stiger upp och bygger vulkaner som Hawaii och Vesuvius. Marken kan höjas över miljontals år. Allt detta bygger upp landformer som annars inte skulle finnas. Exogena processer kommer utifrån. De drivs framför allt av solens energi — som ger väder, vind, vatten och temperaturskillnader — och av tyngdkraften. Vittring spränger berg där de står. Erosion transporterar bort lösa material genom vatten, vind eller is. Avlagring lägger ner materialet på en ny plats. Allt detta bryter ner och omfördelar landformer. Tillsammans skapar de en pågående balans. Endogena processer bygger upp. Exogena processer bryter ner. När uppbyggnaden går snabbare, växer landformer — som Himalaya idag. När nedbrytningen går snabbare, krymper de — som Skanderna gör nu efter att deras uppbyggnad avstannat för länge sedan. Det är denna balans som förklarar varför jordens landskap ser så olika ut på olika platser. Aktiva plattgränser har dramatiska berg och vulkaner. Områden långt från plattgränser har låga, eroderade landskap. Jorden vi ser idag är resultatet av denna pågående växelverkan — och den fortsätter, varje dag, även om vi inte märker det.",
+      "stodlarare": {
+        "stodord": [
+          "endogena",
+          "exogena",
+          "plattektonik",
+          "vulkaner",
+          "vittring",
+          "erosion",
+          "balans",
+          "uppbygga",
+          "bryta ner"
+        ],
+        "startfraser": [
+          "Endogena processer kommer inifrån, exogena utifrån...",
+          "Endogena processer bygger upp...",
+          "Exogena processer bryter ner...",
+          "Tillsammans skapar de en balans..."
+        ],
+        "tip_for_struktur": "Definiera båda begrepp tydligt först. Beskriv sedan endogena med exempel (plattektonik, vulkaner). Beskriv exogena med exempel (vittring, erosion). Avsluta med att förklara balansen mellan dem — och hur den förklarar landskap i olika delar av världen."
+      }
+    },
+    {
+      "id": "5b-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Jämför de tre mekaniska vittringsprocesserna (frost, temperatur och rotvittring). Vad är likt, vad är olika, och vilken dominerar i vilken miljö?",
+      "modellsvar": "Frost-, temperatur- och rotvittring är alla typer av mekanisk vittring — alla bryter ner berg fysiskt utan att förändra ämnena kemiskt. Resultatet i alla tre fall är att berget delas upp i mindre bitar. Men mekanismerna är olika. Frostvittring drivs av vatten som fryser och utvidgas i sprickor. Den är effektivast där temperaturen ofta pendlar runt nollpunkten, så cykeln av frys och tö kan upprepas många gånger. I Sverige och i fjälltrakter är frostvittring den dominerande processen. Talus och blockhav vid fjällsidor är synliga bevis på detta. Temperaturvittring drivs av att berget utvidgas och drar ihop sig vid temperaturväxlingar. Den är effektivast i områden med stora skillnader mellan dag och natt — typiskt öknar och torra bergsområden. Resultatet blir ofta exfoliering, där tunna skikt flagnar av som lökskal. Saharas rundade stenblock är klassiska exempel. Rotvittring drivs av växtrötter som långsamt växer in i sprickor och pressar isär dem. Den är effektivast där det finns växtlighet på berget — i skogar, på hällar, i gamla murar. Den verkar långsammare än de andra men över tid kan rötter bryta loss stora bitar. Vilken typ som dominerar i en miljö beror på klimatet. I kalla, fuktiga klimat (som Sverige) dominerar frostvittring. I torra klimat med stora dygnsvariationer (som Sahara) dominerar temperaturvittring. I bevuxna områden bidrar rotvittring ofta tillsammans med en av de andra två. Det förklarar varför mekanisk vittring inte ser likadan ut överallt — samma övergripande princip ger olika landskap beroende på var man är.",
+      "stodlarare": {
+        "stodord": [
+          "frostvittring",
+          "temperaturvittring",
+          "rotvittring",
+          "klimat",
+          "öken",
+          "fjäll",
+          "expansion",
+          "spricka"
+        ],
+        "startfraser": [
+          "Alla tre är mekanisk vittring — de bryter ner berg utan att förändra ämnet...",
+          "Frostvittring fungerar bäst där det ofta fryser och tinar...",
+          "Temperaturvittring dominerar i öknar...",
+          "Rotvittring bidrar där det finns växtlighet..."
+        ],
+        "tip_for_struktur": "Börja med likheten — alla tre är mekanisk vittring. Beskriv sedan var och en för sig: mekanism, miljö, exempel. Avsluta med att förklara hur olika klimat ger olika dominerande processer."
+      }
+    },
+    {
+      "id": "5b-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara varför mekanisk vittring inte direkt skapar nya landformer, utan istället förbereder dem.",
+      "modellsvar": "Mekanisk vittring i sig flyttar inte material — den bara bryter ner det där det står. När en spricka vidgas av frost, eller en sten flagnar av i en öken, eller en rot bryter loss en bit, händer ingenting förutom att en bit berg har gått från att vara fast i bergmassan till att vara löst. Den ligger där fortfarande, vid bergets fot eller på sluttningen. För att en ny landform ska skapas — en dal, en sluttning, ett delta, ett blockhav — krävs att det lösa materialet flyttas. Det är erosionens roll. Vatten transporterar lösa stenar, sand och grus nedåt sluttningar och i floder. Vinden bär bort fina partiklar. Glaciärer skjuter framför sig enorma mängder material. Tyngdkraften ensam kan få lösa block att rasa ner vid en brant bergssida — och då bildas ett talus eller blockhav, en av få landformer som direkt syns från vittring. Men ändå är detta bara halv-arbete. För att talushuvudet ska bli till en helt ny landform — kanske en lavin som täcker en dal — behöver tyngdkraften eller is eller vatten ta över. Mekanisk vittring förbereder alltså. Den producerar löst material. Men landformerna som vi ser i landskapet — branta dalar, raviner, jökel-skapta U-dalar, kustklippor, sanddyner — bildas alla genom att det vittrade materialet sedan transporteras och avlagras av exogena krafter. Vittring är första steget. Erosion och avlagring är de som verkligen formar landskapet. Detta är en viktig insikt för att förstå hur jorden ser ut som den gör: alla landformer berättar en historia om både nedbrytning och förflyttning, om både plats och rörelse. Det är därför vi tittar närmare på erosion i nästa avsnitt — det är där den verkliga formgivningen sker.",
+      "stodlarare": {
+        "stodord": [
+          "mekanisk vittring",
+          "erosion",
+          "transport",
+          "tyngdkraft",
+          "landform",
+          "talus",
+          "förflyttning",
+          "förbereda"
+        ],
+        "startfraser": [
+          "Mekanisk vittring flyttar inte material — den bara bryter ner...",
+          "För att en ny landform ska skapas krävs transport...",
+          "Vittring är första steget, men erosion är där landskapet formas..."
+        ],
+        "tip_for_struktur": "Förklara principen att vittring producerar material men inte flyttar det. Använd exempel — talus är ett gränsfall. Visa att de stora landformerna bildas när transport tar över. Avsluta med att peka mot nästa avsnitt (erosion)."
+      }
+    },
+    {
+      "id": "5c-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hela processen från regn till grotta i ett kalkstensområde. Använd begreppen kolsyra, kalksten och kalkstensvittring.",
+      "modellsvar": "Allt börjar med vanligt regn. När regnvatten faller genom luften tar det upp koldioxid från atmosfären. Vatten och koldioxid reagerar med varandra och bildar en svag syra som kallas kolsyra. Det här är samma kolsyra som finns i läsk, fast mycket svagare. Regnvatten är därför naturligt något surt. När det sura regnvattnet faller på en kalkstensplatta — som på Gotland — tränger det ner i de naturliga sprickorna som finns i kalkstenen. Där börjar nu kalkstensvittringen. Kalkstenen består till största delen av kalciumkarbonat (CaCO₃), som långsamt reagerar med kolsyran och löses upp. Det upplösta kalkmaterialet följer med vattnet bort som lösta joner. Sprickans väggar krymper, sprickan blir bredare. Den här processen förstärker sig själv. När sprickan blir bredare kan mer vatten rinna igenom. Mer vatten betyder mer kolsyra på kalkens väggar. Mer kolsyra betyder mer upplösning. Mer upplösning ger ännu större spricka. Cykeln upprepar sig under hundratals eller tusentals år. Efter mycket lång tid är de små sprickorna vidgade till verkliga gångar. Vidare med ännu längre tid möts gångar och bildar salar. Hela system av sammanhängande grottor utvecklas. Lummelundagrottorna på Gotland är resultatet av denna process — nästan 4,5 kilometer kartlagda gångar som bildats av regnvatten under hundratusentals år. Och samma process pågår fortfarande där, just nu, i den aktiva delen av grottsystemet. Det är geografins lärdom: stora landformer kan skapas av små krafter, om de bara får tillräckligt med tid.",
+      "stodlarare": {
+        "stodord": [
+          "regn",
+          "koldioxid",
+          "kolsyra",
+          "kalksten",
+          "kalkstensvittring",
+          "spricka",
+          "grotta",
+          "Lummelunda",
+          "tid"
+        ],
+        "startfraser": [
+          "Allt börjar med vanligt regn...",
+          "Vatten och koldioxid bildar tillsammans kolsyra...",
+          "Det sura vattnet rinner ner i sprickor i kalkstenen...",
+          "Processen förstärker sig själv: större spricka → mer vatten → mer upplösning..."
+        ],
+        "tip_for_struktur": "Följ processen i tidsordning — från regn, till kolsyra, till spricka, till grotta. Använd begreppet kalkstensvittring som det centrala. Knyt till Lummelundagrottorna som ett konkret exempel. Avsluta med insikten att stora landformer kan bildas av små krafter över lång tid."
+      }
+    },
+    {
+      "id": "5c-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Jämför mekanisk och kemisk vittring. Vad är likt, vad är olika, och hur kompletterar de varandra?",
+      "modellsvar": "Mekanisk och kemisk vittring är båda exogena processer som bryter ner berg. Båda är första steget i kedjan vittring → erosion → avlagring som formar jordens yta. Båda är långsamma processer som arbetar över tusentals eller miljontals år. Här slutar likheterna och de viktiga skillnaderna börjar. Mekanisk vittring bryter sönder berget fysiskt utan att ämnet förändras. Stenen är fortfarande samma sten — den har bara spruckit eller smulats sönder. De viktigaste typerna är frostvittring (is i sprickor), temperaturvittring (utvidgning och sammandragning), och rotvittring (växtrötter). Mekanisk vittring dominerar i kalla, torra klimat — i Sverige är det den viktigaste processen, särskilt i fjälltrakterna där frostvittring skapar talus och blockhav. Kemisk vittring förändrar däremot själva ämnet i berget. Mineraler reagerar med vatten, syre eller svaga syror och blir till nya ämnen, eller löses upp helt. Den viktigaste formen är kalkstensvittring där kolsyra långsamt löser upp kalksten. Kemisk vittring dominerar i varma, fuktiga klimat — tropikerna har de snabbaste vittringsprocesserna, medan Sverige bara har betydande kemisk vittring i kalkrika områden som Gotland och Öland. De två processerna kompletterar varandra. Mekanisk vittring kan göra berget mer sårbart för kemisk vittring genom att skapa sprickor där vatten kan tränga in. Kemisk vittring kan å andra sidan göra berget svagare så att det lättare bryts sönder mekaniskt. På de flesta platser arbetar de tillsammans — bara att en av dem ofta dominerar beroende på klimat. Resultaten ser också olika ut. Mekanisk vittring ger vassa, kantiga skärvor och spektakulära talus-formationer. Kemisk vittring ger upplösta sprickor, gångar, grottor och hela karstlandskap. Tillsammans bryter de ner alla världens berg — bara med olika hastighet och med olika spår i landskapet.",
+      "stodlarare": {
+        "stodord": [
+          "mekanisk vittring",
+          "kemisk vittring",
+          "fysisk",
+          "kemisk",
+          "klimat",
+          "frost",
+          "kolsyra",
+          "kalksten",
+          "talus",
+          "grotta"
+        ],
+        "startfraser": [
+          "Båda är exogena processer som bryter ner berg...",
+          "Mekanisk vittring förändrar inte ämnet — kemisk vittring gör det...",
+          "Mekanisk dominerar i kalla, torra klimat. Kemisk dominerar i varma, fuktiga...",
+          "De kompletterar varandra eftersom..."
+        ],
+        "tip_for_struktur": "Börja med likheterna kortfattat. Beskriv sedan mekanisk vittring (mekanism, klimat, exempel — som talus). Beskriv kemisk vittring (mekanism, klimat, exempel — som grottor). Avsluta med hur de kompletterar varandra och varför resultaten blir så olika."
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "delkapitel": "geologi",
-  "_kommentar": "PLATSHÅLLARE skapad av Code – Joachim ersätter frågetexterna med slutgiltigt elevbok-innehåll. Strukturen och id:na är korrekta. Modell 2: Elevboken är gemensam per huvudavsnitt, så varje avsnitts-id matchar AVSNITT_ID i avsnitts-HTML (a1_jordens_uppbyggnad, a2_plattektonik). Frågorna från underdelarna A/B/C samlas i samma avsnittsentry. q-id:na är stabila och ändras aldrig.",
+  "_kommentar": "Modell 2: Elevboken är gemensam per huvudavsnitt, så varje avsnitts-id matchar AVSNITT_ID i avsnitts-HTML. Underdelarnas frågor samlas i samma avsnittsentry. q-id:na är stabila och ändras aldrig. a3_jordbavningar har slutgiltigt innehåll (Runda 2); a1/a2 är fortfarande platshållare som Joachim ersätter. Kravord/stödfraser för stödläraren ligger i geologi-kvalitetskriterier.json (stödläraren är pausad – se den filen).",
   "avsnitt": [
     {
       "id": "a1_jordens_uppbyggnad",
@@ -48,6 +48,82 @@
           "id": "q_kontinentaldrift_motstand",
           "typ": "grund",
           "fraga": "Varför fick Wegeners teori först så mycket motstånd? Vad saknades i hans förklaring som senare kom på plats?"
+        }
+      ]
+    },
+    {
+      "id": "a3_jordbavningar",
+      "nummer": 3,
+      "titel": "Jordbävningar",
+      "fragor": [
+        {
+          "id": "q_a3a_uppstar",
+          "typ": "grund",
+          "fraga": "Förklara hur en jordbävning uppstår, från plattornas rörelse till själva skalvet och hur energin sedan sprids. Använd begreppen: plattor, förkastning, spänning, fokus, epicentrum och seismiska vågor."
+        },
+        {
+          "id": "q_a3b_mata",
+          "typ": "grund",
+          "fraga": "Förklara hur man mäter jordbävningar. Beskriv skillnaden mellan magnitudskalor och Mercalliskalan, och förklara vad det betyder att magnitudskalan är logaritmisk. Använd begreppen: magnitud, Richterskalan, momentmagnitud, Mercalliskalan, logaritmisk och energi."
+        },
+        {
+          "id": "q_a3c_foljd",
+          "typ": "grund",
+          "fraga": "Förklara varför en jordbävning bäst förstås som en kedja av händelser. Beskriv minst tre olika följdkatastrofer och vad som avgör vilken som blir farligast. Använd begreppen: tsunami, jordskred, markförvätskning, bränder, subduktionszon och plats."
+        },
+        {
+          "id": "q_a3d_sarbarhet",
+          "typ": "grund",
+          "fraga": "Förklara varför Haiti 2010 och Chile 2010 fick så olika resultat trots att Chiles jordbävning var mycket starkare. Använd begreppen sårbarhet och beredskap – och dra in Haiti, Chile, magnitud, byggnormer och samhälle i förklaringen."
+        }
+      ]
+    },
+    {
+      "id": "a4_vulkaner",
+      "nummer": 4,
+      "titel": "Vulkaner",
+      "fragor": [
+        {
+          "id": "q_a4a_var",
+          "typ": "grund",
+          "fraga": "Redogör för varför vulkaner uppstår och var de finns. Förklara de tre platserna där vulkaner bildas och varför vulkanerna inte är slumpmässigt utspridda över jorden. Använd begreppen: magma, plattgränser, spridningszon, subduktionszon, hot spot och Eldringen."
+        },
+        {
+          "id": "q_a4b_typer",
+          "typ": "grund",
+          "fraga": "Redogör för de olika varianterna av vulkaner. Beskriv sköldvulkaner, stratovulkaner och sprickvulkaner, och förklara hur magmas egenskaper avgör vilken typ av vulkan som bildas. Använd begreppen: viskositet, sköldvulkan, stratovulkan, sprickvulkan, lättflytande, trögflytande och kiseldioxid."
+        },
+        {
+          "id": "q_a4c_faror",
+          "typ": "grund",
+          "fraga": "Redogör för de naturkatastrofer som kan uppstå i samband med vulkanutbrott. Förklara särskilt pyroklastiska flöden och slamströmmar (lahars), samt hur stora vulkanutbrott kan påverka klimatet. Använd begreppen: pyroklastiskt flöde, lahar, aska, gaser, stratosfären, klimatpåverkan och följdkatastrof."
+        },
+        {
+          "id": "q_a4d_risker_nytta",
+          "typ": "grund",
+          "fraga": "Redogör för de negativa och positiva konsekvenserna för människan och samhället som skapas av vulkaner. Förklara varför människor bor nära vulkaner trots farorna. Använd begreppen: bördig jord, geotermisk energi, mineraler, sårbarhet, beredskap, avvägning och jordbruk."
+        }
+      ]
+    },
+    {
+      "id": "a5_vittring",
+      "nummer": 5,
+      "titel": "Vittring",
+      "fragor": [
+        {
+          "id": "q_a5a_exogena",
+          "typ": "grund",
+          "fraga": "Redogör för vad exogena processer är och hur de skiljer sig från endogena processer. Förklara också den fullständiga kedjan vittring, erosion och avlagring. Använd begreppen: exogena processer, endogena processer, vittring, erosion, avlagring, solens energi och tyngdkraft."
+        },
+        {
+          "id": "q_a5b_mekanisk",
+          "typ": "grund",
+          "fraga": "Redogör för de tre formerna av mekanisk vittring – frostvittring, temperaturvittring och rotvittring. Förklara hur de fungerar och vilken som dominerar i Sverige. Använd begreppen: mekanisk vittring, frostvittring, temperaturvittring, rotvittring, talus, sprickor och klimat."
+        },
+        {
+          "id": "q_a5c_kemisk",
+          "typ": "grund",
+          "fraga": "Redogör för kemisk vittring, med fokus på kalkstensvittring. Förklara hur grottor som Lummelundagrottorna bildas, och vad ett karstlandskap är. Använd begreppen: kemisk vittring, kolsyra, kalksten, kalkstensvittring, stalaktit, stalagmit, karstlandskap och Lummelunda."
         }
       ]
     }

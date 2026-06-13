@@ -1,5 +1,6 @@
 {
   "delkapitel": "geologi",
+  "_kommentar": "Föreläsningar visas högst upp i Läs-fliken för det avsnitt vars AVSNITT_ID matchar avsnitt_id. Lägg till nya videor genom att lägga in fler objekt här – ingen kodändring behövs. youtube_id = id-delen ur youtu.be/<id>. langd är frivillig text (t.ex. \"14:02\"); tom sträng döljer längden.",
   "forelasningar": [
     {
       "id": "f_jordens_uppbyggnad",
@@ -7,6 +8,34 @@
       "titel": "Jordens uppbyggnad",
       "youtube_id": "xVyL8fbGPAM",
       "langd": "14:02"
+    },
+    {
+      "id": "f_jordbavningar",
+      "avsnitt_id": "a3_jordbavningar",
+      "titel": "Jordbävningar",
+      "youtube_id": "A3T9kpdBOXY",
+      "langd": ""
+    },
+    {
+      "id": "f_tsunami",
+      "avsnitt_id": "a3_jordbavningar",
+      "titel": "Tsunami",
+      "youtube_id": "L5qqbrMfb_s",
+      "langd": ""
+    },
+    {
+      "id": "f_forkastningar",
+      "avsnitt_id": "a2_plattektonik",
+      "titel": "Förkastningar",
+      "youtube_id": "0FVWuMZBxbg",
+      "langd": ""
+    },
+    {
+      "id": "f_vittring",
+      "avsnitt_id": "a5_vittring",
+      "titel": "Vittring",
+      "youtube_id": "4EVfKIcvaRE",
+      "langd": ""
     }
   ]
 }
