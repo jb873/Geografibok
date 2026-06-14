@@ -1,0 +1,489 @@
+{
+  "avsnitt": 7,
+  "titel": "Sluttningsprocesser",
+  "delkapitel": "geologi",
+  "version": "1.0",
+  "kort_totalt": 45,
+  "begreppskort": [
+    {
+      "id": "7a-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en sluttningsprocess?",
+      "svar": "En sluttningsprocess är när material rör sig nedför en sluttning på grund av tyngdkraften. Materialet kan vara sten, jord, lera, sand, grus, snö eller is. Sluttningsprocesser sker överallt där marken lutar — i berg, längs kuster, i raviner och i fjällområden. Ibland sker rörelsen mycket långsamt, ibland snabbt — och då kan den bli farlig för människor och samhällen."
+    },
+    {
+      "id": "7a-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilka fyra typer av sluttningsprocesser finns det?",
+      "svar": "Det finns fyra huvudtyper: Ras, när sten eller jord faller eller rullar nedför en brant sluttning. Jordskred, när stora massor av jord eller lera glider iväg längs en glidyta. Slamström, när vatten blandas med jord, lera och sten och rinner som en tjock, snabb massa. Lavin, när snö eller is rasar nedför en fjällsida. Vad som avgör vilken process som sker beror på material, lutning, vattenmängd och vad som stör marken."
+    },
+    {
+      "id": "7a-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilken kraft driver alla sluttningsprocesser?",
+      "svar": "Alla sluttningsprocesser drivs av tyngdkraften. Den drar oavbrutet allt material nedåt, dygnet runt, året runt. Tyngdkraften behöver bara en sluttning att arbeta med — sedan är det en fråga om tid innan något börjar röra sig. Det är därför sluttningsprocesser är så fundamentala för geografi: överallt där marken lutar finns en pågående eller väntande process."
+    },
+    {
+      "id": "7a-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett ras?",
+      "svar": "Ett ras innebär att material lossnar och faller, rullar eller studsar nedför en sluttning. Ras sker ofta där sluttningen är brant — vid bergväggar, klippor, raviner, vägskärningar eller fjällsidor. Ras består vanligen av stenblock, grus eller jord. Det viktiga är att materialet rör sig som lösa partiklar — varje sten har sitt eget liv när det faller, till skillnad från ett jordskred där hela massan rör sig som en enhet."
+    },
+    {
+      "id": "7a-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett rasbrant?",
+      "svar": "Ett rasbrant (eller talus-kon) är en kon- eller halvkonformig samling av redan fallna stenar vid foten av en sluttning där ras sker regelbundet. Stenarna är blandade i storlek — bevis på att ras har skett under lång tid. Vegetation saknas ofta eller är sparsam eftersom marken hela tiden får nya stenar. Rasbranter finns nedanför fjällsidor, klippor och vägskärningar i bergsområden. De berättar att platsen är aktiv geologiskt."
+    },
+    {
+      "id": "7a-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är skillnaden mellan ett ras och ett jordskred?",
+      "svar": "I ett ras rör sig material som lösa partiklar — varje sten faller, rullar eller studsar för sig själv. I ett jordskred rör sig en sammanhängande massa som en enhet, glidande på en svag yta i marken som kallas glidyta. Ras består oftast av sten eller grovt material; skred består oftast av jord eller lera. Den diagnostiska skillnaden är hur materialet rör sig — lösa partiklar (ras) vs sammanhängande massa (skred)."
+    },
+    {
+      "id": "7a-b07",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är skyddsnät och vad används de till?",
+      "svar": "Skyddsnät är stora nät av stålvajer som hängs från en sluttnings topp ner till en väg eller annan utsatt plats. När en sten lossnar och faller fångas den upp av nätet innan den når trafiken. Skyddsnät är pålitliga och relativt billiga, men fungerar bara mot mindre stenar — stora block kan riva ner näten. Längs E10 mot Narvik och i fjällvägar generellt är skyddsnät en vanlig syn. För större risker används bergbultar och stenrasspjäll som komplement."
+    },
+    {
+      "id": "7b-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett jordskred?",
+      "svar": "Ett jordskred är när en stor mängd jord, lera eller annat löst material börjar glida nedför en sluttning som en sammanhängande massa. Materialet glider längs en svag yta i marken — en så kallad glidyta. Ovanför glidytan rör sig allt; under den är marken stilla. Detta skiljer jordskred från ras, där materialet rör sig som lösa partiklar. Jordskred sker ofta i lerområden nära älvar, sjöar eller kuster — i Sverige framför allt i Västsverige."
+    },
+    {
+      "id": "7b-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en glidyta i ett jordskred?",
+      "svar": "En glidyta är en svag yta inne i marken längs vilken jordmassan rör sig vid ett jordskred. Det är där rörelsen sker — allt ovanför glidytan glider iväg, allt under är stilla. Glidytan ligger ofta i ett svagare lerlager, till exempel där kvicklera finns. En jordmassa på ett ton kan glida på en glidyta som bara är några centimeter tjock. Det är glidytan som gör att skreds material rör sig som en sammanhängande enhet istället för att falla isär."
+    },
+    {
+      "id": "7b-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är kvicklera?",
+      "svar": "Kvicklera är en särskilt farlig sorts lera som verkar fast men kan plötsligt förlora sin hållfasthet och bli nästan flytande. Den bildas av gammal havslera som avsattes i salt vatten efter istiden. Saltjonerna höll partiklarna i en stabil korthus-struktur. När landet sedan höjde sig och regnvatten lakade ur saltet, behöll leran sin form men förlorade limmet som höll partiklarna på plats. När den störs — av vibrationer eller plötslig belastning — kan korthus-strukturen kollapsa och leran nästan bli flytande."
+    },
+    {
+      "id": "7b-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Varför är västsverige särskilt utsatt för jordskred?",
+      "svar": "Tre faktorer samverkar i västsverige. För det första finns tjocka lager av gammal havslera, som avsattes efter istiden när stora delar av området låg under havet. För det andra har älvar och bäckar — särskilt Göta älv — eroderat in i lerstränderna under tusentals år, vilket försvagar nedre delen av slänterna. För det tredje har människan byggt vägar, järnvägar och bostäder i just dessa dalgångar. Tillsammans skapar detta en farlig kombination: just där marken är som mest känslig har människor valt att bygga som mest. Det är därför Sveriges historia av skredkatastrofer är så koncentrerad till västsverige."
+    },
+    {
+      "id": "7b-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är älverosion och varför utlöser den jordskred?",
+      "svar": "Älverosion är när rinnande vatten i en älv eller bäck nöter bort material från flodbankarna, särskilt vid foten av en sluttning. Under tusentals år kan en älv gradvis äta sig in i sin strand. När nedre delen av en lersluttning eroderas bort försvinner stödet för marken ovanför. Då kan hela jordmassan ovanför till slut tappa balansen och glida iväg som ett skred. Detta är den klassiska utlösaren längs Göta älv i Västsverige, där älverosion under tusentals år gjort slänterna gradvis mer skredbenägna."
+    },
+    {
+      "id": "7b-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är torrskorpa och varför är den relevant för jordskred?",
+      "svar": "Torrskorpa är det översta lagret av jorden, vanligen en till två meter tjockt, som har torkat ut och blivit relativt fast. Den ser ut som en hård överyta över den fuktigare kvickleran under. Torrskorpan är pedagogiskt viktig eftersom den lurar människor — den känns stabil när man går på den eller bygger på den. Men under torrskorpan kan det finnas kvicklera som är mycket mindre stabil. Det är en av anledningarna till att skredkatastrofer kan komma så plötsligt: ytan ser fast ut, men djupare ner är marken instabil."
+    },
+    {
+      "id": "7c-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en slamström?",
+      "svar": "En slamström är en snabb ström av vatten blandat med jord, sand, lera, grus, sten och ibland trädstammar. Den liknar en flod men är mycket tjockare och tyngre — som flytande betong eller tjock välling. Den rör sig som en vätska men slår som en fast massa. Slamströmmar sker ofta i branta områden — i berg, raviner och dalgångar — efter kraftiga regn, snabb snösmältning eller vulkanutbrott."
+    },
+    {
+      "id": "7c-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilka tre saker måste finnas samtidigt för en slamström?",
+      "svar": "Slamströmmar uppstår när tre förutsättningar finns samtidigt på samma plats. Brant sluttning — tyngdkraften behöver lutning för att den tunga blandningen ska rinna iväg. Mycket vatten — från kraftigt regn, snabb snösmältning eller smältande glaciärer. Löst material — som vatten kan transportera, ofta från vittring, ras, skogsbrand eller avverkning. Saknas en av dessa tre händer ingen slamström. Finns alla tre samtidigt kan en slamström utlösas snabbt."
+    },
+    {
+      "id": "7c-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är lahar?",
+      "svar": "Lahar är en vulkanisk slamström — när vulkanisk aska blandas med regnvatten eller smältvatten från snö och is på en vulkan. Ordet är indonesiskt och har övertagits av geologin globalt. Lahar kan bildas vid vulkaner med glaciärtoppar eftersom värmen från utbrottet smälter isen snabbt. Resultatet är ett material som flyter som en flod men har konsistensen av flytande cement. Lahar kan röra sig 50-80 km/h och nå hundratals kilometer från vulkanen. Armero-katastrofen 1985 är ett välkänt exempel."
+    },
+    {
+      "id": "7c-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är skillnaden mellan en slamström och en vanlig flod?",
+      "svar": "En vanlig flod består till största delen av vatten. Den är ganska klar, har en definierad fåra och rör sig som en vätska. En slamström består av vatten BLANDAT med jord, lera, sand, grus och sten — så mycket fast material att den är tjock som flytande betong eller välling. Färgen är grå-brun, inte vattenblå. Den är mycket tyngre och kan bära stenblock så stora som bilar. Den rör sig snabbare än en flod i samma lutning eftersom den är tätare och har mer tyngd. Och när en flod bromsas upp avlagras finmaterial över tid; en slamström dumpar plötsligt allt sitt material samtidigt när den når flackt land."
+    },
+    {
+      "id": "7c-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är skillnaden mellan en slamström och ett jordskred?",
+      "svar": "Båda involverar jord eller lera som rör sig nedför en sluttning, men de är fundamentalt olika. Ett jordskred är en sammanhängande massa som glider på en glidyta — relativt lite vatten är inblandat. En slamström är en blandning av jord och stora mängder vatten — den har egenskaperna av både vätska och fast massa, men är inte sammanhängande på samma sätt. Pedagogiskt kan man tänka: skred = jord som flyttar sig som en geléhalv; slamström = jord som blandats till en tjock soppa och rinner. Skredet behåller sin form; slamströmmen flyter."
+    },
+    {
+      "id": "7c-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är hydrofobi i mark efter skogsbrand?",
+      "svar": "Hydrofobi betyder vattenavstötande. När en skogsbrand bränner förstörs vegetationen, och den höga värmen förändrar marken på molekylär nivå. Organiskt material som brinner ut bildar vaxlika föreningar som täcker jordpartiklarna med ett tunt vattenavstötande lager. Under flera månader efter en kraftig brand kan en sådan mark inte längre absorbera regnvatten på normalt sätt — vattnet rinner istället över ytan, som om jorden var en plastduk. Tillsammans med att rötter dött och vegetation försvunnit skapar detta perfekta förutsättningar för slamström vid nästa kraftiga regn."
+    },
+    {
+      "id": "7d-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en lavin?",
+      "svar": "En lavin är när snö, is eller en blandning av snö och is plötsligt börjar röra sig nedför en sluttning. Laviner sker framför allt i fjäll och bergsområden där det finns mycket snö och branta sluttningar. Precis som de andra sluttningsprocesserna drivs laviner av tyngdkraften. Snön ligger ofta stilla i månader, men om snötäcket blir instabilt — om det störs eller om svaga lager finns under tyngre lager — kan det lossna och rasa nedåt med enorm kraft."
+    },
+    {
+      "id": "7d-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en flaklavin?",
+      "svar": "En flaklavin uppstår när ett helt sammanhängande snöflak lossnar från snötäcket och glider iväg som en enhet. Det sker när ett svagare snölager brister under ett hårdare lager ovanpå. Flaklaviner är mycket farliga eftersom stora mängder snö — ibland tusentals ton — kan lossna på en gång. De har en karakteristisk skarp, vinkelrät brottlinje upptill där flaket lossnat, vilket gör dem lätta att känna igen. Flaklaviner orsakar de flesta dödsfall i lavinolyckor."
+    },
+    {
+      "id": "7d-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en lös snölavin?",
+      "svar": "En lös snölavin börjar i en liten punkt där lös snö lossnar — kanske där solen värmt en sten och torrare snö ovanför börjar glida. När snön rör sig nedåt drar den med sig mer snö, och lavinen blir bredare. Den får ofta en karakteristisk solfjäder-form — smal upptill, bred nedtill. Lösa snölaviner är vanligast i lättare pulversnö och är ofta mindre farliga än flaklaviner, men kan ändå vara dödliga om man hamnar i deras väg."
+    },
+    {
+      "id": "7d-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en våt lavin?",
+      "svar": "En våt lavin uppstår när snön innehåller mycket vatten — typiskt vid töväder, regn på snö, eller stark solstrålning. Vattnet gör snön tung och minskar hållfastheten i snötäcket. Våta laviner rör sig ofta långsammare än torra laviner, men de är mycket tunga och kan orsaka stor förstörelse. De är som naturens egen variant av en slamström, fast med snö istället för jord. Klimatförändringen ökar risken för våta laviner eftersom mildare vintrar betyder mer regn och vatten i snötäcket."
+    },
+    {
+      "id": "7d-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en brottlinje i en flaklavin?",
+      "svar": "En brottlinje är den skarpa, vinkelräta kanten högst upp på en sluttning där ett snöflak har lossnat vid en flaklavin. Brottlinjen är det diagnostiska kännetecknet för en flaklavin — så känner man igen den från en lös snölavin (som har en utgångspunkt, inte en linje). Vid brottlinjen syns ofta två olika snölager: ett hårdare ovanpå och ett svagare under. Det svaga lagret brast och flaket började glida. Brottlinjen kan vara meterhög och hundra meter bred eller mer."
+    },
+    {
+      "id": "7d-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Varför är sluttningar på 30-45 grader klassiskt farligast för laviner?",
+      "svar": "Det handlar om geometri och fysik. Är sluttningen för flack (under 30°) hålls snön kvar av friktion och tyngdkraften kan inte övervinna den. Är den extremt brant (över 45-50°) hinner snön ofta rasa ned i mindre mängder kontinuerligt innan stora flak byggs upp — sluttningen 'rensar sig själv'. Men på medel-branta sluttningar mellan 30 och 45 grader kan snön ligga kvar tillräckligt länge för att tjocka snölager byggs upp, samtidigt som tyngdkraften är stark nog för att utlösa rörelse när snötäcket blir instabilt. Detta är därför det klassiska riskintervallet — och tyvärr också det vanligaste i svenska och norska fjäll."
+    }
+  ],
+  "modellkort": [
+    {
+      "id": "7a-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är frostvittring en så viktig orsak till ras i svenska fjäll?",
+      "svar": "I svenska fjäll passerar temperaturen 0°C många gånger om året — kanske 50-100 gånger. Varje gång det händer kan vatten i sprickor i berget övergå mellan vätska och is. När vatten fryser utvidgas det med 9%, och det pressar isär sprickorna. Efter tusentals frys-tö-cykler blir berget genomvittrat av små sprickor som så småningom kan göra att block lossnar. I tropikerna händer detta nästan aldrig (för varmt), i Antarktis sällan (för kallt). Svenska fjäll har precis rätt klimat för konstant frostvittring. Resultatet syns överallt: rasbranter vid foten av nästan varje fjällsida i Skanderna, och skyddsnät längs varje fjällväg."
+    },
+    {
+      "id": "7a-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kan människan både öka och minska risken för ras?",
+      "svar": "Människan ökar rasrisken genom att gräva i sluttningar (vägbyggen, gruvor), ta bort växtlighet (rötter binder annars jorden), spränga i berg och låta tunga konstruktioner belasta instabila branter. Människan minskar rasrisken genom att bygga skyddsnät som fångar upp fallande sten, sätta in bergbultar som håller fast lösa block i berget, bygga stenrasspjäll vid sidan av vägar, och i framtiden använda sensorvarningssystem som detekterar tidiga rörelser i berget. Norges kustriksväg har över 1 200 tunnlar byggda just för att leda trafiken genom berget istället för utanför det. Att förebygga ras är dyrt men nödvändigt — varje skyddsnät på en svensk fjällväg representerar år av planering och ingenjörsarbete."
+    },
+    {
+      "id": "7a-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför kan klimatförändring öka risken för ras i fjäll?",
+      "svar": "Klimatförändring ger mer instabil temperatur i fjällmiljö. Istället för långa stabila vintrar med tjälen djupt fryst, får vi fler tö-cykler där temperaturen pendlar runt 0°C. Varje sådan cykel innebär att vatten kan tränga in i sprickor och frysa till is, och pressa isär dem. Fler cykler = mer frostvittring = mer ras. I Alperna och norska fjällen är detta redan ett växande problem — fjällsidor som varit stabila i hundra år börjar plötsligt rasa. Svenska fjällen kan följa efter. Klimatförändring + frostvittring + branta sluttningar = ökande rasrisk över hela skandinaviska fjällkedjan."
+    },
+    {
+      "id": "7b-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför rör sig en jordmassa i ett skred som en sammanhängande enhet istället för att falla isär som vid ett ras?",
+      "svar": "Skillnaden ligger i materialet och hur det reagerar på rörelse. I ett ras är materialet ofta löst — stenar, block, grus — som inte håller ihop genom någon kraft annat än friktion. När gravitationen tar över faller varje del för sig själv. I ett jordskred är materialet jord eller lera, som hålls ihop av kohesion (limmet mellan jordpartiklarna). När en glidyta brister, glider hela massan ovanför som en enhet eftersom kohesionen håller den tillsammans. Tänk på det som skillnaden mellan att hälla ut grus från en hink (varje korn faller separat — ras) och att tippa en geléhalv av en tallrik (allt rör sig som en enhet — skred). Det är därför skred ofta kan ta med sig hela hus utan att riva dem isär — de har inte sönderfallit utan flyttat sig som en enhet."
+    },
+    {
+      "id": "7b-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kan kvicklera plötsligt förlora sin hållfasthet?",
+      "svar": "Kvicklera har en porös struktur — som ett tredimensionellt korthus — som bildades när lerpartiklar avsattes på havsbottnar efter istiden. Saltjoner fungerade som kemiska bryggor mellan partiklarna och höll strukturen stabil. När landet höjde sig och regnvatten lakade ur saltet under tusentals år, behöll leran sin form men förlorade limmet. Strukturen är fortfarande där, men den är skör — den balanserar på något som kan kollapsa. När leran störs — av vibrationer från sprängningar, av jordbävning, av plötslig belastning från fyllnadsmassor — kan korthuset kollapsa. Vatten som suttit instängd mellan partiklarna frigörs plötsligt, och leran beter sig nästan som en tjock vätska. Det är inte magi — det är fysik. Och det är reversibelt: om kvickleran får ligga ostörd kan partiklarna sätta sig igen och leran kan återgå till att verka fast. Men strukturen är aldrig riktigt densamma."
+    },
+    {
+      "id": "7b-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är geotekniska undersökningar så viktiga i västsvensk samhällsplanering?",
+      "svar": "I västsverige finns kvicklera under många områden där människor vill bygga — bostäder, vägar, industrier. Kvicklera känns fast när den ligger orörd, men kan kollapsa när den belastas. En geoteknisk undersökning provar marken på olika djup för att se: finns det kvicklera? Hur tjockt är lerlagret? Hur stark är leran? Vad händer om man bygger ett hus, en väg eller lägger upp fyllnadsmassor? Resultaten avgör vad som kan byggas och hur. På vissa platser kan inget byggas alls. På andra måste man pålda ner till stabil grund flera meter under leran. På åter andra måste man undvika tunga belastningar eller schaktning vid foten av slänter. Stenungsund 2023 visar varför det är så viktigt: skredet utlöstes av fyllnadsmassor på mark där en bättre geoteknisk undersökning hade varnat för risken. Geoteknik är inte överbyråkrati — det är att läsa marken innan man bygger på den."
+    },
+    {
+      "id": "7c-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför kan en slamström bära så stora stenblock?",
+      "svar": "Det handlar om densitet och kraft. Ett rent vatten har densitet 1,0 — en kubikmeter väger 1 ton. En slamström kan ha densitet 1,5-2,0 eller mer eftersom den är full av jord och sten. Det betyder att samma volym väger 50-100% mer än vatten. Och uppåtkrafterna i den tjocka strömmen är därför mycket större — den kan lyfta större objekt. En sten som inte skulle flyta i vatten flyter delvis i den tjockare blandningen. Plus att slamströmmen rör sig snabbt — energin är hög. Tillsammans betyder detta att den kan bära med sig stenblock så stora som bilar, hela träd och byggnadsdelar. Det är denna kombination av tyngd, hastighet och uppåtkraft som gör slamströmmen så förödande — den kan både svepa fram och bära med sig allt som står i vägen."
+    },
+    {
+      "id": "7c-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kan en skogsbrand öka risken för slamström flera år senare?",
+      "svar": "Skogsbranden själv producerar inte direkt slamströmmar — det kommer senare. När elden dragit fram förstörs vegetationen och dödar rötterna som tidigare höll jorden samman. Den höga värmen skapar också hydrofoba föreningar i markens översta lager — vattenavstötande ämnen som täcker jordpartiklarna med ett vaxlikt lager. Marken kan därför inte längre absorbera regnvatten på normalt sätt. När hösten kommer med kraftigt regn rinner vattnet snabbt över den bara marken istället för att sippra ner. Tre saker är då uppfyllda samtidigt: brant sluttning (oförändrad), mycket vatten (regnvatten som rinner på ytan), löst material (jord utan rötter att hålla den). Resultatet är en slamström — månader eller år efter själva branden. I Kalifornien dör människor regelbundet i slamströmmar som följer av föregående års bränder, ibland med flera års fördröjning. Marken har minne."
+    },
+    {
+      "id": "7c-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är lahar särskilt farliga jämfört med vanliga slamströmmar?",
+      "svar": "Tre faktorer gör lahar extra farliga. För det första: räckvidd. En vanlig slamström rör sig kanske några kilometer; en lahar kan röra sig tiotals eller hundratals kilometer från sin vulkan. Detta beror på att vulkanisk aska är extremt fin och blandar sig perfekt med vatten — som mjöl och vatten ger deg, ger vulkanaska och vatten ett material som flyter långt och behåller sin konsistens. För det andra: utbrottstid. Vulkanutbrott smälter snabbt stora mängder is och snö. Stora mängder vatten blir tillgängliga på minuter. För det tredje: människor är ofta oförberedda. De som bor under en vulkan tänker på vulkanens omedelbara hot — askregn, gaser — men inser ofta inte att lahar kan drabba dem flera mil bort. Armero 1985 visar detta perfekt: staden låg 50 km från vulkanen och uppfattades som säker, men dränktes av lahar 2,5 timmar efter utbrottet. För modern vulkanövervakning är därför lahar-prognoser lika viktiga som själva vulkanen."
+    },
+    {
+      "id": "7d-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är flaklaviner farligare än lösa snölaviner?",
+      "svar": "Flaklaviner är farligare av två grundläggande skäl. För det första: storlek. En lös snölavin börjar i en punkt och växer gradvis när den drar med sig mer snö. En flaklavin lossnar som ett enda sammanhängande flak — ibland tusentals kvadratmeter snö samtidigt. Det betyder att de har mycket större volym och vikt redan från start. För det andra: hastighet och förvarning. En lös snölavin börjar långsamt och växer; den ger ofta visuell förvarning. En flaklavin släpper plötsligt och med full kraft direkt. Den som står ovanför brottlinjen är säker; den som står nedanför har sekunder att reagera. Plus en tredje faktor: flaklaviner är ofta osynliga i sin förberedelse. Det svaga snölagret som brister kan ha begravts veckor eller månader tidigare av nytt snöfall. Sluttningen ser stilla och vacker ut — men under ytan finns instabiliteten som väntar. När den utlöses, ofta av en skidåkare eller skoterförare som råkar belasta rätt ställe, kommer katastrofen utan förvarning."
+    },
+    {
+      "id": "7d-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kan människor själva utlösa laviner?",
+      "svar": "De flesta lavinolyckor sker när människor själva utlöser lavinen som dödar dem. Mekaniken är följande: snötäcket på en sluttning kan vara instabilt — ett svagt lager kan finnas under ett hårdare lager — men ändå hålla sig orörligt. När en skidåkare, skoterförare eller vandrare belastar snön på rätt ställe ger den extra tyngden den utlösande impulsen. Det svaga lagret brister, hela flaket lossnar, och lavinen är igång. Detta är obekvämt att tänka på men pedagogiskt viktigt: det är inte slumpen som drabbar de flesta lavinoffer. Det är personen själv som ofrivilligt utlöst lavinen genom att färdas på fel ställe vid fel tid. Det är därför lavinprognoser, lavinkurser och säkerhetstänk är så viktiga för alla som rör sig i fjäll under vintern. Att förstå snön, läsa prognoserna och välja rutter med försiktighet är vad som skiljer en säker fjällvinter från en dödlig. De flesta lavinolyckor är förebyggbara — men förebyggandet kräver kunskap."
+    },
+    {
+      "id": "7d-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är luft-tillgång det största hotet om man hamnar i en lavin?",
+      "svar": "När någon begravs i en lavin handlar det inte främst om kyla eller skada — det handlar om syre. Snön i en lavin packas hårt runt kroppen när rörelsen stannat. Även om personen är vid liv efter själva fallet är det mycket svårt att andas under tät, packad snö. Lungorna måste arbeta hårt mot trycket. Den lilla luftficka som ibland bildas runt ansiktet tar slut på minuter — utandningsluften med koldioxid blandar sig med inandningsluften, och syret minskar gradvis. Forskning visar att överlevnadschansen sjunker dramatiskt efter 15-30 minuter under snön. Efter 35 minuter har de flesta dött. Detta är därför snabb räddning är så kritisk. Lavinövervakning, sökhundar, transceiver-utrustning (lavin-sändare) och snabb organisering av räddningsinsatser kan rädda liv — men bara om de aktiveras inom de första 15 minuterna. För skidåkare i fjäll är därför lavinutrustning och kunskap om hur den används obligatorisk för säker färd."
+    }
+  ],
+  "redogorelsekort": [
+    {
+      "id": "7a-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara vad en sluttningsprocess är och varför ras är en av dem. Beskriv också hur ras uppstår och vilka konsekvenser de kan få för människor.",
+      "modellsvar": "En sluttningsprocess är när material rör sig nedför en sluttning på grund av tyngdkraften. Materialet kan vara sten, jord, lera, sand, snö eller is. Sluttningsprocesser drivs av tyngdkraften, som oavbrutet drar allt nedåt. Det finns fyra huvudtyper av sluttningsprocesser: ras, jordskred, slamström och lavin. Vilken process som sker beror på material, lutning, vattenmängd och vad som stör marken. Ras är den första av de fyra. Ett ras innebär att material — vanligen stenblock, grus eller jord — lossnar och faller, rullar eller studsar nedför en brant sluttning. Det viktiga är att materialet rör sig som lösa partiklar, varje sten har sitt eget liv när det faller. Detta skiljer ras från jordskred, där en sammanhängande massa rör sig som en enhet. Ras uppstår av flera orsaker som ofta verkar tillsammans. Frostvittring är en av de viktigaste, särskilt i svenska fjäll: vatten tränger in i sprickor i berget, fryser, utvidgas och pressar isär sprickorna. Efter många frys-tö-cykler kan block lossna. Erosion vid foten av en sluttning kan också orsaka ras genom att stödet under försvinner. Kraftigt regn, jordbävningar, vibrationer och mänskliga ingrepp som vägbygge eller sprängningar kan också utlösa ras. Konsekvenserna kan bli stora för samhället. Stenblock kan falla på vägar, järnvägar och hus. I bergsområden kan blocken nå hastigheter över 80 km/h. För att skydda människor och infrastruktur används skyddsnät, bergbultar, stenrasspjäll och varningssystem. Längs E10 mot Narvik och norska kustriksvägen finns hundratals sådana skydd. Ras är därför en sluttningsprocess som vi måste leva med — vi kan inte stoppa tyngdkraften, men vi kan bygga skydd och planera klokt.",
+      "stodlarare": {
+        "stodord": [
+          "sluttningsprocess",
+          "tyngdkraften",
+          "ras",
+          "stenblock",
+          "frostvittring",
+          "erosion",
+          "skyddsnät",
+          "lösa partiklar"
+        ],
+        "startfraser": [
+          "En sluttningsprocess är när material rör sig nedför en sluttning...",
+          "Det finns fyra huvudtyper: ras, jordskred, slamström och lavin...",
+          "Ett ras är när material rör sig som lösa partiklar...",
+          "Frostvittring är en av de viktigaste orsakerna...",
+          "Konsekvenserna kan bli stora för samhället..."
+        ],
+        "tip_for_struktur": "Börja med att definiera sluttningsprocess och nämn tyngdkraften. Lista de fyra typerna. Förklara sedan vad ras specifikt är (lösa partiklar). Lista orsaker — frostvittring är den viktigaste i Sverige. Avsluta med konsekvenser för samhället och hur människor skyddar sig."
+      }
+    },
+    {
+      "id": "7a-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur frostvittring i svenska fjäll skapar ras, och hur människor i Sverige och Norge hanterar risken.",
+      "modellsvar": "Frostvittring är en av de viktigaste orsakerna till ras i svenska och norska fjäll. Den fungerar så här: vatten tränger in i små sprickor i berget under sommaren. När temperaturen sjunker under 0°C på hösten fryser vattnet till is. När vatten fryser utvidgas det med ungefär 9% — och det räcker för att pressa isär sprickorna i berget. På våren tinar isen, vattnet rinner djupare in, och processen upprepas. I svenska fjällen passerar temperaturen 0°C flera tiotals gånger varje år, vilket gör frostvittring extremt effektiv. Efter tusentals år är berget genomvittrat med sprickor, och stora block kan lossna. Detta är varför svenska och norska fjäll är så ras-utsatta. Vid foten av nästan varje brant fjällsida kan man se rasbranter — konformiga högar av stenar som lossnat under tusentals år. Människor som måste färdas eller bo i bergsområden har utvecklat flera skyddsåtgärder. Skyddsnät är vanliga längs E10 mellan Kiruna och Narvik — stora stålnät som fångar upp fallande sten innan de når vägen. Bergbultar är meterlånga stänger som borras in i berget och låses fast med betong, för att hålla lösa block på plats. Stenrasspjäll är låga vallar eller diken vid sidan av vägar som fångar upp stenar som lyckats undgå skyddsnäten. I Norge — med sin extremt långa fjordkust och bergiga terräng — har man byggt över 1 200 tunnlar för att leda vägen genom själva berget istället för utanför det. Och i framtiden blir varningssystem med sensorer vanligare: små rörelsemätare på utsatta bergpartier kan upptäcka tidiga rörelser och larma innan ett ras sker. Allt detta är dyrt och tidskrävande, men nödvändigt. När man kör genom en svensk fjälldal eller en norsk fjordväg och ser skyddsnäten ser man resultatet av kontinuerligt arbete för att leva med en process som aldrig stannar.",
+      "stodlarare": {
+        "stodord": [
+          "frostvittring",
+          "fjäll",
+          "ras",
+          "skyddsnät",
+          "bergbultar",
+          "stenrasspjäll",
+          "tunnel",
+          "E10"
+        ],
+        "startfraser": [
+          "Frostvittring fungerar så att vatten fryser i sprickor...",
+          "Vatten utvidgas 9% när det fryser...",
+          "I svenska fjäll passerar temperaturen 0°C flera tiotals gånger om året...",
+          "För att skydda sig bygger människor flera typer av lösningar...",
+          "I Norge har man byggt över 1 200 tunnlar..."
+        ],
+        "tip_for_struktur": "Förklara först frostvittringens mekanik (vatten, fryser, utvidgar, spräcker). Förklara varför svenska fjäll är särskilt utsatta (många frys-tö-cykler). Gå sedan över till skyddsåtgärder: skyddsnät, bergbultar, stenrasspjäll, tunnlar. Avsluta gärna med E10 eller norska kustriksvägen som konkreta exempel."
+      }
+    },
+    {
+      "id": "7b-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara vad ett jordskred är och varför kvicklera är så farligt. Använd Västsverige som exempel.",
+      "modellsvar": "Ett jordskred är när en stor mängd jord, lera eller annat löst material börjar glida nedför en sluttning som en sammanhängande massa. Till skillnad från ett ras, där materialet rör sig som lösa partiklar, glider en hel jordmassa i ett skred som en enhet längs en glidyta — en svag yta i marken där rörelsen sker. Ovanför glidytan rör sig allt; under den är marken stilla. Skred sker ofta i lerområden, särskilt där marken lutar mot en älv, sjö eller kust. I Sverige är västsverige särskilt utsatt. Det beror på flera faktorer som samverkar. Efter istiden låg stora delar av västra Sverige under havet, och näringsrik lera avsattes på havsbottnen. När landet höjde sig genom landhöjningen hamnade dessa lerlager på land. I vissa områden bildades kvicklera. Kvicklera är en särskilt farlig sorts lera som verkar fast men kan plötsligt förlora sin hållfasthet och bli nästan flytande. Kemiskt sett bildades den när saltjoner lakades ur leran efter istiden — saltet hade fungerat som ett lim mellan jordpartiklarna, och utan det behåller leran sin struktur men är skör. När den störs av vibrationer, plötslig belastning eller annan påverkan kan korthus-strukturen kollapsa, vattnet i porerna frigörs, och leran beter sig nästan som vätska. Då kan mycket stora skred ske mycket snabbt. Hela bostadsområden kan röra sig på minuter. Detta är varför Västsverige har en lång historia av skredkatastrofer — Surte 1950, Tuve 1977, Stenungsund 2023 och flera andra. Geotekniska undersökningar är därför obligatoriska innan man bygger i lerområden, och vid byggande måste man ta hänsyn till var kvicklera finns och hur den reagerar på belastning. Jordskred är ett av geografins tydligaste exempel på att marken under våra fötter, hur stabil den än verkar, är resultatet av en pågående geologisk historia som vi måste förstå för att leva tryggt med.",
+      "stodlarare": {
+        "stodord": [
+          "jordskred",
+          "sammanhängande massa",
+          "glidyta",
+          "kvicklera",
+          "havslera",
+          "västsverige",
+          "landhöjning",
+          "saltjoner"
+        ],
+        "startfraser": [
+          "Ett jordskred är när en stor jordmassa glider...",
+          "Till skillnad från ras rör sig materialet som en enhet...",
+          "Kvicklera är en särskilt farlig sorts lera...",
+          "I Västsverige finns tre faktorer som samverkar...",
+          "Tuve, Surte och Stenungsund är exempel..."
+        ],
+        "tip_for_struktur": "Börja med definitionen av jordskred (sammanhängande massa, glidyta). Jämför med ras. Förklara kvicklera (havslera, urlakning, korthus). Knyt till Västsverige (landhöjning, havslera, älverosion, bebyggelse). Avsluta med exempel från svenska katastrofer."
+      }
+    },
+    {
+      "id": "7b-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara varför Sverige har en historia av jordskredskatastrofer, och vilka faktorer som avgör om ett skred blir en katastrof.",
+      "modellsvar": "Sverige har inte lika många jordskred som vissa bergiga länder, men när stora skred sker kan konsekvenserna bli mycket allvarliga. Orsaken är geologisk historia. Efter istiden var stora delar av Sverige nedtryckta av inlandsisens tyngd och låg under havsytan. Lerpartiklar avsattes då på havsbottnar i salt vatten. När landet sedan höjde sig hamnade dessa lerlager på land. I många områden — särskilt i Västsverige — bildades kvicklera när regnvatten under tusentals år lakade ur saltjonerna ur leran. Älvar och bäckar har sedan eroderat in i dessa lersluttningar, vilket gradvis försvagat dem. Och människor har valt att bygga just i dessa områden, ofta nära Göta älv eller andra vattendrag, eftersom marken är platt och jordmånen bördig. Sverige har haft flera stora skredkatastrofer: Getå 1918 (41 döda i en järnvägsolycka), Surte 1950 (en död, 31 hus förstörda), Tuve 1977 (9 döda, 65 hus förstörda), Vagnhärad 1997 (många villor förstörda), Småröd 2006 (väg och järnväg utslagna), Stenungsund 2023 (E6 förstörd). Vad som avgör om ett skred blir en katastrof beror på fyra faktorer. För det första: var skredet sker. Ett skred i obebyggd mark påverkar bara landskapet; ett skred nära bostäder eller infrastruktur kan döda människor. För det andra: hur snabbt skredet sker. Kvicklereskred kan ske på sekunder, vilket ger lite tid att fly. För det tredje: hur stort området är. Ju större markområde som glider, desto fler byggnader och vägar förstörs. För det fjärde: om samhället har upptäckt risken i tid. Geotekniska undersökningar och riskkartor kan minska risken, men om markförhållandena underskattas eller om människor lägger upp fyllnadsmassor utan att tänka kan konsekvenserna bli stora. Stenungsund 2023 visade just detta — fyllnadsmassorna på fel mark utlöste skredet. Sveriges historia av skredkatastrofer är därför inte bara geologi. Det är en historia om mötet mellan naturkrafter och samhällsbeslut, där varje katastrof har lett till bättre kunskap — men ofta för sent.",
+      "stodlarare": {
+        "stodord": [
+          "jordskred",
+          "kvicklera",
+          "Västsverige",
+          "Göta älv",
+          "Tuve",
+          "Stenungsund",
+          "geotekniska undersökningar",
+          "fyra faktorer"
+        ],
+        "startfraser": [
+          "Sveriges skredhistoria börjar efter istiden...",
+          "Lerpartiklar avsattes då på havsbottnar...",
+          "Sverige har haft flera stora skredkatastrofer...",
+          "Fyra faktorer avgör om ett skred blir katastrof...",
+          "Stenungsund 2023 visade hur fyllnadsmassor kan utlösa skred..."
+        ],
+        "tip_for_struktur": "Börja med den geologiska bakgrunden (istiden, havslera, landhöjning, kvicklera). Lista exempel på svenska katastrofer kronologiskt. Förklara de fyra faktorerna som avgör allvaret (plats, hastighet, storlek, varningssystem). Avsluta med samhällsperspektivet — geologi möter samhällsbeslut."
+      }
+    },
+    {
+      "id": "7c-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur en slamström bildas och rör sig, samt vilka konsekvenser den kan få för samhället.",
+      "modellsvar": "En slamström är en snabb ström av vatten blandat med jord, sand, lera, grus, sten och ibland trädstammar. Den liknar en flod men är mycket tjockare och tyngre — som flytande betong eller välling. Slamströmmar uppstår när tre saker finns samtidigt på samma plats: brant sluttning, mycket vatten och löst material. Saknas en av dem händer inget; finns alla tre kan en slamström utlösas snabbt. Vattnet kommer ofta från kraftiga regn, åskoväder, smältande snö eller smältande glaciärer. När marken blir mättad med vatten kan den inte ta emot mer; då börjar vatten rinna på ytan och dra med sig löst material. Det lösa materialet är vad slamströmmen består av — sand, jord, lera, grus, sten, och ibland träd. Detta material kan finnas där av flera anledningar: efter vittring i fjäll, efter ras, efter skogsbrand (där rötter försvunnit och marken blivit hydrofob) eller efter avverkning. När alla tre förutsättningar är på plats börjar blandningen röra sig. Slamströmmen följer raviner, bäckfåror eller dalgångar — de naturliga vägarna som vattnet redan tagit. Den blir mycket kraftfull och kan röra sig med flera tiotals km/h, fortare än en människa kan springa. Den bär med sig stenblock så stora som bilar, hela träd och byggnadsdelar. När den når flackare mark bromsas den upp och materialet avlagras i tjocka lager. Konsekvenserna för samhället kan vara enorma. Slamströmmar kan begrava vägar, hus, åkrar och hela byar under flera meter lera och sten. Eftersom de kommer snabbt — ibland inom minuter efter att kraftigt regn börjat — är de svåra att fly från. De kan också förändra vattendrag genom att fylla igen bäckar och floder med material, vilket skapar översvämningar långt bortom slamströmmens egen väg. För länder med bergsterräng — Japan, Schweiz, Norge — finns omfattande system för att övervaka regnmängder och varna i förväg. Tekniken blir bättre, men risken försvinner aldrig. Så länge det finns berg, regn och löst material kommer slamströmmar att hända.",
+      "stodlarare": {
+        "stodord": [
+          "slamström",
+          "tre förutsättningar",
+          "vatten",
+          "löst material",
+          "brant",
+          "lahar",
+          "konsekvenser",
+          "varningssystem"
+        ],
+        "startfraser": [
+          "En slamström är en blandning av vatten och fast material...",
+          "Tre saker måste finnas samtidigt: brant, vatten, löst material...",
+          "Vattnet kan komma från regn, snösmältning eller vulkanutbrott...",
+          "Slamströmmen följer raviner och dalgångar...",
+          "För samhället kan konsekvenserna bli enorma..."
+        ],
+        "tip_for_struktur": "Definiera slamström. Lista de tre nödvändiga förutsättningarna. Beskriv hur den rör sig (raviner, fart, vad den bär med sig). Avsluta med konsekvenser för samhället: begravning, översvämning, varningssystem."
+      }
+    },
+    {
+      "id": "7c-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara vad lahar är och varför Armero-katastrofen 1985 blev så förödande.",
+      "modellsvar": "Lahar är en vulkanisk slamström — när vulkanisk aska blandas med regnvatten eller smältvatten från snö och is på en vulkan. Ordet är indonesiskt och har övertagits av geologin globalt. Lahar bildas särskilt vid vulkaner med glaciärtoppar, där värmen från utbrottet plötsligt smälter stora delar av isen. Resultatet är ett material med extraordinära egenskaper. Vulkanaska består av extremt fina partiklar som blandar sig perfekt med vatten — som mjöl och vatten ger deg, ger aska och vatten ett tjockt, flytande material. En lahar har konsistensen av flytande cement men rör sig som en flod, och kan vara tung nog att bära bilar och hus samtidigt som den flyter snabbt genom dalgångar. Det farligaste med lahar är dess räckvidd. En vanlig slamström rör sig kanske några kilometer; en lahar kan röra sig tiotals eller hundratals kilometer från sin vulkan. Armero-katastrofen 1985 i Colombia visar detta tragiskt tydligt. Nevado del Ruiz är en glaciärtäckt vulkan i Anderna. Den 13 november 1985 hade vulkanen ett relativt litet utbrott klockan 21:09. Värmen smälte plötsligt stora delar av glaciären på toppen. Det smälta vattnet blandades med vulkanaska och tonvis av löst material i sluttningarna, och tre separata lahar-vågor började röra sig nedåt. Den största laharen följde Rio Lagunilla-dalen mot staden Armero — som låg 50 kilometer från vulkanen. Många i Armero hade hört om utbrottet på radion men sa till sig själva att de var säkra så långt bort. De gick och la sig. Klockan 23:30, två och en halv timme efter utbrottet, nådde laharen staden. Inom 20 minuter låg 80% av Armero under 5-12 meter lera. 23 000 av stadens 29 000 invånare dog. Tragedin förstärktes av flera faktorer. Vetenskapliga varningar hade utfärdats, men politiska beslut underskattade hotet. Kommunikationen vid kritisk punkt var otydlig — radio sa 'förbli lugna' istället för 'fly'. Och människor visste inte vad lahar var, så de förstod inte vilken risk de var i. Armero ledde till stora förändringar i internationell vulkanövervakning, men priset var högt — det är fortfarande en av 1900-talets värsta naturkatastrofer.",
+      "stodlarare": {
+        "stodord": [
+          "lahar",
+          "vulkan",
+          "glaciär",
+          "Armero",
+          "Nevado del Ruiz",
+          "50 km",
+          "23 000 döda",
+          "varningar",
+          "kommunikation"
+        ],
+        "startfraser": [
+          "Lahar är en vulkanisk slamström...",
+          "Den bildas när vulkanvärme smälter glaciärer...",
+          "Nevado del Ruiz hade ett utbrott den 13 november 1985...",
+          "Laharen nådde Armero 2,5 timmar senare...",
+          "Tragedin förstärktes av att varningar inte nådde fram..."
+        ],
+        "tip_for_struktur": "Definiera lahar och varför den är särskilt farlig (räckvidd, konsistens). Beskriv Armero-katastrofen kronologiskt: vulkanens egenskaper, utbrottet, laharens väg, ankomsten till staden. Avsluta med varför katastrofen blev så stor: misslyckade varningar, otydlig kommunikation, bristande lokalkunskap."
+      }
+    },
+    {
+      "id": "7d-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara skillnaderna mellan de tre typerna av laviner — lös snölavin, flaklavin och våt lavin — och vilka som är farligast.",
+      "modellsvar": "En lavin är när snö eller is plötsligt rör sig nedför en sluttning, driven av tyngdkraften. Det finns tre huvudtyper, och de skiljer sig åt på sätt som är pedagogiskt viktiga att förstå. En lös snölavin börjar i en liten punkt där lös snö lossnar — kanske där en sten värms av solen och torr snö ovanför börjar glida. När snön rör sig nedåt drar den med sig mer snö, och lavinen blir bredare. Den får en karakteristisk solfjäder-form — smal upptill, bred nedtill. Lösa snölaviner är vanligast i lättare pulversnö. De är ofta mindre farliga än andra typer eftersom de börjar små och växer gradvis, vilket ger viss visuell förvarning. Men de kan ändå vara dödliga om man hamnar i deras väg. En flaklavin uppstår när ett helt sammanhängande snöflak lossnar samtidigt från snötäcket. Det sker när ett svagare snölager brister under ett hårdare lager ovanpå. Brottlinjen — den skarpa, vinkelräta kanten där flaket lossnat — är det diagnostiska kännetecknet. Flaklaviner är de farligaste av de tre. De släpper plötsligt och med full kraft direkt; de involverar ofta tusentals ton snö samtidigt; och de utlöses ofta utan visuell förvarning eftersom det svaga lagret begravts veckor eller månader tidigare. De flesta dödsfall i lavinolyckor orsakas av flaklaviner. En våt lavin uppstår när snön innehåller mycket vatten — typiskt vid töväder, regn på snö, eller stark solstrålning. Vattnet gör snön tung och minskar hållfastheten i snötäcket. Våta laviner rör sig långsammare än torra laviner, men de är mycket tunga och kan orsaka stor förstörelse. De är som naturens egen variant av en slamström, fast med snö istället för jord. Vilken som är farligast beror på sammanhanget. Statistiskt sett är flaklaviner ansvariga för de flesta dödsfallen eftersom de är så plötsliga och stora. Lösa snölaviner skördar färre liv men kan ändå döda. Våta laviner orsakar mer materiella skador eftersom de är så tunga, men ger ofta tid att fly för människor som ser dem. För säkerhet i fjäll är därför kunskap om alla tre typer viktig — varje sluttning kan producera olika typer beroende på snö och väder.",
+      "stodlarare": {
+        "stodord": [
+          "lavin",
+          "lös snölavin",
+          "flaklavin",
+          "våt lavin",
+          "brottlinje",
+          "solfjäder",
+          "snölager",
+          "tyngdkraften"
+        ],
+        "startfraser": [
+          "En lavin är när snö rasar nedför en sluttning...",
+          "Det finns tre huvudtyper av laviner...",
+          "Lösa snölaviner börjar i en punkt...",
+          "Flaklaviner är de farligaste...",
+          "Våta laviner är som naturens slamström i snö..."
+        ],
+        "tip_for_struktur": "Börja med generell definition av lavin. Beskriv var och en av de tre typerna med dess karakteristik. För varje typ: hur den börjar, hur den ser ut, vad som gör den unik. Avsluta med jämförelse — vilken är farligast och varför. Statistik och pedagogisk koppling till säkerhet."
+      }
+    },
+    {
+      "id": "7d-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur lavinrisk uppstår och vilka åtgärder människor använder för att hantera den. Använd svenska fjäll som exempel.",
+      "modellsvar": "Laviner uppstår när snötäcket blir instabilt. Det beror ofta på hur snön har byggts upp i lager. När snö faller vid olika tillfällen bildas olika snölager. Ett lager kan vara hårt och kompakt — kanske från en period med blåst som packat snön. Ett annat kan vara löst och svagt — kanske från en kall, lugn period där snökristallerna inte hunnit binda sig. Om ett tungt snölager ligger ovanpå ett svagt lager kan strukturen vara stabil under en tid, men sedan plötsligt brista. Branta sluttningar ökar risken. Laviner är särskilt vanliga i sluttningar som lutar mellan 30 och 45 grader — det klassiska riskintervallet. Vädret påverkar också kraftigt. Kraftigt snöfall kan snabbt lägga mycket ny vikt på snötäcket. Vind kan flytta snö och samla stora mängder på vissa sluttningar — så kallade 'drev' som ger upphov till tjocka snöflak just där vinden tappar fart. Töväder och regn gör snön tyngre och svagare. Människor kan också utlösa laviner — och det är så de flesta lavinolyckor sker. En skidåkare eller skoterförare belastar ett svagt snölager så att det brister. För Sveriges del finns lavinrisk främst i fjällkedjan från Lappland till Härjedalen. Klassiska riskområden inkluderar Kebnekaise-massivet, Sylarna, Riksgränsen och Abisko-området. Sverige har inte alpernas extrema höjder, men tillräckligt med brant terräng, snö och växlande väder för att skapa lavinrisk. Människor använder flera åtgärder för att hantera risken. Lavinprognoser publiceras dagligen från Naturvårdsverket och Fjällsäkerhetsrådet under vintern — de klassar risken på en skala 1-5 och anger vilken typ av lavin som är mest sannolik. Lavinskydd i form av betongmurar eller stålkonstruktioner byggs vid utsatta vägar och järnvägar. Kontrollerade sprängningar av lavinbenägna sluttningar genomförs under tider när inga människor är i området. Lavinövervakning, transceivers (lavin-sändare), och sökhundar är obligatorisk utrustning för säker färd. I extrema riskperioder stängs vägar och liftar. Men det viktigaste säkerhetstipset är kunskap. De flesta lavinolyckor är förebyggbara — det är personen själv som råkar utlösa lavinen som dödar dem genom att färdas på fel ställe vid fel tid. Att förstå snön, läsa lavinprognoserna och välja sina rutter med försiktighet är inte spännande, men det är vad som skiljer en säker fjällvinter från en dödlig.",
+      "stodlarare": {
+        "stodord": [
+          "lavin",
+          "snölager",
+          "30-45°",
+          "väder",
+          "lavinprognos",
+          "Riksgränsen",
+          "Kebnekaise",
+          "Naturvårdsverket"
+        ],
+        "startfraser": [
+          "Laviner uppstår när snötäcket blir instabilt...",
+          "Snön byggs upp i lager — hårt över svagt = fara...",
+          "Sluttningar på 30-45° är farligast...",
+          "I Sverige finns lavinrisk främst i fjällkedjan...",
+          "För säkerhet använder människor flera metoder..."
+        ],
+        "tip_for_struktur": "Förklara först varför laviner uppstår: snölagrens uppbyggnad, lutning, väder, mänsklig utlösning. Knyt till Sverige — vilka områden är utsatta. Beskriv sedan säkerhetsåtgärder: lavinprognoser, fysiska skydd, kontrollerade sprängningar, personlig utrustning. Avsluta med pedagogiskt budskap om förebyggbar risk genom kunskap."
+      }
+    }
+  ]
+}

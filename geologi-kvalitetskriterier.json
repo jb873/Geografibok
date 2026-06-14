@@ -1,6 +1,6 @@
 {
   "delkapitel": "geologi",
-  "version": "1.2",
+  "version": "1.6",
   "beskrivning": "Kvalitetskriterier för stödläraren i Elevboken. Speglar demografi-kvalitetskriterier.json. OBS: stödläraren (elevbok-stodlarare.js) är PAUSAD och laddas inte i någon HTML ännu – denna fil bevarar kravord/stödfraser per underdel så de är redo när funktionen återaktiveras. Kravorden vävs redan in i frågetexten i fragor.json så eleven ser dem även utan stödläraren.",
   "uppgifter": {
 
@@ -166,6 +166,293 @@
         "Stalaktiter hänger från taket, stalagmiter växer från golvet...",
         "Ett karstlandskap har typiska ytformer som..."
       ]
+    },
+
+    "a6_erosion-a": {
+      "titel": "Vågerosion",
+      "fraga_id": "6a-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["vågerosion", "vågor", "kust", "klippa", "slipmedel", "sand", "raukar", "grottor", "klapperstensfält", "strandbrink", "vågbrytare"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "sambandsled_exempel": [
+        "vågorna slår mot kust/klippa",
+        "sand och stenar fungerar som slipmedel",
+        "berget nöts ner av vågor + slipmedel",
+        "klippan rasar ner – underminerad av vågor",
+        "stranden förändras – vågorna flyttar sand",
+        "raukar är fristående formationer, hårdare delar av berget"
+      ]
+    },
+
+    "a6_erosion-b": {
+      "titel": "Vinderosion",
+      "fraga_id": "6b-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["vinderosion", "vind", "sand", "silt", "damm", "sanddyn", "lovartsida", "läsida", "strandråg", "vegetation", "ökenspridning", "jordbruk", "matjord"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "sambandsled_exempel": [
+        "vinden lyfter och transporterar material/sand",
+        "sanddyner bildas där vinden tappar fart",
+        "dynen rör sig i vindens riktning",
+        "vegetation binder sanden med rötter",
+        "när matjord blåser bort förlorar marken bördighet",
+        "ökenspridning sker när vegetation försvinner + vinderosion"
+      ]
+    },
+
+    "a6_erosion-c": {
+      "titel": "Floderosion",
+      "fraga_id": "6c-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["floderosion", "rinnande vatten", "bäck", "flod", "ås", "slipmedel", "V-dal", "meander", "ytterkurva", "innerkurva", "korvsjö", "flodslätt", "delta", "vattenfall"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "sambandsled_exempel": [
+        "vattnet nöter flodbankar/botten",
+        "stenar i vattnet fungerar som slipmedel/verktyg",
+        "i bergsområden bildas V-dalar",
+        "i flackare landskap bildas meandrar",
+        "vattnet rinner snabbare i ytterkurvan",
+        "korvsjö bildas när meander snörs av",
+        "deltan bildas där floden möter havet"
+      ]
+    },
+
+    "a6_erosion-d": {
+      "titel": "Glaciärerosion",
+      "fraga_id": "6d-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["glaciärerosion", "glaciär", "inlandsis", "slipning", "plockning", "rundhäll", "isräfflor", "flyttblock", "rullstensås", "klapperstensfält", "U-dal", "fjord", "morän", "smältvatten"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "sambandsled_exempel": [
+        "glaciären rör sig långsamt av sin egen tyngd",
+        "isen slipar berget med fastfrusna stenar",
+        "isen plockar loss block ur berget",
+        "rundhällar har en slipad och en brant sida",
+        "isräfflor visar isens rörelseriktning",
+        "flyttblock transporterades av isen",
+        "rullstensåsar bildades av smältvatten under isen",
+        "U-dalar blir fjordar när havsvatten fyller dem"
+      ]
+    },
+
+    "a7_sluttningsprocesser-allmant": {
+      "titel": "Sluttningsprocesser",
+      "fraga_id": "7-huvud-allmant",
+      "roll": "huvudfraga",
+      "begrepp": ["sluttningsprocess", "tyngdkraften", "ras", "jordskred", "slamström", "lavin", "material", "lutning", "vatten", "sluttning"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "sambandsled_exempel": [
+        "material rör sig nedför → en sluttning",
+        "drivs av → tyngdkraften",
+        "fyra typer → ras, jordskred, slamström, lavin",
+        "vad som avgör → material, lutning, vatten, störning"
+      ]
+    },
+
+    "a7_sluttningsprocesser-a": {
+      "titel": "Ras",
+      "fraga_id": "7a-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["ras", "sten", "brant", "frostvittring", "vittring", "erosion", "skyddsnät", "bergbultar", "rasbrant", "tyngdkraften", "lösa partiklar"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "sambandsled_exempel": [
+        "material lossnar → faller, rullar, studsar",
+        "frostvittring spräcker → berget",
+        "vatten i sprickor fryser → utvidgas, pressar",
+        "stenar rullar nedför → får hög fart",
+        "skyddsnät fångar → fallande sten"
+      ]
+    },
+
+    "a7_sluttningsprocesser-b": {
+      "titel": "Jordskred",
+      "fraga_id": "7b-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["jordskred", "glidyta", "kvicklera", "lera", "sammanhängande massa", "havslera", "älverosion", "landhöjning", "geoteknisk undersökning"],
+      "sambandsled_minimum": 3,
+      "ortnamn": ["Västsverige"],
+      "sambandsled_exempel": [
+        "stor mängd jord glider → som sammanhängande massa",
+        "längs en svag yta → glidyta",
+        "kvicklera kan plötsligt → bli flytande",
+        "saltjoner har lakats → ur leran",
+        "älverosion vid foten → tar bort stöd"
+      ]
+    },
+
+    "a7_sluttningsprocesser-c": {
+      "titel": "Slamström",
+      "fraga_id": "7c-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["slamström", "vatten", "brant", "löst material", "lahar", "kraftigt regn", "snösmältning", "hydrofobi", "skogsbrand"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "sambandsled_exempel": [
+        "vatten blandas med → jord, lera, sten",
+        "tjockare än en flod → som flytande betong",
+        "tre saker måste finnas → brant + vatten + löst material",
+        "lahar bildas när → vulkanaska + vatten"
+      ]
+    },
+
+    "a7_sluttningsprocesser-d": {
+      "titel": "Laviner",
+      "fraga_id": "7d-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["lavin", "snö", "flaklavin", "lös snölavin", "våt lavin", "brottlinje", "snölager", "lavinprognos", "tyngdkraften"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "sambandsled_exempel": [
+        "snö rasar nedför → en sluttning",
+        "flaklavin lossnar som → ett sammanhängande flak",
+        "lös snölavin börjar i → en punkt, solfjäder-form",
+        "svagt lager under hårt → kan brista",
+        "luften tar slut på → 15-30 minuter"
+      ]
+    },
+
+    "a8_jordytan-a": {
+      "titel": "Mineraler",
+      "fraga_id": "8a-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["mineral", "kemisk sammansättning", "kristallstruktur", "byggsten", "bergart", "fältspat", "kvarts", "glimmer", "granit", "kisel", "syre"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "sambandsled_exempel": [
+        "naturligt ämne med bestämd → kemisk sammansättning och kristallstruktur",
+        "mineraler bygger upp → bergarter",
+        "vanligaste mineralerna innehåller → kisel och syre",
+        "granit består av → fältspat, kvarts och glimmer",
+        "fältspat är → det vanligaste mineralet"
+      ]
+    },
+
+    "a8_jordytan-b1": {
+      "titel": "Bergarternas grupper",
+      "fraga_id": "8b1-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["bergart", "magmatisk", "sedimentär", "metamorf", "magma", "lava", "djupbergart", "gångbergart", "ytbergart", "granit", "diabas", "basalt", "pimpsten", "sandsten", "lersten", "kalksten", "marmor", "gnejs", "skiffer", "fossil"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "sambandsled_exempel": [
+        "magmatiska bergarter bildas när → smält berg stelnar",
+        "sedimentära bergarter bildas av → hoppressade lager av sediment",
+        "metamorfa bergarter omvandlas av → tryck och värme",
+        "djupbergarter har → stora kristaller (granit)",
+        "ytbergarter har → små kristaller (basalt)",
+        "sedimentära innehåller ofta → fossil"
+      ]
+    },
+
+    "a8_jordytan-b2": {
+      "titel": "Bergartscykeln",
+      "fraga_id": "8b2-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["bergartscykeln", "kretslopp", "magma", "magmatisk", "vittring", "erosion", "sediment", "sedimentär", "tryck", "värme", "metamorf", "smältning", "stelning", "jordens inre värme"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "sambandsled_exempel": [
+        "magma stelnar och bildar → magmatisk bergart",
+        "vittring och erosion bryter ner → till sediment",
+        "lager pressas ihop till → sedimentär bergart",
+        "tryck och värme omvandlar till → metamorf bergart",
+        "smältning vid hög temperatur ger → magma på nytt",
+        "bergarter bildas inte bara en gång → det är ett kretslopp"
+      ]
+    },
+
+    "a8_jordytan-c": {
+      "titel": "Jordarter",
+      "fraga_id": "8c-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["jordart", "berggrunden", "istiden", "inlandsisen", "morän", "isälvsmaterial", "lera", "sand", "grus", "torv", "osorterat", "sorterat", "rullstensås", "landhöjning", "smältvatten"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "sambandsled_exempel": [
+        "jordart är det lösa material → ovanpå berggrunden",
+        "morän bildades direkt av → inlandsisen — osorterat material",
+        "isälvsmaterial sorterades av → smältvatten",
+        "lera bildades på → havs- och sjöbottnar",
+        "landhöjningen lyfte upp → gamla havsbottnar som odlingsmark",
+        "torv bildas i → blöta, syrefattiga våtmarker"
+      ]
+    },
+
+    "a8_jordytan-d": {
+      "titel": "Jordmåner",
+      "fraga_id": "8d-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["jordmån", "jordart", "humus", "horisont", "podsol", "brunjord", "torvjord", "barrskog", "lövskog", "urlakning", "anrikning", "näringsfattig", "näringsrik", "klimat", "växtlighet"],
+      "sambandsled_minimum": 3,
+      "ortnamn": [],
+      "sambandsled_exempel": [
+        "jordmån är det övre lagret där → växter växer och organiskt material blandas",
+        "jordmån skiljer sig från jordart → jordart = material, jordmån = utvecklat lager",
+        "podsol bildas i barrskog där → marken är sur och urlakning sker",
+        "ljusgrått lager + rödbrunt lager är → podsolens diagnostiska signatur",
+        "brunjord bildas i lövskog där → näringen återförs istället för att lakas bort",
+        "torvjord bildas i → våtmarker där växter inte bryts ner helt"
+      ]
+    },
+
+    "a9_sarbara_platser-b": {
+      "titel": "Sårbara platser jordbävningar",
+      "fraga_id": "9b-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["jordbävning", "plattgräns", "subduktionszon", "förkastning", "spänning", "naturfara", "sårbarhet", "byggnader", "infrastruktur", "befolkningstäthet", "fattigdom", "tsunami", "byggnormer", "varningssystem", "evakuering"],
+      "sambandsled_minimum": 3,
+      "ortnamn": ["Eldringen", "Stilla havet", "Tokyo", "Japan", "San Francisco", "Haiti", "Port-au-Prince"],
+      "sambandsled_exempel": [
+        "jordbävningar sker vid → plattgränser där spänningar släpper",
+        "Eldringen är området runt → Stilla havet där 90% av jordbävningarna sker",
+        "byggnadskollaps står för → nästan alla dödsfall vid jordbävningar",
+        "Haiti 2010 hade lägre magnitud men → högre sårbarhet — många fler dog än i Japan 2011",
+        "fattigdom gör att människor inte har råd med → jordbävningssäkra hus",
+        "Tokyo har hög naturfara men → stark beredskap genom byggnormer, varningar och övningar",
+        "tsunami kan uppstå när → havsbottnen förskjuts vid undervattens-jordbävning"
+      ]
+    },
+
+    "a9_sarbara_platser-c": {
+      "titel": "Sårbara platser vulkaner",
+      "fraga_id": "9c-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["vulkan", "vulkanutbrott", "stratovulkan", "magma", "lava", "subduktionszon", "hot spot", "pyroklastiskt flöde", "aska", "lahar", "vulkangas", "vulkanjord", "bördig", "riskzon", "evakuering", "övervakning", "varningssystem", "paradox"],
+      "sambandsled_minimum": 3,
+      "ortnamn": ["Eldringen", "Vesuvius", "Neapel", "Merapi", "Java", "Indonesien", "Hawaii", "Island"],
+      "sambandsled_exempel": [
+        "vulkaner finns oftast vid → plattgränser (subduktionszoner) och hot spots",
+        "pyroklastiska flöden är → glödheta moln av gas, aska och sten — dödligt inom 5-15 km",
+        "lahar är vulkaniska slamströmmar som följer → dalgångar och floder, kan nå 100+ km bort",
+        "människor bor nära vulkaner trots farorna eftersom → vulkanjorden är exceptionellt bördig",
+        "samma process som gör platsen farlig → gör den värdefull — vulkansårbarhetens paradox",
+        "Vesuvius är sårbart genom → urban koncentration — 3 miljoner människor inom 30 km",
+        "Merapi är sårbart genom → ekonomiskt beroende — vulkanjorden är böndernas försörjning"
+      ]
+    },
+
+    "a9_sarbara_platser-d": {
+      "titel": "Sårbara platser översvämningar",
+      "fraga_id": "9d-huvud",
+      "roll": "huvudfraga",
+      "begrepp": ["översvämning", "kraftigt regn", "skyfall", "snösmältning", "storm", "cyklon", "flod", "delta", "kust", "topografi", "låglänt", "vallbrott", "hårdgjorda ytor", "stadsöversvämning", "snabb översvämning", "klimatförändring", "havsnivåhöjning", "MSB", "vallar", "riskkartor"],
+      "sambandsled_minimum": 3,
+      "ortnamn": ["Bangladesh", "Ganges", "Karlstad", "Klarälven", "Vänern"],
+      "sambandsled_exempel": [
+        "översvämningar uppstår av tre källor: → kraftigt regn, snösmältning och stormar vid kust",
+        "låglänta deltan är sårbara eftersom → vatten har inga höjder att stoppas av",
+        "hårdgjorda ytor i städer → förhindrar att regnvatten sippar ner i marken",
+        "vallbrott sker på → den svagaste punkten i vallen — där sprider sig vattnet ut",
+        "Bangladesh är extremt sårbart för att → landet är lågt, tätbefolkat och fattigt",
+        "Karlstad ligger där → Klarälven mynnar i Vänern — sårbart läge",
+        "klimatförändringen ökar översvämningsrisk genom → mer extremväder, havsnivåhöjning och förändrade nederbördsmönster"
+      ]
     }
 
   },
@@ -177,6 +464,21 @@
     "magmakammare", "sköldvulkan", "stratovulkan", "sprickvulkan", "kägelvulkan",
     "pyroklastisk", "slamström", "mantelplym", "klimatpåverkan", "geotermisk", "vulkanjord",
     "frostvittring", "temperaturvittring", "rotvittring", "kalkstensvittring",
-    "karstlandskap", "droppstensformation", "slukhål", "torrdal"
+    "karstlandskap", "droppstensformation", "slukhål", "torrdal",
+    "vågerosion", "vågbrytare", "klapperstensfält", "strandbrink",
+    "vinderosion", "sanddyn", "ökenspridning", "strandråg",
+    "floderosion", "V-dal", "korvsjö", "flodslätt",
+    "glaciärerosion", "inlandsis", "isräfflor", "flyttblock", "rullstensås",
+    "sluttningsprocess", "tyngdkraften", "jordskred", "rasbrant",
+    "skyddsnät", "bergbultar", "kvicklera", "glidyta", "havslera",
+    "skogsbrand", "flaklavin", "snölager", "brottlinje", "lavinprognos",
+    "sammansättning", "kristallstruktur", "bergart", "djupbergart", "gångbergart",
+    "ytbergart", "magmatisk", "sandsten", "lersten", "kalksten", "bergartscykeln",
+    "isälv", "isälvsmaterial", "landhöjning", "smältvatten", "torvmark", "jordmån",
+    "barrskog", "lövskog", "urlakning", "anrikning", "torvjord", "humuslager",
+    "naturfara", "sårbarhet", "plattgräns", "förkastning", "jordbävning",
+    "översvämning", "vattenmassa", "lavadom", "infrastruktur", "befolkningstäthet",
+    "byggnadskvalitet", "evakueringsplan", "Eldringen", "klimatförändring",
+    "havsnivåhöjning", "vallbrott", "snösmältning", "stadsöversvämning"
   ]
 }

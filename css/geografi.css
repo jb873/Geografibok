@@ -2492,3 +2492,107 @@ a.resurs-kort:hover {
   .vintage-tabell thead th,
   .vintage-tabell tbody td { padding: 0.5em 0.7em; }
 }
+
+/* ============================================================
+   Djupdykningsrutor (t.ex. "Lämningar av istiden")
+   begreppsruta = liten brass-callout; processruta = större
+   terra-faktaruta; lamningar-tabell = samma look som
+   .vintage-tabell; orsakskedja = numrerad lista med luft.
+   ============================================================ */
+
+.begreppsruta {
+  background-color: var(--paper-light);
+  border-left: 3px solid var(--brass);
+  border-radius: 2px;
+  padding: 0.8em 1.1em;
+  margin: 1.4em 0;
+}
+.begreppsruta h3 {
+  font-family: var(--font-heading);
+  font-weight: normal;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: var(--brass);
+  margin: 0 0 0.4em;
+}
+.begreppsruta p { margin: 0; }
+
+.processruta {
+  background-color: rgba(176, 106, 58, 0.08);
+  border: 1px solid rgba(176, 106, 58, 0.35);
+  border-left: 4px solid var(--terra);
+  border-radius: 3px;
+  padding: 1.1em 1.3em;
+  margin: 1.6em 0;
+}
+.processruta h3 {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: var(--terra);
+  margin: 0 0 0.5em;
+}
+.processruta p { margin: 0 0 0.6em; }
+.processruta p:last-child { margin-bottom: 0; }
+
+.lamningar-tabell {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--brass);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--ink);
+  margin: 1.4em 0;
+}
+.lamningar-tabell thead th {
+  background-color: var(--ink);
+  color: var(--paper-light);
+  font-family: var(--font-heading);
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding: 0.7em 1em;
+  border: 1px solid var(--brass);
+}
+.lamningar-tabell tbody td {
+  text-align: left;
+  padding: 0.6em 1em;
+  border: 1px solid rgba(184, 144, 42, 0.4);
+  line-height: 1.45;
+  vertical-align: top;
+}
+.lamningar-tabell tbody tr:nth-child(even) {
+  background-color: rgba(244, 236, 214, 0.5);
+}
+
+.orsakskedja {
+  font-family: var(--font-body);
+  margin: 1.4em 0;
+  padding-left: 1.5em;
+  line-height: 1.5;
+}
+.orsakskedja li {
+  margin-bottom: 0.5em;
+  padding-left: 0.3em;
+}
+
+/* Centrerad "formel"-rad, t.ex. havslera + älverosion + bebyggelse = skredrisk */
+.orsakskedja-formel {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  text-align: center;
+  background-color: var(--paper-light);
+  border: 1px solid rgba(184, 144, 42, 0.4);
+  border-left: 3px solid var(--brass);
+  border-radius: 3px;
+  padding: 0.9em 1.1em;
+  margin: 1.4em 0;
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .lamningar-tabell { font-size: 0.92rem; }
+  .lamningar-tabell thead th,
+  .lamningar-tabell tbody td { padding: 0.5em 0.7em; }
+}

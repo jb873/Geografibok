@@ -1,0 +1,493 @@
+{
+  "avsnitt": 9,
+  "titel": "Sårbara platser",
+  "delkapitel": "geologi",
+  "version": "1.0",
+  "kort_totalt": 45,
+  "begreppskort": [
+    {
+      "id": "9a-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en sårbar plats?",
+      "svar": "En sårbar plats är där människor, samhällen eller naturmiljöer riskerar att skadas av naturhändelser — jordbävningar, vulkanutbrott, översvämningar, jordskred, laviner, torka och liknande. Sårbarhet handlar inte bara om naturen själv. Det handlar lika mycket om hur många människor som bor där, hur samhället är byggt, hur rikt eller fattigt området är och hur väl förberett samhället är."
+    },
+    {
+      "id": "9a-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en naturfara?",
+      "svar": "En naturfara är att det finns en naturlig process som kan vara farlig. Det kan vara en jordbävning, ett vulkanutbrott, en lavin, en översvämning eller en torka. Naturfaran är något naturen själv producerar — vi kan inte stoppa den. Men vi kan göra samhällen mindre sårbara för den."
+    },
+    {
+      "id": "9a-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad betyder risk i sårbarhetskontext?",
+      "svar": "Risk handlar om sannolikheten att något farligt händer — och hur stora konsekvenserna kan bli. Om en stad ligger vid en flod som ofta svämmar över är risken för översvämning hög. Risken är en kombination av hur troligt det är och hur allvarliga följderna kan bli. Hög sannolikhet + stora konsekvenser = hög risk."
+    },
+    {
+      "id": "9a-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är sårbarhet?",
+      "svar": "Sårbarhet handlar om hur lätt människor, byggnader, samhällen och naturmiljöer skadas när faran inträffar. Ett samhälle med starka byggnader, varningssystem och fungerande räddningstjänst är mindre sårbart än ett samhälle utan detta. Sårbarheten är vad samhället tar med sig in i situationen — det vi kan påverka genom planering, beredskap och investering."
+    },
+    {
+      "id": "9a-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är sårbarhetsekvationen?",
+      "svar": "Naturfara + människor och samhälle + låg beredskap = hög sårbarhet. Det är inte naturen ensam som skapar katastrofen. Katastrofen uppstår när en naturfara träffar ett sårbart samhälle som är dåligt förberett eller byggt på en riskfylld plats. Detta är därför två platser med liknande naturfara kan få helt olika konsekvenser."
+    },
+    {
+      "id": "9a-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en orsakskedja?",
+      "svar": "En orsakskedja visar i pilar hur saker hänger ihop steg för steg. Exempel: Plattgräns → spänningar i berggrunden → jordbävning → byggnader skadas → människor blir sårbara → jordbävningssäkra hus minskar risken. Orsakskedjor är ett kraftfullt sätt att resonera om sårbarhet eftersom de tvingar fram tydlighet om hur naturfara, sårbarhet och förebyggande hänger ihop."
+    },
+    {
+      "id": "9a-b07",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Var ligger sårbara platser ofta?",
+      "svar": "Sårbara platser följer geografiska mönster. Jordbävningar och vulkaner finns nära plattgränser (Eldringen runt Stilla havet är klassiskt). Översvämningar finns nära stora floder, deltan och låglänta kuster (Bangladesh, Nildeltat). Torka drabbar områden med liten eller ojämn nederbörd. Ras och lavin finns i bergsområden. Men det är inte slumpen som styr — det är geologi och klimat tillsammans med var människor valt att bo."
+    },
+    {
+      "id": "9b-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en jordbävning?",
+      "svar": "En jordbävning uppstår när berggrunden plötsligt rör sig. Det sker när spänningar som byggts upp i jordskorpan under lång tid plötsligt släpper. De flesta jordbävningar sker nära plattgränser — där jordens stora litosfärplattor möts. Plattorna rör sig långsamt, ofta bara några centimeter per år, men inte jämnt. När berggrunden fastnar och spänningar bygger upp tills det blir för mycket, släpper det plötsligt och en jordbävning uppstår."
+    },
+    {
+      "id": "9b-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en subduktionszon?",
+      "svar": "En subduktionszon är en typ av konvergent plattgräns där en havsplatta pressas ner under en annan platta. Detta är källan till de allra största jordbävningarna — utanför Japan, Indonesien, Chile och Alaska. Det är också där de flesta tsunamier bildas, eftersom havsbottnen kan förskjutas vertikalt vid en stor jordbävning. Subduktionszoner är klassiska platser för stratovulkaner ovanför, eftersom plattan som pressas ner smälter och bildar magma."
+    },
+    {
+      "id": "9b-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilka tre typer av plattgränser finns?",
+      "svar": "Konvergenta gränser — plattor pressas mot varandra (subduktionszoner, klassiska för stora jordbävningar som vid Japan och Chile). Transforma gränser — plattor glider förbi varandra (San Andreasförkastningen i Kalifornien). Divergenta gränser — plattor rör sig isär (mitt-atlantiska ryggen). De tre typerna ger olika sorters jordbävningar: konvergenta ofta de största, transforma kan ge stora skalv längs förkastningar, divergenta vanligtvis mindre skalv."
+    },
+    {
+      "id": "9b-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är Eldringen?",
+      "svar": "Eldringen (Ring of Fire) är ett cirkelformat område runt Stilla havet där cirka 90% av världens jordbävningar och 75% av världens aktiva vulkaner sker. Den följer plattgränserna runt Stilla havet — från Japan genom Filippinerna, Indonesien, Nya Zeeland, västra Sydamerika (Chile, Peru), upp längs västra Nordamerika (San Francisco, Seattle), Alaska och tillbaka till Japan. Många av världens mest tätbefolkade städer ligger just där, vilket gör Eldringen till en av världens mest sårbara regioner."
+    },
+    {
+      "id": "9b-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en tsunami?",
+      "svar": "En tsunami är inte en vanlig våg. Vanliga vågor bildas av vind. En tsunami bildas när hela vattenmassan plötsligt rör sig — oftast eftersom havsbottnen själv har förskjutits vid en stor jordbävning under havet. Tsunamier rör sig extremt snabbt på öppet hav (700-900 km/h) men är då bara en halvmeter höga. När de når grundare vatten bromsas de in och växer dramatiskt på höjden — kan bli 10-40 meter höga vid kusten. De är mest sårbara för platser nära subduktionszoner."
+    },
+    {
+      "id": "9b-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad gör en plats sårbar för jordbävningar?",
+      "svar": "Fyra faktorer är avgörande. Byggnadernas kvalitet — hus som klarar skakningar räddar liv; svaga hus rasar över sina invånare. Befolkningstäthet — en jordbävning under en miljonstad har mycket större mänskliga konsekvenser än i ett obebott område. Infrastruktur — när vägar, broar, sjukhus och ledningar skadas blir det svårt att rädda människor. Ekonomi och beredskap — rika länder har resurser till byggnormer, varningssystem och övningar; fattigare länder har inte alltid det, även om de står inför samma naturfara."
+    },
+    {
+      "id": "9c-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett vulkanutbrott?",
+      "svar": "Ett vulkanutbrott är när magma (smält berg under jorden) tar sig upp till ytan och blir lava — eller exploderar ut i atmosfären som aska och gas. Vulkanutbrott skapar flera olika faror samtidigt: lava som rinner, aska som faller, glödheta pyroklastiska flöden, vulkangaser, och senare lahar (vulkaniska slamströmmar). De vanligaste platserna för vulkaner är subduktionszoner (Eldringen), divergenta plattgränser (Island), och hot spots (Hawaii)."
+    },
+    {
+      "id": "9c-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är skillnaden mellan effusiva och explosiva vulkaner?",
+      "svar": "Effusiva vulkaner har mjuka utbrott där lava sakta rinner ner från kratern. Magman är lättflytande, och utbrotten är mindre explosiva. Hawaii och Island har klassiska effusiva vulkaner. Skador uppstår främst för byggnader och egendom — lavan rör sig långsamt nog för människor att evakuera. Explosiva vulkaner har våldsamma utbrott där hela bergstoppar kan sprängas i luften och askmoln nå stratosfären. Magman är trögflytande och kan bygga upp högt tryck innan den släpps ut. Stratovulkaner i Eldringen — som Vesuvius och Merapi — är klassiskt explosiva. Konsekvenser kan vara katastrofala på kort distans (pyroklastiska flöden) och påverka klimatet globalt vid riktigt stora utbrott."
+    },
+    {
+      "id": "9c-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett pyroklastiskt flöde?",
+      "svar": "Ett pyroklastiskt flöde är ett glödhett moln av gas, aska och sten som rusar nerför vulkanens sluttningar med hastigheter på 100-700 km/h, vid temperaturer på flera hundra grader. Det går inte att springa undan från ett pyroklastiskt flöde. Det är den dödligaste vulkaniska faran och vad som dödade människorna i Pompeji år 79 och i Saint-Pierre på Martinique 1902. Pyroklastiska flöden når oftast 5-15 km från vulkanen — räckvidden är begränsad men inom den är dödligheten total. Det är därför evakueringszoner runt aktiva stratovulkaner ofta är stora."
+    },
+    {
+      "id": "9c-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en lahar?",
+      "svar": "En lahar är en vulkanisk slamström — när vulkanisk aska blandas med regnvatten eller smältvatten från glaciärer på vulkanens topp bildas tjocka, snabba strömmar. Lahar kan röra sig 50-80 km/h och nå hundratals kilometer från själva vulkanen. De följer dalgångar och floder ner från vulkanen och kan förstöra byar, broar, vägar och odlingar långt från kratern. Armero-katastrofen i Colombia 1985, där 23 000 människor dog 50 km från vulkanen, är det klassiska exemplet. Lahar är samma fenomen som vi studerade i avsnitt 7 om sluttningsprocesser."
+    },
+    {
+      "id": "9c-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en hot spot?",
+      "svar": "En hot spot är en plats där magma stiger upp från djupt nere i jordens mantel, genom plattan, och ger upphov till vulkaner mitt på en kontinent eller havsbotten. Till skillnad från subduktionsvulkaner följer hot spots inte plattornas kanter — de är som fasta brännare som plattorna glider över. Hawaii är det klassiska exemplet — Stillahavsplattan rör sig nordvästlig över en stationär källa av varm magma, och nya vulkanöar bildas successivt. Yellowstone och Island är andra exempel."
+    },
+    {
+      "id": "9c-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Varför är vulkanjord så bördig?",
+      "svar": "Vulkanisk aska består av finkornigt material från jordens inre — rikt på mineralämnen som växter behöver: kalium, fosfor, kalcium, magnesium och spårelement. När askan vittras och blandas med jord blir resultatet exceptionellt bördig mark. Bönder som odlar på vulkansluttningar kan få flera skördar per år av hög kvalitet. Detta är därför Java i Indonesien — som är fullt av aktiva vulkaner — är så tätbefolkat. Det är därför Neapel-området runt Vesuvius har odlats kontinuerligt i tusentals år. Samma process som gör platsen farlig gör den värdefull — det är vulkansårbarhetens fundamentala paradox."
+    },
+    {
+      "id": "9d-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en översvämning?",
+      "svar": "En översvämning uppstår när vatten samlas på platser där det normalt inte finns. Det kan ske vid floder, deltan, låglänta kuster, sjöar eller i städer där marken inte kan ta emot stora regnmängder. Översvämningar är världens vanligaste naturkatastrof — till skillnad från jordbävningar och vulkaner som följer specifika geografiska mönster kan översvämningar inträffa nästan överallt där det finns vatten och låglänt mark. Det betyder att översvämningsrisk är något som de flesta samhällen måste hantera."
+    },
+    {
+      "id": "9d-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilka tre huvudkällor till översvämningar finns?",
+      "svar": "Den första är kraftigt regn — när mer vatten faller än vad marken kan absorbera. Skyfall (extremt kraftiga regn på kort tid) är särskilt farliga eftersom marken inte hinner svälja vattnet. Den andra är snösmältning — på våren kan stora mängder snö smälta snabbt, särskilt om temperaturen stiger snabbt eller om regn faller på snön. I Sverige är detta klassisk källa till vårfloder. Den tredje är stormar vid kust — kraftiga vindar kan pressa havsvatten mot kusten och höja vattennivåerna med flera meter. De värsta översvämningarna uppstår ofta när flera källor sammanfaller samtidigt."
+    },
+    {
+      "id": "9d-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en flodöversvämning?",
+      "svar": "En flodöversvämning är den klassiska typen — när floder svämmar över sina bankar eller bryter igenom skyddsvallar. Bangladesh är ett av världens tydligaste exempel — vid ett vanligt år översvämmas cirka en femtedel av landet under monsunperioden. Karlstad i Sverige är ett mindre men intressant exempel, där Klarälven kan ge översvämningar i en till två veckor. Mälardalen och Östergötland har också områden med flodöversvämningsrisk. Det avgörande är att floden överskrider sin kapacitet — antingen genom överspolning eller genom vallbrott."
+    },
+    {
+      "id": "9d-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en kustöversvämning?",
+      "svar": "En kustöversvämning uppstår när havet stiger över sina normala nivåer — vid stormar, vid extremt högvatten, eller (alltmer aktuellt) vid den långsamma havsnivåhöjningen som klimatförändringen orsakar. Bangladeshs kust drabbas av cykloner som pressar in havsvatten. Nederländerna lever till stor del under havsnivå och har överlevt med dyra skyddssystem i hundratals år. Klimatförändringen förvärrar kustöversvämningar globalt — havsnivån stiger samtidigt som stormar blir kraftigare. Upp till 900 000 människor kan tvingas flytta från Bangladeshs kustområden mot mitten av seklet."
+    },
+    {
+      "id": "9d-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en stadsöversvämning och varför ökar de?",
+      "svar": "En stadsöversvämning uppstår när asfalt, betong och tak — hårdgjorda ytor — täcker stor del av en stad. Regnvatten kan då inte sippra ner i marken som det skulle göra på naturlig mark. Det rinner istället snabbt över ytan till låglänta områden — gator, tunnlar, källare. Vid skyfall överbelastas stadens dräneringssystem snabbt. Köpenhamn 2011 är ett klassiskt exempel: 150 mm regn på två timmar gav skador för 6 miljarder DKK. Stockholm, Malmö och Gävle har också drabbats. Stadsöversvämningar ökar eftersom städer växer (mer hårdgjord mark) samtidigt som klimatförändringen gör skyfall vanligare och kraftigare."
+    },
+    {
+      "id": "9d-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett vallbrott?",
+      "svar": "Ett vallbrott (eller breach) är när en skyddsvall brister på en svag punkt vid hög vattennivå. Det är ofta så översvämningar verkligen sker — inte att floden stiger jämnt över hela vallens längd, utan att vallen ger vika på den svagaste platsen. Vattnet strömmar då igenom med stor kraft och sprider sig snabbt bakom vallen ut över flodslätten. Pedagogiskt centralt: det är aldrig vallen som helhet som ger vika, det är den svagaste punkten. Detta är därför vallunderhåll och kontinuerlig övervakning är så viktigt. En enskild svag punkt kan göra hela vallsystemet meningslöst."
+    }
+  ],
+  "modellkort": [
+    {
+      "id": "9a-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kan människan öka sårbarhet?",
+      "svar": "Människans verksamhet kan göra en plats mer sårbar på flera sätt. Genom att bygga bostäder på flodslätter, branta sluttningar eller vulkansluttningar utsätter sig människor för risk — ofta av nödvändighet eller ekonomiska skäl. Genom avskogning försvinner trädens rötter som binder jorden, vilket ökar risken för jordskred och översvämningar. Genom hårdgjorda ytor i städer (asfalt, betong) kan regnvatten inte sjunka ner i marken utan rinner snabbt mot låga områden — det orsakar stadsöversvämningar. Och fattigdom är en grundläggande sårbarhetsfaktor: fattiga människor bor ofta i enklare hus på farliga platser, och fattiga samhällen saknar resurser till varningssystem, räddningstjänst och förebyggande arbete."
+    },
+    {
+      "id": "9a-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kan människan minska sårbarhet?",
+      "svar": "Sårbarhet går att minska genom samhällsplanering och förebyggande arbete. I jordbävningsområden kan hus byggas för att klara skakningar — med armerad betong, flexibla konstruktioner och base isolators. I översvämningsområden kan vallar, dammar, våtmarker och avrinningssystem användas. I jordskredsområden kan markundersökningar göras innan man bygger. I lavinområden kan prognoser, skyltning och bebyggelseregler minska risken. Det viktiga är att samhällsplanering handlar om att ställa frågor i förväg: Var är det farligt att bygga? Vilka människor riskerar att drabbas? Hur kan vi minska skadorna innan katastrofen sker? Förebyggande är dyrt på kort sikt men billigt jämfört med en katastrof som inte stoppats."
+    },
+    {
+      "id": "9a-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Vad skiljer ett enkelt resonemang från ett utvecklat?",
+      "svar": "Ett enkelt resonemang kan ge ett godkänt svar med korrekt grundläggande information, men stannar vid enstaka fakta. Exempel: 'Japan har många jordbävningar eftersom landet ligger vid plattgränser. Det kan göra att hus rasar och människor dör.' Ett utvecklat resonemang förklarar samband, använder geografiska begrepp och resonerar om både orsaker, konsekvenser och förebyggande åtgärder. Det visar att eleven förstår sårbarhetsmodellen. Skillnaden är inte längd — det är hur väl sambanden mellan natur och samhälle förklaras. Tre frågor styr ett utvecklat resonemang: Varför? Vad leder det till? Hur kan vi förebygga?"
+    },
+    {
+      "id": "9b-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför står byggnadskollaps för nästan alla dödsfall vid jordbävningar?",
+      "svar": "Det är inte själva skakningen som dödar människor — det är vad människor har över sig. Forskning visar att de allra flesta dödsfall vid jordbävningar orsakas av byggnader som faller över sina invånare. Detta är pedagogiskt avgörande att förstå eftersom det förklarar varför fattigdom är så viktig som sårbarhetsfaktor. Det är inte människornas okunnighet eller dåliga beslut — det är att de inte har råd med jordbävningssäkra hus. Och det förklarar varför rika länders investeringar i byggnormer faktiskt räddar liv. Tokyo har visat att även områden med extrem naturfara kan ha låg dödlighet om byggnaderna är rätt konstruerade. Haitis tragedi 2010 var till stor del en byggnadstragedi — vägg-och-takkonstruktioner som inte var byggda för att klara skakningar."
+    },
+    {
+      "id": "9b-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kunde Haiti-jordbävningen 2010 (M7,0) få större konsekvenser än Japan-jordbävningen 2011 (M9,0)?",
+      "svar": "Statistiskt sett var Japan-skalvet mer än 1000 gånger kraftigare än Haiti-skalvet — den seismiska skalan är logaritmisk. Ändå dog fler människor i Haiti än i Japan. Förklaringen ligger i sårbarheten, inte i naturfaran. Haiti hade flera samverkande sårbarhetsfaktorer: svaga byggnader utan armerad betong, tätbefolkad huvudstad med många människor i utsatta hus, fattig befolkning som inte hade råd med säkra bostäder, svaga institutioner som inte kunde ge effektiv räddningsinsats, och dålig infrastruktur som kollapsade samtidigt. Japan hade motsatta egenskaper: jordbävningssäkra byggnader, vana befolkning som visste hur de skulle agera, starka institutioner och avancerad räddningsförmåga. Slutsatsen är pedagogiskt central: en jordbävnings styrka räcker inte för att förutse katastrofen. Sårbarheten är minst lika viktig — kanske viktigare."
+    },
+    {
+      "id": "9b-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur fungerar moderna jordbävnings-varningssystem och hur kan de rädda liv?",
+      "svar": "Moderna varningssystem utnyttjar att jordbävningens vågor reser olika snabbt. När en jordbävning sker skickas två huvudtyper av vågor: P-vågor (primärvågor) som är snabba men gör lite skada, och S-vågor (sekundärvågor) som är långsammare men mer destruktiva. Seismologiska stationer kan upptäcka P-vågorna först och skicka ut varningar innan S-vågorna anländer. Det handlar om sekunder till några minuter — beroende på avstånd från epicentret. Det är inte mycket, men det räcker för viktiga åtgärder. Tåg och tunnelbanor kan stoppas automatiskt. Hissar kan styras till närmaste våning. Operationssalar kan pausa kirurgi. Människor kan ducka, ta skydd, eller ta sig från glasdörrar. Japans system är världens mest avancerade och har räddat tusentals liv genom denna teknik. Det är ett bra exempel på hur teknik kan minska sårbarhet utan att ändra naturfaran."
+    },
+    {
+      "id": "9c-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför bor miljoner människor nära vulkaner trots farorna?",
+      "svar": "Det är en av geografins djupaste paradoxer, och svaret är att samma processer som gör platsen farlig också gör den värdefull. Det viktigaste skälet är jordmånen. Vulkanisk aska bryts ner till exceptionellt bördig jord — full av mineralämnen som växter behöver. Bönder kan få flera skördar per år av hög kvalitet. Andra skäl: turism (vulkaner är spektakulära), geotermisk energi (vulkanisk värme används för elektricitet på Island och Nya Zeeland), kulturell tradition (människor har bott där i generationer och kan inte enkelt flytta), religiösa kopplingar (vulkaner har haft viktig roll i många kulturer, som Merapi i javanesisk mytologi), och brist på alternativ (i många länder är vulkanområdena de bästa jordbruksmarkerna). Människor bor inte på Merapis sluttningar trots farorna — de bor där på grund av de fördelar vulkanen ger. Att flytta är ofta att förlora sin försörjning."
+    },
+    {
+      "id": "9c-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Vilka olika faror finns på olika avstånd från en vulkan?",
+      "svar": "Vulkanens faror sträcker sig olika långt, vilket är pedagogiskt centralt för att förstå riskzoner och evakueringsplaner. Inom 0-5 km från kratern är pyroklastiska flöden den dominerande faran — glödheta moln av gas, aska och sten som rör sig 100-700 km/h. Dödligheten är total inom denna zon. Inom 5-15 km finns risk för pyroklastiska flöden som följer specifika sluttningar, samt lavaflöden. Inom 15-30 km är lahar (vulkaniska slamströmmar) den dominerande faran — de följer dalgångar och floder. Bortom 30 km gäller främst askregn — som påverkar trafik, jordbruk, hälsa och flygtrafik. Vid riktigt stora utbrott kan askmoln nå stratosfären och påverka klimatet globalt under flera år. Detta förklarar varför evakueringszoner runt aktiva vulkaner är koncentriska, med olika regler för olika avstånd."
+    },
+    {
+      "id": "9c-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är beslutet om vulkanevakuering så svårt?",
+      "svar": "Att flytta tiotusentals eller hundratusentals människor från ett område är ekonomiskt, logistiskt och politiskt enormt komplext. Och tiden är ofta begränsad — vulkanutbrott kan komma utan tydlig förvarning, eller med varningar som vulkanologer har svårt att tolka. Det skapar ett etiskt dilemma. Om myndigheter evakuerar för tidigt — och inget händer — tappar de förtroende. Människor börjar ignorera framtida varningar. Om de väntar för länge kan det bli katastrof. Detta är inte ett tekniskt problem som kan lösas med bättre instrument. Det är ett politiskt och etiskt dilemma som vulkanologer och politiker delar. Vesuvius-myndigheter har planer för att evakuera 700 000 människor från 'röd zon' inom 72 timmar, men en sådan evakuering är en logistisk mardröm. Detta är därför vulkanrisk är mer komplex än bara geologi — den är samhällsplanering, politik och etik tillsammans."
+    },
+    {
+      "id": "9d-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför ökar hårdgjorda ytor översvämningsrisken i städer?",
+      "svar": "På naturlig mark med vegetation kan regnvatten sippra ner i marken. Vegetation, jord och porer i marken absorberar vatten och håller det kvar. På hårdgjorda ytor — asfalt, betong, tak — kan ingenting av detta hända. Vattnet rinner snabbt över ytan och samlas i låglänta områden — gator, tunnlar, källare. När städer växer minskar markens förmåga att svälja regnvatten, även om regnmängderna är desamma. Plus att klimatförändringen gör skyfall vanligare och kraftigare, vilket gör problemet värre. Detta är ett klassiskt exempel på hur människans verksamhet skapar sin egen sårbarhet — och det är därför moderna städer experimenterar med permeabel mark, gröna tak, regnträdgårdar och 'tillåten översvämning' på utvalda platser (parkeringsplatser, fotbollsplaner) som tillfälligt får vara våtmarker."
+    },
+    {
+      "id": "9d-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur påverkar klimatförändringen översvämningsrisken globalt?",
+      "svar": "Klimatförändringen påverkar översvämningsrisk på flera sätt samtidigt, och dessa effekter förstärker ofta varandra. För det första: mer extremt väder. Varmare atmosfär innehåller mer vattenånga (cirka 7% mer per grads uppvärmning). Detta gör skyfall vanligare och kraftigare. För det andra: förändrade snösmältningsmönster. När klimatet blir varmare smälter snön tidigare och snabbare — vilket kan ge extrema vårfloder. För det tredje: havsnivåhöjning. När jordens glaciärer och inlandsisar smälter, och havsvatten värms upp och utvidgas, stiger havsnivåerna. Detta gör kustnära områden mer sårbara — vad som tidigare var 'normalt' högvatten kan nu ge översvämningar. Vid mitten av seklet kan upp till 900 000 människor i Bangladesh tvingas flytta från Gangesdeltat. För det fjärde: förändringar i flodernas vattenflöden. Vissa områden får mer regn, andra mindre. Detta är en utmaning även för områden som tidigare ansetts säkra."
+    },
+    {
+      "id": "9d-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är ett vallbrott värre än att vattnet bara stiger över vallens kant?",
+      "svar": "Skillnaden ligger i hur vattnet rör sig in på flodslätten. När vatten stiger jämnt över en låg punkt i vallen rör det sig relativt långsamt — människor och egendom har viss tid att flyttas. Men vid ett vallbrott — när vallen brister på en svag punkt — strömmar enorma mängder vatten igenom med stor kraft på kort tid. Skadorna blir mycket större. Området bakom brottet kan vattenfyllas på minuter eller timmar istället för dagar. Människor som trodde de stod tryggt långt från floden kan plötsligt vara fångade. Hus i brottets väg kan helt enkelt sopas bort. Och eftersom brottet sker på en specifik plats blir den lokala skadan extrem — koncentrerad till just det område där vattnet strömmar igenom. Detta är därför kontinuerligt vallunderhåll är så avgörande. Det handlar inte om att göra vallarna högre överallt — det handlar om att eliminera svaga punkter. En vall är bara så stark som dess svagaste meter."
+    }
+  ],
+  "redogorelsekort": [
+    {
+      "id": "9a-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara skillnaden mellan naturfara, risk och sårbarhet, och hur de hänger ihop.",
+      "modellsvar": "Naturfara, risk och sårbarhet är tre begrepp som hänger ihop men säger olika saker. Naturfara betyder att det finns en naturlig process som kan vara farlig — en jordbävning, ett vulkanutbrott, en lavin, en översvämning eller en torka. Naturfaran är något som naturen själv producerar och som människor inte kan stoppa. Plattorna kommer fortsätta röra sig oavsett vad vi gör. Risk handlar om sannolikheten att något farligt händer och hur stora konsekvenserna kan bli. Om en stad ligger vid en flod som ofta svämmar över är risken hög. Risken kombinerar två saker: hur troligt det är och hur allvarliga följderna är. Sårbarhet handlar om hur lätt människor, byggnader, samhällen och naturmiljöer skadas när faran inträffar. Ett samhälle med starka byggnader, varningssystem och fungerande räddningstjänst är mindre sårbart än ett samhälle utan detta. Sårbarheten är vad samhället tar med sig in i situationen. Sammantaget kan man tänka: naturfara + människor och samhälle + låg beredskap = hög sårbarhet. Det är inte naturen ensam som skapar katastrofen. Katastrofen uppstår när en naturfara träffar ett sårbart samhälle. Detta är därför Haiti 2010 (magnitud 7,0) fick värre konsekvenser än många starkare jordbävningar i andra länder — naturfaran var liknande men sårbarheten var högre. Och detta är därför sårbarhet är något samhället kan påverka, även om naturfaran inte kan stoppas. Genom byggnormer, varningssystem, evakueringsplaner och utbildning kan sårbarheten minska dramatiskt — som Japan och USA visar.",
+      "stodlarare": {
+        "stodord": [
+          "naturfara",
+          "risk",
+          "sannolikhet",
+          "konsekvens",
+          "sårbarhet",
+          "beredskap",
+          "samhälle",
+          "katastrof"
+        ],
+        "startfraser": [
+          "Naturfara, risk och sårbarhet är tre begrepp som hänger ihop...",
+          "Naturfara är vad naturen själv producerar...",
+          "Risk handlar om sannolikhet plus konsekvens...",
+          "Sårbarhet är vad samhället tar med in i situationen...",
+          "Sammantaget: naturfara + samhälle + låg beredskap = hög sårbarhet"
+        ],
+        "tip_for_struktur": "Definiera först de tre begreppen ett i taget med exempel. Förklara hur de hänger ihop genom ekvationen. Avsluta med ett konkret exempel (gärna Haiti vs Japan) som visar varför skillnaden mellan begreppen är pedagogiskt viktig."
+      }
+    },
+    {
+      "id": "9a-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur man resonerar om en sårbar plats genom att använda 5-stegsmodellen. Ge ett exempel.",
+      "modellsvar": "5-stegsmodellen är ett strukturerat sätt att resonera om sårbara platser. Den bygger på att svara på tre grundfrågor: Varför? Vad leder det till? Hur kan vi förebygga? Stegen är: Steg 1 — Beskriv platsen och naturfaran. Vilken plats och vilken naturfara handlar det om? Steg 2 — Förklara orsaken. Varför finns naturfaran just där? Här används geografiska begrepp. Steg 3 — Förklara sårbarheten. Varför är just denna plats sårbar? Här kopplas naturen till människan och samhället. Steg 4 — Resonera om konsekvenser. Vad kan hända för människor, samhälle och natur? Steg 5 — Resonera om förebyggande åtgärder. Hur kan riskerna minskas? Ett exempel — Japan: Steg 1: Japan är en sårbar plats eftersom landet ligger nära flera plattgränser. Där möts och rör sig jordens plattor, vilket gör att området ofta drabbas av jordbävningar och ibland tsunamier. Steg 2: Orsaken är att plattorna inte ligger stilla. När spänningar byggs upp i berggrunden kan de plötsligt släppa. Då uppstår en jordbävning. Om skalvet sker under havet kan havsbottnen pressas upp eller ner, vilket kan skapa en tsunami. Steg 3: Platsen blir särskilt sårbar eftersom många människor bor i stora städer nära kusten. Där finns bostäder, vägar, hamnar, elledningar och industrier. Om marken skakar eller en tsunami når kusten kan skadorna därför bli mycket stora. Steg 4: Konsekvenserna kan bli att människor skadas eller dör, att hus rasar, att vägar förstörs och att samhället får svårt att fungera. Steg 5: Riskerna kan minska om man bygger jordbävningssäkra hus, har varningssystem för tsunami och undviker att bygga viktiga byggnader på de mest utsatta kuststräckorna. Samhället kan också öva evakuering så att människor vet vart de ska ta vägen. Genom att gå igenom alla fem steg får resonemanget struktur. Du visar inte bara enstaka fakta — du visar att du förstår samband mellan natur, samhälle och åtgärder.",
+      "stodlarare": {
+        "stodord": [
+          "5-stegsmodellen",
+          "naturfara",
+          "orsak",
+          "sårbarhet",
+          "konsekvenser",
+          "förebyggande",
+          "samhällsplanering"
+        ],
+        "startfraser": [
+          "5-stegsmodellen bygger på tre grundfrågor: Varför? Vad leder det till? Hur förebygga?",
+          "Steg 1: Beskriv platsen och naturfaran...",
+          "Steg 2: Förklara orsaken med geografiska begrepp...",
+          "Steg 3: Förklara sårbarheten — koppla natur till samhälle...",
+          "Stegen ger struktur till resonemanget..."
+        ],
+        "tip_for_struktur": "Introducera modellen med dess tre grundfrågor. Gå sedan igenom de fem stegen ett i taget med korta beskrivningar. Använd sedan ett konkret exempel (gärna Japan eller en plats nämnd i avsnittet) där du visar alla fem steg i praktiken. Avsluta med varför metoden är pedagogiskt värdefull."
+      }
+    },
+    {
+      "id": "9b-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur en jordbävning uppstår och vad som gör platser sårbara. Använd Sårbara platser jordbävningar Eldringen som geografiskt sammanhang.",
+      "modellsvar": "En jordbävning uppstår när berggrunden plötsligt rör sig. Det sker när spänningar som byggts upp i jordskorpan släpper. De flesta jordbävningar sker nära plattgränser — där jordens stora litosfärplattor möts. Plattorna rör sig långsamt, men inte jämnt. När berggrunden fastnar och spänningar bygger upp tills det blir för mycket, släpper det plötsligt och en jordbävning uppstår. Det finns tre typer av plattgränser. Konvergenta gränser pressar plattor mot varandra — ofta i subduktionszoner där en havsplatta pressas ner under en annan. Detta är källan till de allra största jordbävningarna och kan också skapa tsunamier om havsbottnen förskjuts. Transforma gränser har plattor som glider förbi varandra, som vid San Andreasförkastningen. Divergenta gränser har plattor som rör sig isär, vanligtvis med mindre skalv. Många av världens jordbävningar och vulkaner finns i Eldringen — ett cirkelformat område runt Stilla havet som följer plattgränserna från Japan genom Indonesien, Chile, västra Nordamerika och tillbaka. Cirka 90% av världens jordbävningar sker här. Men det är inte slumpen som styr — det är geologin. Vad som gör en plats sårbar för jordbävningar är inte själva naturfaran utan fyra huvudsakliga faktorer. För det första: byggnadernas kvalitet. Forskning visar att byggnadskollaps står för nästan alla dödsfall vid jordbävningar. Det är inte skakningen som dödar — det är vad människor har över sig. För det andra: befolkningstäthet. En jordbävning under en miljonstad har enorma mänskliga konsekvenser. För det tredje: infrastruktur. När vägar, broar, sjukhus och ledningar skadas blir räddningsarbetet svårt. För det fjärde: ekonomi och beredskap. Rika länder har resurser till byggnormer, varningssystem och övningar — fattigare länder har inte alltid det, även om naturfaran är likadan. Det är därför Haiti 2010 (M7,0) kunde få värre konsekvenser än Japan 2011 (M9,0). Naturfaran var lägre i Haiti, men sårbarheten extremt hög — svaga byggnader, fattigdom, svaga institutioner. Sårbarhet kan minskas genom samhällsplanering: jordbävningssäkra hus, varningssystem, övningar och planering så att viktiga byggnader inte ligger ovanför aktiva förkastningar. Det är därför Japan visar att även de mest utsatta platserna kan minska sin sårbarhet dramatiskt.",
+      "stodlarare": {
+        "stodord": [
+          "jordbävning",
+          "plattgräns",
+          "spänning",
+          "Eldringen",
+          "byggnader",
+          "befolkningstäthet",
+          "infrastruktur",
+          "beredskap",
+          "sårbarhet"
+        ],
+        "startfraser": [
+          "En jordbävning uppstår när berggrunden plötsligt rör sig...",
+          "Det finns tre typer av plattgränser...",
+          "Eldringen är ett cirkelformat område runt Stilla havet...",
+          "Fyra faktorer gör en plats sårbar...",
+          "Haiti 2010 vs Japan 2011 visar att sårbarhet är minst lika viktig som naturfara..."
+        ],
+        "tip_for_struktur": "Förklara först mekaniken (spänning släpper). Beskriv sedan plattgränser och Eldringen som geografiskt mönster. Gå sedan över till sårbarhet med de fyra faktorerna. Avsluta med konkreta exempel som visar hur olika sårbarhet ger olika konsekvenser för samma naturfara."
+      }
+    },
+    {
+      "id": "9b-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur Tokyo, San Francisco och Haiti drabbas olika av jordbävningar trots att alla ligger nära aktiva plattgränser.",
+      "modellsvar": "Tokyo, San Francisco och Haiti visar tydligt att jordbävningsrisk består av två delar: den geologiska faran och samhällets sårbarhet. Tokyo ligger nära flera aktiva plattgränser i Stilla havets eldring. Där pressas havsplattor ner under andra plattor i subduktionszoner, och stora spänningar kan byggas upp innan de släpper som kraftiga jordbävningar. Naturfaran är extremt hög — kanske världens högsta. Men Tokyo har också världens starkaste jordbävningsberedskap. Byggnader konstrueras med base isolators som låter dem glida ovanpå sin grund. Varningssystem skickar meddelanden till mobiltelefoner inom sekunder. Övningar börjar i förskolan. Resultatet är att Tokyo har hög risk men hög motståndskraft — faran är stor men sårbarheten är minskad genom åratal av investering. San Francisco ligger vid San Andreasförkastningen och andra aktiva förkastningar i Bay Area, där Stillahavsplattan och Nordamerikanska plattan glider förbi varandra. USGS uppskattar 72% sannolikhet för minst en jordbävning på magnitud 6,7 eller större före 2043. Staden visar att även rika samhällen kan vara sårbara — det finns äldre byggnader som inte är förstärkta, broar och ledningar som kan skadas, och invånare med olika ekonomiska resurser för förberedelser. San Francisco-jordbävningen 1906 visade detta — 80% av skadorna kom från bränder eftersom vattenledningar brustit. Idag har staden riskkartor, byggnormer och förstärkningsarbete, men sårbarheten är inte helt borta. Haiti visar motsatsen. Jordbävningen 2010 hade magnitud 7,0 — en kraftig jordbävning men inte den starkaste världen har sett. Ändå dog över 200 000 människor och skadorna motsvarade 120 procent av landets BNP 2009. Varför? Sårbarheten var extrem. Många byggnader var inte byggda för att tåla skakningar — när marken skakade rasade de över sina invånare. Port-au-Prince var tätbefolkat. Infrastrukturen — sjukhus, vägar, myndighetsbyggnader — skadades samtidigt med bostäderna. Fattigdom gjorde återhämtningen extremt svår. Sammantaget visar de tre städerna att jordbävningar inte automatiskt blir katastrofer bara för att magnituden är hög. Katastrofen uppstår när en naturfara träffar ett sårbart samhälle. Och samhället kan formas och planeras för att vara mindre sårbart — som Japan och USA visar. Detta är hoppfullt: framtidens jordbävningar behöver inte bli värre. Men det kräver investeringar, planering och politisk vilja.",
+      "stodlarare": {
+        "stodord": [
+          "Tokyo",
+          "San Francisco",
+          "Haiti",
+          "plattgräns",
+          "byggnormer",
+          "sårbarhet",
+          "magnitud",
+          "fattigdom",
+          "beredskap"
+        ],
+        "startfraser": [
+          "Tokyo, San Francisco och Haiti visar att jordbävningsrisk består av två delar...",
+          "Tokyo har extremt hög naturfara men mycket stark beredskap...",
+          "San Francisco visar att även rika städer kan vara sårbara...",
+          "Haiti 2010 hade magnitud 7,0 men dödade över 200 000...",
+          "Skillnaden är inte naturfaran utan samhällets sårbarhet..."
+        ],
+        "tip_for_struktur": "Gå igenom de tre städerna en i taget: geografisk position, naturfara, sårbarhetsfaktorer, konsekvenser. Avsluta med jämförelsen — vad lär vi oss av att två platser med liknande naturfara får olika konsekvenser? Den centrala lärdomen är att sårbarhet kan formas av samhället."
+      }
+    },
+    {
+      "id": "9c-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara vad som gör en plats sårbar för vulkanutbrott. Använd Vesuvius eller Merapi som exempel.",
+      "modellsvar": "Vad som gör en plats sårbar för vulkanutbrott är inte bara vulkanens naturfara — det är samspelet mellan vulkanen och samhället runt den. Fyra faktorer är avgörande. Den första är avståndet och vinden. Olika faror sträcker sig olika långt. Pyroklastiska flöden når 5-15 km från kratern men är dödliga inom den. Lahar följer dalgångar och floder upp till 100+ km bort. Askregn kan föras tusentals kilometer av vinden. Människor som bor nära kratern utsätts för de snabbaste och dödligaste farorna; de som bor längre bort främst för aska och eventuellt lahar. Den andra är befolkningstäthet. Vesuvius vid Neapel är pedagogiskt centralt — cirka tre miljoner människor bor inom 30 km från vulkanen. En evakuering av så många människor på kort tid är extremt svår. Merapi vid Yogyakarta i Indonesien har liknande problem. Den tredje är varnings- och övervakningssystem. Modern vulkanologi kan ofta upptäcka tecken på att magma rör sig — små jordskalv, gasutsläpp, markdeformation. Detta kan ge dagar till veckor av förvarning. Men inte alltid — vulkaner kan också få utbrott utan tydlig förvarning. Den fjärde är politisk vilja att evakuera. Att flytta tiotusentals eller hundratusentals människor är ekonomiskt och politiskt dyrt. Om en vulkan visar varningstecken men ingenting händer kan myndigheter tveka — och om de väntar för länge kan det bli katastrof. Vesuvius visar dessa faktorer tydligt. Vulkanen är aktiv men har varit 'tyst' sedan 1944. Tre miljoner människor bor inom 30 km. Italienska myndigheter har planer för att evakuera 700 000 människor från 'röd zon' inom 72 timmar — men en sådan evakuering är en logistisk mardröm. Och människor har vant sig vid att vulkanen är vacker bakgrund, vilket gör den psykologiska beredskapen låg. Merapi visar en annan typ av sårbarhet. Människor bor och odlar direkt på vulkanens sluttningar eftersom vulkanjorden är exceptionellt bördig. Att flytta är att förlora sin försörjning. Indonesiens varningssystem har räddat tusentals liv vid utbrott, men människor återvänder ofta till sina hem på sluttningarna efter en evakuering. Förebyggande arbete handlar därför inte bara om geologi — det handlar om ekonomi, kultur och social trygghet.",
+      "stodlarare": {
+        "stodord": [
+          "vulkan",
+          "pyroklastiskt flöde",
+          "lahar",
+          "befolkning",
+          "evakuering",
+          "varningssystem",
+          "vulkanjord",
+          "paradox"
+        ],
+        "startfraser": [
+          "Sårbarhet för vulkanutbrott beror på fyra faktorer...",
+          "Avståndet bestämmer vilka faror som når dit...",
+          "Befolkningstätheten gör evakuering svår...",
+          "Vesuvius vid Neapel har tre miljoner människor inom 30 km...",
+          "Merapi visar att vulkanjord lockar människor trots farorna..."
+        ],
+        "tip_for_struktur": "Gå igenom de fyra sårbarhetsfaktorerna en i taget med korta förklaringar. Använd sedan ett konkret exempel (Vesuvius eller Merapi) och visa hur faktorerna spelar ut sig där. Avsluta gärna med insikten om att förebyggande är mer än geologi — det är samhällsplanering."
+      }
+    },
+    {
+      "id": "9c-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur Vesuvius och Merapi visar olika typer av sårbarhet trots att båda är stratovulkaner med många människor i närheten.",
+      "modellsvar": "Vesuvius och Merapi delar fundamentala drag — båda är aktiva stratovulkaner med pyroklastiska flöden som främsta fara, båda har miljoner människor i närheten. Men sårbarhetens karaktär skiljer sig dramatiskt, och det är detta som gör dem pedagogiskt intressanta att jämföra. Vesuvius ligger i södra Italien vid Neapel. Vulkanen är aktiv och har haft stora utbrott historiskt — det mest berömda år 79 e.Kr. då Pompeji och Herculaneum förstördes. Idag bor cirka tre miljoner människor inom 30 km från vulkanen. Bebyggelsen sträcker sig ända upp till 'röd zon' — det område som vid ett utbrott skulle vara omöjligt att rädda i tid. Vesuvius är sårbart genom urban koncentration. Människor bor där eftersom Neapel är en stor stad som vuxit fram av andra skäl än vulkanen — handel, kultur, historia. Vulkanen är en del av landskapet snarare än anledningen till bosättningen. Sårbarheten ligger i den enorma utmaningen att evakuera miljoner människor från en gammal, historisk storstad. Italienska myndigheter har planer för att evakuera 700 000 människor från 'röd zon' inom 72 timmar, men en sådan evakuering är logistiskt extremt svår. Människors psykologiska beredskap är dessutom låg eftersom senaste mindre utbrottet var 1944 — nästan 80 år sedan. Merapi ligger på Java i Indonesien, nära den stora staden Yogyakarta. Vulkanen får regelbundet utbrott — i genomsnitt vart fjärde till sjätte år. Det senaste stora utbrottet 2010 dödade över 350 människor och tvingade cirka 350 000 att evakuera. Merapi är sårbart genom ekonomiskt beroende. Människor bor där eftersom själva vulkanjorden är deras försörjning. Bönder odlar ris och andra grödor med hög kvalitet och flera skördar per år. Att flytta från Merapi är att flytta från sin försörjning. Det är inte bara hus som måste lämnas — det är hela ekonomin. Indonesien har varningssystem och evakueringsrutiner, men människor återvänder ofta till sina hem på sluttningarna efter utbrott — myndigheter försöker hindra det, men ekonomi och kultur väger tungt. Lärdomarna från jämförelsen är pedagogiskt djupa. Två platser kan ha samma naturfara men dramatiskt olika sårbarhet beroende på samhällets relation till platsen. Vesuvius behöver storskaliga logistiska planer för städer. Merapi behöver kombinationer av evakuering och försörjningsstöd. Båda visar att sårbarhetshantering är mer komplex än bara teknik — det är geografi, ekonomi, kultur och politik samtidigt. Och båda visar geografins djupaste paradox: sårbara platser är ofta sårbara just därför att de är värdefulla.",
+      "stodlarare": {
+        "stodord": [
+          "Vesuvius",
+          "Merapi",
+          "stratovulkan",
+          "Neapel",
+          "Yogyakarta",
+          "urban koncentration",
+          "ekonomiskt beroende",
+          "vulkanjord",
+          "evakuering"
+        ],
+        "startfraser": [
+          "Vesuvius och Merapi delar fundamentala drag men har olika sårbarhet...",
+          "Vesuvius är sårbart genom urban koncentration...",
+          "Människor bor i Neapel av historiska skäl, inte för vulkanen...",
+          "Merapi är sårbart genom ekonomiskt beroende...",
+          "Vulkanjorden lockar människor trots farorna..."
+        ],
+        "tip_for_struktur": "Etablera först de gemensamma dragen (båda är stratovulkaner med många människor nära). Beskriv sedan Vesuvius och dess urbana sårbarhet. Beskriv Merapi och dess ekonomiska sårbarhet. Avsluta med vad jämförelsen lär oss — samma natur kan ge olika sårbarhet beroende på samhället."
+      }
+    },
+    {
+      "id": "9d-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur olika typer av översvämningar uppstår och vad som gör platser sårbara för dem.",
+      "modellsvar": "Översvämningar är världens vanligaste naturkatastrof. De uppstår när vatten samlas på platser där det normalt inte finns — vid floder, deltan, låglänta kuster, sjöar eller i städer där marken inte kan ta emot stora regnmängder. Det finns tre huvudkällor till översvämningar. Kraftigt regn — när mer vatten faller än vad marken kan absorbera. Skyfall är särskilt farliga eftersom marken inte hinner svälja vattnet. Snösmältning — på våren kan stora mängder snö smälta snabbt, vilket är klassisk källa till vårfloder i norra Europa. Stormar vid kust — kraftiga vindar kan pressa havsvatten mot kusten och höja nivåerna med flera meter. De värsta översvämningarna uppstår när flera källor sammanfaller. Det finns fyra huvudtyper av översvämningar. Flodöversvämningar är den klassiska typen — när floder svämmar över sina bankar eller bryter igenom skyddsvallar. Bangladesh, Mälardalen och Karlstad är exempel. Kustöversvämningar uppstår när havet stiger över sina normala nivåer — vid stormar eller den klimatdrivna havsnivåhöjningen. Stadsöversvämningar är ett växande problem i moderna städer. När asfalt och betong täcker stora ytor kan regnvatten inte sippra ner — det rinner istället snabbt till låglänta områden. Köpenhamn 2011 är ett välkänt exempel där 150 mm regn på två timmar gav skador för flera miljarder. Snabba översvämningar (flash floods) är farligast — de inträffar när mycket vatten samlas mycket snabbt, typiskt i smala dalgångar eller efter dammbrott. Vad gör platser sårbara för översvämningar? Fyra faktorer är avgörande. Topografi — markens form. Låglänta områden är mest utsatta. Floddeltan, dalgångar, kustlinjer på låg höjd över havet. Bangladeshs Ganges-Brahmaputradelta är ett av världens lägstliggande tätbefolkade områden. Karlstad ligger där Klarälven mynnar i Vänern — också klassiskt sårbart läge. Befolkning och bebyggelse — många bor på flodslätter och nära kuster för att marken är bördig, vatten tillgängligt och handel enkel. Markens egenskaper — naturlig mark med vegetation kan absorbera mycket vatten; hårdgjorda ytor kan inte. När städer växer minskar markens förmåga att svälja regnvatten. Skyddssystem och beredskap — vallar, dammar, dräneringssystem, varningssystem och evakueringsplaner kan minska sårbarheten dramatiskt. Klimatförändringen gör översvämningsrisken till en framtidsfråga. Mer extremt väder, snabbare snösmältning, havsnivåhöjning och förändrade flodflöden gör att riskerna ökar i de flesta delar av världen. Det betyder att sårbarhetsmodellen — naturfara + samhälle + låg beredskap = hög sårbarhet — fortfarande gäller, men att förutsättningarna ändras över tid.",
+      "stodlarare": {
+        "stodord": [
+          "översvämning",
+          "kraftigt regn",
+          "snösmältning",
+          "storm",
+          "flodöversvämning",
+          "stadsöversvämning",
+          "topografi",
+          "hårdgjorda ytor",
+          "klimatförändring"
+        ],
+        "startfraser": [
+          "Översvämningar är världens vanligaste naturkatastrof...",
+          "Tre huvudkällor: regn, snösmältning, storm vid kust...",
+          "Fyra typer: flod, kust, stad, snabba översvämningar...",
+          "Fyra sårbarhetsfaktorer: topografi, befolkning, mark, skydd...",
+          "Klimatförändringen gör översvämning till en framtidsfråga..."
+        ],
+        "tip_for_struktur": "Börja med definitionen och de tre källorna. Gå sedan igenom de fyra typerna med exempel. Beskriv sårbarhetsfaktorerna en i taget. Avsluta med klimatkopplingen — översvämningsrisk är dynamisk över tid."
+      }
+    },
+    {
+      "id": "9d-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur Bangladesh och Karlstad är sårbara för översvämning på olika sätt, och vad jämförelsen lär oss.",
+      "modellsvar": "Bangladesh och Karlstad är dramatiskt olika exempel — men de illustrerar samma grundläggande princip om sårbarhet. Bangladesh är ett av världens mest sårbara översvämningsländer. Landet ligger i ett enormt deltaområde där tre av världens stora floder — Ganges, Brahmaputra och Meghna — möts och rinner ut mot Bengaliska viken. Hela landet är präglat av vatten. Cirka två tredjedelar av landytan ligger under tio meters höjd. Bangladesh kan drabbas av flera typer av översvämningar samtidigt: flodöversvämningar från Himalayas snösmältning och monsunregn, kustöversvämningar från tropiska cykloner som pressar in havsvatten, och snabba översvämningar från kraftigt regn i bergsområden. Sårbarheten beror på flera samverkande faktorer: extrem topografi (lågt och platt), världens högsta befolkningstäthet (170 miljoner människor på en yta något större än Skåne), ekonomisk fattigdom, beroende av jordbruk, och klimatförändringen som hotar att tvinga upp till 900 000 människor på flykt. Men Bangladesh är inte passivt. Cyklonskydd, varningssystem och utbildning har minskat dödligheten dramatiskt sedan 1970-talet — när cyklonen Sidr drabbade landet 2007 dog 3 400 människor jämfört med hundratusentals vid Bhola 1970, tack vare bättre varningar. Karlstad ligger där Klarälven mynnar ut i Vänern — också ett geografiskt utsatt läge. Staden kan påverkas av höga flöden i älven och av höga vattennivåer i Vänern, eller värst båda samtidigt. MSB har identifierat Karlstad som ett område med betydande översvämningsrisk. Tidsdimensionen är värd att uppmärksamma: en översvämning från Klarälven kan pågå i en till två veckor; från Vänern kan den pågå i månader, eftersom Vänern är så stor att vattennivån sjunker långsamt. Karlstads sårbarhet beror på topografi (låglänt läge), bebyggelse på utsatta platser (centrum, hamn, sjukhus nära vatten), och ekonomiskt värdefulla områden (när den värdefullaste marken också är den mest sårbara blir konsekvenserna större). Men Karlstad har resurser som Bangladesh saknar: riskkartor, tekniska skydd, krisberedskap, ekonomiska resurser att investera i förebyggande arbete. Jämförelsen lär oss flera viktiga saker. För det första: sårbarhet är universellt. Den finns i fattiga och rika länder, i tropiska delta och nordiska älvmynningar. Skillnaden ligger inte i om sårbarhet finns, utan i vilken form den tar och vilka resurser samhället har. För det andra: klimatförändringen påverkar alla. Bangladesh möter en existentiell utmaning från havsnivåhöjning; Karlstad möter ökande risk för skyfall och stigande Vänern. För det tredje: samhällsplanering är ett globalt arbete. Bangladesh lär sig från Nederländernas vallsystem; Sverige lär sig från Bangladeshs varningssystem. När man ser nyheter om översvämningar — från Bangladesh, USA, Tyskland eller Sverige — är det inte bara vatten. Det är vatten som möter samhällen med olika styrkor och svagheter.",
+      "stodlarare": {
+        "stodord": [
+          "Bangladesh",
+          "Karlstad",
+          "delta",
+          "Klarälven",
+          "Vänern",
+          "topografi",
+          "befolkningstäthet",
+          "resurser",
+          "klimatförändring",
+          "sårbarhet"
+        ],
+        "startfraser": [
+          "Bangladesh och Karlstad är dramatiskt olika men illustrerar samma princip...",
+          "Bangladesh ligger i ett delta med 170 miljoner människor...",
+          "Karlstad ligger där Klarälven möter Vänern...",
+          "Tidsdimensionen är värd att uppmärksamma — Vänern-översvämning kan pågå i månader...",
+          "Sårbarhet är universellt — finns i fattiga och rika länder..."
+        ],
+        "tip_for_struktur": "Beskriv Bangladesh och dess flera samverkande sårbarheter. Beskriv Karlstad och dess egna sårbarhetsfaktorer. Jämför sedan: vad är likt, vad är olikt? Avsluta med vad jämförelsen lär oss om att sårbarhet är universellt men tar olika former beroende på resurser."
+      }
+    }
+  ]
+}

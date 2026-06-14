@@ -1,0 +1,479 @@
+{
+  "avsnitt": 6,
+  "titel": "Erosion",
+  "delkapitel": "geologi",
+  "version": "2.0",
+  "kort_totalt": 44,
+  "begreppskort": [
+    {
+      "id": "6a-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är erosion?",
+      "svar": "Erosion är när material från jordytan nöts loss, transporteras bort och hamnar på en ny plats. Det kan handla om sand, jord, grus, sten — eller i större skala till och med berg — som flyttas av vatten, vind, vågor eller is. Erosion är inte bara nedbrytning, utan också transport. När materialet sedan läggs ner på en ny plats kallas det avlagring eller sedimentation."
+    },
+    {
+      "id": "6a-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Hur skiljer sig erosion från vittring?",
+      "svar": "Vittring bryter sönder berg och sten på plats — materialet flyttas inte än, det blir bara löst. Erosion är nästa steg, där det lösa materialet faktiskt nöts loss och transporteras till en ny plats. Tillsammans bildar de en kedja: vittring producerar materialet, erosion flyttar det vidare. När frostvittring spräcker ett block från en fjällsida, är det erosionen som sedan transporterar blocket nedåt med vatten, vind eller is."
+    },
+    {
+      "id": "6a-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilka är de fyra viktigaste formerna av erosion?",
+      "svar": "Vågerosion sker vid kuster när havets vågor nöter på klippor, stränder och strandbrinkar. Vinderosion sker när vinden lyfter och transporterar sand och jord. Floderosion sker när rinnande vatten gräver sig ner och flyttar material. Glaciärerosion sker när ismassor rör sig och slipar berggrunden. Var och en har sin egen mekanism och skapar sina egna typiska landformer."
+    },
+    {
+      "id": "6a-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är vågerosion?",
+      "svar": "Vågerosion sker vid hav, sjöar och andra stora vattenytor där vågor slår mot land. När vågor träffar en kust för de med sig stor energi från de vindar som skapat dem. Den energin kan nöta på berg, slå loss stenar, flytta sand och gröpa ur strandbrinkar. Vågerosionen fungerar både genom vattnets kraft och genom att sand och stenar i vattnet fungerar som slipmedel — ungefär som sandpapper mot trä."
+    },
+    {
+      "id": "6a-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är raukar?",
+      "svar": "Raukar är fristående stenformationer vid kusten som blivit kvar när det omgivande berget vittrat och eroderats bort. De är ofta flera meter höga och har distinkta former — vilket gör att människor gett dem namn som Jungfrun eller Hoburgsgubben. Gotland är världsberömt för sina raukar, som är formade av att vågerosionen slipade bort de mjukare partierna i kalkstenen medan hårdare kärnor stod emot."
+    },
+    {
+      "id": "6a-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett klapperstensfält?",
+      "svar": "Ett klapperstensfält är ett område med rundade, slipade stenar som vågerosionen har samlat och sorterat. Vågorna har slipat bort kanterna på stenarna under tusentals år, så de blivit släta och runda. Många klapperstensfält i Sverige ligger idag högt över havet — det är gamla strandlinjer från en tid när vattennivån låg högre, just efter istiden. De berättar därför om både vågerosion och Sveriges landhöjning."
+    },
+    {
+      "id": "6b-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är vinderosion?",
+      "svar": "Vinderosion är när luften — inte vattnet — flyttar material från markytan. Vinden kan lyfta, rulla eller blåsa bort små partiklar: sand, silt, torr jord, damm. Vinderosion är vanligast i miljöer med löst material, lite vegetation och kraftiga vindar — främst öknar, sandstränder, torra jordbruksmarker och områden där växtlighet förstörts. För att vinden ska kunna erodera effektivt behöver tre saker finnas: löst material, frånvaro av växttäcke, och tillräcklig vindstyrka."
+    },
+    {
+      "id": "6b-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilka tre sätt transporterar vinden material på?",
+      "svar": "Vinden transporterar olika storlekar av material på olika sätt. Suspension (svävning) är när de allra minsta partiklarna — silt och damm — lyfts högt upp i luften och kan färdas tusentals kilometer. Saltation (hopp) är när sandkorn studsar fram nära markytan i små hopp på 10-50 cm åt gången. Detta är hur de flesta sanddyner byggs upp. Krypning är när grövre material — större sandkorn eller småsten — rullas eller knuffas längs marken av kraftig vind. Det går långsamt men kan flytta stora ytor över tid."
+    },
+    {
+      "id": "6b-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en sanddyn?",
+      "svar": "En sanddyn är en hög av sand som vinden byggt upp. Den bildas när vinden transporterar sand och sanden samlas på en plats där vindens hastighet minskar — till exempel bakom en växt, en sten eller ett annat hinder. När sanden börjar samlas fungerar högen själv som hinder för mer vind, och fler sandkorn samlas där. På så sätt växer dynen. Sanddyner är inte stilla — de rör sig långsamt i vindens riktning. I Sverige finns klassiska dyn-områden vid Falsterbo, Skånes sydkust och delar av Halland."
+    },
+    {
+      "id": "6b-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ökenspridning?",
+      "svar": "Ökenspridning (eller desertifikation) är när områden som tidigare var brukbara förvandlas till öken — sand och damm där det förr fanns jord. Det sker när vegetationen försvinner, ofta på grund av en kombination av torka, överbete, dåligt jordbruk och avskogning. När marken ligger bar tar vinderosionen över, blåser bort den näringsrika matjorden, och kvar blir mark som inte längre kan bära skördar. Detta är ett växande problem i Sahel-bältet söder om Sahara, där det driver migration och social oro."
+    },
+    {
+      "id": "6b-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Varför ska man inte trampa sönder vegetationen på sanddyner?",
+      "svar": "Sanddyner fungerar som naturliga skydd för områdena bakom dem — de bromsar vinden och dämpar stormvågor. Det som håller dynerna stabila är inte sanden själv, utan växterna som binder sanden med sina rötter. Strandråg och andra dyngräs har djupa rötter som håller sanden på plats. Om människor trampar sönder vegetationen genom att gå kors och tvärs över dynerna, cykla i dem eller låta djur beta för hårt, försvagas dynerna. Då börjar sanden blåsa bort och området bakom blir mer sårbart för stormar. Det är därför man vid sandstränder bör hålla sig till markerade stigar."
+    },
+    {
+      "id": "6c-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är floderosion?",
+      "svar": "Floderosion är när rinnande vatten nöter, river loss och transporterar material. Det kan ske i små bäckar, större åar och stora floder. Vattnet för med sig sand, grus, lera och sten på sin väg mot havet. Ju mer vatten som rinner och ju snabbare vattnet rör sig, desto mer material kan floden transportera. En liten skogsbäck flyttar några sandkorn, medan stora floder som Amazonas eller Mississippi transporterar miljontals ton sediment varje år."
+    },
+    {
+      "id": "6c-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Hur fungerar floderosion mekaniskt?",
+      "svar": "Floderosionen arbetar med två krafter samtidigt. För det första vattnets egen kraft — rinnande vatten trycker mot flodbankar och flodbotten med betydande kraft, särskilt vid höga vattenflöden. Det kan slita loss material från botten och sidorna. För det andra fungerar flodens last som verktyg — sand, grus och sten som vattnet redan bär med sig fungerar som slipmedel, ungefär som sandpapper. När en sten rullar längs flodbottnen sliper den både bottnen och sig själv. Det är därför stenar i floder ofta är runda och släta."
+    },
+    {
+      "id": "6c-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en V-dal?",
+      "svar": "En V-dal är en smal, brant dalgång som bildats av en flod som skär sig ner i berggrunden. Den är V-formad i tvärsnitt — smal i botten där floden rinner, och med sluttande sidor uppåt. V-dalar uppstår i bergsområden där floder rinner snabbt nedför branta sluttningar. Vattnet nöter framför allt nedåt — eftersom det är där gravitationen drar vattnet. Klassiska V-dalar finns i Alperna, Anderna och Skanderna. I norra Sveriges fjälltrakter kan man se motsvarande landformer i mindre skala."
+    },
+    {
+      "id": "6c-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en meander?",
+      "svar": "En meander är en stor böj eller slinga i en flod. Meandrar uppstår när en flod kommer ner i flackare landskap och vattnet rinner långsammare. Namnet kommer från en flod i nuvarande Turkiet som var berömd för sina böjar. I en meander rinner vattnet snabbare i ytterkurvan (där det eroderar stranden) och långsammare i innerkurvan (där det avlagrar sand och grus). På så sätt vandrar hela meandern långsamt i sidled — ytterkurvan flyttas utåt, innerkurvan byggs ut. Floden förändrar därför sitt lopp över tid."
+    },
+    {
+      "id": "6c-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en korvsjö?",
+      "svar": "En korvsjö är en böjd, isolerad sjö som lämnats kvar när en flod har snörts av en av sina meandrar. Det sker när en meander blir så extrem att två ytterkurvor närmar sig varandra. Vattnet hittar då en kortare väg, och den gamla böjen lämnas som en isolerad sjö med böjd, korvliknande form. På flygbilder över flacka flodområden kan man se gamla, övergivna meandrar som ringlar sig genom landskapet — bevis på att floden tidigare gick andra vägar."
+    },
+    {
+      "id": "6c-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett delta?",
+      "svar": "Ett delta är ett triangelformat landområde som byggs upp där en flod mynnar ut i havet eller en sjö. Där bromsas vattnet och förlorar sin förmåga att transportera material. Stora mängder sand, lera och grus avsätts, och nytt land byggs upp över tid. Nilens delta i Egypten, Mississippis i USA och Brahmaputras i Bangladesh är några av världens mest kända — alla är resultatet av att floder under tusentals år bär med sig sediment och lämnar det vid mynningen. Deltan är ofta extremt bördiga och har genom historien varit centra för jordbruk och civilisation."
+    },
+    {
+      "id": "6d-b01",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är glaciärerosion?",
+      "svar": "Glaciärerosion är när stora ismassor rör sig långsamt över landskapet och slipar, river och formar berggrunden under sig. En glaciär är inte stilla — den fungerar som en mycket långsam flod av is. När isen blir tjock och tung pressas den utåt och nedåt av sin egen tyngd. En stor inlandsis kan vara flera kilometer tjock och röra sig några meter per år. Under rörelsen nöter glaciären i marken och formar hela landskap — under tusentals år är resultatet enormt."
+    },
+    {
+      "id": "6d-b02",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vilka är de två sätt som glaciärer eroderar på?",
+      "svar": "Glaciärer eroderar på två sätt. Slipning sker när sand, grus och stenar som sitter fastfrusna i isens undersida skrapar mot berget — som ett enormt sandpapper. Detta gör berghällar släta, rundade och polerade (rundhällar), och skapar parallella repor i berget (isräfflor). Plockning sker när vatten tränger ner i sprickor i berget, fryser till is, och när glaciären rör sig kan den då rycka loss stenblock ur berggrunden. Blocken fryser fast i isen och följer med när glaciären rör sig vidare."
+    },
+    {
+      "id": "6d-b03",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en rundhäll?",
+      "svar": "En rundhäll är en berghäll som slipats slätt och rundad av en glaciär. Rundhällar har ofta två tydligt olika sidor. Den ena sidan — där isen kom ifrån — är mjukt slipad och rundad, eftersom isens slipande material polerade berget där. Den andra sidan — där isen var på väg — är brantare och mer sönderbruten, eftersom isen där plockade loss stenblock. På så sätt är en rundhäll som en stenkompass: den visar både att isen passerat och i vilken riktning den rörde sig. Rundhällar finns över hela Sverige och bär istidens fingeravtryck."
+    },
+    {
+      "id": "6d-b04",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är isräfflor?",
+      "svar": "Isräfflor är parallella repor i berget som bildades när stenar och grus i isens undersida skrapade mot berggrunden. Räfflorna är ofta bara några centimeter djupa men kan vara flera meter långa. De visar exakt vilken riktning isen rörde sig — som spår i sanden. Geologer använder isräfflor för att kartlägga hur inlandsisen rörde sig under istiden. På den senaste inlandsisens stora era, för 20 000 år sedan, rörde sig isen i olika riktningar i olika delar av Sverige, och allt detta kan läsas direkt i isräfflorna."
+    },
+    {
+      "id": "6d-b05",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är ett flyttblock?",
+      "svar": "Ett flyttblock är en stor sten som inlandsisen brutit loss från en plats och transporterat till en annan. När isen smälte blev blocket liggande kvar. Flyttblock är geologiska bevis på isens rörelse — om man hittar ett granitblock liggande på en kalkstensplatta, vet man att blocket transporterats dit. Vissa flyttblock har färdats hundratals kilometer. På Gotland kan man hitta flyttblock av urberg från fastlandet som transporterats över Östersjön av inlandsisen — bevis på att isen rörde sig från norr och nordväst över ön."
+    },
+    {
+      "id": "6d-b06",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en rullstensås?",
+      "svar": "En rullstensås är en lång, slingrande rygg av rundade stenar, grus och sand. Den bildades inte av isen själv utan av smältvattnet som rann i tunnlar under inlandsisen när den höll på att smälta. Vattnet förde med sig material och avlagrade det när det tappade fart — så åsen är ett 'negativ' av en istunnel som inte längre finns. Materialet i åsen är sorterat (olika storlekar samlas på olika platser) — vilket skiljer den från morän som är osorterad. Många av Sveriges vägar och järnvägar går på rullstensåsar, eftersom de är torra och stabila. Uppsalaåsen är en av världens längsta."
+    },
+    {
+      "id": "6d-b07",
+      "type": "begrepp",
+      "niva": "grundlaggande",
+      "fraga": "Vad är en U-dal och hur skiljer den sig från en V-dal?",
+      "svar": "En U-dal är en bred dalgång med branta sidor och en relativt platt botten — formad som bokstaven U i tvärsnitt. Den skapas av en glaciär, som är bred och fyller hela dalgången och därför slipar både botten och sidorna. En V-dal är däremot smal och spetsig i botten, med sluttande sidor — formad som ett V. V-dalar skapas av floder, som är smala och i huvudsak skär sig ner. När en U-dal senare fylls av havsvatten (efter att havsnivån stigit eller landet sjunkit) bildas en fjord. Norges fjordar är klassiska U-dalar fyllda av havet."
+    }
+  ],
+  "modellkort": [
+    {
+      "id": "6a-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför nöts berg ner av vågorna trots att vatten är mjukt?",
+      "svar": "Två krafter arbetar tillsammans. För det första — vatten är inte alls mjukt när det rör sig snabbt. En vågfront som slår mot en klippa under en storm har enormt mycket rörelseenergi — tonvis med vatten som kastar sig mot berget varje sekund. För det andra, och kanske viktigare, fungerar sanden och stenarna som vågorna bär med sig som slipmedel. Det är inte bara vattnet som slår mot berget — det är vattnet plus alla hårda partiklar i vattnet. Tillsammans fungerar de som ett enormt sandpapper, och under tusentals år nöter de ner även hårda berg. Det är samma princip som när du sandpaperar trä: vattnet ensamt skulle inte göra mycket skada, men sandkorn som drivs av vattnet förändrar allt."
+    },
+    {
+      "id": "6a-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför kan ett skydd mot vågerosion på ett ställe orsaka problem på ett annat?",
+      "svar": "Sand och material längs en kust transporteras ständigt — vågorna flyttar sand i en pågående ström längs strandlinjen. När en kommun bygger en vågbrytare eller en stenskoning för att skydda en viss strand, fastnar sanden som tidigare nådde grannkommunens strand vid skyddet. Då börjar grannkommunens strand erodera, eftersom den inte längre får ny sand som ersätter det som vågorna tar med sig. Kusten är ett sammanhängande system — något som görs på en plats påverkar ofta platser flera kilometer bort. Det är därför kommunala lösningar mot kusterosion ofta behöver samordnas regionalt — annars flyttas problemet bara vidare till nästa kommun."
+    },
+    {
+      "id": "6a-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är klimatförändring och vågerosion ett särskilt allvarligt par?",
+      "svar": "Två oberoende effekter förstärker varandra. För det första stiger havsnivån globalt — när inlandsisar smälter och havsvatten utvidgas av värme. Det betyder att vågorna kan slå mot kuster som tidigare låg trygga. För det andra blir stormar kraftigare i ett varmare klimat — varmare hav ger mer energi till lågtryck. Vid en storm med högt vatten och kraftiga vågor kan en kust erodera mer på några timmar än under flera år av normalväder. Tillsammans betyder dessa två förändringar att vågerosion nu fungerar snabbare och mer dramatiskt än under hela det historiska tidsskedet. Skånes sydkust, Bangladesh, Tuvalu — alla områden där människor bor nära havet — möter en framtid där vågerosionen är ett växande hot."
+    },
+    {
+      "id": "6b-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför rör sig sanddyner — och varför är den ena sidan flackare än den andra?",
+      "svar": "Sanddyner rör sig eftersom vinden ständigt arbetar med dem. På den sida där vinden kommer ifrån — lovartsidan — blåser vinden sand uppför dynen i små hopp (saltation). När sandkornen når dynens krön slutar vindens kraft hålla dem uppe, och de faller ner på den andra sidan — läsidan — som är skyddad från vinden. Där samlas sanden i en brantare sluttning, ofta nära sandens 'rasvinkel' på cirka 30-34 grader. På så sätt har varje sanddyn två olika former: en lång, flack lovartsida där sanden blåses upp, och en kortare, brantare läsida där sanden samlas. När processen fortsätter dygn efter dygn vandrar hela dynen i vindens riktning — vissa öken-dyner rör sig flera meter per år. Det är därför sanddyner kallas levande landskap."
+    },
+    {
+      "id": "6b-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är vinderosion ett problem för jordbruket?",
+      "svar": "Den finaste och mest näringsrika jorden — matjorden — finns ofta i de översta centimetrarna av marken. Det är där växterna får sin näring, där bakterier och svampar bygger upp jordens bördighet, och där bondens grödor verkligen växer. Om denna matjord blåser bort förlorar marken sin bördighet — och då finns bara den näringsfattigare jorden under kvar. Skördarna minskar, bonden måste använda mer gödsel för att kompensera, och i värsta fall kan marken bli helt obrukbar. I torra områden kan kraftig vinderosion bidra till ökenspridning — där marken förvandlas till öken över decennier. Det är därför moderna jordbruksmetoder fokuserar mycket på att hålla jorden täckt av växter året om, plöja vinkelrätt mot vinden, och plantera vindskydd vid åkrarnas kanter."
+    },
+    {
+      "id": "6b-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kan människor både förstärka och försvaga vinderosion?",
+      "svar": "Människor förstärker vinderosionen genom att ta bort det som binder marken. Det sker när skog huggs ner utan återplantering, när mark plöjs sönder och lämnas bar, när djur tillåts beta för hårt så att gräset försvinner, eller när åkrar lämnas öppna utan vintergrödor. Allt detta tar bort vegetationen som annars skulle hålla jorden på plats — och vinden får fritt spelrum att blåsa bort den näringsrika ytan. Men människor kan också försvaga vinderosionen genom medvetna åtgärder. Plantera trädridåer som vindskydd vid åkrarnas kanter. Hålla marken täckt med växter året om — istället för bar mellan skördarna. Plöja vinkelrätt mot vindens dominerande riktning. Skydda sanddyner från slitage. Det är detta tankesätt — att samarbeta med naturen istället för att utmana den — som ligger bakom modernt hållbart jordbruk. Vinderosion är därför ett av geografins tydligaste exempel på att människors beslut direkt påverkar hur snabbt jorden förändras."
+    },
+    {
+      "id": "6c-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför rinner vattnet snabbare i en flods ytterkurva än i innerkurvan?",
+      "svar": "Det handlar om geometri och vattnets tröghet. När en flod närmar sig en böj fortsätter vattnet att röra sig framåt i sin ursprungliga riktning av tröghet — det 'vill' fortsätta rakt fram. Vattnet pressas därför mot ytterkurvans strand, där det rinner snabbare och har mer energi. I innerkurvan, däremot, måste vattnet 'sakta in' för att komma runt böjen, så där rinner det långsammare. Den snabba strömmen i ytterkurvan har kraft att erodera stranden bort, medan den långsamma strömmen i innerkurvan inte längre orkar bära all sand och grus — så materialet sjunker och avlagras där. Detta är varför ytterkurvor blir branta och innerkurvor blir flacka sandstränder. Och det är detta som gör att hela meandern långsamt vandrar i sidled."
+    },
+    {
+      "id": "6c-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför ökar floderosionen när människor rätar ut floder eller hårdgör mark?",
+      "svar": "Det verkar paradoxalt — människor brukar tänka att raka, kontrollerade floder borde vara 'lugnare'. Men det är tvärtom. När en flod rätas ut tar man bort dess meandrar och slingor. Vattnet kan då rinna i en rakare, brantare bana, vilket gör att det rinner snabbare. Snabbt vatten har mer energi att erodera. Resultatet: floden gräver djupare i botten och kanterna, och eroderar mer än innan. När mark hårdgörs med asfalt och betong sjunker regnvatten inte längre in i marken — det rinner istället snabbt över ytan ner i avlopp och bäckar. Floderna får då plötsliga, kraftiga vattenflöden vid varje regn. Detta ökar både risken för översvämning och hastigheten på erosionen. Båda dessa exempel visar samma princip: snabbare vatten = mer erosion. Och människans försök att kontrollera floder leder ofta till mer, inte mindre, erosion."
+    },
+    {
+      "id": "6c-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Vad är 'hungrigt vatten' och varför uppstår det nedanför dammar?",
+      "svar": "'Hungrigt vatten' är ett geologiskt begrepp som beskriver vattnet nedanför en damm. När en damm byggs samlas vatten i ett magasin uppströms, och sedimentet som floden bär med sig — sand, lera, grus — fastnar i magasinet och sjunker till botten. Vattnet som släpps ut nedanför dammen är därför 'rent' från sediment. Men ett vatten utan sediment har samma energi som innan — det har kapacitet att transportera material, men inget material att bära. Då börjar det erodera flodbotten och stränderna nedanför dammen mycket kraftigt — vattnet 'äter' av berget och jorden för att 'fylla' sin lastkapacitet. Det är därför det kallas hungrigt. Konsekvensen är att deltan långt nedströms får för lite nytt sediment och börjar krympa. Nilens delta krymper sedan Aswandammen byggdes. Mississippideltat krymper sedan dammar byggts uppströms. Det är ett globalt mönster där dammar uppströms gör att kustområden tusentals kilometer bort blir sårbara."
+    },
+    {
+      "id": "6d-m01",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Hur kan en rundhäll fungera som en 'kompass' av sten?",
+      "svar": "En rundhäll har två tydligt olika sidor på grund av de två processer som glaciären arbetar med. Slipningen sker när isens material skrapar mot berget — och denna sliper alltid på den sida där isen kom ifrån. Resultat: en mjukt rundad, polerad sida. Plockningen sker när isen rycker loss block ur berget — och detta händer alltid på den sida där isen var på väg. Resultat: en brantare, mer sönderbruten sida. Genom att läsa rundhällen som en pil — från den slipade sidan mot den brutna sidan — kan man peka åt det håll isen rörde sig. Det är därför rundhällar är som stenkompasser. För extra precision kan man också titta efter isräfflor på den slipade ytan — parallella repor som bekräftar riktningen i detalj. Geologer har kartlagt hela inlandsisens rörelser över Skandinavien genom att läsa rundhällar och isräfflor system för system."
+    },
+    {
+      "id": "6d-m02",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför är det viktigt att skilja flyttblock, rullstensåsar och klapperstensfält från varandra?",
+      "svar": "Alla tre kommer från istiden, men de bildades genom helt olika processer — och om man inte skiljer dem åt, missförstår man landskapet. Flyttblock transporterades av isen själv. När isen smälte blev blocken kvar där de råkade vara — utan särskild ordning eller sortering. Rullstensåsar bildades av smältvatten som rann i tunnlar under isen. Vattnet sorterade materialet — så stenarna är rundade och materialet är sorterat. Detta är direkta bevis på att vatten varit inblandat. Klapperstensfält bildades av vågor vid gamla stränder efter att isen smält och Sverige fortfarande låg lägre än idag. Många klapperstensfält ligger nu högt över havet eftersom landet höjt sig sedan dess. Skillnaden är pedagogiskt viktig: flyttblock = is. Rullstensåsar = smältvatten under isen. Klapperstensfält = havsvågor efter isen. Tre olika processer, samma istid — och tre olika spår man kan läsa i det svenska landskapet."
+    },
+    {
+      "id": "6d-m03",
+      "type": "modell",
+      "niva": "grundlaggande",
+      "fraga": "Varför har Sverige så många sjöar — och varför har Norge fjordar istället?",
+      "svar": "Båda är resultat av samma istid, men i olika geografiska sammanhang. Sverige har över 100 000 sjöar eftersom inlandsisen gröpte ur sänkor i den relativt platta berggrunden och lämnade morän som dämde upp vatten när isen smälte. Mälaren, Vänern och Vättern ligger alla i sänkor som isen format. Många mindre sjöar fyller fördjupningar eller har bildats där isens avlagringar hindrat vatten från att rinna undan. Norge har istället fjordar — djupa, smala havsvikar som skär in i landet. Det beror på att Norges fjäll når ända ned till Atlanten. Under istiden grävde glaciärerna djupa U-dalar genom dessa fjäll på sin väg ner till havet. När isen smälte och havsnivån steg fylldes U-dalarna av havsvatten — så fjordarna föddes. Sverige har inga fjordar eftersom våra fjäll inte når havet på samma sätt — vår berggrund är låg, fjällen ligger i inlandet, och glaciärerna här rörde sig genom flackare landskap. Två grannländer, samma istid, två helt olika resultat. Det visar att geografi inte är slump — det är en konsekvens av berggrund, höjd och vilken process som mött vilket landskap."
+    }
+  ],
+  "redogorelsekort": [
+    {
+      "id": "6a-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur vågerosion fungerar och vilka landformer den kan skapa. Använd Gotland som exempel.",
+      "modellsvar": "Vågerosion sker vid kuster när havets vågor slår mot land. Mekaniskt arbetar processen på två sätt samtidigt. För det första slår vattnet mot berget med stor kraft — under stormar med ton av vatten varje sekund. För det andra fungerar sanden och stenarna som finns i vattnet som slipmedel. När vågorna kastar dessa partiklar mot klipporna nöts berget ner ungefär som sandpapper mot trä. Tillsammans förflyttar dessa krafter kustlinjen gradvis bakåt över tusentals år. Vågerosionen skapar typiska landformer beroende på berggrund och vågstyrka. Branta kustklippor uppstår där vågorna gröpt ur berget vid foten och delar av klippan rasat ner. Grottor bildas i svaga partier av berget. Strandvallar samlas där vågorna under lugnare perioder lägger upp sand och grus. Klapperstensfält är områden med rundade stenar som vågor slipat och sorterat. Och raukar är fristående stenformationer som blivit kvar när omgivande berg vittrat bort. Gotland visar detta tydligt. Gotlands berggrund är kalksten från ett forntida hav, och olika delar av kalkstenen har olika hårdhet. När vågorna under tusentals år arbetat mot kusten har de slipat bort de mjukare partierna snabbare än de hårdare. De spektakulära raukar man ser längs Gotlands kust är de hårda kärnor som stod emot, medan allt runt omkring försvunnit. Varje rauk är ett konkret bevis på vågerosionens kraft — och på att olika delar av samma berggrund kan reagera olika på samma erosionsprocess. Gotlands kuster är därför ett av Europas mest pedagogiska exempel på vad vågerosion kan göra.",
+      "stodlarare": {
+        "stodord": [
+          "vågerosion",
+          "vågor",
+          "slipmedel",
+          "klippa",
+          "raukar",
+          "kalksten",
+          "Gotland",
+          "tid"
+        ],
+        "startfraser": [
+          "Vågerosion sker när havets vågor slår mot kusten...",
+          "Två krafter arbetar samtidigt — vattnets kraft och slipmedel...",
+          "Olika landformer uppstår beroende på berggrund...",
+          "Gotland är ett tydligt exempel..."
+        ],
+        "tip_for_struktur": "Börja med vad vågerosion är. Förklara sedan de två krafter som arbetar tillsammans (vattnets slag + slipmedel). Lista de landformer som kan bildas. Avsluta med att förklara Gotlands raukar som konkret exempel på processen."
+      }
+    },
+    {
+      "id": "6a-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur vågerosion påverkar samhället, både direkt och i kombination med klimatförändring.",
+      "modellsvar": "Vågerosion är inte bara en naturkraft som formar dramatiska landskap. Den påverkar också människor direkt och konkret, på sätt som blir allt allvarligare med klimatförändringen. Direkt påverkar vågerosionen alla samhällen som ligger nära kuster. Hus, vägar, hamnar och annan infrastruktur nära havet kan hotas när stranden eller strandbrinken försvinner. För att skydda sig bygger människor vågbrytare, stenskoningar, artificiella strandvallar och andra konstruktioner. Men dessa skydd har ofta oavsiktliga konsekvenser. Sand och material längs en kust transporteras ständigt i en pågående ström. När en kommun bygger ett skydd fastnar sanden som tidigare nådde grannkommunens strand. Då börjar grannkommunens strand erodera istället. Kusten är ett sammanhängande system — vad som görs på en plats påverkar platser flera kilometer bort. När man lägger till klimatförändring blir bilden ännu allvarligare. Två oberoende effekter förstärker varandra. För det första stiger havsnivån globalt eftersom inlandsisar smälter och havsvatten utvidgas av värme. För det andra blir stormar kraftigare eftersom varmare hav ger mer energi till lågtryckssystem. Tillsammans betyder dessa förändringar att vågerosion nu fungerar snabbare och mer dramatiskt än någonsin under historisk tid. För Sveriges del syns detta särskilt vid Skånes sydkust, där erosionen redan idag har gjort att sommarstugor måste rivas och vägar omplaneras. Globalt är situationen ännu allvarligare. Låga öar som Tuvalu och delar av Maldiverna riskerar att försvinna under detta århundrade. Bangladesh, med 160 miljoner invånare, har stora delar bara några meter över havsnivån. Vågerosion är därför ett av geografins tydligaste exempel på hur naturkrafter och samhällsbeslut möts — och på hur klimatförändringen förvandlar en naturlig process till en av samhällets mest akuta utmaningar.",
+      "stodlarare": {
+        "stodord": [
+          "vågerosion",
+          "samhälle",
+          "skydd",
+          "vågbrytare",
+          "klimatförändring",
+          "havsnivå",
+          "stormar",
+          "Skåne",
+          "globalt"
+        ],
+        "startfraser": [
+          "Vågerosion påverkar samhället direkt...",
+          "Människor bygger skydd, men de kan flytta problemet vidare...",
+          "Klimatförändring förstärker vågerosionen genom två effekter...",
+          "Både i Sverige och globalt är detta en växande utmaning..."
+        ],
+        "tip_for_struktur": "Börja med direkt påverkan — hus, vägar, hamnar nära kusten. Förklara mänskliga skydd och deras oavsiktliga konsekvenser. Lägg sedan till klimatförändringens roll: stigande hav + kraftigare stormar. Avsluta med konkreta exempel — Skåne (Sverige) och Tuvalu/Bangladesh (globalt)."
+      }
+    },
+    {
+      "id": "6b-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur vinderosion fungerar och vilka landformer den skapar. Varför är sanddyner särskilt viktiga för kustsamhällen?",
+      "modellsvar": "Vinderosion är den process där luften — inte vattnet — flyttar material från markytan. Vinden kan lyfta, rulla eller blåsa bort små partiklar: sand, silt, torr jord, damm. Det är vanligast i miljöer med löst material och lite vegetation — öknar, sandstränder, torra jordbruksmarker. Vinden flyttar material på tre olika sätt beroende på partikelstorlek. De allra minsta partiklarna lyfts högt upp i luften och kan färdas tusentals kilometer som damm — det kallas suspension. Sandkorn studsar fram nära markytan i små hopp på 10-50 centimeter åt gången — det kallas saltation, och det är hur sanddyner byggs upp. Grövre material rullas eller knuffas långsamt längs marken — krypning. Tillsammans kan dessa processer flytta enorma mängder material över tid. När sandkorn slipar mot stenar och berg kan vinden också forma berg, även om processen är långsammare än vid kuster och floder. Den mest karakteristiska landformen som vinden skapar är sanddyner. En dyn bildas när vinden tappar fart bakom ett hinder och sanden samlas där. Sanddyner är levande landskap — de rör sig i vindens riktning, eftersom vinden blåser sand uppför ena sidan och ner på den andra. Sanddyner är särskilt viktiga för kustsamhällen eftersom de fungerar som naturliga vågbrytare. De bromsar vinden, binder sanden och skyddar landet bakom mot stormar och högt vatten. Bakom dynerna kan känsligare vegetation och människors bostäder överleva storm-väder de annars inte skulle klara. Det som håller dynerna stabila är inte sanden i sig utan växterna — strandråg och andra dyngräs vars djupa rötter binder sanden. Om vegetationen försvinner blåser sanden bort och hela skyddet försvagas. Det är därför svenska sandstrand-områden ofta har skyltar som ber besökare att hålla sig till markerade stigar. Sanddyner är inte bara vacker natur — de är konkreta skydd för samhällen bakom dem.",
+      "stodlarare": {
+        "stodord": [
+          "vinderosion",
+          "vind",
+          "sand",
+          "sanddyn",
+          "saltation",
+          "vegetation",
+          "strandråg",
+          "skydd",
+          "kust"
+        ],
+        "startfraser": [
+          "Vinderosion är när luften flyttar material...",
+          "Vinden transporterar material på tre olika sätt...",
+          "Sanddyner är den mest karakteristiska landformen...",
+          "Sanddyner skyddar kustsamhällen genom att..."
+        ],
+        "tip_for_struktur": "Definiera vinderosion. Beskriv de tre transport-metoderna (damm/sand/grövre). Förklara sanddyner som landform. Avsluta med varför sanddyner är viktiga som skydd för samhällen — och varför vegetationen där måste skyddas."
+      }
+    },
+    {
+      "id": "6b-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur människor både kan förstärka och försvaga vinderosion, med Dust Bowl eller Sahel som exempel.",
+      "modellsvar": "Vinderosion är en naturlig process som funnits så länge det funnits torra områden och vind. Men människans användning av marken kan dramatiskt påverka hur snabbt den arbetar — antingen genom att förstärka den eller försvaga den. Människan förstärker vinderosionen genom att ta bort allt som binder marken. När skog huggs ner försvinner rötter som höll jorden på plats. När mark plöjs sönder och lämnas bar exponeras matjorden för vinden. När djur tillåts beta för hårt — överbete — försvinner gräset som annars skulle skydda marken. Och när torra jordar lämnas utan vintergrödor är de särskilt sårbara. Resultatet kan bli förödande, vilket Dust Bowl-katastrofen i 1930-talets USA visar tydligt. De stora prärierna i Oklahoma, Texas och Kansas hade länge varit gräslandskap där buffel-gräs med djupa rötter band jorden. När europeiska bönder plöjde upp prärien för veteodling försvann det djupa rotsystemet. När torra år följde varandra på 1930-talet och bönder övergav sina åkrar låg marken bar — och vindarna tog över. Dammstormarna som följde mörklade himlen mitt på dagen, hus täcktes av jord, och 2,5 miljoner människor flydde området. Men människan kan också försvaga vinderosionen genom medvetna åtgärder. Lärdomarna från Dust Bowl ledde till metoder som idag används globalt: trädridåer som vindskydd vid åkrarnas kanter, marker som hålls täckta med växter året om, plöjning vinkelrätt mot vinden, växelbruk istället för monokulturer. I Sahel-bältet söder om Sahara används idag liknande metoder. Stora Gröna Muren — ett afrikanskt projekt — försöker plantera en kontinent-spännande korridor av träd från Atlanten till Röda havet för att bromsa ökenspridningen. Detta visar en grundläggande lärdom: vinderosion är inte enbart en naturkraft. Den är en process där människans beslut direkt påverkar hur snabbt jorden förändras.",
+      "stodlarare": {
+        "stodord": [
+          "vinderosion",
+          "förstärka",
+          "försvaga",
+          "vegetation",
+          "Dust Bowl",
+          "Sahel",
+          "jordbruk",
+          "vindskydd",
+          "markvård"
+        ],
+        "startfraser": [
+          "Människan kan både förstärka och försvaga vinderosionen...",
+          "Genom att ta bort vegetation förstärks erosionen...",
+          "Dust Bowl visar vad som händer när jorden lämnas bar...",
+          "Medveten markvård kan vända processen..."
+        ],
+        "tip_for_struktur": "Etablera principen att människan påverkar vinderosionens hastighet. Beskriv hur man kan förstärka den (avskogning, plöjning, överbete). Använd Dust Bowl eller Sahel som konkret exempel. Avsluta med vad människor gör för att försvaga den."
+      }
+    },
+    {
+      "id": "6c-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur floderosion fungerar och vilka landformer den skapar i olika delar av en flods lopp.",
+      "modellsvar": "Floderosion är när rinnande vatten nöter, river loss och transporterar material. Det kan ske i små bäckar, åar och stora floder. Mekaniskt arbetar floden med två krafter samtidigt — vattnets egen kraft som trycker mot bankar och botten, och de stenar och grus som vattnet bär med sig och fungerar som slipmedel. Detta är samma grundprincip som vid vågerosionen, fast nu med rinnande vatten istället för vågor. Olika delar av en flods lopp ger olika typer av landformer. I bergsområden där vattnet rinner snabbt och brant, skär floden sig ner i berggrunden och bildar V-formade dalar — smala och spetsiga i botten. Där bergarter har olika hårdhet bildas forsar och vattenfall, eftersom mjukare berg eroderas snabbare än hårdare. Niagarafallen är ett klassiskt exempel — det vandrar långsamt uppströms eftersom mjukare berg under det hårda toppskiktet vittrar bort. När floden kommer ner i flackare landskap rinner vattnet långsammare. Då börjar floden slingra sig fram i stora böjar som kallas meandrar. I varje meander rinner vattnet snabbare i ytterkurvan (där stranden eroderar) och långsammare i innerkurvan (där sand och grus avlagras). Hela meandern vandrar därför långsamt i sidled. När en meander blir mycket kraftig kan floden snöras av och bilda en korvsjö — en isolerad, böjd sjö som visar var floden tidigare rann. I de allra flackaste områdena bygger floden också upp landformer. Flodslätter är breda, flacka områden längs floden där översvämningar lämnat näringsrik silt — några av världens mest bördiga jordbruksmarker. Och där floden mynnar ut i havet eller en sjö bildas deltan — triangelformade landområden av sediment, som Nilens, Mississippis och Brahmaputras deltan. Floderosion är därför en process som både bryter ner (i bergsområden) och bygger upp (vid mynningar) — samma kraft, olika resultat beroende på var floden befinner sig.",
+      "stodlarare": {
+        "stodord": [
+          "floderosion",
+          "vatten",
+          "V-dal",
+          "meander",
+          "ytterkurva",
+          "innerkurva",
+          "korvsjö",
+          "delta",
+          "flodslätt"
+        ],
+        "startfraser": [
+          "Floderosion är när rinnande vatten flyttar material...",
+          "I bergsområden bildas V-dalar och vattenfall...",
+          "I flackare landskap slingrar floden sig i meandrar...",
+          "Vid mynningen bygger floden upp deltan..."
+        ],
+        "tip_for_struktur": "Definiera floderosion och dess mekanik. Beskriv landformer i bergsområden (V-dalar, forsar). Förklara meandrar och korvsjöar i flacka områden. Avsluta med uppbyggande landformer — flodslätter och deltan. Visa att samma kraft ger olika resultat beroende på sluttning och hastighet."
+      }
+    },
+    {
+      "id": "6c-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur människan har förändrat världens floder och vilka oväntade konsekvenser det får. Använd Nilen som konkret exempel.",
+      "modellsvar": "Människan har förändrat de flesta av världens stora floder genom dammbyggen, uträtning av flodfåror, borttagande av våtmarker och hårdgörning av enorma markområden. Konsekvenserna är ofta paradoxala — människans försök att kontrollera floder leder ofta till mer problem, inte färre. När en flod rätas ut får vattnet högre hastighet, vilket ökar erosionen i botten och kanterna. När mark hårdgörs med asfalt rinner regnvatten snabbare mot floderna, vilket ökar översvämningsrisken. Dammar skapar något särskilt intressant: 'hungrigt vatten' nedanför dammen. När dammen fångar upp sediment uppströms, släpps rent vatten ut nedströms. Detta vatten har energi att transportera material men inget material att bära — så det börjar erodera flodbotten och stränderna kraftigt nedanför dammen. Samtidigt får områden längre nedströms — som deltan — för lite nytt sediment, vilket gör dem sårbara. Nilen är det mest pedagogiska exemplet. I över fem tusen år förlitade sig den egyptiska civilisationen på Nilens årliga översvämningar. Floden eroderade näringsrik vulkanisk jord från Etiopiens berg, transporterade den tusentals kilometer norrut, och avlagrade den på Egyptens åkrar under varje sommars översvämning. Detta gjorde Egypten till en av världens äldsta och mest stabila jordbrukscivilisationer. Sedan byggdes Aswandammen 1960-1970. Dammen ger Egypten elektricitet och bevattningsvatten året om — verkliga vinster. Men sedimentet fastnar nu i Nassersjön och når aldrig fram till åkrarna eller deltat. Konsekvenserna är allvarliga: jordbruket behöver konstgödsel, Nildeltat krymper när vågorna äter av en yta som inte längre fylls på med ny silt, och saltvatten tränger in i grundvattnet och förstör tidigare jordbruksmark. Liknande mönster syns vid Mississippideltat, Indusdeltat och Mekongdeltat. Detta visar något generellt om floderosion: det är inte bara en naturkraft som formar landskap, utan ett system där människans val just nu påverkar miljontals människor om femtio eller hundra år. Att förstå floderosion handlar därför inte bara om geografi — utan om hur naturkrafter och samhällsbeslut hänger samman över generationer.",
+      "stodlarare": {
+        "stodord": [
+          "floderosion",
+          "dammar",
+          "hungrigt vatten",
+          "Nilen",
+          "Aswan",
+          "delta",
+          "sediment",
+          "konsekvenser",
+          "samhälle"
+        ],
+        "startfraser": [
+          "Människan har förändrat floder genom dammar, rätningar och hårdgjord mark...",
+          "Konsekvenserna är ofta paradoxala...",
+          "Hungrigt vatten uppstår nedanför dammar när sediment fastnat...",
+          "Nilen är det mest pedagogiska exemplet..."
+        ],
+        "tip_for_struktur": "Beskriv hur människan förändrar floder generellt. Förklara begreppet 'hungrigt vatten' och varför det uppstår. Använd Nilen som konkret exempel: civilisationens beroende av floderosionen, Aswandammens fördelar, och de växande problemen för Nildeltat. Avsluta med den generella lärdomen om hur ingrepp på en plats påverkar miljontals människor på andra platser."
+      }
+    },
+    {
+      "id": "6d-r01",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur glaciärerosion fungerar och vilka spår den lämnat i det svenska landskapet.",
+      "modellsvar": "Glaciärerosion sker när stora ismassor rör sig långsamt över landskapet. En glaciär fungerar som en mycket långsam flod av is — när isen blir tjock pressas den utåt och nedåt av sin egen tyngd. Under rörelsen nöter, slipar och river den i marken och berggrunden. Mekaniskt arbetar glaciärer på två sätt. Slipning sker när sand, grus och stenar som sitter fastfrusna i isens undersida skrapar mot berget som ett enormt sandpapper. Detta gör berghällar slätta och rundade — så kallade rundhällar. Det skapar också parallella repor i berget — isräfflor. Plockning sker när vatten tränger ner i sprickor, fryser, och rycks loss av isens rörelse. Blocken fryser fast i isen och transporteras vidare. På en rundhäll syns båda processerna: en slipad sida där isen kom ifrån, en brant och sönderbruten sida där isen plockade loss block. Sverige bär istidens spår överallt. Under den senaste istiden täckte den fennoskandiska inlandsisen hela Sverige — flera kilometer tjock på vissa platser. När isen rörde sig och senare smälte, lämnade den efter sig flera olika typer av spår. Rundhällar och isräfflor visar isens rörelseriktning över hela landet. Flyttblock — stora stenar som isen transporterat — ligger ofta på platser där bergarten inte hör hemma; vissa har färdats hundratals kilometer. Rullstensåsar är långa ryggar av sorterat material som avlagrats av smältvatten i tunnlar under isen — Uppsalaåsen är en av världens längsta. Klapperstensfält är områden med rundade stenar som vågor slipat vid gamla stränder, ofta nu högt över dagens havsnivå eftersom landet höjt sig. Slutligen finns Sveriges 100 000 sjöar — i sänkor som isen gröpt ur eller där moränen dämmer upp vatten. Det svenska landskapet är ett ungt landskap, format för bara 11 000 år sedan av en process vars resultat vi lever i varje dag.",
+      "stodlarare": {
+        "stodord": [
+          "glaciärerosion",
+          "inlandsis",
+          "slipning",
+          "plockning",
+          "rundhäll",
+          "isräfflor",
+          "flyttblock",
+          "rullstensås",
+          "sjöar"
+        ],
+        "startfraser": [
+          "Glaciärerosion sker när stora ismassor rör sig långsamt...",
+          "Två mekanismer arbetar samtidigt — slipning och plockning...",
+          "Sverige bär istidens spår överallt...",
+          "Det svenska landskapet är ett ungt landskap..."
+        ],
+        "tip_for_struktur": "Definiera glaciärerosion. Förklara de två mekanismerna (slipning och plockning). Lista istidens olika spår i svenska landskapet — rundhällar, isräfflor, flyttblock, rullstensåsar, klapperstensfält, sjöar. Avsluta med att betona hur ungt och formbart det svenska landskapet är."
+      }
+    },
+    {
+      "id": "6d-r02",
+      "type": "redogorelse",
+      "niva": "grundlaggande",
+      "fraga": "Förklara hur man kan 'läsa landskapet' och se istidens spår överallt omkring sig.",
+      "modellsvar": "Att kunna 'läsa landskapet' är en av geografins finaste gåvor. När man förstår vad olika landformer berättar, slutar naturen att vara bara fin utsikt och börjar bli en historisk berättelse. För svenskar är detta särskilt rikt, eftersom nästan allt vi ser bär istidens spår. Ta en promenad i svensk skog. Bredvid stigen ligger ett flyttblock — en stor sten täckt av mossa. Den ser ut som vilken stor sten som helst, men om bergarten inte stämmer med marken under, har en glaciär transporterat den hit, kanske hundratals kilometer. Att stå vid ett flyttblock är att stå vid en sten som åkt längre än de flesta människor under sitt liv. På en berghäll en bit längre fram ser man en rundhäll — den är mjukt rundad på ena sidan och brantare på den andra. Den slipade sidan visar var isen kom ifrån, den brutna sidan vart den var på väg. Om man tittar noga ser man också isräfflor — parallella repor som bekräftar isens exakta riktning. Då kan man peka i den riktning inlandsisen rörde sig, för 15 000 år sedan. Sedan kommer man kanske till en lång, slingrande höjdrygg täckt av tall — det är en rullstensås. Inne i åsen finns rundade, sorterade stenar — bevis på att smältvatten skapade åsen, inte isen själv. Många av Sveriges gamla landsvägar går på sådana åsar, eftersom de är torra och stabila. Och om man går högt upp på en kulle ovanför havet och möts av rundade stenar utan vegetation — då står man på ett klapperstensfält. Det var en gång en strand, ofta hundra meter under där den ligger nu. Sedan har landet höjt sig och stranden hamnat högt upp. Den här typen av landskapsläsning ger en känsla av djup tid. Att förstå att det landskap vi tar för givet är resultatet av processer som vi inte själva kommer att se slutet på — det förvandlar promenaden till en tidsmaskin. Det är därför geografi inte bara handlar om att lära sig fakta, utan om att lära sig se. När man väl kan läsa istidens spår kan man aldrig sluta se dem.",
+      "stodlarare": {
+        "stodord": [
+          "läsa landskapet",
+          "istid",
+          "flyttblock",
+          "rundhäll",
+          "isräfflor",
+          "rullstensås",
+          "klapperstensfält",
+          "djup tid"
+        ],
+        "startfraser": [
+          "Att kunna läsa landskapet är en av geografins finaste gåvor...",
+          "På en promenad i svensk skog ser man istidens spår överallt...",
+          "Varje rundhäll är en kompass av sten...",
+          "Att förstå landskapet ger en känsla av djup tid..."
+        ],
+        "tip_for_struktur": "Etablera idén om att läsa landskapet. Beskriv vandring genom svensk natur och vad man kan se: flyttblock, rundhäll med isräfflor, rullstensås, klapperstensfält. För varje landform, förklara vad den berättar. Avsluta med den större poängen om djup tid och hur kunskap förändrar hur man ser naturen."
+      }
+    }
+  ]
+}

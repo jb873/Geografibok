@@ -1,0 +1,176 @@
+{
+  "a7_sluttningsprocesser": {
+    "titel": "Sluttningsprocesser",
+    "kommentar_struktur": "Stramare än avsnitt 6 — 5 huvudfrågor utan uppföljningsfrågor. Utvecklade textfält planeras till framtida runda när begreppsbank skapas (likt demografi-avsnittet).",
+    "fragor": [
+      {
+        "id": "7-huvud-allmant",
+        "typ": "huvudfraga",
+        "underdel": "a",
+        "rubrik": "Sluttningsprocesser",
+        "fraga": "Redogör för sluttningsprocesser. Vad är en sluttningsprocess? Vilka olika sorters sluttningsprocesser finns det?",
+        "storage_nyckel": "geo-elevbok-a7_sluttningsprocesser-allmant-sammanfattning",
+        "stodlarare": {
+          "aktiv": true,
+          "begrepp_att_leta_efter": [
+            "sluttningsprocess",
+            "tyngdkraften",
+            "ras",
+            "jordskred",
+            "slamström",
+            "lavin",
+            "material",
+            "lutning",
+            "vatten",
+            "sluttning"
+          ],
+          "sambandsled_att_leta_efter": [
+            {"text": "material rör sig nedför", "fortsattning": "en sluttning"},
+            {"text": "drivs av", "fortsattning": "tyngdkraften"},
+            {"text": "fyra typer", "fortsattning": "ras, jordskred, slamström, lavin"},
+            {"text": "vad som avgör", "fortsattning": "material, lutning, vatten, störning"}
+          ]
+        }
+      },
+      {
+        "id": "7a-huvud",
+        "typ": "huvudfraga",
+        "underdel": "a",
+        "rubrik": "Ras",
+        "fraga": "Redogör för ras och dess orsaker och konsekvenser.",
+        "storage_nyckel": "geo-elevbok-a7_sluttningsprocesser-7a-huvud-sammanfattning",
+        "stodlarare": {
+          "aktiv": true,
+          "begrepp_att_leta_efter": [
+            "ras",
+            "sten",
+            "brant",
+            "frostvittring",
+            "vittring",
+            "erosion",
+            "skyddsnät",
+            "bergbultar",
+            "rasbrant",
+            "tyngdkraften",
+            "lösa partiklar"
+          ],
+          "sambandsled_att_leta_efter": [
+            {"text": "material lossnar", "fortsattning": "faller, rullar, studsar"},
+            {"text": "frostvittring spräcker", "fortsattning": "berget"},
+            {"text": "vatten i sprickor fryser", "fortsattning": "utvidgas, pressar"},
+            {"text": "stenar rullar nedför", "fortsattning": "får hög fart"},
+            {"text": "skyddsnät fångar", "fortsattning": "fallande sten"}
+          ]
+        }
+      },
+      {
+        "id": "7b-huvud",
+        "typ": "huvudfraga",
+        "underdel": "b",
+        "rubrik": "Jordskred",
+        "fraga": "Redogör för jordskred och dess orsaker och konsekvenser.",
+        "storage_nyckel": "geo-elevbok-a7_sluttningsprocesser-7b-huvud-sammanfattning",
+        "stodlarare": {
+          "aktiv": true,
+          "begrepp_att_leta_efter": [
+            "jordskred",
+            "glidyta",
+            "kvicklera",
+            "lera",
+            "sammanhängande massa",
+            "havslera",
+            "älverosion",
+            "landhöjning",
+            "Västsverige",
+            "geoteknisk undersökning"
+          ],
+          "sambandsled_att_leta_efter": [
+            {"text": "stor mängd jord glider", "fortsattning": "som sammanhängande massa"},
+            {"text": "längs en svag yta", "fortsattning": "glidyta"},
+            {"text": "kvicklera kan plötsligt", "fortsattning": "bli flytande"},
+            {"text": "saltjoner har lakats", "fortsattning": "ur leran"},
+            {"text": "älverosion vid foten", "fortsattning": "tar bort stöd"}
+          ]
+        }
+      },
+      {
+        "id": "7c-huvud",
+        "typ": "huvudfraga",
+        "underdel": "c",
+        "rubrik": "Slamström",
+        "fraga": "Redogör för slamström och dess orsaker och konsekvenser.",
+        "storage_nyckel": "geo-elevbok-a7_sluttningsprocesser-7c-huvud-sammanfattning",
+        "stodlarare": {
+          "aktiv": true,
+          "begrepp_att_leta_efter": [
+            "slamström",
+            "vatten",
+            "brant",
+            "löst material",
+            "lahar",
+            "tre saker",
+            "kraftigt regn",
+            "snösmältning",
+            "hydrofobi",
+            "skogsbrand"
+          ],
+          "sambandsled_att_leta_efter": [
+            {"text": "vatten blandas med", "fortsattning": "jord, lera, sten"},
+            {"text": "tjockare än en flod", "fortsattning": "som flytande betong"},
+            {"text": "tre saker måste finnas", "fortsattning": "brant + vatten + löst material"},
+            {"text": "lahar bildas när", "fortsattning": "vulkanaska + vatten"}
+          ]
+        }
+      },
+      {
+        "id": "7d-huvud",
+        "typ": "huvudfraga",
+        "underdel": "d",
+        "rubrik": "Laviner",
+        "fraga": "Redogör för laviners olika sorter och dess orsaker och konsekvenser.",
+        "storage_nyckel": "geo-elevbok-a7_sluttningsprocesser-7d-huvud-sammanfattning",
+        "stodlarare": {
+          "aktiv": true,
+          "begrepp_att_leta_efter": [
+            "lavin",
+            "snö",
+            "flaklavin",
+            "lös snölavin",
+            "våt lavin",
+            "brottlinje",
+            "snölager",
+            "30-45 grader",
+            "lavinprognos",
+            "tyngdkraften"
+          ],
+          "sambandsled_att_leta_efter": [
+            {"text": "snö rasar nedför", "fortsattning": "en sluttning"},
+            {"text": "flaklavin lossnar som", "fortsattning": "ett sammanhängande flak"},
+            {"text": "lös snölavin börjar i", "fortsattning": "en punkt, solfjäder-form"},
+            {"text": "svagt lager under hårt", "fortsattning": "kan brista"},
+            {"text": "luften tar slut på", "fortsattning": "15-30 minuter"}
+          ]
+        }
+      }
+    ],
+    "vanliga_sarkrivningar_for_hela_avsnittet": [
+      "sluttnings process → sluttningsprocess",
+      "tyngd kraften → tyngdkraften",
+      "jord skred → jordskred",
+      "slam ström → slamström",
+      "frost vittring → frostvittring",
+      "ras brant → rasbrant",
+      "skydds nät → skyddsnät",
+      "berg bultar → bergbultar",
+      "kvick lera → kvicklera",
+      "glid yta → glidyta",
+      "havs lera → havslera",
+      "vulkan utbrott → vulkanutbrott",
+      "skogs brand → skogsbrand",
+      "flak lavin → flaklavin",
+      "snö lager → snölager",
+      "brott linje → brottlinje",
+      "lavin prognos → lavinprognos"
+    ]
+  }
+}

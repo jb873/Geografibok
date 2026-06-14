@@ -36,6 +36,27 @@
       "titel": "Vittring",
       "youtube_id": "4EVfKIcvaRE",
       "langd": ""
+    },
+    {
+      "id": "f_vagerosion",
+      "avsnitt_id": "a6_erosion",
+      "titel": "Vågerosion",
+      "youtube_id": "mJSdtldCYv0",
+      "langd": ""
+    },
+    {
+      "id": "f_vinderosion",
+      "avsnitt_id": "a6_erosion",
+      "titel": "Vinderosion",
+      "youtube_id": "hIUjekKxkrM",
+      "langd": ""
+    },
+    {
+      "id": "f_mineraler_bergarter",
+      "avsnitt_id": "a8_jordytan",
+      "titel": "Mineraler och bergarter",
+      "youtube_id": "Opu4UqTJPts",
+      "langd": ""
     }
   ]
 }

@@ -126,6 +126,148 @@
           "fraga": "Redogör för kemisk vittring, med fokus på kalkstensvittring. Förklara hur grottor som Lummelundagrottorna bildas, och vad ett karstlandskap är. Använd begreppen: kemisk vittring, kolsyra, kalksten, kalkstensvittring, stalaktit, stalagmit, karstlandskap och Lummelunda."
         }
       ]
+    },
+    {
+      "id": "a6_erosion",
+      "nummer": 6,
+      "titel": "Erosion",
+      "_kommentar": "Modell huvudfråga + uppföljningsfrågor (rikare än a1-a5). q-id med -huvud är huvudfrågor (avsedda för sammanfattningsruta + stödlärare när den återaktiveras); -uppfoljning-N är kortare följdfrågor. Alla renderas just nu som vanliga svarsrutor i ordning. Kravord/sambandsled per huvudfråga finns i geologi-kvalitetskriterier.json.",
+      "fragor": [
+        {
+          "id": "6a-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för vågerosion. Få med hur erosionen fungerar och hur den påverkar naturen."
+        },
+        {
+          "id": "6a-uppfoljning-1",
+          "typ": "grund",
+          "fraga": "På vilket sätt påverkar vågerosionen människan?"
+        },
+        {
+          "id": "6b-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för vinderosion. Få med hur erosionen fungerar och hur den påverkar naturen, samhället och människor."
+        },
+        {
+          "id": "6b-uppfoljning-1",
+          "typ": "grund",
+          "fraga": "Varför ska man vara rädd om sanddyner vid en badstrand?"
+        },
+        {
+          "id": "6b-uppfoljning-2",
+          "typ": "grund",
+          "fraga": "Hur påverkar vinderosionen jordbruksmarkerna?"
+        },
+        {
+          "id": "6c-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för floderosion. Få med hur erosionen fungerar och hur den påverkar naturen."
+        },
+        {
+          "id": "6c-uppfoljning-1",
+          "typ": "grund",
+          "fraga": "Redogör för hur människan förändrat floderna så det får en negativ påverkan på samhället och individer."
+        },
+        {
+          "id": "6d-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för glaciärerosion. Få med hur erosionen fungerar och hur den påverkar naturen."
+        },
+        {
+          "id": "6d-uppfoljning-1",
+          "typ": "grund",
+          "fraga": "Vilka är de vanliga spåren som glaciärerosionen har skapat som vi kan se i naturen?"
+        }
+      ]
+    },
+    {
+      "id": "a7_sluttningsprocesser",
+      "nummer": 7,
+      "titel": "Sluttningsprocesser",
+      "_kommentar": "5 huvudfrågor (en allmän + en per underdel a-d), inga uppföljningsfrågor. Källspec: data/elevbok/geologi/avsnitt-7-elevbok.json. Kravord/sambandsled per fråga finns i geologi-kvalitetskriterier.json (stödläraren pausad).",
+      "fragor": [
+        {
+          "id": "7-huvud-allmant",
+          "typ": "grund",
+          "fraga": "Redogör för sluttningsprocesser. Vad är en sluttningsprocess? Vilka olika sorters sluttningsprocesser finns det?"
+        },
+        {
+          "id": "7a-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för ras och dess orsaker och konsekvenser."
+        },
+        {
+          "id": "7b-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för jordskred och dess orsaker och konsekvenser."
+        },
+        {
+          "id": "7c-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för slamström och dess orsaker och konsekvenser."
+        },
+        {
+          "id": "7d-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för laviners olika sorter och dess orsaker och konsekvenser."
+        }
+      ]
+    },
+    {
+      "id": "a8_jordytan",
+      "nummer": 8,
+      "titel": "Jordytan",
+      "_kommentar": "5 huvudfrågor (8B har två: bergartsgrupper + bergartscykeln). Källspec: data/elevbok/geologi/avsnitt-8-elevbok.json. Kravord/sambandsled per fråga finns i geologi-kvalitetskriterier.json (stödläraren pausad).",
+      "fragor": [
+        {
+          "id": "8a-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för mineraler. Vilka är de vanligaste mineralerna?"
+        },
+        {
+          "id": "8b1-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för bergarternas olika grupper. Vilka är de bergarter vi ska kunna och känna igen inom varje grupp?"
+        },
+        {
+          "id": "8b2-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för bergartscykeln."
+        },
+        {
+          "id": "8c-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för jordarter."
+        },
+        {
+          "id": "8d-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för jordmåner. Hur bildas de? Vilka är de vanligaste i Sverige?"
+        }
+      ]
+    },
+    {
+      "id": "a9_sarbara_platser",
+      "nummer": 9,
+      "titel": "Sårbara platser",
+      "_kommentar": "3 huvudfrågor (9b/9c/9d — en per naturkraft). Underdel 9A (resonemangsmetoden) har medvetet INGEN egen fråga; metoden tillämpas i de tre andra. Källspec: data/elevbok/geologi/avsnitt-9-elevbok.json. Kravord/sambandsled finns i geologi-kvalitetskriterier.json (stödläraren pausad).",
+      "fragor": [
+        {
+          "id": "9b-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för sårbara platser som är relaterade till jordbävningar. Var finns dessa platser? På vilket sätt kan de påverka människor och samhället negativt?"
+        },
+        {
+          "id": "9c-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för sårbara platser som är relaterade till vulkaner. Var finns dessa platser? På vilket sätt kan de påverka människor och samhället negativt?"
+        },
+        {
+          "id": "9d-huvud",
+          "typ": "grund",
+          "fraga": "Redogör för sårbara platser som är relaterade till översvämningar. Var finns dessa platser? På vilket sätt kan de påverka människor och samhället negativt?"
+        }
+      ]
     }
   ]
 }

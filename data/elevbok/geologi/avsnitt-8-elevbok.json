@@ -1,0 +1,216 @@
+{
+  "a8_jordytan": {
+    "titel": "Jordytan",
+    "kommentar_struktur": "Fem huvudfrågor utan uppföljningsfrågor — samma stramare struktur som avsnitt 7. En fråga om mineraler (8A), en om bergartsgrupperna (8B), en om bergartscykeln (8B), en om jordarter (8C), en om jordmåner (8D). Utvecklade textfält planeras till framtida runda när begreppsbank skapas (likt demografi-avsnittet).",
+    "fragor": [
+      {
+        "id": "8a-huvud",
+        "typ": "huvudfraga",
+        "underdel": "a",
+        "rubrik": "Mineraler",
+        "fraga": "Redogör för mineraler. Vilka är de vanligaste mineralerna?",
+        "storage_nyckel": "geo-elevbok-a8_jordytan-8a-huvud-sammanfattning",
+        "stodlarare": {
+          "aktiv": true,
+          "begrepp_att_leta_efter": [
+            "mineral",
+            "kemisk sammansättning",
+            "kristallstruktur",
+            "byggsten",
+            "bergart",
+            "fältspat",
+            "kvarts",
+            "glimmer",
+            "granit",
+            "kisel",
+            "syre"
+          ],
+          "sambandsled_att_leta_efter": [
+            {"text": "naturligt ämne med bestämd", "fortsattning": "kemisk sammansättning och kristallstruktur"},
+            {"text": "mineraler bygger upp", "fortsattning": "bergarter"},
+            {"text": "vanligaste mineralerna innehåller", "fortsattning": "kisel och syre"},
+            {"text": "granit består av", "fortsattning": "fältspat, kvarts och glimmer"},
+            {"text": "fältspat är", "fortsattning": "det vanligaste mineralet"}
+          ]
+        }
+      },
+      {
+        "id": "8b1-huvud",
+        "typ": "huvudfraga",
+        "underdel": "b",
+        "rubrik": "Bergarternas grupper",
+        "fraga": "Redogör för bergarternas olika grupper. Vilka är de bergarter vi ska kunna och känna igen inom varje grupp?",
+        "storage_nyckel": "geo-elevbok-a8_jordytan-8b1-huvud-sammanfattning",
+        "stodlarare": {
+          "aktiv": true,
+          "begrepp_att_leta_efter": [
+            "bergart",
+            "tre huvudgrupper",
+            "magmatisk",
+            "sedimentär",
+            "metamorf",
+            "magma",
+            "lava",
+            "djupbergart",
+            "gångbergart",
+            "ytbergart",
+            "granit",
+            "diabas",
+            "basalt",
+            "pimpsten",
+            "sandsten",
+            "lersten",
+            "kalksten",
+            "marmor",
+            "gnejs",
+            "skiffer",
+            "fossil"
+          ],
+          "sambandsled_att_leta_efter": [
+            {"text": "magmatiska bergarter bildas när", "fortsattning": "smält berg stelnar"},
+            {"text": "sedimentära bergarter bildas av", "fortsattning": "hoppressade lager av sediment"},
+            {"text": "metamorfa bergarter omvandlas av", "fortsattning": "tryck och värme"},
+            {"text": "djupbergarter har", "fortsattning": "stora kristaller (granit)"},
+            {"text": "ytbergarter har", "fortsattning": "små kristaller (basalt)"},
+            {"text": "sedimentära innehåller ofta", "fortsattning": "fossil"}
+          ]
+        }
+      },
+      {
+        "id": "8b2-huvud",
+        "typ": "huvudfraga",
+        "underdel": "b",
+        "rubrik": "Bergartscykeln",
+        "fraga": "Redogör för bergartscykeln.",
+        "storage_nyckel": "geo-elevbok-a8_jordytan-8b2-huvud-sammanfattning",
+        "stodlarare": {
+          "aktiv": true,
+          "begrepp_att_leta_efter": [
+            "bergartscykeln",
+            "kretslopp",
+            "miljontals år",
+            "magma",
+            "magmatisk",
+            "vittring",
+            "erosion",
+            "sediment",
+            "sedimentär",
+            "tryck",
+            "värme",
+            "metamorf",
+            "smältning",
+            "stelning",
+            "jordens inre värme"
+          ],
+          "sambandsled_att_leta_efter": [
+            {"text": "magma stelnar och bildar", "fortsattning": "magmatisk bergart"},
+            {"text": "vittring och erosion bryter ner", "fortsattning": "till sediment"},
+            {"text": "lager pressas ihop till", "fortsattning": "sedimentär bergart"},
+            {"text": "tryck och värme omvandlar till", "fortsattning": "metamorf bergart"},
+            {"text": "smältning vid hög temperatur ger", "fortsattning": "magma på nytt"},
+            {"text": "bergarter bildas inte bara", "fortsattning": "en gång — det är ett kretslopp"}
+          ]
+        }
+      },
+      {
+        "id": "8c-huvud",
+        "typ": "huvudfraga",
+        "underdel": "c",
+        "rubrik": "Jordarter",
+        "fraga": "Redogör för jordarter.",
+        "storage_nyckel": "geo-elevbok-a8_jordytan-8c-huvud-sammanfattning",
+        "stodlarare": {
+          "aktiv": true,
+          "begrepp_att_leta_efter": [
+            "jordart",
+            "berggrunden",
+            "istiden",
+            "inlandsisen",
+            "morän",
+            "isälvsmaterial",
+            "lera",
+            "sand",
+            "grus",
+            "torv",
+            "osorterat",
+            "sorterat",
+            "rullstensås",
+            "landhöjning",
+            "smältvatten"
+          ],
+          "sambandsled_att_leta_efter": [
+            {"text": "jordart är det lösa material", "fortsattning": "ovanpå berggrunden"},
+            {"text": "morän bildades direkt av", "fortsattning": "inlandsisen — osorterat material"},
+            {"text": "isälvsmaterial sorterades av", "fortsattning": "smältvatten"},
+            {"text": "lera bildades på", "fortsattning": "havs- och sjöbottnar"},
+            {"text": "landhöjningen lyfte upp", "fortsattning": "gamla havsbottnar som odlingsmark"},
+            {"text": "torv bildas i", "fortsattning": "blöta, syrefattiga våtmarker"}
+          ]
+        }
+      },
+      {
+        "id": "8d-huvud",
+        "typ": "huvudfraga",
+        "underdel": "d",
+        "rubrik": "Jordmåner",
+        "fraga": "Redogör för jordmåner. Hur bildas de? Vilka är de vanligaste i Sverige?",
+        "storage_nyckel": "geo-elevbok-a8_jordytan-8d-huvud-sammanfattning",
+        "stodlarare": {
+          "aktiv": true,
+          "begrepp_att_leta_efter": [
+            "jordmån",
+            "jordart",
+            "humus",
+            "horisont",
+            "podsol",
+            "brunjord",
+            "torvjord",
+            "barrskog",
+            "lövskog",
+            "urlakning",
+            "anrikning",
+            "näringsfattig",
+            "näringsrik",
+            "klimat",
+            "växtlighet"
+          ],
+          "sambandsled_att_leta_efter": [
+            {"text": "jordmån är det övre lagret där", "fortsattning": "växter växer och organiskt material blandas"},
+            {"text": "jordmån skiljer sig från jordart", "fortsattning": "jordart = material, jordmån = utvecklat lager"},
+            {"text": "podsol bildas i barrskog där", "fortsattning": "marken är sur och urlakning sker"},
+            {"text": "ljusgrått lager + rödbrunt lager är", "fortsattning": "podsolens diagnostiska signatur"},
+            {"text": "brunjord bildas i lövskog där", "fortsattning": "näringen återförs istället för att lakas bort"},
+            {"text": "torvjord bildas i", "fortsattning": "våtmarker där växter inte bryts ner helt"}
+          ]
+        }
+      }
+    ],
+    "vanliga_sarkrivningar_for_hela_avsnittet": [
+      "kemisk samman sättning → kemisk sammansättning",
+      "kristall struktur → kristallstruktur",
+      "berg art → bergart",
+      "djup bergart → djupbergart",
+      "gång bergart → gångbergart",
+      "yt bergart → ytbergart",
+      "magma tisk → magmatisk",
+      "sand sten → sandsten",
+      "ler sten → lersten",
+      "kalk sten → kalksten",
+      "bergart scykeln → bergartscykeln",
+      "is älv → isälv",
+      "is älvs material → isälvsmaterial",
+      "rull stens ås → rullstensås",
+      "land höjning → landhöjning",
+      "smält vatten → smältvatten",
+      "torv mark → torvmark",
+      "jord mån → jordmån",
+      "barr skog → barrskog",
+      "löv skog → lövskog",
+      "ur lakning → urlakning",
+      "an rikning → anrikning",
+      "tor jord → torvjord",
+      "humus lager → humuslager",
+      "modermaterial → modermaterial"
+    ]
+  }
+}
