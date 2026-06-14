@@ -3,28 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Självskattning – Geologi</title>
-  <link rel="stylesheet" href="../../css/geografi.css">
-  <link rel="stylesheet" href="../../css/geologi.css">
+  <title>Självskattning – Geografi</title>
+  <link rel="stylesheet" href="../css/geografi.css">
 </head>
 <body>
   <main class="sida kapitel-vy matris-sida">
 
     <nav class="brodsmulor" aria-label="Brödsmulor">
-      <a href="../../index.html">Geografi</a>
+      <a href="../index.html">Geografi</a>
       <span class="skiljare" aria-hidden="true">›</span>
-      <a href="index.html">Geologi</a>
+      <a href="index.html">Ämnesöversikt</a>
       <span class="skiljare" aria-hidden="true">›</span>
       <span class="aktuell" aria-current="page">Självskattning</span>
     </nav>
 
     <header class="titelblock">
-      <span class="delkapitel-label">Kapitelverktyg</span>
-      <h1>Självskattning – Geologi</h1>
-      <p class="subtitel">— bedöm vad du kan, moment för moment —</p>
+      <span class="delkapitel-label">Ämnesverktyg</span>
+      <h1>Självskattning – Geografi</h1>
+      <p class="subtitel">— bedöm vad du kan i hela ämnet —</p>
     </header>
 
     <div id="sjalvskattning-verktyg"></div>
+    <div id="sjalvskattning-chips" class="kelev-chips"></div>
     <div id="sjalvskattning-statistik" class="kelev-stats"></div>
 
     <div class="kelev-layout">
@@ -37,11 +37,9 @@
   </main>
 
   <script>
-    const KAPITEL_ID_VAR = 'geologi';
-    const KAPITEL_TITEL = 'Geologi';
-    window.MATRIS_URL = '../../data/matris/geologi/matris.json';
+    const AMNE_ID = 'geografi';
   </script>
-  <script src="../../js/elevdata-overforing.js" defer></script>
-  <script src="../../js/sjalvskattning-vy.js" defer></script>
+  <script src="../js/elevdata-overforing.js" defer></script>
+  <script src="../js/sjalvskattning-vy.js" defer></script>
 </body>
 </html>

@@ -2591,6 +2591,314 @@ a.resurs-kort:hover {
   line-height: 1.5;
 }
 
+/* ============================================================
+   Export/Import av elevdata (js/elevdata-overforing.js)
+   ============================================================ */
+.elevdata-knappar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0 0 1.25rem;
+}
+.elevdata-knapp {
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  background-color: var(--paper-light);
+  border: 1px solid var(--brass);
+  border-radius: 4px;
+  color: var(--ink);
+  padding: 0.5rem 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+.elevdata-knapp:hover { background-color: #faf4e4; }
+
+.elevdata-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(27, 42, 54, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem;
+  z-index: 1000;
+}
+.elevdata-panel {
+  background-color: var(--paper);
+  border: 1px solid var(--brass);
+  border-radius: 6px;
+  max-width: 30rem;
+  width: 100%;
+  padding: 1.5rem 1.6rem;
+  box-shadow: 0 8px 30px rgba(27, 42, 54, 0.35);
+  font-family: var(--font-body);
+  color: var(--ink);
+}
+.elevdata-rubrik {
+  font-family: var(--font-heading);
+  color: var(--ocean);
+  margin: 0 0 0.7rem;
+}
+.elevdata-sammanfattning { font-weight: 600; }
+.elevdata-varning {
+  color: var(--blood);
+  font-style: italic;
+  font-size: 0.95rem;
+}
+.elevdata-knapprad {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.1rem;
+}
+
+/* ============================================================
+   Kapitel-/ämnesvy (kompakt översikt) — .kapitel-vy
+   Tätare typografi än avsnittssidorna; gäller BARA dessa
+   översiktsvyer. Avsnittssidornas generösa layout är orörd.
+   ============================================================ */
+.kapitel-vy { font-size: 15px; line-height: 1.4; }
+
+.kelev-layout {
+  display: flex;
+  gap: 1.6rem;
+  align-items: flex-start;
+}
+.kelev-nav-wrap {
+  flex: 0 0 13rem;
+  position: sticky;
+  top: 1rem;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+}
+.kelev-nav { display: flex; flex-direction: column; gap: 0.15rem; }
+.kelev-nav-lank {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--ink);
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border-left: 2px solid transparent;
+  border-radius: 2px;
+}
+.kelev-nav-lank:hover {
+  border-left-color: var(--brass);
+  background-color: var(--paper-light);
+}
+.kelev-innehall { flex: 1 1 auto; min-width: 0; }
+
+.kelev-stats {
+  background-color: var(--paper-light);
+  border: 1px solid rgba(184, 144, 42, 0.4);
+  border-radius: 4px;
+  padding: 0.6rem 0.9rem;
+  margin-bottom: 1.4rem;
+}
+.kelev-stats-text { font-weight: 600; font-size: 0.95rem; }
+.kelev-progressbar {
+  margin-top: 0.45rem;
+  height: 7px;
+  background-color: rgba(27, 42, 54, 0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.kelev-progressfyll {
+  height: 100%;
+  background-color: var(--land);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.kelev-avsnitt { margin-bottom: 1.6rem; }
+.kelev-avsnitt-rubrik {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  color: var(--ocean);
+  border-bottom: 1px solid rgba(184, 144, 42, 0.4);
+  padding-bottom: 0.25rem;
+  margin: 0 0 0.8rem;
+}
+
+.kelev-fraga { margin-bottom: 1.5em; }
+.kelev-fraga-kontext {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  letter-spacing: 0.07em;
+  color: var(--brass);
+}
+.kelev-fraga-text {
+  font-family: var(--font-body);
+  margin: 0.15em 0 0.4em;
+}
+.kelev-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 3.2em;
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.4;
+  padding: 0.55em 0.7em;
+  border: 1px solid rgba(27, 42, 54, 0.25);
+  border-radius: 4px;
+  background-color: #fffdf6;
+  color: var(--ink);
+  resize: vertical;
+}
+.kelev-textarea:focus {
+  outline: none;
+  border-color: var(--ocean);
+}
+.kelev-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.2em;
+}
+.kelev-ord { font-size: 0.8rem; color: var(--muted); }
+.kelev-fordjupning { border-left: 2px solid var(--brass); padding-left: 0.8em; }
+
+.kelev-sokrad { margin: 0 0 1.2rem; }
+.kelev-sok {
+  width: 100%;
+  max-width: 24rem;
+  box-sizing: border-box;
+  font-family: var(--font-body);
+  font-size: 15px;
+  padding: 0.5em 0.8em;
+  border: 1px solid rgba(27, 42, 54, 0.25);
+  border-radius: 4px;
+  background-color: #fffdf6;
+  color: var(--ink);
+}
+.kelev-sok:focus { outline: none; border-color: var(--ocean); }
+
+/* Ämnesvy: kapitelgruppering + filterchips */
+.kelev-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 1.2rem; }
+.kelev-chip {
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  background-color: var(--paper-light);
+  border: 1px solid rgba(184, 144, 42, 0.5);
+  border-radius: 999px;
+  color: var(--ink);
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+}
+.kelev-chip.aktiv { background-color: var(--brass); border-color: var(--brass); color: var(--paper); }
+.kelev-kapitel { margin-bottom: 2.2rem; }
+.kelev-kapitel-rubrik {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  color: var(--terra);
+  margin: 0 0 1rem;
+}
+.kelev-nav-kapitel {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  color: var(--brass);
+  margin: 0.6rem 0 0.2rem;
+}
+
+/* ============================================================
+   Självskattning (js/sjalvskattning-vy.js)
+   ============================================================ */
+.skatt-avsnitt { margin-bottom: 1.6rem; }
+.skatt-avsnitt-rubrik {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  color: var(--ocean);
+  border-bottom: 1px solid rgba(184, 144, 42, 0.4);
+  padding-bottom: 0.25rem;
+  margin: 0 0 0.7rem;
+}
+.skatt-moment {
+  border-bottom: 1px solid rgba(27, 42, 54, 0.08);
+  padding: 0.5rem 0;
+}
+.skatt-rad {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.skatt-text {
+  flex: 1 1 16rem;
+  font-family: var(--font-body);
+}
+.skatt-text.klickbar { cursor: pointer; }
+.skatt-expandpil { color: var(--brass); font-size: 0.8em; }
+.skatt-kategori {
+  display: inline-block;
+  margin-left: 0.5em;
+  font-family: var(--font-heading);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  border: 1px solid rgba(107, 94, 76, 0.4);
+  border-radius: 999px;
+  padding: 0.05em 0.5em;
+  vertical-align: middle;
+}
+.skatt-knappar { display: flex; gap: 0.35rem; flex-wrap: wrap; }
+.skatt-knapp {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  background-color: var(--paper-light);
+  border: 1.5px solid var(--muted);
+  border-radius: 4px;
+  color: var(--ink);
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+.skatt-knapp.farg-gron { border-color: #4a6d2a; }
+.skatt-knapp.farg-gul { border-color: #d49020; }
+.skatt-knapp.farg-rod { border-color: #b04a2a; }
+.skatt-knapp.farg-gron.aktiv { background-color: #4a6d2a; color: #fff; }
+.skatt-knapp.farg-gul.aktiv { background-color: #d49020; color: #fff; }
+.skatt-knapp.farg-rod.aktiv { background-color: #b04a2a; color: #fff; }
+.skatt-fortydligande {
+  margin: 0.45rem 0 0.2rem;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  color: var(--muted);
+  border-left: 2px solid var(--brass);
+  padding-left: 0.7em;
+}
+
+.skatt-fordelning { margin-top: 0.6rem; display: flex; flex-direction: column; gap: 0.3rem; }
+.skatt-fordelning-rad { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; }
+.skatt-prick {
+  width: 0.8em; height: 0.8em; border-radius: 50%;
+  display: inline-block; flex: 0 0 auto;
+}
+.skatt-fordelning-label { flex: 0 0 7rem; }
+.skatt-fordelning-spar {
+  flex: 1 1 auto; height: 7px; border-radius: 4px;
+  background-color: rgba(27, 42, 54, 0.1); overflow: hidden;
+}
+.skatt-fordelning-fyll { display: block; height: 100%; }
+.skatt-fordelning-antal { flex: 0 0 auto; color: var(--muted); font-size: 0.8rem; }
+.skatt-prick.farg-gron, .skatt-fordelning-fyll.farg-gron { background-color: #4a6d2a; }
+.skatt-prick.farg-gul, .skatt-fordelning-fyll.farg-gul { background-color: #d49020; }
+.skatt-prick.farg-rod, .skatt-fordelning-fyll.farg-rod { background-color: #b04a2a; }
+.skatt-prick.farg-ljus, .skatt-fordelning-fyll.farg-ljus { background-color: #c9bfa8; }
+
+@media (max-width: 720px) {
+  .kelev-layout { flex-direction: column; }
+  .kelev-nav-wrap {
+    position: static;
+    flex-basis: auto;
+    max-height: none;
+    width: 100%;
+  }
+  .kelev-nav { flex-direction: row; flex-wrap: wrap; }
+}
+
 @media (max-width: 600px) {
   .lamningar-tabell { font-size: 0.92rem; }
   .lamningar-tabell thead th,

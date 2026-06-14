@@ -9,11 +9,10 @@
 (function () {
   'use strict';
 
-  // Tröskel: 15 ord + minst 1 nyckelord
-  // Pedagogisk princip: utförlighet (ord) + grundförståelse (nyckelord)
-  // Tröskeln kan justeras om vi senare ser att den är för enkel eller svår
-  var MIN_ORD = 15;
-  var MIN_NYCKELORD = 1;
+  // Tröskel: 8 ord (plattformsstandard). Dynamisk upplåsning — låses upp
+  // när texten når tröskeln och låses igen om eleven raderar under den.
+  // Inga nyckelord (borttaget 2026-06-15 för att minska konstgjorda hinder).
+  var MIN_ORD = 8;
   var AUTOSPARA_DEBOUNCE = 2000;
   var SPARAD_VISNINGSTID = 3000;
 
@@ -23,13 +22,6 @@
     return text.trim().split(/\s+/).filter(function (o) {
       return o.length > 0;
     }).length;
-  }
-
-  function matchaNyckelord(text, nyckelord) {
-    var normalText = text.toLowerCase();
-    return nyckelord.filter(function (nyckel) {
-      return normalText.indexOf(nyckel.toLowerCase()) !== -1;
-    });
   }
 
   function nyEl(tagg, klass) {
@@ -96,55 +88,44 @@
 
     // ---------- Tillstånd och logik ----------
 
-    var nyckelord = begrepp.nyckelord || [];
-    var antalNyckelord = nyckelord.length;
-
     function renderaProgress() {
-      var text = textarea.value;
-      var ord = raknaOrd(text);
-      var traffade = matchaNyckelord(text, nyckelord).length;
-
-      // Bygg nyckelords-prickar (visar inte VILKA nyckelord)
-      var prickar = '';
-      for (var i = 0; i < antalNyckelord; i++) {
-        var traffad = i < traffade;
-        prickar += '<span class="nyckelord-pricka' +
-          (traffad ? ' traffad' : '') + '">' +
-          (traffad ? '✓' : '◯') + '</span>';
-      }
-
+      var ord = raknaOrd(textarea.value);
       progress.innerHTML =
-        '<span class="progress-ord">' + ord + ' / ' + MIN_ORD + ' ord</span>' +
-        '<span class="progress-sep">•</span>' +
-        '<span class="progress-nyckel">Nyckelord: ' + prickar + '</span>';
-
-      return { ord: ord, traffade: traffade };
+        '<span class="progress-ord">' + ord + ' / ' + MIN_ORD + ' ord</span>';
+      return { ord: ord };
     }
 
     function uppfyllerKrav(status) {
-      return status.ord >= MIN_ORD && status.traffade >= MIN_NYCKELORD;
+      return status.ord >= MIN_ORD;
     }
 
-    // Sätter kortets visuella tillstånd. Upplåst är permanent.
+    // Sätter kortets visuella tillstånd. Dynamiskt: upplåst beräknas live
+    // från textlängd, och förklaringen döljs igen om texten faller under tröskeln.
     function uppdateraTillstand() {
       var status = renderaProgress();
-      var redanUpplast = Elevbok.arBegreppUpplast(delkapitel, begrepp.id);
       var harText = textarea.value.trim().length > 0;
+      var upplast = uppfyllerKrav(status);
 
       kort.classList.remove('begrepp-tomt', 'begrepp-skriva', 'begrepp-upplast');
 
-      if (redanUpplast) {
+      if (upplast) {
         kort.classList.add('begrepp-upplast');
         ikon.textContent = '✓';
         knapp.disabled = false;
       } else if (harText) {
         kort.classList.add('begrepp-skriva');
         ikon.textContent = '◯';
-        knapp.disabled = !uppfyllerKrav(status);
+        knapp.disabled = true;
       } else {
         kort.classList.add('begrepp-tomt');
         ikon.textContent = '◯';
         knapp.disabled = true;
+      }
+
+      // Föll under tröskeln igen → dölj förklaringspanelen.
+      if (!upplast && !panel.classList.contains('dold')) {
+        panel.classList.add('dold');
+        knapp.textContent = 'Visa förklaring';
       }
       return status;
     }
@@ -168,6 +149,7 @@
     textarea.addEventListener('input', function () {
       autoExpand();
       uppdateraTillstand();
+      if (typeof onUpplast === 'function') { onUpplast(); } // live avsnittsprogress
       if (sparaTimer) {
         clearTimeout(sparaTimer);
       }
@@ -180,18 +162,10 @@
       }
     }
 
-    // Knapp: lås upp vid första klick, toggla sedan visa/dölj.
+    // Knapp: toggla visa/dölj förklaring (ingen permanent upplåsning).
     knapp.addEventListener('click', function () {
       if (knapp.disabled) {
         return;
-      }
-      // Markera upplåst permanent första gången.
-      if (!Elevbok.arBegreppUpplast(delkapitel, begrepp.id)) {
-        Elevbok.markeraBegreppUpplast(delkapitel, begrepp.id);
-        uppdateraTillstand();
-        if (typeof onUpplast === 'function') {
-          onUpplast();
-        }
       }
       var visar = !panel.classList.contains('dold');
       if (visar) {
@@ -218,7 +192,7 @@
     autoExpand();
 
     kort._arUpplast = function () {
-      return Elevbok.arBegreppUpplast(delkapitel, begrepp.id);
+      return raknaOrd(textarea.value) >= MIN_ORD;
     };
 
     return kort;

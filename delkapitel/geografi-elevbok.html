@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elevbok – Geografi</title>
+  <link rel="stylesheet" href="../css/geografi.css">
+</head>
+<body>
+  <main class="sida kapitel-vy elevbok-sida">
+
+    <nav class="brodsmulor" aria-label="Brödsmulor">
+      <a href="../index.html">Geografi</a>
+      <span class="skiljare" aria-hidden="true">›</span>
+      <a href="index.html">Ämnesöversikt</a>
+      <span class="skiljare" aria-hidden="true">›</span>
+      <span class="aktuell" aria-current="page">Elevbok</span>
+    </nav>
+
+    <header class="titelblock">
+      <span class="delkapitel-label">Ämnesverktyg</span>
+      <h1>Elevbok – Geografi</h1>
+      <p class="subtitel">— alla dina sammanfattningar i hela ämnet —</p>
+    </header>
+
+    <div id="amne-elevbok-verktyg"></div>
+    <div id="amne-elevbok-chips" class="kelev-chips"></div>
+
+    <div class="kelev-layout">
+      <nav class="kelev-nav-wrap" aria-label="Innehåll">
+        <div id="amne-elevbok-nav" class="kelev-nav"></div>
+      </nav>
+      <div id="amne-elevbok-innehall" class="kelev-innehall"></div>
+    </div>
+
+  </main>
+
+  <script>
+    const AMNE_ID = 'geografi';
+  </script>
+  <script src="../js/elevbok.js"></script>
+  <script src="../js/avsnitt.js"></script>
+  <script src="../js/elevdata-overforing.js" defer></script>
+  <script src="../js/amne-elevbok.js" defer></script>
+</body>
+</html>

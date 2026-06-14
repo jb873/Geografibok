@@ -1,0 +1,8 @@
+{
+  "amne": "geografi",
+  "_kommentar": "Lista över delkapitel (kapitel) i geografi-ämnet. Läses av ämnesnivå-vyerna för att aggregera över alla kapitel utan hårdkodning. begreppKalla: 'flipcards' (begreppsdata i flipcards-pooler) eller 'begrepp-json' (separat begrepp.json). Sätt klar:false för kapitel under uppbyggnad.",
+  "delkapitel": [
+    { "id": "demografi", "titel": "Demografi", "ordning": 1, "klar": true, "begreppKalla": "begrepp-json", "begreppUrl": "demografi/data/begrepp.json" },
+    { "id": "geologi", "titel": "Geologi", "ordning": 2, "klar": true, "begreppKalla": "begrepp-json", "begreppUrl": "geologi/data/begreppsbank-geologi.json", "matrisUrl": "../data/matris/geologi/matris.json" }
+  ]
+}

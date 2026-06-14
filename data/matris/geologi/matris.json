@@ -1,0 +1,481 @@
+{
+  "kapitel_id": "geologi",
+  "kapitel_titel": "Geologi",
+  "version": 2,
+  "skapad": "2026-06-15",
+  "kommentar": "Andra versionen av geologi-matrisen, reviderad efter Joachims feedback. Tre principer styr formuleringarna: (1) Verbval — 'beskriva' bara för uppenbart enkla moment, 'redogöra för' som standard (innefattar både beskriva och förklara), 'förklara' för tydliga processer. (2) Process > begrepp — eleven testas på att förstå mekanism, inte ordkunskap. (3) Specifika geologiska termer används i själva momentet ('spridningszon', 'floderosion', 'glaciärerosion') snarare än akademiska omformuleringar. Distinkta processer får egna moment även när de hör till samma tema. Joachim bearbetar vidare baserat på pedagogisk bedömning.",
+  "skattningsalternativ": [
+    {"id": "kan", "label": "Kan", "farg": "gron"},
+    {"id": "osaker", "label": "Osäker", "farg": "gul"},
+    {"id": "kan_ej", "label": "Kan ej", "farg": "rod"},
+    {"id": "ej_bedomt", "label": "Ej gjort bedömning", "farg": "ljus", "default": true}
+  ],
+  "moment": [
+
+    {
+      "id": "geologi-1-m1",
+      "avsnitt": "1",
+      "avsnitt_titel": "Jordens uppbyggnad",
+      "kategori": "begrepp",
+      "moment": "Kan redogöra för jordens lager: kärna, mantel och jordskorpa",
+      "fortydligande": "Du ska kunna namnge lagren från innerst till ytterst och redogöra för deras egenskaper — temperatur, tillstånd, tjocklek."
+    },
+    {
+      "id": "geologi-1-m2",
+      "avsnitt": "1",
+      "avsnitt_titel": "Jordens uppbyggnad",
+      "kategori": "fardighet",
+      "moment": "Kan förklara skillnaden mellan litosfär och astenosfär",
+      "fortydligande": "Du ska kunna förklara varför vi delar in jordens yttre del i en hård litosfär (jordskorpan plus övre manteln) och en mjukare, plastisk astenosfär under — och varför skillnaden är viktig för plattektoniken."
+    },
+    {
+      "id": "geologi-1-m3",
+      "avsnitt": "1",
+      "avsnitt_titel": "Jordens uppbyggnad",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur jordens inre värme driver geologiska processer",
+      "fortydligande": "Du ska kunna förklara varifrån värmen kommer (radioaktivt sönderfall plus kvarvarande bildningsvärme) och hur den orsakar konvektion i manteln, som i sin tur driver plattektoniken."
+    },
+
+    {
+      "id": "geologi-2-m1",
+      "avsnitt": "2",
+      "avsnitt_titel": "Plattektonik",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för vad som sker vid en spridningszon",
+      "fortydligande": "Du ska kunna förklara hur plattor rör sig isär, hur ny jordskorpa bildas, och var i världen detta sker — t.ex. mittoceanryggar och Island."
+    },
+    {
+      "id": "geologi-2-m2",
+      "avsnitt": "2",
+      "avsnitt_titel": "Plattektonik",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för vad som sker vid en subduktionszon",
+      "fortydligande": "Du ska kunna förklara hur en havsplatta pressas ner under en annan platta, vilka geologiska fenomen detta skapar (djuphavsgravar, vulkaner, jordbävningar) och var i världen subduktionszoner finns."
+    },
+    {
+      "id": "geologi-2-m3",
+      "avsnitt": "2",
+      "avsnitt_titel": "Plattektonik",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för vad som sker vid en transformförkastning",
+      "fortydligande": "Du ska kunna förklara hur plattor glider förbi varandra, hur spänningar byggs upp och släpper som jordbävningar, samt ge exempel som San Andreasförkastningen i Kalifornien."
+    },
+    {
+      "id": "geologi-2-m4",
+      "avsnitt": "2",
+      "avsnitt_titel": "Plattektonik",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur plattorna rör sig och vad som driver rörelsen",
+      "fortydligande": "Du ska kunna förklara att plattorna rör sig några centimeter per år, drivna av konvektionsströmmar i den underliggande astenosfären."
+    },
+    {
+      "id": "geologi-2-m5",
+      "avsnitt": "2",
+      "avsnitt_titel": "Plattektonik",
+      "kategori": "fardighet",
+      "moment": "Kan förklara varför jordbävningar och vulkaner koncentreras vid plattgränser",
+      "fortydligande": "Du ska kunna förklara kopplingen mellan plattrörelse och geologisk aktivitet — varför Eldringen och andra aktiva regioner ligger där de ligger."
+    },
+
+    {
+      "id": "geologi-3-m1",
+      "avsnitt": "3",
+      "avsnitt_titel": "Jordbävningar",
+      "kategori": "begrepp",
+      "moment": "Kan redogöra för begreppen förkastning, epicentrum och magnitud",
+      "fortydligande": "Du ska kunna förklara var en jordbävning sker (förkastning), vilken punkt på jordytan som ligger rakt ovanför skalvets ursprung (epicentrum), och hur styrkan mäts (magnitud)."
+    },
+    {
+      "id": "geologi-3-m2",
+      "avsnitt": "3",
+      "avsnitt_titel": "Jordbävningar",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur en jordbävning uppstår",
+      "fortydligande": "Du ska kunna förklara processen från att spänningar byggs upp i berggrunden till att de plötsligt släpper och sprider energi som seismiska vågor."
+    },
+    {
+      "id": "geologi-3-m3",
+      "avsnitt": "3",
+      "avsnitt_titel": "Jordbävningar",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur en tsunami bildas",
+      "fortydligande": "Du ska kunna förklara processen från undervattens-jordbävning till våg vid kust — hur havsbottnen förskjuts, hur vågen sprids snabbt över öppet hav och växer i höjd när den når grundare vatten."
+    },
+    {
+      "id": "geologi-3-m4",
+      "avsnitt": "3",
+      "avsnitt_titel": "Jordbävningar",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för konsekvenser av jordbävningar för människa och samhälle",
+      "fortydligande": "Du ska kunna redogöra för direkta och indirekta konsekvenser — skador på byggnader och infrastruktur, dödsoffer, ekonomisk påverkan, eventuell tsunami."
+    },
+
+    {
+      "id": "geologi-4-m1",
+      "avsnitt": "4",
+      "avsnitt_titel": "Vulkaner",
+      "kategori": "begrepp",
+      "moment": "Kan förklara skillnaden mellan magma och lava",
+      "fortydligande": "Du ska kunna förklara att det är samma material — smält berg — men att det heter magma under jordytan och lava när det når ytan."
+    },
+    {
+      "id": "geologi-4-m2",
+      "avsnitt": "4",
+      "avsnitt_titel": "Vulkaner",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för vad en stratovulkan är",
+      "fortydligande": "Du ska kunna förklara den klassiska konformade vulkantypen, hur den byggs upp av lager av lava och aska, och varför dess utbrott ofta är explosiva. Exempel: Vesuvius, Merapi, Fuji."
+    },
+    {
+      "id": "geologi-4-m3",
+      "avsnitt": "4",
+      "avsnitt_titel": "Vulkaner",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för vad en sköldvulkan är",
+      "fortydligande": "Du ska kunna förklara den breda, flacka vulkantypen, hur den byggs upp av lättflytande lava och varför dess utbrott är mer effusiva. Exempel: Mauna Loa på Hawaii."
+    },
+    {
+      "id": "geologi-4-m4",
+      "avsnitt": "4",
+      "avsnitt_titel": "Vulkaner",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur ett vulkanutbrott sker",
+      "fortydligande": "Du ska kunna förklara processen från att magma rör sig uppåt till att den når ytan, och vad som händer beroende på magmans egenskaper (trögflytande vs lättflytande)."
+    },
+    {
+      "id": "geologi-4-m5",
+      "avsnitt": "4",
+      "avsnitt_titel": "Vulkaner",
+      "kategori": "fardighet",
+      "moment": "Kan förklara fenomenet pyroklastiskt flöde",
+      "fortydligande": "Du ska kunna förklara det dödligaste av vulkanutbrottens fenomen — glödheta moln av gas, aska och sten som rör sig 100-700 km/h nerför vulkanens sluttningar."
+    },
+    {
+      "id": "geologi-4-m6",
+      "avsnitt": "4",
+      "avsnitt_titel": "Vulkaner",
+      "kategori": "fardighet",
+      "moment": "Kan förklara fenomenet lahar",
+      "fortydligande": "Du ska kunna förklara hur vulkanisk aska blandas med vatten och bildar slamströmmar som följer dalgångar och floder, ofta många mil från själva vulkanen."
+    },
+
+    {
+      "id": "geologi-5-m1",
+      "avsnitt": "5",
+      "avsnitt_titel": "Vittring",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur mekanisk vittring sker",
+      "fortydligande": "Du ska kunna förklara hur berg bryts ner fysiskt utan att den kemiska sammansättningen ändras — t.ex. genom temperaturväxlingar och tryck från is."
+    },
+    {
+      "id": "geologi-5-m2",
+      "avsnitt": "5",
+      "avsnitt_titel": "Vittring",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur kemisk vittring sker",
+      "fortydligande": "Du ska kunna förklara hur kemiska reaktioner förändrar mineralerna i berg — t.ex. oxidation (rost), lösning (kalksten i surt vatten) och hydrolys."
+    },
+    {
+      "id": "geologi-5-m3",
+      "avsnitt": "5",
+      "avsnitt_titel": "Vittring",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur biologisk vittring sker",
+      "fortydligande": "Du ska kunna förklara hur levande organismer bidrar till vittring — rötter som spränger berg, lavar som utsöndrar syror, djur som gräver."
+    },
+    {
+      "id": "geologi-5-m4",
+      "avsnitt": "5",
+      "avsnitt_titel": "Vittring",
+      "kategori": "fardighet",
+      "moment": "Kan förklara fenomenet frostsprängning",
+      "fortydligande": "Du ska kunna förklara den specifika mekaniska vittringsprocessen där vatten i bergsprickor fryser, utvidgas och spränger berget. Särskilt viktig i nordiska klimat."
+    },
+    {
+      "id": "geologi-5-m5",
+      "avsnitt": "5",
+      "avsnitt_titel": "Vittring",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för hur vittring formar landskap över tid",
+      "fortydligande": "Du ska kunna redogöra för hur långsamma vittringsprocesser bryter ner berg till mindre delar och bidrar till jordbildning över mycket lång tid."
+    },
+
+    {
+      "id": "geologi-6-m1",
+      "avsnitt": "6",
+      "avsnitt_titel": "Erosion och istiden",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur floderosion formar landskap",
+      "fortydligande": "Du ska kunna förklara hur rinnande vatten i floder eroderar berg och jord, transporterar material, och bildar dalar, kanjoner, meandringar och deltan."
+    },
+    {
+      "id": "geologi-6-m2",
+      "avsnitt": "6",
+      "avsnitt_titel": "Erosion och istiden",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur glaciärerosion formar landskap",
+      "fortydligande": "Du ska kunna förklara hur glaciärer och inlandsisar eroderar berggrunden — genom plockning och slipning — och vilka karakteristiska landformer detta skapar (U-dalar, rundhällar, jökelgrytor)."
+    },
+    {
+      "id": "geologi-6-m3",
+      "avsnitt": "6",
+      "avsnitt_titel": "Erosion och istiden",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur vinderosion formar landskap",
+      "fortydligande": "Du ska kunna förklara hur vind eroderar och transporterar fina partiklar — särskilt i torra områden — och hur sanddyner, lössavlagringar och vindslipade berg bildas."
+    },
+    {
+      "id": "geologi-6-m4",
+      "avsnitt": "6",
+      "avsnitt_titel": "Erosion och istiden",
+      "kategori": "begrepp",
+      "moment": "Kan redogöra för begreppen inlandsis, isälv och morän",
+      "fortydligande": "Du ska kunna förklara dessa centrala istidsbegrepp och hur de hänger ihop — inlandsisen som täckte Sverige, smältvattnet som rann under och från isen (isälvar), och det material isen lämnade efter sig (morän)."
+    },
+    {
+      "id": "geologi-6-m5",
+      "avsnitt": "6",
+      "avsnitt_titel": "Erosion och istiden",
+      "kategori": "begrepp",
+      "moment": "Kan redogöra för klassiska istidsspår: U-dal, rullstensås och rundhäll",
+      "fortydligande": "Du ska kunna identifiera dessa landformer och förklara hur var och en bildades under eller efter istiden."
+    },
+    {
+      "id": "geologi-6-m6",
+      "avsnitt": "6",
+      "avsnitt_titel": "Erosion och istiden",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur istiden formade Sveriges landskap",
+      "fortydligande": "Du ska kunna förklara att stora delar av Sveriges natur — fjäll, slätter, sjöar, åsar, lerjordar — är direkta resultat av den senaste istiden och landhöjningen efter."
+    },
+    {
+      "id": "geologi-6-m7",
+      "avsnitt": "6",
+      "avsnitt_titel": "Erosion och istiden",
+      "kategori": "fardighet",
+      "moment": "Kan tolka istidens spår i konkreta svenska landformer",
+      "fortydligande": "Du ska kunna se en landform — en rullstensås, ett moränlandskap, en U-dal i fjällen — och redogöra för hur den bildades under istiden."
+    },
+
+    {
+      "id": "geologi-7-m1",
+      "avsnitt": "7",
+      "avsnitt_titel": "Sluttningsprocesser",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för orsaken till varför ras sker",
+      "fortydligande": "Du ska kunna förklara hur fritt fallande sten och berg lossnar — ofta efter frostsprängning, kemisk vittring eller annan försvagning av berggrunden."
+    },
+    {
+      "id": "geologi-7-m2",
+      "avsnitt": "7",
+      "avsnitt_titel": "Sluttningsprocesser",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för orsaken till varför jordskred uppstår",
+      "fortydligande": "Du ska kunna förklara hur jordmassor glider på en stabilitetsyta — ofta orsakat av regn, snösmältning, jordbävning eller mänsklig påverkan."
+    },
+    {
+      "id": "geologi-7-m3",
+      "avsnitt": "7",
+      "avsnitt_titel": "Sluttningsprocesser",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur en slamström bildas",
+      "fortydligande": "Du ska kunna förklara processen där jord, sten och vatten blandas till en flytande massa som rör sig nerför sluttningar — ofta i samband med kraftiga regn eller vulkanutbrott (lahar)."
+    },
+    {
+      "id": "geologi-7-m4",
+      "avsnitt": "7",
+      "avsnitt_titel": "Sluttningsprocesser",
+      "kategori": "fardighet",
+      "moment": "Kan förklara fenomenet kvicklera",
+      "fortydligande": "Du ska kunna förklara den speciella egenskap där viss lera kan kollapsa plötsligt och bli flytande vid störning — vanlig i Sverige (Surte 1950) och Norge."
+    },
+    {
+      "id": "geologi-7-m5",
+      "avsnitt": "7",
+      "avsnitt_titel": "Sluttningsprocesser",
+      "kategori": "fardighet",
+      "moment": "Kan förklara den fysikaliska grunden för sluttningsstabilitet",
+      "fortydligande": "Du ska kunna förklara hur tyngdkraft och friktion samverkar för att hålla material på plats, och vilka faktorer (vatten, lutning, vegetation, mänsklig påverkan) som kan rubba jämvikten."
+    },
+    {
+      "id": "geologi-7-m6",
+      "avsnitt": "7",
+      "avsnitt_titel": "Sluttningsprocesser",
+      "kategori": "fardighet",
+      "moment": "Kan resonera kring varför vissa platser är mer sårbara för sluttningsprocesser än andra",
+      "fortydligande": "Du ska kunna analysera hur lutning, jordart, vegetation, klimat och mänsklig aktivitet samverkar — och ge exempel som Surte 1950 eller Armero 1985."
+    },
+
+    {
+      "id": "geologi-8-m1",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "begrepp",
+      "moment": "Kan redogöra för hierarkin mineraler → bergarter → jordarter → jordmåner",
+      "fortydligande": "Du ska kunna förklara pyramidens fyra nivåer och hur varje nivå byggs av nivån under — mineraler bygger bergarter, bergarter vittras till jordarter, jordarter utvecklas till jordmåner."
+    },
+    {
+      "id": "geologi-8-m2",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "begrepp",
+      "moment": "Kan redogöra för granitens mineraler: fältspat, kvarts och glimmer",
+      "fortydligande": "Du ska kunna identifiera de tre vanligaste mineralerna i granit, deras färg och form, och varför granit ser ut som den gör."
+    },
+    {
+      "id": "geologi-8-m3",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur magmatiska bergarter bildas",
+      "fortydligande": "Du ska kunna förklara hur smält berg svalnar och stelnar till bergarter — och skillnaden mellan djupbergarter (långsam avsvalning, stora kristaller som i granit) och ytbergarter (snabb avsvalning, små kristaller som i basalt)."
+    },
+    {
+      "id": "geologi-8-m4",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur sedimentära bergarter bildas",
+      "fortydligande": "Du ska kunna förklara hur sediment (sand, lera, kalkrester) avsätts i lager, pressas ihop och bildar bergarter som sandsten, lersten och kalksten."
+    },
+    {
+      "id": "geologi-8-m5",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur metamorfa bergarter bildas",
+      "fortydligande": "Du ska kunna förklara hur tryck och värme omvandlar bergarter utan att de smälter — t.ex. kalksten till marmor, granit till gnejs, lera till skiffer."
+    },
+    {
+      "id": "geologi-8-m6",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "fardighet",
+      "moment": "Kan förklara bergartscykeln",
+      "fortydligande": "Du ska kunna förklara hur bergarter omvandlas mellan de tre grupperna över mycket lång tid, drivet av jordens inre värme och yttre krafter."
+    },
+    {
+      "id": "geologi-8-m7",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för jordarten morän",
+      "fortydligande": "Du ska kunna förklara hur morän bildades direkt av inlandsisen, varför den är osorterad, och var i Sverige den dominerar."
+    },
+    {
+      "id": "geologi-8-m8",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för jordarten isälvsmaterial",
+      "fortydligande": "Du ska kunna förklara hur isälvsmaterial bildades av smältvatten, varför det är sorterat, och vad rullstensåsar är."
+    },
+    {
+      "id": "geologi-8-m9",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för jordarten lera",
+      "fortydligande": "Du ska kunna förklara hur lera bildades på havs- och sjöbottnar efter istiden, och hur landhöjningen lyfte upp lerbottnarna som idag är Sveriges viktigaste jordbruksbygder."
+    },
+    {
+      "id": "geologi-8-m10",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för jordarten torv",
+      "fortydligande": "Du ska kunna förklara hur torv bildas i våtmarker av delvis nedbrutet växtmaterial, och varför torvmarker är viktiga för klimatet."
+    },
+    {
+      "id": "geologi-8-m11",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur podsol bildas",
+      "fortydligande": "Du ska kunna förklara processen där sur barrskog och regnvatten lakar ur näringsämnen från det övre lagret, vilket skapar podsolens karakteristiska ljusgråa och rödbruna lager."
+    },
+    {
+      "id": "geologi-8-m12",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "fardighet",
+      "moment": "Kan förklara hur brunjord bildas",
+      "fortydligande": "Du ska kunna förklara processen där lövfall och daggmaskar blandar näring och humus med mineraljord — och varför brunjord är mer bördig än podsol."
+    },
+    {
+      "id": "geologi-8-m13",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "fardighet",
+      "moment": "Kan förklara skillnaden mellan jordart och jordmån",
+      "fortydligande": "Du ska kunna förklara den centrala pedagogiska skillnaden — jordart är markens grundmaterial, jordmån är det utvecklade övre lagret som bildats genom växter, klimat och tid."
+    },
+    {
+      "id": "geologi-8-m14",
+      "avsnitt": "8",
+      "avsnitt_titel": "Jordytan",
+      "kategori": "fardighet",
+      "moment": "Kan resonera kring hur jordart och jordmån formar Sveriges jordbruks- och naturlandskap",
+      "fortydligande": "Du ska kunna förklara varför Sveriges jordbruk koncentreras till leriga slätter i söder och Mälardalen, medan skogsbruket dominerar moränlandskap norrut."
+    },
+
+    {
+      "id": "geologi-9-m1",
+      "avsnitt": "9",
+      "avsnitt_titel": "Sårbara platser",
+      "kategori": "begrepp",
+      "moment": "Kan redogöra för begreppen naturfara, risk och sårbarhet",
+      "fortydligande": "Du ska kunna definiera och skilja mellan de tre begreppen — naturfara (vad naturen producerar), risk (sannolikhet plus konsekvens), sårbarhet (hur lätt något skadas) — och visa hur de hänger ihop."
+    },
+    {
+      "id": "geologi-9-m2",
+      "avsnitt": "9",
+      "avsnitt_titel": "Sårbara platser",
+      "kategori": "fardighet",
+      "moment": "Kan förklara sårbarhetsekvationen",
+      "fortydligande": "Du ska kunna förklara att naturfara + människor och samhälle + låg beredskap = hög sårbarhet — och varför det är samhället, inte naturen ensam, som skapar katastrofen."
+    },
+    {
+      "id": "geologi-9-m3",
+      "avsnitt": "9",
+      "avsnitt_titel": "Sårbara platser",
+      "kategori": "fardighet",
+      "moment": "Kan tillämpa 5-stegsmodellen för att resonera om en sårbar plats",
+      "fortydligande": "Du ska kunna gå igenom de fem stegen för en konkret plats — beskriv platsen och naturfaran, förklara orsaken, förklara sårbarheten, resonera om konsekvenser, resonera om förebyggande."
+    },
+    {
+      "id": "geologi-9-m4",
+      "avsnitt": "9",
+      "avsnitt_titel": "Sårbara platser",
+      "kategori": "fardighet",
+      "moment": "Kan resonera kring hur människan ökar sårbarhet",
+      "fortydligande": "Du ska kunna ge exempel på hur människans verksamhet ökar sårbarhet — bygga på utsatta platser, avskogning, hårdgjorda ytor i städer, fattigdom som hindrar förebyggande."
+    },
+    {
+      "id": "geologi-9-m5",
+      "avsnitt": "9",
+      "avsnitt_titel": "Sårbara platser",
+      "kategori": "fardighet",
+      "moment": "Kan resonera kring hur människan minskar sårbarhet",
+      "fortydligande": "Du ska kunna ge exempel på samhällsplaneringens verktyg — byggnormer, vallar, varningssystem, evakueringsplaner, riskkartor, smart markanvändning."
+    },
+    {
+      "id": "geologi-9-m6",
+      "avsnitt": "9",
+      "avsnitt_titel": "Sårbara platser",
+      "kategori": "fardighet",
+      "moment": "Kan jämföra olika sårbara platser och förklara varför konsekvenserna skiljer sig",
+      "fortydligande": "Du ska kunna använda jämförelser — Tokyo vs Haiti, Bangladesh vs Karlstad, Vesuvius vs Merapi — för att visa hur samma naturfara kan ge mycket olika konsekvenser beroende på samhällets resurser och beredskap."
+    },
+    {
+      "id": "geologi-9-m7",
+      "avsnitt": "9",
+      "avsnitt_titel": "Sårbara platser",
+      "kategori": "fardighet",
+      "moment": "Kan redogöra för var sårbara platser ofta finns geografiskt",
+      "fortydligande": "Du ska kunna förklara mönstret — plattgränser för jordbävningar och vulkaner, deltan och låglänta kuster för översvämningar, torra områden för torka, bergsområden för ras och lavin."
+    }
+
+  ]
+}

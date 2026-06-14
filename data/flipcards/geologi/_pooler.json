@@ -1,0 +1,15 @@
+{
+  "delkapitel": "geologi",
+  "_kommentar": "Manifest över flipcards-poolerna i detta kapitel. Läses av kapitel-begreppsbank.js (och ev. ämnesvyer) för att hitta alla begreppskort. Lägg till nya pooler här när nya avsnitt skapas.",
+  "pooler": [
+    "avsnitt-1-jordens-uppbyggnad.json",
+    "avsnitt-2-plattektonik.json",
+    "avsnitt-3-jordbavningar.json",
+    "avsnitt-4-vulkaner.json",
+    "avsnitt-5-vittring.json",
+    "avsnitt-6-erosion.json",
+    "avsnitt-7-sluttningsprocesser.json",
+    "avsnitt-8-jordytan.json",
+    "avsnitt-9-sarbara-platser.json"
+  ]
+}

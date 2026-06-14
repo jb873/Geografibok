@@ -3,39 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Begreppsbank – Geologi</title>
+  <title>Elevbok – Geologi</title>
   <link rel="stylesheet" href="../../css/geografi.css">
   <link rel="stylesheet" href="../../css/geologi.css">
 </head>
 <body>
-  <main class="sida kapitel-vy begreppsbank-sida">
+  <main class="sida kapitel-vy elevbok-sida">
 
     <nav class="brodsmulor" aria-label="Brödsmulor">
       <a href="../../index.html">Geografi</a>
       <span class="skiljare" aria-hidden="true">›</span>
       <a href="index.html">Geologi</a>
       <span class="skiljare" aria-hidden="true">›</span>
-      <span class="aktuell" aria-current="page">Begreppsbank</span>
+      <span class="aktuell" aria-current="page">Elevbok</span>
     </nav>
 
     <header class="titelblock">
       <span class="delkapitel-label">Kapitelverktyg</span>
-      <h1>Begreppsbank – Geologi</h1>
-      <p class="subtitel">— skriv egna definitioner och lås upp expertförklaringarna —</p>
+      <h1>Elevbok – Geologi</h1>
+      <p class="subtitel">— alla dina sammanfattningar samlade —</p>
     </header>
 
-    <div id="kapitel-begreppsbank-verktyg"></div>
-
-    <div class="kelev-sokrad">
-      <input type="search" id="kapitel-begreppsbank-sok" class="kelev-sok"
-             placeholder="Sök begrepp …" aria-label="Sök begrepp">
-    </div>
+    <div id="kapitel-elevbok-verktyg"></div>
 
     <div class="kelev-layout">
       <nav class="kelev-nav-wrap" aria-label="Innehåll">
-        <div id="kapitel-begreppsbank-nav" class="kelev-nav"></div>
+        <div id="kapitel-elevbok-nav" class="kelev-nav"></div>
       </nav>
-      <div id="kapitel-begreppsbank-innehall" class="kelev-innehall begreppsbank-innehall"></div>
+      <div id="kapitel-elevbok-innehall" class="kelev-innehall"></div>
     </div>
 
   </main>
@@ -44,8 +39,9 @@
     const DELKAPITEL_ID = 'geologi';
     const DELKAPITEL_TITEL = 'Geologi';
   </script>
+  <script src="../../js/elevbok.js"></script>
   <script src="../../js/avsnitt.js"></script>
   <script src="../../js/elevdata-overforing.js" defer></script>
-  <script src="../../js/kapitel-begreppsbank.js" defer></script>
+  <script src="../../js/kapitel-elevbok.js" defer></script>
 </body>
 </html>
