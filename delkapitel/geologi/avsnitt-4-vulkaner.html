@@ -25,15 +25,20 @@
     </header>
 
     <div class="flikar-rad" role="tablist">
-      <button type="button" class="flik aktiv" data-flik="laes" role="tab">Läs</button>
+      <button type="button" class="flik" data-flik="forelasning" role="tab">Föreläsning</button>
+        <button type="button" class="flik aktiv" data-flik="laes" role="tab">Läs</button>
       <button type="button" class="flik" data-flik="ova" role="tab">Öva</button>
       <button type="button" class="flik" data-flik="elevboken" role="tab">Elevboken</button>
     </div>
 
     <!-- ============= LÄS ============= -->
+    <section class="flik-innehall dold" data-flik="forelasning" role="tabpanel">
+      <div class="forelasningar-lista"></div>
+    </section>
+
     <section class="flik-innehall" data-flik="laes" role="tabpanel">
 
-      <div class="forelasningar-lista"></div>
+      
 
       <div class="underdel-valjare" role="tablist" aria-label="Textval">
           <button type="button" class="underdel-knapp aktiv" data-underdel="a" role="tab"><span class="underdel-bokstav">A</span><span class="underdel-titel">Var vulkaner finns</span></button>
