@@ -146,8 +146,9 @@
   function byggFragaBlock(kapitelId, avsnitt, fraga) {
     var block = el('div', 'kelev-fraga');
     if (fraga.typ === 'fordjupning') { block.classList.add('kelev-fordjupning'); }
-    block.appendChild(el('div', 'kelev-fraga-kontext',
-      'Avsnitt ' + avsnitt.nummer + (fraga.typ === 'fordjupning' ? ' · Fördjupning' : '')));
+    if (fraga.typ === 'fordjupning') {
+      block.appendChild(el('div', 'kelev-fraga-kontext', 'Fördjupning'));
+    }
     block.appendChild(el('div', 'kelev-fraga-text', fraga.fraga));
 
     var textarea = el('textarea', 'kelev-textarea');

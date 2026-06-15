@@ -59,19 +59,45 @@
       .then(function (r) { if (!r.ok) { throw new Error('HTTP ' + r.status); } return r.json(); })
       .then(function (data) {
         var u = data.upplasning || {};
-        if (typeof u.min_ord === 'number') { minOrd = u.min_ord; }
+        minOrd = (typeof u.min_ord === 'number') ? u.min_ord : 8;
         anvandNyckelord = !!u.anvand_nyckelord;
-        rendera(grupperaPerAvsnitt(data.begrepp || []));
+        rendera(grupperaPerAvsnitt(normalisera(data)));
       })
       .catch(function (e) { console.error('kapitel-begreppsbank:', e); visaFel(); });
+  }
+
+  // Stödjer både flat schema (begrepp[] med rubrik/expertdefinition + valfritt
+  // term) och demografins nested schema (avsnitt[].begrepp[] med term/forklaring).
+  // Normaliserar till { id, term, forklaring, nyckelord, etymologi, __avsnitt, __titel }.
+  function normalisera(data) {
+    if (Array.isArray(data.begrepp)) {
+      return data.begrepp.map(function (b) {
+        return {
+          id: b.id, term: b.term || b.rubrik, forklaring: b.expertdefinition || b.forklaring,
+          nyckelord: b.nyckelord || [], etymologi: b.etymologi || '',
+          __avsnitt: b.avsnitt, __titel: b.avsnitt_titel
+        };
+      });
+    }
+    var ut = [];
+    (data.avsnitt || []).forEach(function (a) {
+      (a.begrepp || []).forEach(function (b) {
+        ut.push({
+          id: b.id, term: b.term, forklaring: b.forklaring,
+          nyckelord: b.nyckelord || [], etymologi: b.etymologi || '',
+          __avsnitt: a.nummer, __titel: a.titel
+        });
+      });
+    });
+    return ut;
   }
 
   function grupperaPerAvsnitt(begrepp) {
     var ordning = [], karta = {};
     begrepp.forEach(function (b) {
-      var nyckel = b.avsnitt;
+      var nyckel = b.__avsnitt;
       if (!karta[nyckel]) {
-        karta[nyckel] = { nummer: b.avsnitt, titel: b.avsnitt_titel || '', begrepp: [] };
+        karta[nyckel] = { nummer: b.__avsnitt, titel: b.__titel || '', begrepp: [] };
         ordning.push(karta[nyckel]);
       }
       karta[nyckel].begrepp.push(b);
@@ -137,10 +163,10 @@
     var status = hamtaStatus(begrepp.id);
 
     var kort = el('div', 'begrepp-kort');
-    kort.setAttribute('data-term', (begrepp.rubrik || '').toLowerCase());
+    kort.setAttribute('data-term', (begrepp.term || '').toLowerCase());
 
     var ikon = el('span', 'begrepp-ikon', status.upplast ? '✓' : '◯');
-    var term = el('h3', 'begrepp-term', begrepp.rubrik || begrepp.id);
+    var term = el('h3', 'begrepp-term', begrepp.term || begrepp.id);
     term.insertBefore(ikon, term.firstChild);
     kort.appendChild(term);
 
@@ -161,7 +187,7 @@
 
     var panel = el('div', 'forklaring-panel dold');
     if (begrepp.etymologi) { panel.appendChild(el('div', 'forklaring-etymologi', begrepp.etymologi)); }
-    panel.appendChild(el('div', 'forklaring-text', begrepp.expertdefinition || ''));
+    panel.appendChild(el('div', 'forklaring-text', begrepp.forklaring || ''));
     kort.appendChild(panel);
 
     function visa() { panel.classList.remove('dold'); knapp.textContent = 'Dölj förklaring'; }

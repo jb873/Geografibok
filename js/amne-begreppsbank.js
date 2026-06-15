@@ -72,7 +72,7 @@
             var u = data.upplasning || {};
             var config = { minOrd: (typeof u.min_ord === 'number' ? u.min_ord : 8), anvandNyckelord: !!u.anvand_nyckelord };
             var begr = data.begrepp.map(function (b) {
-              return { id: b.id, rubrik: b.rubrik, forklaring: b.expertdefinition,
+              return { id: b.id, rubrik: b.term || b.rubrik, forklaring: b.expertdefinition,
                 nyckelord: b.nyckelord || [], etymologi: b.etymologi || '',
                 __avsnitt: b.avsnitt, __titel: b.avsnitt_titel };
             });

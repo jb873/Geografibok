@@ -105,9 +105,10 @@
     block.id = blockId(fraga.id);
     if (fraga.typ === 'fordjupning') { block.classList.add('kelev-fordjupning'); }
 
-    var kontext = 'Avsnitt ' + avsnitt.nummer +
-      (fraga.typ === 'fordjupning' ? ' · Fördjupning' : '');
-    block.appendChild(el('div', 'kelev-fraga-kontext', kontext));
+    // Frågorna grupperas redan under avsnittsrubriken – ingen "Avsnitt N"-label.
+    if (fraga.typ === 'fordjupning') {
+      block.appendChild(el('div', 'kelev-fraga-kontext', 'Fördjupning'));
+    }
     block.appendChild(el('div', 'kelev-fraga-text', fraga.fraga));
 
     var textarea = el('textarea', 'kelev-textarea');

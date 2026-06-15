@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Geografi – Demografi – Begreppsbank</title>
+  <title>Begreppsbank – Demografi</title>
   <link rel="stylesheet" href="../../css/geografi.css">
 </head>
 <body>
-  <main class="sida begreppsbank-sida">
+  <main class="sida kapitel-vy begreppsbank-sida">
 
     <nav class="brodsmulor" aria-label="Brödsmulor">
       <a href="../../index.html">Geografi</a>
@@ -17,37 +17,35 @@
       <span class="aktuell" aria-current="page">Begreppsbank</span>
     </nav>
 
-    <header class="avsnitt-header">
-      <span class="avsnitt-label">Delkapitel III</span>
-      <h1>BEGREPPSBANK</h1>
-      <p class="subtitel">— Skriv dina egna definitioner och jämför med expertförklaringar —</p>
+    <header class="titelblock">
+      <span class="delkapitel-label">Kapitelverktyg</span>
+      <h1>Begreppsbank – Demografi</h1>
+      <p class="subtitel">— skriv egna definitioner och lås upp expertförklaringarna —</p>
     </header>
 
-    <div class="ornament-rad" aria-hidden="true">✦ ✦ ✦</div>
+    <div id="kapitel-begreppsbank-verktyg"></div>
 
-    <div class="begreppsbank-layout">
-
-      <nav class="navigation-sidor navigation-mobil" aria-label="Avsnittsnavigation">
-        <div class="nav-rubrik">Avsnitt</div>
-        <div id="begreppsbank-nav"></div>
-      </nav>
-
-      <div id="begreppsbank-innehall" class="begreppsbank-innehall">
-        <p class="laddar-fragor" style="text-align:center; font-style:italic; color:var(--muted);">Laddar begrepp ...</p>
-      </div>
-
+    <div class="kelev-sokrad">
+      <input type="search" id="kapitel-begreppsbank-sok" class="kelev-sok"
+             placeholder="Sök begrepp …" aria-label="Sök begrepp">
     </div>
 
-    <p class="footnote">Demografi-piloten. En gång upplåst – alltid tillgänglig.</p>
+    <div class="kelev-layout">
+      <nav class="kelev-nav-wrap" aria-label="Innehåll">
+        <div id="kapitel-begreppsbank-nav" class="kelev-nav"></div>
+      </nav>
+      <div id="kapitel-begreppsbank-innehall" class="kelev-innehall begreppsbank-innehall"></div>
+    </div>
 
   </main>
 
   <script>
-    // Delkapitel för begreppsbank.js (dynamisk laddning + lagring).
     const DELKAPITEL_ID = 'demografi';
+    const DELKAPITEL_TITEL = 'Demografi';
+    window.BEGREPP_URL = 'data/begrepp.json';
   </script>
-  <script src="../../js/elevbok.js"></script>
   <script src="../../js/avsnitt.js"></script>
-  <script src="../../js/begreppsbank.js" defer></script>
+  <script src="../../js/elevdata-overforing.js" defer></script>
+  <script src="../../js/kapitel-begreppsbank.js" defer></script>
 </body>
 </html>

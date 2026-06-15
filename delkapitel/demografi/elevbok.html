@@ -3,44 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Självskattning – Demografi</title>
+  <title>Elevbok – Demografi</title>
   <link rel="stylesheet" href="../../css/geografi.css">
 </head>
 <body>
-  <main class="sida kapitel-vy matris-sida">
+  <main class="sida kapitel-vy elevbok-sida">
 
     <nav class="brodsmulor" aria-label="Brödsmulor">
       <a href="../../index.html">Geografi</a>
       <span class="skiljare" aria-hidden="true">›</span>
       <a href="index.html">Demografi</a>
       <span class="skiljare" aria-hidden="true">›</span>
-      <span class="aktuell" aria-current="page">Självskattning</span>
+      <span class="aktuell" aria-current="page">Elevbok</span>
     </nav>
 
     <header class="titelblock">
       <span class="delkapitel-label">Kapitelverktyg</span>
-      <h1>Självskattning – Demografi</h1>
-      <p class="subtitel">— bedöm vad du kan, moment för moment —</p>
+      <h1>Elevbok – Demografi</h1>
+      <p class="subtitel">— alla dina sammanfattningar samlade —</p>
     </header>
 
-    <div id="sjalvskattning-verktyg"></div>
-    <div id="sjalvskattning-statistik" class="kelev-stats"></div>
+    <div id="kapitel-elevbok-verktyg"></div>
 
     <div class="kelev-layout">
       <nav class="kelev-nav-wrap" aria-label="Innehåll">
-        <div id="sjalvskattning-nav" class="kelev-nav"></div>
+        <div id="kapitel-elevbok-nav" class="kelev-nav"></div>
       </nav>
-      <div id="sjalvskattning-innehall" class="kelev-innehall"></div>
+      <div id="kapitel-elevbok-innehall" class="kelev-innehall"></div>
     </div>
 
   </main>
 
   <script>
-    const KAPITEL_ID_VAR = 'demografi';
-    const KAPITEL_TITEL = 'Demografi';
-    window.MATRIS_URL = 'data/matris.json';
+    const DELKAPITEL_ID = 'demografi';
+    const DELKAPITEL_TITEL = 'Demografi';
   </script>
+  <script src="../../js/elevbok.js"></script>
+  <script src="../../js/avsnitt.js"></script>
   <script src="../../js/elevdata-overforing.js" defer></script>
-  <script src="../../js/sjalvskattning-vy.js" defer></script>
+  <script src="../../js/kapitel-elevbok.js" defer></script>
 </body>
 </html>

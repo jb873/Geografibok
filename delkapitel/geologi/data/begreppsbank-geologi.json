@@ -15,6 +15,7 @@
       "avsnitt": "1",
       "avsnitt_titel": "Jordens uppbyggnad",
       "rubrik": "Vad betyder DENSITET?",
+      "term": "densitet",
       "expertdefinition": "Hur tätt packad materia är — alltså hur mycket den väger jämfört med hur stor plats den tar. Två lika stora föremål kan väga olika mycket. Det som väger mer har högre densitet.",
       "kallfil": "data/flipcards/geologi/avsnitt-1-jordens-uppbyggnad.json"
     },
@@ -23,6 +24,7 @@
       "avsnitt": "1",
       "avsnitt_titel": "Jordens uppbyggnad",
       "rubrik": "Vad är JORDSKORPAN?",
+      "term": "jordskorpan",
       "expertdefinition": "Jordens yttersta fasta lager — det vi lever på. Den är tunn jämfört med hela jordklotet — om jorden vore ett äpple skulle skorpan motsvara skalet.",
       "kallfil": "data/flipcards/geologi/avsnitt-1-jordens-uppbyggnad.json"
     },
@@ -31,6 +33,7 @@
       "avsnitt": "1",
       "avsnitt_titel": "Jordens uppbyggnad",
       "rubrik": "Vad är MANTELN?",
+      "term": "manteln",
       "expertdefinition": "Jordens näst yttersta skikt, under jordskorpan. Den består av het bergmassa som inte är flytande, men som kan röra sig långsamt över miljontals år — som mycket seg sirap eller varm plast.",
       "kallfil": "data/flipcards/geologi/avsnitt-1-jordens-uppbyggnad.json"
     },
@@ -39,6 +42,7 @@
       "avsnitt": "1",
       "avsnitt_titel": "Jordens uppbyggnad",
       "rubrik": "Vad är YTTRE KÄRNAN?",
+      "term": "yttre kärnan",
       "expertdefinition": "Jordens näst innersta skikt. Den består av flytande järn och nickel. Rörelser i den yttre kärnan skapar jordens magnetfält.",
       "kallfil": "data/flipcards/geologi/avsnitt-1-jordens-uppbyggnad.json"
     },
@@ -47,6 +51,7 @@
       "avsnitt": "1",
       "avsnitt_titel": "Jordens uppbyggnad",
       "rubrik": "Vad är en TEKTONISK PLATTA?",
+      "term": "tektonisk platta",
       "expertdefinition": "En av de stora bitar som jordskorpan är uppdelad i. Plattorna omfattar både jordskorpan och den översta fasta delen av manteln. De rör sig några centimeter per år, drivna av konvektionsströmmarna under.",
       "kallfil": "data/flipcards/geologi/avsnitt-1-jordens-uppbyggnad.json"
     },
@@ -55,6 +60,7 @@
       "avsnitt": "1",
       "avsnitt_titel": "Jordens uppbyggnad",
       "rubrik": "Vad är en KONVEKTIONSSTRÖM?",
+      "term": "konvektionsström",
       "expertdefinition": "En cirkulerande rörelse där varmt material stiger uppåt (för att det har lägre densitet) och kallt material sjunker nedåt (för att det har högre densitet). I jordens mantel skapar detta stora långsamma cirklar som drar med sig plattorna ovanför.",
       "kallfil": "data/flipcards/geologi/avsnitt-1-jordens-uppbyggnad.json"
     },
@@ -63,6 +69,7 @@
       "avsnitt": "1",
       "avsnitt_titel": "Jordens uppbyggnad",
       "rubrik": "Vad är ett MAGNETFÄLT?",
+      "term": "magnetfält",
       "expertdefinition": "Ett osynligt fält av krafter som omger en magnet och påverkar andra magnetiska eller laddade föremål. Jordens magnetfält omger hela planeten och sträcker sig tusentals kilometer ut i rymden.",
       "kallfil": "data/flipcards/geologi/avsnitt-1-jordens-uppbyggnad.json"
     },
@@ -71,6 +78,7 @@
       "avsnitt": "1",
       "avsnitt_titel": "Jordens uppbyggnad",
       "rubrik": "Vad är POLARSKEN?",
+      "term": "polarsken",
       "expertdefinition": "Ett ljusfenomen på himlen nära jordens poler. Det uppstår när laddade partiklar från solvinden leds av magnetfältet in mot polerna, krockar med gas-atomer (syre och kväve) i atmosfären, och får dessa att lysa.",
       "kallfil": "data/flipcards/geologi/avsnitt-1-jordens-uppbyggnad.json"
     },
@@ -79,6 +87,7 @@
       "avsnitt": "2",
       "avsnitt_titel": "Plattektonik",
       "rubrik": "Vad är KONTINENTALDRIFT?",
+      "term": "kontinentaldrift",
       "expertdefinition": "Idén att jordens kontinenter långsamt har rört sig över jordens yta under miljontals år. Kontinenterna ligger alltså inte där de alltid har legat — de har glidit till sina nuvarande platser från andra positioner.",
       "kallfil": "data/flipcards/geologi/avsnitt-2-plattektonik.json"
     },
@@ -87,6 +96,7 @@
       "avsnitt": "2",
       "avsnitt_titel": "Plattektonik",
       "rubrik": "Vad var PANGAEA?",
+      "term": "Pangaea",
       "expertdefinition": "Namnet på den superkontinent som Wegener tänkte sig hade funnits för ungefär 250 miljoner år sedan. Pangaea betyder ungefär \"hela jorden\" eller \"allt land\". Pangaea sprack senare upp, och bitarna gled isär till de kontinenter vi har idag.",
       "kallfil": "data/flipcards/geologi/avsnitt-2-plattektonik.json"
     },
@@ -95,6 +105,7 @@
       "avsnitt": "2",
       "avsnitt_titel": "Plattektonik",
       "rubrik": "Vad är ett FOSSIL?",
+      "term": "fossil",
       "expertdefinition": "Bevarade spår eller rester av djur och växter som levde för länge sedan. Det kan vara avtryck av kroppen i sten, förstenade ben, eller andra spår. Fossil är ett av geologins viktigaste verktyg för att förstå jordens historia — och blev avgörande bevis för kontinentaldrift.",
       "kallfil": "data/flipcards/geologi/avsnitt-2-plattektonik.json"
     },
@@ -103,6 +114,7 @@
       "avsnitt": "2",
       "avsnitt_titel": "Plattektonik",
       "rubrik": "Vad är MITTATLANTISKA RYGGEN?",
+      "term": "Mittatlantiska ryggen",
       "expertdefinition": "En enorm undervattensbergskedja som löper genom hela Atlanten från norr till söder. Den är längre än vilken bergskedja som helst på land. När den upptäcktes blev det tydligt att havsbottnen inte är en passiv yta utan något helt annat — den är där ny havsbotten skapas.",
       "kallfil": "data/flipcards/geologi/avsnitt-2-plattektonik.json"
     },
@@ -111,6 +123,7 @@
       "avsnitt": "2",
       "avsnitt_titel": "Plattektonik",
       "rubrik": "Vad är en SUPERKONTINENT?",
+      "term": "superkontinent",
       "expertdefinition": "En enda landmassa som omfattar de flesta av jordens kontinenter samtidigt. Pangaea är den senaste superkontinenten, men inte den första. Geologer har identifierat flera tidigare superkontinenter — Rodinia (för ca 1 miljard år sedan) och Columbia/Nuna (för ca 1,8 miljarder år sedan).",
       "kallfil": "data/flipcards/geologi/avsnitt-2-plattektonik.json"
     },
@@ -119,6 +132,7 @@
       "avsnitt": "2",
       "avsnitt_titel": "Plattektonik",
       "rubrik": "Vad är HAVSBOTTENSPRIDNING?",
+      "term": "havsbottenspridning",
       "expertdefinition": "Processen där ny havsbotten skapas vid Mittatlantiska ryggen (och liknande ryggar) genom att magma trycks upp ur jordens inre, stelnar och pressar äldre havsbotten åt sidan. Upptäckten av detta — genom magnetiska remsor i havsbotten — var beviset Wegener saknade för att förklara hur kontinenterna rör sig.",
       "kallfil": "data/flipcards/geologi/avsnitt-2-plattektonik.json"
     },
@@ -127,6 +141,7 @@
       "avsnitt": "2D",
       "avsnitt_titel": "Förkastningar i Sverige",
       "rubrik": "Vad är en förkastning?",
+      "term": "förkastning",
       "expertdefinition": "En förkastning är en spricka eller svaghetszon i berggrunden där stora bergblock har förskjutits i förhållande till varandra. Bergblocken kan ha sjunkit ner, höjts upp eller förskjutits i sidled.",
       "kallfil": "data/flipcards/geologi/avsnitt-2d-forkastningar.json"
     },
@@ -135,6 +150,7 @@
       "avsnitt": "2D",
       "avsnitt_titel": "Förkastningar i Sverige",
       "rubrik": "Vad är en normalförkastning?",
+      "term": "normalförkastning",
       "expertdefinition": "En normalförkastning är en förkastning som bildas när jordskorpan dras isär. Ett bergblock sjunker ner i förhållande till ett annat längs en spricka, och en brant blir kvar i landskapet.",
       "kallfil": "data/flipcards/geologi/avsnitt-2d-forkastningar.json"
     },
@@ -143,6 +159,7 @@
       "avsnitt": "2D",
       "avsnitt_titel": "Förkastningar i Sverige",
       "rubrik": "Vad är en gravsänka?",
+      "term": "gravsänka",
       "expertdefinition": "En gravsänka är ett område mellan två förkastningar som har sjunkit ner. På båda sidor om sänkan ligger berggrunden kvar högre. I mitten bildas en lång, smal sänka — ofta fylld med vatten.",
       "kallfil": "data/flipcards/geologi/avsnitt-2d-forkastningar.json"
     },
@@ -151,6 +168,7 @@
       "avsnitt": "2D",
       "avsnitt_titel": "Förkastningar i Sverige",
       "rubrik": "Vad är en horst?",
+      "term": "horst",
       "expertdefinition": "En horst är ett område mellan två förkastningar som har stått kvar högt medan blocken på sidorna har sjunkit ner. Det syns som en ås eller höjd i landskapet.",
       "kallfil": "data/flipcards/geologi/avsnitt-2d-forkastningar.json"
     },
@@ -159,6 +177,7 @@
       "avsnitt": "2D",
       "avsnitt_titel": "Förkastningar i Sverige",
       "rubrik": "Vad är postglacial landhöjning?",
+      "term": "postglacial landhöjning",
       "expertdefinition": "Postglacial landhöjning är processen där berggrunden långsamt återgår till sin ursprungliga form efter att en inlandsis har smält bort. Istidens tyngd hade tryckt ner berget, och nu lyfter det sig själv igen — millimeter för millimeter, under tusentals år.",
       "kallfil": "data/flipcards/geologi/avsnitt-2d-forkastningar.json"
     },
@@ -167,6 +186,7 @@
       "avsnitt": "3",
       "avsnitt_titel": "Jordbävningar",
       "rubrik": "Vad är en jordbävning?",
+      "term": "jordbävning",
       "expertdefinition": "En jordbävning är när bergmassor i jordskorpan plötsligt rör sig längs en förkastning och frigör energi som sprids genom marken som seismiska vågor. Den uppstår när spänningar som byggts upp under lång tid plötsligt släpper.",
       "kallfil": "data/flipcards/geologi/avsnitt-3-jordbavningar.json"
     },
@@ -175,6 +195,7 @@
       "avsnitt": "3",
       "avsnitt_titel": "Jordbävningar",
       "rubrik": "Vad är fokus (eller hypocentrum)?",
+      "term": "fokus (hypocentrum)",
       "expertdefinition": "Fokus är punkten nere i jordskorpan där en jordbävning startar — där bergmassorna brister först och rörelsen börjar. Fokus kan ligga några kilometer ner i berget, eller flera hundra kilometer djupt.",
       "kallfil": "data/flipcards/geologi/avsnitt-3-jordbavningar.json"
     },
@@ -183,6 +204,7 @@
       "avsnitt": "3",
       "avsnitt_titel": "Jordbävningar",
       "rubrik": "Vad är epicentrum?",
+      "term": "epicentrum",
       "expertdefinition": "Epicentrum är punkten på markytan rakt ovanför fokus. Det är den plats man markerar på en karta när man pratar om var en jordbävning hände. Nära epicentrum känns skakningarna oftast som starkast.",
       "kallfil": "data/flipcards/geologi/avsnitt-3-jordbavningar.json"
     },
@@ -191,6 +213,7 @@
       "avsnitt": "3",
       "avsnitt_titel": "Jordbävningar",
       "rubrik": "Vad är seismiska vågor?",
+      "term": "seismiska vågor",
       "expertdefinition": "Seismiska vågor är energin från en jordbävning som sprids genom marken. De sprids från fokus åt alla håll — både genom jordens inre och längs jordytan. Vågorna längs ytan är ofta de farligaste eftersom de påverkar byggnader.",
       "kallfil": "data/flipcards/geologi/avsnitt-3-jordbavningar.json"
     },
@@ -199,6 +222,7 @@
       "avsnitt": "3",
       "avsnitt_titel": "Jordbävningar",
       "rubrik": "Vad är Eldringen?",
+      "term": "Eldringen",
       "expertdefinition": "Eldringen är ett bälte av jordbävningar och vulkaner som löper runt Stilla havets kanter — från Sydamerika upp längs Nordamerika, över Alaska, ner genom Japan, Filippinerna och vidare till Nya Zeeland. Mer än 80 procent av världens kraftigaste jordbävningar sker längs Eldringen.",
       "kallfil": "data/flipcards/geologi/avsnitt-3-jordbavningar.json"
     },
@@ -207,6 +231,7 @@
       "avsnitt": "3",
       "avsnitt_titel": "Jordbävningar",
       "rubrik": "Vad är Richterskalan?",
+      "term": "Richterskalan",
       "expertdefinition": "Richterskalan är en skala för att mäta jordbävningars styrka. Den skapades på 1930-talet av seismologen Charles Richter. Den mäter utslaget på en seismograf — alltså ett instrument som registrerar markrörelser. Skalan är logaritmisk.",
       "kallfil": "data/flipcards/geologi/avsnitt-3-jordbavningar.json"
     },
@@ -215,6 +240,7 @@
       "avsnitt": "3",
       "avsnitt_titel": "Jordbävningar",
       "rubrik": "Vad är en tsunami?",
+      "term": "tsunami",
       "expertdefinition": "En tsunami är en kedja av mycket kraftiga havsvågor, oftast utlöst av en jordbävning under havsbottnen. När havsbottnen plötsligt rör sig sätts en enorm vattenmassa i rörelse. Vågorna är låga ute på öppet hav men växer kraftigt när de närmar sig kusten. Ordet kommer från japanskan och betyder ungefär 'hamnvåg'.",
       "kallfil": "data/flipcards/geologi/avsnitt-3-jordbavningar.json"
     },
@@ -223,6 +249,7 @@
       "avsnitt": "4",
       "avsnitt_titel": "Vulkaner",
       "rubrik": "Vad är magma?",
+      "term": "magma",
       "expertdefinition": "Magma är smält berg som finns nere i jordens mantel eller i den nedre delen av jordskorpan. När magman når ytan och rinner ut får den ett nytt namn — lava. Magma innehåller också gaser som vattenånga, koldioxid och svaveldioxid.",
       "kallfil": "data/flipcards/geologi/avsnitt-4-vulkaner.json"
     },
@@ -231,6 +258,7 @@
       "avsnitt": "4",
       "avsnitt_titel": "Vulkaner",
       "rubrik": "Vad är skillnaden mellan magma och lava?",
+      "term": "skillnaden magma/lava",
       "expertdefinition": "Det är samma material — smält berg — men det får olika namn beroende på var det finns. Så länge det är nere i jorden kallas det magma. När det når jordytan och rinner ut kallas det lava. Lava innehåller också mindre gaser än magma, eftersom de flesta gaser frigörs när magman når ytan.",
       "kallfil": "data/flipcards/geologi/avsnitt-4-vulkaner.json"
     },
@@ -239,6 +267,7 @@
       "avsnitt": "4",
       "avsnitt_titel": "Vulkaner",
       "rubrik": "Vad är en spridningszon?",
+      "term": "spridningszon",
       "expertdefinition": "En spridningszon är en plattgräns där två plattor rör sig bort från varandra. Sprickor bildas i jordskorpan, och magma från manteln kan stiga upp genom sprickorna och stelna till ny jordskorpa. Mittatlantiska ryggen är världens längsta spridningszon. Island är en av få spridningszoner som syns på land.",
       "kallfil": "data/flipcards/geologi/avsnitt-4-vulkaner.json"
     },
@@ -247,6 +276,7 @@
       "avsnitt": "4",
       "avsnitt_titel": "Vulkaner",
       "rubrik": "Vad är en subduktionszon, och varför skapar den vulkaner?",
+      "term": "subduktionszon",
       "expertdefinition": "En subduktionszon är en plattgräns där två plattor pressas mot varandra och den ena (oftast en oceanplatta) pressas ner under den andra. När oceanplattan sjunker tar den med sig vatten ner i manteln. Vattnet gör att berget ovanför smälter lättare. Då bildas magma som kan stiga upp och skapa vulkaner. Det är därför Eldringen runt Stilla havet har så många vulkaner.",
       "kallfil": "data/flipcards/geologi/avsnitt-4-vulkaner.json"
     },
@@ -255,6 +285,7 @@
       "avsnitt": "4",
       "avsnitt_titel": "Vulkaner",
       "rubrik": "Vad är en sköldvulkan?",
+      "term": "sköldvulkan",
       "expertdefinition": "En sköldvulkan är en bred och flack vulkan som nästan ser ut som en sköld liggande på marken. Den byggs upp av lättflytande lava som rinner långt innan den stelnar. Sköldvulkaner har oftast basaltisk magma med låg viskositet. Utbrotten är sällan explosiva — lavan rinner snarare än sprängs ut. Hawaiis Mauna Loa är ett känt exempel.",
       "kallfil": "data/flipcards/geologi/avsnitt-4-vulkaner.json"
     },
@@ -263,6 +294,7 @@
       "avsnitt": "4",
       "avsnitt_titel": "Vulkaner",
       "rubrik": "Vad är en stratovulkan (kägelvulkan)?",
+      "term": "stratovulkan",
       "expertdefinition": "En stratovulkan är en hög, brant och konformad vulkan. Ordet 'strato' betyder lager — vulkanen byggs upp av många lager av stelnad lava, aska och sten. Stratovulkaner har trögflytande, gasrik magma, vilket gör utbrotten ofta explosiva. Mount Fuji, Vesuvius och Mount St. Helens är alla stratovulkaner.",
       "kallfil": "data/flipcards/geologi/avsnitt-4-vulkaner.json"
     },
@@ -271,6 +303,7 @@
       "avsnitt": "4",
       "avsnitt_titel": "Vulkaner",
       "rubrik": "Vad är ett pyroklastiskt flöde?",
+      "term": "pyroklastiskt flöde",
       "expertdefinition": "Ett pyroklastiskt flöde är en glödhet blandning av gas, aska och sten som rusar nerför en vulkans sluttning i hög hastighet — ibland 700 km/h. Det kan vara flera hundra grader varmt. Pyroklastiska flöden är en av de farligaste naturhändelserna som finns. De dödar genom värme, kvävning från gaser och tryckvågor. Det var pyroklastiska flöden som förstörde Pompeji år 79 e.Kr.",
       "kallfil": "data/flipcards/geologi/avsnitt-4-vulkaner.json"
     },
@@ -279,6 +312,7 @@
       "avsnitt": "4",
       "avsnitt_titel": "Vulkaner",
       "rubrik": "Vad är en lahar (slamström)?",
+      "term": "lahar",
       "expertdefinition": "En lahar är en slamström som uppstår vid ett vulkanutbrott. Vulkanisk aska och löst material blandas med vatten — från regn, smält snö, smält glaciäris eller en kratersjö. Resultatet blir en flod av cementliknande lera som rusar nerför vulkanens dalgångar. Lahars kan färdas långt från vulkanen och är ofta en av de farligaste följdkatastroferna. Armero-katastrofen 1985 i Colombia dödade över 23 000 människor i en lahar.",
       "kallfil": "data/flipcards/geologi/avsnitt-4-vulkaner.json"
     },
@@ -287,6 +321,7 @@
       "avsnitt": "5",
       "avsnitt_titel": "Vittring",
       "rubrik": "Vad är exogena processer?",
+      "term": "exogena processer",
       "expertdefinition": "Exogena processer är jordens yttre krafter — de som arbetar på jordytan och bryter ner, transporterar eller bygger upp material. Ordet exogen betyder 'som kommer utifrån'. De drivs av solens energi (som ger oss väder, vind, vatten, is) och av tyngdkraften. Vittring, erosion och avlagring är alla exogena processer.",
       "kallfil": "data/flipcards/geologi/avsnitt-5-vittring.json"
     },
@@ -295,6 +330,7 @@
       "avsnitt": "5",
       "avsnitt_titel": "Vittring",
       "rubrik": "Vad är vittring?",
+      "term": "vittring",
       "expertdefinition": "Vittring är när berg och sten bryts ner där det står. Materialet flyttas alltså inte — själva nedbrytningen sker på platsen. En bergvägg kan spricka, en sten kan smulas sönder, eller mineral kan lösas upp av vatten. Vittring är det första steget i de exogena processerna, innan material kan transporteras genom erosion.",
       "kallfil": "data/flipcards/geologi/avsnitt-5-vittring.json"
     },
@@ -303,6 +339,7 @@
       "avsnitt": "5",
       "avsnitt_titel": "Vittring",
       "rubrik": "Vad är erosion, och hur skiljer det sig från vittring?",
+      "term": "erosion",
       "expertdefinition": "Erosion är när löst material nöts bort och transporteras till en ny plats. Det sker genom rinnande vatten, vågor, vind eller glaciärer. Skillnaden mot vittring är viktig: vittring bryter sönder berget på plats, medan erosion tar med sig materialet och flyttar det. Det är som skillnaden mellan att hugga ner ett träd och att flytta veden bort.",
       "kallfil": "data/flipcards/geologi/avsnitt-5-vittring.json"
     },
@@ -311,6 +348,7 @@
       "avsnitt": "5",
       "avsnitt_titel": "Vittring",
       "rubrik": "Vad är mekanisk vittring?",
+      "term": "mekanisk vittring",
       "expertdefinition": "Mekanisk vittring är när berg bryts sönder i mindre bitar utan att själva ämnet förändras kemiskt. Stenen är fortfarande samma sten — den har bara spruckit, krossats eller delats upp. Det är skillnaden mot kemisk vittring, där mineralerna i berget faktiskt förändras. De tre vanligaste typerna är frostvittring, temperaturvittring och rotvittring.",
       "kallfil": "data/flipcards/geologi/avsnitt-5-vittring.json"
     },
@@ -319,6 +357,7 @@
       "avsnitt": "5",
       "avsnitt_titel": "Vittring",
       "rubrik": "Vad är frostvittring?",
+      "term": "frostvittring",
       "expertdefinition": "Frostvittring är när vatten i bergets sprickor fryser till is och vidgar sprickorna. När vatten fryser blir det ungefär 9 procent större i volym. Det betyder att isen pressar mot sprickans väggar med stor kraft. När frys-och-tina-cykeln upprepas tusentals gånger kan stora stenblock brytas loss. Frostvittring är den dominerande mekaniska vittringsprocessen i Sverige och i fjälltrakterna.",
       "kallfil": "data/flipcards/geologi/avsnitt-5-vittring.json"
     },
@@ -327,6 +366,7 @@
       "avsnitt": "5",
       "avsnitt_titel": "Vittring",
       "rubrik": "Vad är kemisk vittring?",
+      "term": "kemisk vittring",
       "expertdefinition": "Kemisk vittring är när mineraler i berg reagerar med vatten, syre eller svaga syror och förändras till nya ämnen, eller löses upp helt. Det är skillnaden mot mekanisk vittring — där bryts berget sönder men ämnet är samma. Vid kemisk vittring förändras själva ämnet. Kemisk vittring dominerar i varma, fuktiga klimat (tropikerna), medan mekanisk vittring dominerar i kalla, torra klimat.",
       "kallfil": "data/flipcards/geologi/avsnitt-5-vittring.json"
     },
@@ -335,6 +375,7 @@
       "avsnitt": "5",
       "avsnitt_titel": "Vittring",
       "rubrik": "Vad är kolsyra och hur bildas den?",
+      "term": "kolsyra",
       "expertdefinition": "Kolsyra är en svag syra som bildas när vatten och koldioxid reagerar med varandra. När regnvatten faller genom luften och rinner genom marken tar det upp koldioxid och blir svagt surt. Det är samma kolsyra som ger bubblor i läsk, fast i mycket mindre mängd. Kolsyra är inte aggressiv som starkare syror, men den är tillräckligt stark för att över mycket lång tid lösa upp vissa bergarter — främst kalksten.",
       "kallfil": "data/flipcards/geologi/avsnitt-5-vittring.json"
     },
@@ -343,6 +384,7 @@
       "avsnitt": "5",
       "avsnitt_titel": "Vittring",
       "rubrik": "Vad är ett karstlandskap?",
+      "term": "karstlandskap",
       "expertdefinition": "Ett karstlandskap är ett landskap som formats av kemisk vittring i en löslig berggrund, oftast kalksten. Karst är inte bara grottor — det är ett helt system där ytan och underjorden hänger ihop. På ytan finns typiska former: slukhål (där vatten försvinner ner), doliner (runda sänkor), torrdalar (gamla dalgångar utan vatten), och källor (där vatten kommer upp). Under marken finns nätverk av grottor och underjordiska vattendrag. Gotland är ett klassiskt karstlandskap.",
       "kallfil": "data/flipcards/geologi/avsnitt-5-vittring.json"
     },
@@ -351,6 +393,7 @@
       "avsnitt": "6",
       "avsnitt_titel": "Erosion",
       "rubrik": "Vad är erosion?",
+      "term": "erosion",
       "expertdefinition": "Erosion är när material från jordytan nöts loss, transporteras bort och hamnar på en ny plats. Det kan handla om sand, jord, grus, sten — eller i större skala till och med berg — som flyttas av vatten, vind, vågor eller is. Erosion är inte bara nedbrytning, utan också transport. När materialet sedan läggs ner på en ny plats kallas det avlagring eller sedimentation.",
       "kallfil": "data/flipcards/geologi/avsnitt-6-erosion.json"
     },
@@ -359,6 +402,7 @@
       "avsnitt": "6",
       "avsnitt_titel": "Erosion",
       "rubrik": "Vad är vågerosion?",
+      "term": "vågerosion",
       "expertdefinition": "Vågerosion sker vid hav, sjöar och andra stora vattenytor där vågor slår mot land. När vågor träffar en kust för de med sig stor energi från de vindar som skapat dem. Den energin kan nöta på berg, slå loss stenar, flytta sand och gröpa ur strandbrinkar. Vågerosionen fungerar både genom vattnets kraft och genom att sand och stenar i vattnet fungerar som slipmedel — ungefär som sandpapper mot trä.",
       "kallfil": "data/flipcards/geologi/avsnitt-6-erosion.json"
     },
@@ -367,6 +411,7 @@
       "avsnitt": "6",
       "avsnitt_titel": "Erosion",
       "rubrik": "Vad är vinderosion?",
+      "term": "vinderosion",
       "expertdefinition": "Vinderosion är när luften — inte vattnet — flyttar material från markytan. Vinden kan lyfta, rulla eller blåsa bort små partiklar: sand, silt, torr jord, damm. Vinderosion är vanligast i miljöer med löst material, lite vegetation och kraftiga vindar — främst öknar, sandstränder, torra jordbruksmarker och områden där växtlighet förstörts. För att vinden ska kunna erodera effektivt behöver tre saker finnas: löst material, frånvaro av växttäcke, och tillräcklig vindstyrka.",
       "kallfil": "data/flipcards/geologi/avsnitt-6-erosion.json"
     },
@@ -375,6 +420,7 @@
       "avsnitt": "6",
       "avsnitt_titel": "Erosion",
       "rubrik": "Vad är floderosion?",
+      "term": "floderosion",
       "expertdefinition": "Floderosion är när rinnande vatten nöter, river loss och transporterar material. Det kan ske i små bäckar, större åar och stora floder. Vattnet för med sig sand, grus, lera och sten på sin väg mot havet. Ju mer vatten som rinner och ju snabbare vattnet rör sig, desto mer material kan floden transportera. En liten skogsbäck flyttar några sandkorn, medan stora floder som Amazonas eller Mississippi transporterar miljontals ton sediment varje år.",
       "kallfil": "data/flipcards/geologi/avsnitt-6-erosion.json"
     },
@@ -383,6 +429,7 @@
       "avsnitt": "6",
       "avsnitt_titel": "Erosion",
       "rubrik": "Vad är en meander?",
+      "term": "meander",
       "expertdefinition": "En meander är en stor böj eller slinga i en flod. Meandrar uppstår när en flod kommer ner i flackare landskap och vattnet rinner långsammare. Namnet kommer från en flod i nuvarande Turkiet som var berömd för sina böjar. I en meander rinner vattnet snabbare i ytterkurvan (där det eroderar stranden) och långsammare i innerkurvan (där det avlagrar sand och grus). På så sätt vandrar hela meandern långsamt i sidled — ytterkurvan flyttas utåt, innerkurvan byggs ut. Floden förändrar därför sitt lopp över tid.",
       "kallfil": "data/flipcards/geologi/avsnitt-6-erosion.json"
     },
@@ -391,6 +438,7 @@
       "avsnitt": "6",
       "avsnitt_titel": "Erosion",
       "rubrik": "Vad är ett delta?",
+      "term": "delta",
       "expertdefinition": "Ett delta är ett triangelformat landområde som byggs upp där en flod mynnar ut i havet eller en sjö. Där bromsas vattnet och förlorar sin förmåga att transportera material. Stora mängder sand, lera och grus avsätts, och nytt land byggs upp över tid. Nilens delta i Egypten, Mississippis i USA och Brahmaputras i Bangladesh är några av världens mest kända — alla är resultatet av att floder under tusentals år bär med sig sediment och lämnar det vid mynningen. Deltan är ofta extremt bördiga och har genom historien varit centra för jordbruk och civilisation.",
       "kallfil": "data/flipcards/geologi/avsnitt-6-erosion.json"
     },
@@ -399,6 +447,7 @@
       "avsnitt": "6",
       "avsnitt_titel": "Erosion",
       "rubrik": "Vad är glaciärerosion?",
+      "term": "glaciärerosion",
       "expertdefinition": "Glaciärerosion är när stora ismassor rör sig långsamt över landskapet och slipar, river och formar berggrunden under sig. En glaciär är inte stilla — den fungerar som en mycket långsam flod av is. När isen blir tjock och tung pressas den utåt och nedåt av sin egen tyngd. En stor inlandsis kan vara flera kilometer tjock och röra sig några meter per år. Under rörelsen nöter glaciären i marken och formar hela landskap — under tusentals år är resultatet enormt.",
       "kallfil": "data/flipcards/geologi/avsnitt-6-erosion.json"
     },
@@ -407,6 +456,7 @@
       "avsnitt": "6",
       "avsnitt_titel": "Erosion",
       "rubrik": "Vad är en rullstensås?",
+      "term": "rullstensås",
       "expertdefinition": "En rullstensås är en lång, slingrande rygg av rundade stenar, grus och sand. Den bildades inte av isen själv utan av smältvattnet som rann i tunnlar under inlandsisen när den höll på att smälta. Vattnet förde med sig material och avlagrade det när det tappade fart — så åsen är ett 'negativ' av en istunnel som inte längre finns. Materialet i åsen är sorterat (olika storlekar samlas på olika platser) — vilket skiljer den från morän som är osorterad. Många av Sveriges vägar och järnvägar går på rullstensåsar, eftersom de är torra och stabila. Uppsalaåsen är en av världens längsta.",
       "kallfil": "data/flipcards/geologi/avsnitt-6-erosion.json"
     },
@@ -415,6 +465,7 @@
       "avsnitt": "7",
       "avsnitt_titel": "Sluttningsprocesser",
       "rubrik": "Vad är en sluttningsprocess?",
+      "term": "sluttningsprocess",
       "expertdefinition": "En sluttningsprocess är när material rör sig nedför en sluttning på grund av tyngdkraften. Materialet kan vara sten, jord, lera, sand, grus, snö eller is. Sluttningsprocesser sker överallt där marken lutar — i berg, längs kuster, i raviner och i fjällområden. Ibland sker rörelsen mycket långsamt, ibland snabbt — och då kan den bli farlig för människor och samhällen.",
       "kallfil": "data/flipcards/geologi/avsnitt-7-sluttningsprocesser.json"
     },
@@ -423,6 +474,7 @@
       "avsnitt": "7",
       "avsnitt_titel": "Sluttningsprocesser",
       "rubrik": "Vad är ett ras?",
+      "term": "ras",
       "expertdefinition": "Ett ras innebär att material lossnar och faller, rullar eller studsar nedför en sluttning. Ras sker ofta där sluttningen är brant — vid bergväggar, klippor, raviner, vägskärningar eller fjällsidor. Ras består vanligen av stenblock, grus eller jord. Det viktiga är att materialet rör sig som lösa partiklar — varje sten har sitt eget liv när det faller, till skillnad från ett jordskred där hela massan rör sig som en enhet.",
       "kallfil": "data/flipcards/geologi/avsnitt-7-sluttningsprocesser.json"
     },
@@ -431,6 +483,7 @@
       "avsnitt": "7",
       "avsnitt_titel": "Sluttningsprocesser",
       "rubrik": "Vad är ett jordskred?",
+      "term": "jordskred",
       "expertdefinition": "Ett jordskred är när en stor mängd jord, lera eller annat löst material börjar glida nedför en sluttning som en sammanhängande massa. Materialet glider längs en svag yta i marken — en så kallad glidyta. Ovanför glidytan rör sig allt; under den är marken stilla. Detta skiljer jordskred från ras, där materialet rör sig som lösa partiklar. Jordskred sker ofta i lerområden nära älvar, sjöar eller kuster — i Sverige framför allt i Västsverige.",
       "kallfil": "data/flipcards/geologi/avsnitt-7-sluttningsprocesser.json"
     },
@@ -439,6 +492,7 @@
       "avsnitt": "7",
       "avsnitt_titel": "Sluttningsprocesser",
       "rubrik": "Vad är en glidyta i ett jordskred?",
+      "term": "glidyta",
       "expertdefinition": "En glidyta är en svag yta inne i marken längs vilken jordmassan rör sig vid ett jordskred. Det är där rörelsen sker — allt ovanför glidytan glider iväg, allt under är stilla. Glidytan ligger ofta i ett svagare lerlager, till exempel där kvicklera finns. En jordmassa på ett ton kan glida på en glidyta som bara är några centimeter tjock. Det är glidytan som gör att skreds material rör sig som en sammanhängande enhet istället för att falla isär.",
       "kallfil": "data/flipcards/geologi/avsnitt-7-sluttningsprocesser.json"
     },
@@ -447,6 +501,7 @@
       "avsnitt": "7",
       "avsnitt_titel": "Sluttningsprocesser",
       "rubrik": "Vad är kvicklera?",
+      "term": "kvicklera",
       "expertdefinition": "Kvicklera är en särskilt farlig sorts lera som verkar fast men kan plötsligt förlora sin hållfasthet och bli nästan flytande. Den bildas av gammal havslera som avsattes i salt vatten efter istiden. Saltjonerna höll partiklarna i en stabil korthus-struktur. När landet sedan höjde sig och regnvatten lakade ur saltet, behöll leran sin form men förlorade limmet som höll partiklarna på plats. När den störs — av vibrationer eller plötslig belastning — kan korthus-strukturen kollapsa och leran nästan bli flytande.",
       "kallfil": "data/flipcards/geologi/avsnitt-7-sluttningsprocesser.json"
     },
@@ -455,6 +510,7 @@
       "avsnitt": "7",
       "avsnitt_titel": "Sluttningsprocesser",
       "rubrik": "Vad är en slamström?",
+      "term": "slamström",
       "expertdefinition": "En slamström är en snabb ström av vatten blandat med jord, sand, lera, grus, sten och ibland trädstammar. Den liknar en flod men är mycket tjockare och tyngre — som flytande betong eller tjock välling. Den rör sig som en vätska men slår som en fast massa. Slamströmmar sker ofta i branta områden — i berg, raviner och dalgångar — efter kraftiga regn, snabb snösmältning eller vulkanutbrott.",
       "kallfil": "data/flipcards/geologi/avsnitt-7-sluttningsprocesser.json"
     },
@@ -463,6 +519,7 @@
       "avsnitt": "7",
       "avsnitt_titel": "Sluttningsprocesser",
       "rubrik": "Vad är en lavin?",
+      "term": "lavin",
       "expertdefinition": "En lavin är när snö, is eller en blandning av snö och is plötsligt börjar röra sig nedför en sluttning. Laviner sker framför allt i fjäll och bergsområden där det finns mycket snö och branta sluttningar. Precis som de andra sluttningsprocesserna drivs laviner av tyngdkraften. Snön ligger ofta stilla i månader, men om snötäcket blir instabilt — om det störs eller om svaga lager finns under tyngre lager — kan det lossna och rasa nedåt med enorm kraft.",
       "kallfil": "data/flipcards/geologi/avsnitt-7-sluttningsprocesser.json"
     },
@@ -471,6 +528,7 @@
       "avsnitt": "7",
       "avsnitt_titel": "Sluttningsprocesser",
       "rubrik": "Vad är en flaklavin?",
+      "term": "flaklavin",
       "expertdefinition": "En flaklavin uppstår när ett helt sammanhängande snöflak lossnar från snötäcket och glider iväg som en enhet. Det sker när ett svagare snölager brister under ett hårdare lager ovanpå. Flaklaviner är mycket farliga eftersom stora mängder snö — ibland tusentals ton — kan lossna på en gång. De har en karakteristisk skarp, vinkelrät brottlinje upptill där flaket lossnat, vilket gör dem lätta att känna igen. Flaklaviner orsakar de flesta dödsfall i lavinolyckor.",
       "kallfil": "data/flipcards/geologi/avsnitt-7-sluttningsprocesser.json"
     },
@@ -479,6 +537,7 @@
       "avsnitt": "8",
       "avsnitt_titel": "Jordytan",
       "rubrik": "Vad är ett mineral?",
+      "term": "mineral",
       "expertdefinition": "Ett mineral är ett naturligt ämne som finns i jordskorpan. Mineraler har en bestämd kemisk sammansättning och en viss kristallstruktur — det betyder att ämnets små delar sitter ordnade på ett särskilt sätt. Mineraler är bergarternas byggstenar. På samma sätt som tegelstenar bygger upp en vägg, bygger mineraler upp bergarter. De vanligaste mineralerna i jordskorpan innehåller mycket kisel och syre.",
       "kallfil": "data/flipcards/geologi/avsnitt-8-jordytan.json"
     },
@@ -487,6 +546,7 @@
       "avsnitt": "8",
       "avsnitt_titel": "Jordytan",
       "rubrik": "Vad är en bergart?",
+      "term": "bergart",
       "expertdefinition": "En bergart är det material som berggrunden består av. Bergarter är uppbyggda av ett eller flera mineraler. Vissa bergarter består nästan bara av ett mineral (som vissa typer av kalksten), medan andra består av flera mineraler tillsammans (som granit). Bergarter delas in i tre huvudgrupper beroende på hur de bildats: magmatiska (av smält berg), sedimentära (av hoppressade lager), och metamorfa (omvandlade av tryck och värme).",
       "kallfil": "data/flipcards/geologi/avsnitt-8-jordytan.json"
     },
@@ -495,6 +555,7 @@
       "avsnitt": "8",
       "avsnitt_titel": "Jordytan",
       "rubrik": "Vad är bergartscykeln?",
+      "term": "bergartscykeln",
       "expertdefinition": "Bergartscykeln beskriver hur bergarter omvandlas mellan de tre typerna (magmatisk, sedimentär, metamorf) över miljontals år. En magmatisk bergart kan vittras och bli sedimentär. En sedimentär kan omvandlas till metamorf genom tryck och värme. En metamorf kan smälta till magma vid tillräckligt hög temperatur. Och så börjar cykeln om. Drivkrafterna är jordens inre värme (skapar magma och tryck) och jordens ytkrafter (vittring och erosion). Bergarter bildas alltså inte bara en gång — de ingår i ett kretslopp.",
       "kallfil": "data/flipcards/geologi/avsnitt-8-jordytan.json"
     },
@@ -503,6 +564,7 @@
       "avsnitt": "8",
       "avsnitt_titel": "Jordytan",
       "rubrik": "Vad är en jordart?",
+      "term": "jordart",
       "expertdefinition": "En jordart är det lösa material som ligger ovanpå berggrunden. Jordarter består av sten, grus, sand, silt, lera eller organiskt material — eller en blandning. Det är det material som spaden går igenom när man gräver, och som rötterna växer i. De flesta jordarter i Sverige har bildats under eller efter den senaste istiden. Varje jordart berättar något om hur den bildades — om den transporterats av is, av vatten, av vind, eller bildats biologiskt.",
       "kallfil": "data/flipcards/geologi/avsnitt-8-jordytan.json"
     },
@@ -511,6 +573,7 @@
       "avsnitt": "8",
       "avsnitt_titel": "Jordytan",
       "rubrik": "Vad är morän?",
+      "term": "morän",
       "expertdefinition": "Morän är Sveriges vanligaste jordart — den utgör cirka 75% av landets yta. Den bildades direkt av inlandsisen under istiden. När isen rörde sig plockade den upp sten, grus, sand, silt och lera. När isen smälte blev allt detta blandade material liggande kvar. Morän är därför osorterad — alla storlekar blandade om vartannat. Stenarna är ofta kantiga eller halvrundade, krossade av isen. Morän är vanlig i skogslandskap och används mest till skogsbruk eftersom den ofta är stenig.",
       "kallfil": "data/flipcards/geologi/avsnitt-8-jordytan.json"
     },
@@ -519,6 +582,7 @@
       "avsnitt": "8",
       "avsnitt_titel": "Jordytan",
       "rubrik": "Hur bildades Sveriges lerjordar?",
+      "term": "lerjordar",
       "expertdefinition": "När inlandsisen smälte var stora delar av Sverige täckta av vatten — landet hade tryckts ner av den tunga isen och låg under havsnivån. I dessa hav och sjöar sjönk mycket små partiklar till botten och bildade tjocka lager av lera. När landet sedan höjde sig genom landhöjningen kom dessa lerbottnar upp som torra land. Sveriges lerjordar är därför gamla havs- och sjöbottnar som blivit odlingsmark. De finns i lågt liggande områden i Mälardalen, Östergötland, Västergötland och Skåne — Sveriges bördigaste jordbruksbygder.",
       "kallfil": "data/flipcards/geologi/avsnitt-8-jordytan.json"
     },
@@ -527,6 +591,7 @@
       "avsnitt": "8",
       "avsnitt_titel": "Jordytan",
       "rubrik": "Vad är en jordmån?",
+      "term": "jordmån",
       "expertdefinition": "En jordmån är den övre delen av marken där växter växer och där organiskt material blandas med mineraljord. Det är inte samma sak som jordart. Jordarten är markens grundmaterial (morän, sand, lera). Jordmånen är det utvecklade övre lagret som bildas ovanpå jordarten när växter, djur, svampar, bakterier, vatten och klimat har påverkat materialet under lång tid. Jordmånen är där livet möter geologin. Den bildas långsamt — ofta under århundraden eller årtusenden.",
       "kallfil": "data/flipcards/geologi/avsnitt-8-jordytan.json"
     },
@@ -535,8 +600,10 @@
       "avsnitt": "8",
       "avsnitt_titel": "Jordytan",
       "rubrik": "Vad är skillnaden mellan jordart och jordmån?",
+      "term": "skillnaden jordart/jordmån",
       "expertdefinition": "Jordarten berättar VILKET material marken består av — morän, lera, sand, grus eller torv. Jordmånen berättar HUR markens övre lager har utvecklats genom växter, klimat, vatten, nedbrytning och kemiska processer. Exempel: en mark kan ha morän som jordart men podsol som jordmån. Det betyder att grundmaterialet är morän (från istiden), men att markens översta lager har utvecklats till podsol genom barrskog, surt humuslager och urlakning. Jordarten är konstant grundmaterial; jordmånen är levande utveckling ovanpå.",
       "kallfil": "data/flipcards/geologi/avsnitt-8-jordytan.json"
     }
-  ]
+  ],
+  "_term_kommentar": "term-fält tillagt 2026-06-15 (Code-utkast) — begreppsbanken visar term (gement) istället för rubrik. Joachim granskar; jämförelsebegrepp (skillnaden magma/lava, skillnaden jordart/jordmån) och lerjordar är tolkningar."
 }
