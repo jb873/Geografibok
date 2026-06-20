@@ -1,6 +1,6 @@
-// elevfeedback.js — floating-knapp + modal för elevtips via mailto.
-// Eleven väljer kategori + skriver kommentar; JS bygger en mailto-länk
-// med sidtitel, URL och tidpunkt och öppnar elevens mail-app.
+// elevfeedback.js — floating-knapp + modal för elevtips via Gmail-compose.
+// Eleven väljer kategori + skriver kommentar; JS bygger en Gmail-compose-URL
+// med sidtitel, URL och tidpunkt och öppnar Gmails skrivruta i ny flik.
 
 (function () {
   'use strict';
@@ -97,11 +97,15 @@
       'Tid: ' + tid
     ].join('\n');
 
-    var mailto = 'mailto:' + MOTTAGAR_MAIL +
-      '?subject=' + encodeURIComponent(subject) +
+    // Gmail-compose-URL: öppnar Gmails skrivruta direkt i webbläsaren för
+    // inloggade elever (Gmail-skola) — kräver ingen mailto-hanterare.
+    // Eleven klickar själv "Skicka" i Gmail.
+    var gmailUrl = 'https://mail.google.com/mail/?view=cm&fs=1' +
+      '&to=' + encodeURIComponent(MOTTAGAR_MAIL) +
+      '&su=' + encodeURIComponent(subject) +
       '&body=' + encodeURIComponent(body);
 
-    window.location.href = mailto;
+    window.open(gmailUrl, '_blank', 'noopener');
     setTimeout(stangModal, 500);
   }
 
