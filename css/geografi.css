@@ -12,7 +12,8 @@
   --ocean: #1e5c7a;        /* djuphavsblå – primär accent */
   --land: #5e7a3e;         /* mossgrön */
   --terra: #b06a3a;        /* terrakotta */
-  --brass: #b8902a;        /* kompassmässing */
+  --brass: #b8902a;        /* kompassmässing (dekorativt) */
+  --brass-text: #785b13;   /* brass för text — WCAG AA (4.9:1) på paper */
   --blood: #6e2e1e;        /* sparsamt, för viktiga begrepp */
   --muted: #6b5e4c;
   --ink-blue: #4a6a85;     /* blåtonad ink – kap VI */
@@ -33,7 +34,7 @@ body {
   min-height: 100vh;
   color: var(--ink);
   font-family: var(--font-body);
-  font-size: 1.125rem;
+  font-size: 1.1875rem;
   line-height: 1.65;
   background-color: var(--paper);
   background-image:
@@ -63,7 +64,7 @@ a {
 /* ---------- Layout ---------- */
 
 .sida {
-  max-width: 900px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: 4.5rem 1.5rem 3rem;
 }
@@ -78,7 +79,7 @@ a {
 .titelblock .grade-label {
   display: block;
   font-family: var(--font-heading);
-  color: var(--brass);
+  color: var(--brass-text);
   letter-spacing: 0.42em;
   font-size: 0.82rem;
   text-transform: uppercase;
@@ -104,7 +105,7 @@ a {
 
 .ornament-rad {
   text-align: center;
-  color: var(--brass);
+  color: var(--brass-text);
   letter-spacing: 0.6em;
   font-size: 0.95rem;
   margin: 1.75rem 0 2.5rem;
@@ -156,7 +157,7 @@ a.kapitel-kort:hover {
 }
 
 /* Vänsterborder-färg per kapitel */
-.kapitel-kort.kap-1 { border-left-color: var(--brass); }
+.kapitel-kort.kap-1 { border-left-color: var(--brass-text); }
 .kapitel-kort.kap-2 { border-left-color: var(--terra); }
 .kapitel-kort.kap-3 { border-left-color: var(--ink); }
 .kapitel-kort.kap-4 { border-left-color: var(--ocean); }
@@ -166,7 +167,7 @@ a.kapitel-kort:hover {
 .kapitel-kort .romersk {
   flex: 0 0 auto;
   font-family: var(--font-heading);
-  color: var(--brass);
+  color: var(--brass-text);
   font-size: 1.75rem;
   line-height: 1;
   min-width: 2.4rem;
@@ -194,7 +195,7 @@ a.kapitel-kort:hover {
 
 .kapitel-kort .pil {
   flex: 0 0 auto;
-  color: var(--brass);
+  color: var(--brass-text);
   font-size: 1.4rem;
   line-height: 1;
 }
@@ -216,7 +217,7 @@ a.kapitel-kort:hover {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: var(--brass);
+  background-color: var(--brass-text);
   color: var(--paper);
   font-family: var(--font-heading);
   font-size: 0.62rem;
@@ -250,7 +251,7 @@ a.kapitel-kort:hover {
 }
 
 .brodsmulor a {
-  color: var(--brass);
+  color: var(--brass-text);
 }
 
 .brodsmulor a:hover {
@@ -271,7 +272,7 @@ a.kapitel-kort:hover {
 .delkapitel-label {
   display: block;
   font-family: var(--font-heading);
-  color: var(--brass);
+  color: var(--brass-text);
   letter-spacing: 0.42em;
   font-size: 0.82rem;
   text-transform: uppercase;
@@ -289,20 +290,20 @@ a.kapitel-kort:hover {
 
 .sektion-avgransare .litet-ornament {
   text-align: center;
-  color: var(--brass);
+  color: var(--brass-text);
   font-size: 0.85rem;
   margin-bottom: 1.25rem;
 }
 
 .sektion-avgransare .sektion-label {
-  color: var(--brass);
+  color: var(--brass-text);
 }
 
 /* ---------- Huvudelevbok-kort (startsida) ---------- */
 /* Återanvänder .kapitel-kort-stilen; brass vänsterborder + ikon */
 
 .huvudelevbok-kort {
-  border-left-color: var(--brass);
+  border-left-color: var(--brass-text);
 }
 
 .huvudelevbok-kort .ikon {
@@ -362,7 +363,7 @@ a.resurs-kort:hover {
 .kommer-snart {
   display: block;
   font-family: var(--font-heading);
-  color: var(--brass);
+  color: var(--brass-text);
   font-size: 0.7rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -421,7 +422,7 @@ a.resurs-kort:hover {
 .avsnitt-label {
   display: block;
   font-family: var(--font-heading);
-  color: var(--brass);
+  color: var(--brass-text);
   letter-spacing: 0.42em;
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -470,9 +471,9 @@ a.resurs-kort:hover {
 }
 
 .niva-knapp.aktiv {
-  background-color: var(--brass);
+  background-color: var(--brass-text);
   color: var(--paper);
-  border-color: var(--brass);
+  border-color: var(--brass-text);
 }
 
 /* Nivåinnehåll: bara vald nivå visas (styrs av avsnitt.js) */
@@ -503,7 +504,7 @@ a.resurs-kort:hover {
   transition: background-color 0.15s ease, border-color 0.15s ease;
 }
 .underdel-knapp:hover { background-color: #faf4e4; }
-.underdel-knapp.aktiv { background-color: var(--brass); border-color: var(--brass); }
+.underdel-knapp.aktiv { background-color: var(--brass-text); border-color: var(--brass-text); }
 .underdel-knapp.aktiv .underdel-bokstav,
 .underdel-knapp.aktiv .underdel-titel { color: var(--paper); }
 
@@ -511,7 +512,7 @@ a.resurs-kort:hover {
   font-family: var(--font-heading);
   font-size: 1.35rem;
   line-height: 1;
-  color: var(--brass);
+  color: var(--brass-text);
 }
 .underdel-titel {
   font-family: var(--font-body);
@@ -534,7 +535,7 @@ a.resurs-kort:hover {
 .underdel-lista a {
   font-family: var(--font-body);
   font-size: 0.92rem;
-  color: var(--brass);
+  color: var(--brass-text);
   text-decoration: none;
 }
 .underdel-lista a:hover { text-decoration: underline; }
@@ -579,8 +580,8 @@ a.resurs-kort:hover {
 }
 
 .flik.aktiv {
-  color: var(--brass);
-  border-bottom-color: var(--brass);
+  color: var(--brass-text);
+  border-bottom-color: var(--brass-text);
 }
 
 /* ---------- Brödtextbilder (Läs-fliken) ---------- */
@@ -628,7 +629,7 @@ a.resurs-kort:hover {
 
 .bildguide-rubrik {
   font-family: var(--font-heading);
-  color: var(--brass);
+  color: var(--brass-text);
   letter-spacing: 0.1em;
   font-size: 0.9rem;
   margin-bottom: 0.6rem;
@@ -711,7 +712,7 @@ a.resurs-kort:hover {
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
-  color: var(--brass);
+  color: var(--brass-text);
   margin-top: 0.1rem;
   /* Renderar både SVG-ikoner och emoji snyggt i samma 24px-ruta */
   font-size: 1.4rem;
@@ -751,7 +752,7 @@ a.resurs-kort:hover {
   font-size: 0.78rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--brass);
+  color: var(--brass-text);
   margin-bottom: 1.5rem;
 }
 
@@ -762,7 +763,7 @@ a.resurs-kort:hover {
 /* ---------- Flik-innehåll ---------- */
 
 .flik-innehall {
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.7;
 }
 
@@ -791,7 +792,7 @@ a.resurs-kort:hover {
 }
 
 .djupdykningar .sektion-label {
-  color: var(--brass);
+  color: var(--brass-text);
   font-size: 0.75rem;
   margin-bottom: 1rem;
 }
@@ -891,7 +892,7 @@ a.resurs-kort:hover {
   font-family: 'Marcellus SC', serif;
   font-size: 12px;
   letter-spacing: 4px;
-  color: var(--brass);
+  color: var(--brass-text);
 }
 
 /* Laddningsindikator / felmeddelande för dynamiska frågor */
@@ -923,7 +924,7 @@ a.resurs-kort:hover {
 
 .elevbok-textarea:focus {
   outline: none;
-  border-color: var(--brass);
+  border-color: var(--brass-text);
 }
 
 /* Historik-ikon: uppe till höger i textarutan */
@@ -1099,9 +1100,9 @@ a.resurs-kort:hover {
 }
 
 .historik-knapp.aterstall:hover {
-  background-color: var(--brass);
+  background-color: var(--brass-text);
   color: var(--paper);
-  border-color: var(--brass);
+  border-color: var(--brass-text);
 }
 
 /* ---------- Förhandsgranskning ---------- */
@@ -1174,7 +1175,7 @@ a.resurs-kort:hover {
 }
 
 .nav-lank.aktiv {
-  border-left-color: var(--brass);
+  border-left-color: var(--brass-text);
   background-color: rgba(184, 144, 42, 0.1);
 }
 
@@ -1236,7 +1237,7 @@ a.resurs-kort:hover {
 }
 
 .begrepp-upplast .begrepp-ikon {
-  color: var(--brass);
+  color: var(--brass-text);
 }
 
 .begrepp-term {
@@ -1265,7 +1266,7 @@ a.resurs-kort:hover {
 
 .begrepp-textarea:focus {
   outline: none;
-  border-color: var(--brass);
+  border-color: var(--brass-text);
 }
 
 /* ---------- Rad: progress + sparstatus ---------- */
@@ -1296,7 +1297,7 @@ a.resurs-kort:hover {
 }
 
 .nyckelord-pricka.traffad {
-  color: var(--brass);
+  color: var(--brass-text);
 }
 
 .begrepp-sparstatus {
@@ -1315,7 +1316,7 @@ a.resurs-kort:hover {
   font-size: 0.8rem;
   letter-spacing: 0.08em;
   color: var(--paper);
-  background-color: var(--brass);
+  background-color: var(--brass-text);
   border: 1px solid var(--brass);
   border-radius: 3px;
   padding: 0.45rem 1rem;
@@ -1426,7 +1427,7 @@ a.resurs-kort:hover {
   font-size: 0.8rem;
   letter-spacing: 0.06em;
   color: var(--paper);
-  background-color: var(--brass);
+  background-color: var(--brass-text);
   border: 1px solid var(--brass);
   border-radius: 3px;
   padding: 0.5rem 1rem;
@@ -1463,7 +1464,7 @@ a.resurs-kort:hover {
 
 .delkapitel-rubrik {
   font-family: var(--font-heading);
-  color: var(--brass);
+  color: var(--brass-text);
   letter-spacing: 0.22em;
   text-transform: uppercase;
   font-size: 0.85rem;
@@ -1489,7 +1490,7 @@ a.resurs-kort:hover {
 
 .elevbok-undersektion-label {
   font-family: var(--font-heading);
-  color: var(--brass);
+  color: var(--brass-text);
   letter-spacing: 0.18em;
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -1528,7 +1529,7 @@ a.resurs-kort:hover {
 }
 
 .begrepp-upplast .elevbok-kort-status {
-  color: var(--brass);
+  color: var(--brass-text);
 }
 
 .elevbok-kort-term {
@@ -1624,7 +1625,7 @@ a.resurs-kort:hover {
   border: 1px solid var(--brass);
   border-radius: 50%;
   background-color: var(--paper-light);
-  color: var(--brass);
+  color: var(--brass-text);
   font-size: 1.2rem;
   line-height: 1;
   cursor: pointer;
@@ -1643,7 +1644,7 @@ a.resurs-kort:hover {
 
 .navigation-rubrik {
   font-family: var(--font-heading);
-  color: var(--brass);
+  color: var(--brass-text);
   letter-spacing: 0.22em;
   text-transform: uppercase;
   font-size: 0.78rem;
@@ -1665,7 +1666,7 @@ a.resurs-kort:hover {
 }
 
 .nav-avsnitt-huvudlank:hover {
-  color: var(--brass);
+  color: var(--brass-text);
 }
 
 .nav-avsnitt-underlank {
@@ -1679,11 +1680,11 @@ a.resurs-kort:hover {
 }
 
 .nav-avsnitt-underlank:hover {
-  color: var(--brass);
+  color: var(--brass-text);
 }
 
 .nav-avsnitt-underlank.nav-aktiv {
-  color: var(--brass);
+  color: var(--brass-text);
   font-weight: 600;
 }
 
@@ -1699,7 +1700,7 @@ a.resurs-kort:hover {
 
 .nav-delkapitel-rubrik {
   font-family: var(--font-heading);
-  color: var(--brass);
+  color: var(--brass-text);
   font-size: 14px;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1823,7 +1824,7 @@ a.resurs-kort:hover {
 /* Underrubrik: grupperar moment i Begrepp / Färdigheter */
 .matris-underrubrik {
   font-family: var(--font-heading);
-  color: var(--brass);
+  color: var(--brass-text);
   letter-spacing: 0.18em;
   text-transform: uppercase;
   font-size: 13px;
@@ -1964,7 +1965,7 @@ a.resurs-kort:hover {
 .forelasningar-rubrik {
   grid-column: 1 / -1; /* rubriken spänner full bredd ovanför korten */
   font-family: var(--font-heading);
-  color: var(--brass);
+  color: var(--brass-text);
   letter-spacing: 0.18em;
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -2051,7 +2052,7 @@ a.resurs-kort:hover {
 
 .forelasning-langd {
   font-family: var(--font-heading);
-  color: var(--brass);
+  color: var(--brass-text);
   letter-spacing: 0.12em;
   font-size: 12px;
 }
@@ -2223,7 +2224,7 @@ a.resurs-kort:hover {
   font-family: 'Marcellus SC', serif;
   font-size: 12px;
   letter-spacing: 4px;
-  color: var(--brass);
+  color: var(--brass-text);
 }
 
 /* Frågekort (som vanligt frågekort men med penn-ikon i hörnet) */
@@ -2242,7 +2243,7 @@ a.resurs-kort:hover {
   right: 16px;
   font-size: 0.95rem;
   line-height: 1;
-  color: var(--brass);
+  color: var(--brass-text);
 }
 
 .egen-fraga-titel-omrade {
@@ -2272,7 +2273,7 @@ a.resurs-kort:hover {
 
 .egen-fraga-input:focus {
   outline: none;
-  border-color: var(--brass);
+  border-color: var(--brass-text);
 }
 
 /* Länkrad: Redigera / Ta bort (diskreta knappar) */
@@ -2298,7 +2299,7 @@ a.resurs-kort:hover {
 
 .egen-fraga-redigera-knapp:hover,
 .egen-fraga-ta-bort-knapp:hover {
-  color: var(--brass);
+  color: var(--brass-text);
 }
 
 /* Spara/Avbryt i frågeredigering och nytt-fråga-formulär */
@@ -2314,7 +2315,7 @@ a.resurs-kort:hover {
 
 .egen-fraga-spara {
   color: var(--paper);
-  background-color: var(--brass);
+  background-color: var(--brass-text);
   border: 1px solid var(--brass);
 }
 
@@ -2335,7 +2336,7 @@ a.resurs-kort:hover {
   font-size: 0.82rem;
   letter-spacing: 0.06em;
   color: var(--paper);
-  background-color: var(--brass);
+  background-color: var(--brass-text);
   border: 1px solid var(--brass);
   border-radius: 3px;
   padding: 0.5rem 1.1rem;
@@ -2418,7 +2419,7 @@ a.resurs-kort:hover {
    .avsnitt-header och .brodtext, plus en tillbaka-länk.
    ============================================================ */
 .djupdykning-header { text-align: center; }
-.djupdykning-header .avsnitt-label { color: var(--brass); }
+.djupdykning-header .avsnitt-label { color: var(--brass-text); }
 
 .djupdykning-brodtext { margin-top: 1.5rem; }
 
@@ -2427,7 +2428,7 @@ a.resurs-kort:hover {
   font-family: var(--font-heading);
   font-size: 0.82rem;
   letter-spacing: 0.06em;
-  color: var(--brass);
+  color: var(--brass-text);
   text-decoration: none;
 }
 .djupdykning-tillbaka a:hover { text-decoration: underline; }
@@ -2512,7 +2513,7 @@ a.resurs-kort:hover {
   font-weight: normal;
   font-size: 0.8rem;
   letter-spacing: 0.08em;
-  color: var(--brass);
+  color: var(--brass-text);
   margin: 0 0 0.4em;
 }
 .begreppsruta p { margin: 0; }
@@ -2683,7 +2684,7 @@ a.resurs-kort:hover {
   border-radius: 2px;
 }
 .kelev-nav-lank:hover {
-  border-left-color: var(--brass);
+  border-left-color: var(--brass-text);
   background-color: var(--paper-light);
 }
 .kelev-innehall { flex: 1 1 auto; min-width: 0; }
@@ -2731,7 +2732,7 @@ a.resurs-kort:hover {
   font-family: var(--font-heading);
   font-size: 0.7rem;
   letter-spacing: 0.07em;
-  color: var(--brass);
+  color: var(--brass-text);
 }
 .kelev-fraga-text {
   font-family: var(--font-body);
@@ -2794,7 +2795,7 @@ a.resurs-kort:hover {
   padding: 0.3rem 0.8rem;
   cursor: pointer;
 }
-.kelev-chip.aktiv { background-color: var(--brass); border-color: var(--brass); color: var(--paper); }
+.kelev-chip.aktiv { background-color: var(--brass-text); border-color: var(--brass-text); color: var(--paper); }
 .kelev-kapitel { margin-bottom: 2.2rem; }
 .kelev-kapitel-rubrik {
   font-family: var(--font-heading);
@@ -2806,7 +2807,7 @@ a.resurs-kort:hover {
   font-family: var(--font-heading);
   font-size: 0.8rem;
   letter-spacing: 0.05em;
-  color: var(--brass);
+  color: var(--brass-text);
   margin: 0.6rem 0 0.2rem;
 }
 
@@ -2867,7 +2868,7 @@ a.resurs-kort:hover {
   font-family: var(--font-body);
 }
 .skatt-text.klickbar { cursor: pointer; }
-.skatt-expandpil { color: var(--brass); font-size: 0.8em; }
+.skatt-expandpil { color: var(--brass-text); font-size: 0.8em; }
 .skatt-kategori {
   display: inline-block;
   margin-left: 0.5em;
@@ -2925,7 +2926,7 @@ a.resurs-kort:hover {
   font-size: 0.72rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--brass);
+  color: var(--brass-text);
   margin: 0.7rem 0 0.35rem 0.2rem;
 }
 
@@ -2962,4 +2963,49 @@ a.resurs-kort:hover {
   .lamningar-tabell { font-size: 0.92rem; }
   .lamningar-tabell thead th,
   .lamningar-tabell tbody td { padding: 0.5em 0.7em; }
+}
+
+/* ============================================================
+   Designjustering Omgång 1 (2026-06-21)
+   A1 brödtext 18→19px · B1 --brass-text · B2 radlängd 64ch ·
+   B3 rubriksynlighet · B4 sektionsmarkering. Print orört.
+   ============================================================ */
+
+/* B2 — läsbar radlängd: brödtext håller ~64 tecken, bilder bryter ut bredare */
+.niva-innehall.brodtext > p,
+.niva-innehall.brodtext > h2,
+.niva-innehall.brodtext > h3,
+.niva-innehall.brodtext > h4,
+.niva-innehall.brodtext > ul,
+.niva-innehall.brodtext > ol,
+.niva-innehall.brodtext > blockquote,
+.niva-innehall.brodtext > .karnpunkt,
+.niva-innehall.brodtext > .bildguide,
+.niva-innehall.brodtext > aside {
+  max-width: 64ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* B3 — rubriksynlighet */
+.brodtext h3 {
+  font-size: 1.2rem;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+}
+.brodtext h2 {
+  border-bottom: 1px solid var(--brass);
+  padding-bottom: 0.3rem;
+}
+
+/* B4 — sektionsmarkering: tunn linje + luft före varje brödtext-h2 (utom första) */
+.niva-innehall.brodtext > h2 {
+  border-top: 1px solid rgba(27, 42, 54, 0.10);
+  padding-top: 1.4rem;
+  margin-top: 2.5rem;
+}
+.niva-innehall.brodtext > h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 1rem;
 }
