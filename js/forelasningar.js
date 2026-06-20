@@ -118,12 +118,26 @@
     });
   }
 
+  // Sätter Föreläsning-flikknappen disabled (ingen föreläsning) eller aktiv.
+  function sattForelasningFlik(harForelasning) {
+    document.querySelectorAll('.flik[data-flik="forelasning"]').forEach(function (knapp) {
+      knapp.disabled = !harForelasning;
+      if (harForelasning) { knapp.removeAttribute('aria-disabled'); }
+      else { knapp.setAttribute('aria-disabled', 'true'); }
+    });
+  }
+
   function renderaForelasningar(data) {
     // Klassbaserat → fungerar med flera listor per sida (en per underdel).
     var containers = document.querySelectorAll('.forelasningar-lista');
+    var totalt = 0;
     containers.forEach(function (container) {
-      renderaIContainer(data, container, skopId(container));
+      var scopeId = skopId(container);
+      totalt += (data.forelasningar || []).filter(function (f) { return f.avsnitt_id === scopeId; }).length;
+      renderaIContainer(data, container, scopeId);
     });
+    // Inga föreläsningar för avsnittet → disabla flikknappen, annars aktiv.
+    sattForelasningFlik(totalt > 0);
   }
 
   function start() {
@@ -140,6 +154,7 @@
         document.querySelectorAll('.forelasningar-lista').forEach(function (c) {
           c.style.display = 'none';
         });
+        sattForelasningFlik(false);   // fetch-fel/404 → disabla fliken (t.ex. saknad forelasningar.json)
       });
   }
 
