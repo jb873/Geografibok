@@ -25,14 +25,19 @@
     </header>
 
     <div class="flikar-rad" role="tablist">
+      <button type="button" class="flik" data-flik="forelasning" role="tab">Föreläsning</button>
       <button type="button" class="flik aktiv" data-flik="laes" role="tab">Läs</button>
       <button type="button" class="flik" data-flik="ova" role="tab">Öva</button>
       <button type="button" class="flik" data-flik="elevboken" role="tab">Elevboken</button>
     </div>
 
     <!-- ===================== LÄS ===================== -->
+    <!-- ===== FÖRELÄSNING ===== -->
+    <section class="flik-innehall dold" data-flik="forelasning" role="tabpanel">
+      <div class="forelasningar-lista"></div>
+    </section>
+
     <section class="flik-innehall" id="laes" role="tabpanel">
-      <div id="forelasningar-lista" class="forelasningar-lista"></div>
 
       <!-- Nivåväljare: växlar .niva-innehall i Läs-fliken. Vald nivå sparas i
            localStorage (data-niva-nyckel) och återställs vid sidladdning.
