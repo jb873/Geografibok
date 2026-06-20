@@ -3216,3 +3216,148 @@ a.resurs-kort:hover {
 @media print {
   .hero-banner { display: none !important; }
 }
+
+/* ============================================================
+   Floating elevfeedback-knapp + modal (mailto till lärare).
+   Arbetsorder: arbetsorder-elevfeedback-knapp.md.
+   z-index: knapp 990 (över innehåll, UNDER modaler så den göms när
+   en modal öppnas), overlay 1300 (över bild-lightbox 1100 + export-modal 1000).
+   ============================================================ */
+.feedback-knapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 990;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: rgba(232, 222, 200, 0.95);
+  border: none;
+  border-radius: 28px;
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.feedback-knapp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
+.feedback-knapp .ikon {
+  font-size: 18px;
+}
+
+.feedback-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(27, 42, 54, 0.6);
+  z-index: 1300;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-overlay.aktiv {
+  display: flex;
+}
+
+.feedback-modal {
+  background: var(--paper);
+  max-width: 500px;
+  width: 90%;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--brass);
+}
+
+.feedback-modal h2 {
+  font-family: 'Marcellus SC', serif;
+  font-size: 22px;
+  color: var(--ink);
+  margin: 0 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedback-modal .stang {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--ink);
+  padding: 4px 8px;
+}
+
+.feedback-modal label.kategori {
+  display: block;
+  font-size: 14px;
+  color: var(--ink);
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.feedback-modal label.kategori input {
+  margin-right: 8px;
+}
+
+.feedback-modal textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 8px;
+  border: 1px solid var(--brass);
+  border-radius: 4px;
+  font-family: 'EB Garamond', serif;
+  font-size: 15px;
+  background: var(--paper-light);
+  resize: vertical;
+}
+
+.feedback-modal .sida-info {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 12px;
+  font-style: italic;
+}
+
+.feedback-modal .knappar {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  justify-content: flex-end;
+}
+
+.feedback-modal .skicka {
+  background: var(--accent);
+  color: rgba(232, 222, 200, 0.95);
+  border: none;
+  padding: 10px 24px;
+  border-radius: 4px;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+.feedback-modal .avbryt {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--brass);
+  padding: 10px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media print {
+  .feedback-knapp,
+  .feedback-overlay {
+    display: none !important;
+  }
+}
