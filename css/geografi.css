@@ -14,6 +14,7 @@
   --terra: #b06a3a;        /* terrakotta */
   --brass: #b8902a;        /* kompassmässing (dekorativt) */
   --brass-text: #785b13;   /* brass för text — WCAG AA (4.9:1) på paper */
+  --las-bredd: 770px;      /* fast läsbredd för brödtext-block (= brödtextens 64ch i px) */
   --blood: #6e2e1e;        /* sparsamt, för viktiga begrepp */
   --muted: #6b5e4c;
   --ink-blue: #4a6a85;     /* blåtonad ink – kap VI */
@@ -2971,7 +2972,8 @@ a.resurs-kort:hover {
    B3 rubriksynlighet · B4 sektionsmarkering. Print orört.
    ============================================================ */
 
-/* B2 — läsbar radlängd: brödtext håller ~64 tecken, bilder bryter ut bredare */
+/* B2 — läsbar radlängd: alla brödtext-block delar fast --las-bredd (px) så
+   kanterna linjerar oavsett font; bilder bryter ut bredare (ej i denna regel) */
 .niva-innehall.brodtext > p,
 .niva-innehall.brodtext > h2,
 .niva-innehall.brodtext > h3,
@@ -2982,7 +2984,7 @@ a.resurs-kort:hover {
 .niva-innehall.brodtext > .karnpunkt,
 .niva-innehall.brodtext > .bildguide,
 .niva-innehall.brodtext > aside {
-  max-width: 64ch;
+  max-width: var(--las-bredd);
   margin-left: auto;
   margin-right: auto;
 }
