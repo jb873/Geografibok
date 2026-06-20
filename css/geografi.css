@@ -3137,3 +3137,82 @@ a.resurs-kort:hover {
 @media print {
   .tidslinje-header { display: none !important; }
 }
+
+/* ============================================================
+   Mörk hero-banner per avsnitt (ersätter .avsnitt-header + fristående
+   brödsmulor). Endast Historia använder den — vilande i Geografi tills
+   eget designbeslut. Arbetsorder: arbetsorder-mork-hero-banner.md.
+   ============================================================ */
+.hero-banner {
+  background: linear-gradient(180deg, #1a0e08 0%, #2a1810 100%);
+  color: rgba(232, 222, 200, 0.95);
+  padding: 20px 0 24px;
+  text-align: center;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner .hero-inner {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.hero-banner .brodsmulor {
+  font-size: 13px;
+  margin-bottom: 16px;
+  color: rgba(232, 222, 200, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.hero-banner .brodsmulor a {
+  color: rgba(184, 144, 42, 0.85);   /* brass dimmad */
+  text-decoration: none;
+}
+
+.hero-banner .brodsmulor a:hover {
+  color: rgba(232, 222, 200, 1);     /* paper full */
+}
+
+.hero-banner .brodsmulor .skiljare {
+  color: rgba(232, 222, 200, 0.3);
+  margin: 0 0.5em;
+}
+
+.hero-banner .brodsmulor .aktuell {
+  color: rgba(232, 222, 200, 1);     /* paper full — tydligt "du är här" */
+}
+
+.hero-banner .avsnitt-label {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--brass);
+  margin-bottom: 8px;
+}
+
+.hero-banner h1 {
+  font-family: 'Marcellus SC', serif;
+  font-size: clamp(30px, 3vw, 42px);
+  color: rgba(232, 222, 200, 0.95);
+  margin: 0;
+  line-height: 1.1;
+}
+
+.hero-banner .subtitel {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 17px;
+  color: rgba(232, 222, 200, 0.7);
+  margin-top: 8px;
+}
+
+@media print {
+  .hero-banner { display: none !important; }
+}
