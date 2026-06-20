@@ -3213,6 +3213,14 @@ a.resurs-kort:hover {
   margin-top: 8px;
 }
 
+/* Tightare övergång banner → innehåll. Gäller BARA avsnittssidor (där
+   .hero-banner står direkt före .sida) — global .sida padding-top orörd,
+   så sidor utan banner (index, kapitelverktyg) behåller sin topp-luft.
+   Glipa = denna padding-top (8px) + .flikar-rad margin-top (2rem) ≈ 40px. */
+.hero-banner + .sida {
+  padding-top: 0.5rem;
+}
+
 @media print {
   .hero-banner { display: none !important; }
 }
