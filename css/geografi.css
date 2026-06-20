@@ -19,6 +19,11 @@
   --muted: #6b5e4c;
   --ink-blue: #4a6a85;     /* blåtonad ink – kap VI */
 
+  /* Bok-accent (default) — används bl.a. av sticky tidslinje-header.
+     Geografi ärver dessa; Historia överskriver i historia.css (laddas efter). */
+  --accent: #1e5c7a;       /* ocean-blå – Geografis huvudidentitet */
+  --accent-2: #b8902a;     /* brass */
+
   /* Typografi */
   --font-heading: 'Marcellus SC', serif;
   --font-body: 'EB Garamond', Georgia, serif;
@@ -3019,4 +3024,116 @@ a.resurs-kort:hover {
   opacity: 0.4;
   cursor: not-allowed;
   pointer-events: none;
+}
+
+/* ============================================================
+   Sticky tidslinje-header (per delkapitel) — fylls av tidslinje.js.
+   Ger eleven kronologisk "Du är här"-kontext ovanför brödsmulorna.
+   Spec: spec-sticky-header.md (2026-06-21).
+   ============================================================ */
+.tidslinje-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  padding: 8px 0;
+  min-height: 50px;
+}
+
+.tidslinje-inner {
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 0 1rem;
+}
+
+.tidslinje-avsnitt {
+  flex: 1;
+  text-align: center;
+  padding: 0.25rem 0.5rem;
+  color: rgba(232, 222, 200, 0.7);
+  text-decoration: none;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  transition: color 0.15s ease;
+}
+
+.tidslinje-avsnitt:hover {
+  color: rgba(232, 222, 200, 1);
+}
+
+.tidslinje-avsnitt[aria-current="page"] {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(232, 222, 200, 0.3);
+  border-radius: 6px;
+  color: #fff;
+  cursor: default;
+}
+
+.tidslinje-avsnitt[aria-current="page"]::before {
+  content: "▶";
+  position: absolute;
+  left: -0.2em;
+  color: rgba(232, 222, 200, 0.7);
+  font-size: 0.9em;
+}
+
+.tidslinje-titel {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tidslinje-aktuell-label {
+  display: block;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(232, 222, 200, 0.7);   /* paper-opacitet — läsbar på mörk gradient */
+  margin-bottom: 2px;
+}
+
+.tidslinje-ar {
+  display: block;
+  font-size: 11px;
+  opacity: 0.8;
+  margin-top: 2px;
+}
+
+.tidslinje-skiljare {
+  color: rgba(232, 222, 200, 0.3);
+  padding: 0 0.4rem;
+  flex: 0 0 auto;
+}
+
+/* Djupdykning — enklare header (bara tillbaka-länk). Tas i separat arbetsorder. */
+.tidslinje-header.djupdykning .tidslinje-inner {
+  justify-content: flex-start;
+}
+
+.tidslinje-tillbaka {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(232, 222, 200, 0.9);
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.tidslinje-tillbaka:hover {
+  color: #fff;
+}
+
+/* Tidslinje-headern hör inte hemma i utskrift. */
+@media print {
+  .tidslinje-header { display: none !important; }
 }
