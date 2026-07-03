@@ -3144,7 +3144,9 @@ a.resurs-kort:hover {
    eget designbeslut. Arbetsorder: arbetsorder-mork-hero-banner.md.
    ============================================================ */
 .hero-banner {
-  background: linear-gradient(180deg, #1a0e08 0%, #2a1810 100%);
+  /* Default = Geografi (mörk ocean-blå, bokidentitet). Historia överskrivs
+     till mörkbrun i historia.css (laddas efter geografi.css). */
+  background: linear-gradient(180deg, #0b1f2e 0%, #143a4f 100%);
   color: rgba(232, 222, 200, 0.95);
   padding: 20px 0 24px;
   text-align: center;
