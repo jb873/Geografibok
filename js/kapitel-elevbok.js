@@ -38,6 +38,21 @@
 
   function blockId(fragaId) { return 'kelev-' + fragaId; }
 
+  function bokstav(i) { return String.fromCharCode(97 + i); }
+
+  // Grupperar avsnitt per delkapitel om de bär delkapitel_titel; annars null (platt,
+  // bakåtkompatibelt med kapitel utan delkapitel-info).
+  function grupperaDelkapitel(avsnitt) {
+    if (!avsnitt.some(function (a) { return a.delkapitel_titel; })) { return null; }
+    var ordning = [], karta = {};
+    avsnitt.forEach(function (a) {
+      var nyckel = a.delkapitel_titel || 'Övrigt';
+      if (!karta[nyckel]) { karta[nyckel] = { titel: nyckel, avsnitt: [] }; ordning.push(karta[nyckel]); }
+      karta[nyckel].avsnitt.push(a);
+    });
+    return ordning;
+  }
+
   function rendera(data) {
     var avsnitt = (data && data.avsnitt) || [];
 
@@ -70,32 +85,59 @@
     INNEHALL.innerHTML = '';
     INNEHALL.appendChild(stats);
 
+    // Gruppera per delkapitel om avsnitten bär delkapitel_titel (annars platt,
+    // bakåtkompatibelt med t.ex. medeltiden).
+    var delGrupper = grupperaDelkapitel(avsnitt);
+
     // ---- navigation ----
     if (NAV) {
       NAV.innerHTML = '';
-      avsnitt.forEach(function (a) {
-        var lank = el('a', 'kelev-nav-lank', a.nummer + '. ' + a.titel);
-        lank.href = '#kelev-avsnitt-' + a.nummer;
-        NAV.appendChild(lank);
-      });
+      if (delGrupper) {
+        delGrupper.forEach(function (dg, di) {
+          NAV.appendChild(el('div', 'kelev-nav-grupp', (di + 1) + '. ' + dg.titel));
+          dg.avsnitt.forEach(function (a, ai) {
+            var lank = el('a', 'kelev-nav-lank kelev-nav-sub', bokstav(ai) + ') ' + a.titel);
+            lank.href = '#kelev-avsnitt-' + a.nummer;
+            NAV.appendChild(lank);
+          });
+        });
+      } else {
+        avsnitt.forEach(function (a) {
+          var lank = el('a', 'kelev-nav-lank', a.nummer + '. ' + a.titel);
+          lank.href = '#kelev-avsnitt-' + a.nummer;
+          NAV.appendChild(lank);
+        });
+      }
     }
 
-    // ---- innehåll per avsnitt ----
+    // ---- innehåll ----
     if (!avsnitt.length) {
       INNEHALL.appendChild(el('p', 'laddar-fel', 'Inga frågor hittades för detta kapitel.'));
       return;
     }
 
-    avsnitt.forEach(function (a) {
+    function byggAvsnitt(a, rubrik, tagg) {
       var grupp = el('section', 'kelev-avsnitt');
       grupp.id = 'kelev-avsnitt-' + a.nummer;
-      grupp.appendChild(el('h2', 'kelev-avsnitt-rubrik', a.nummer + '. ' + a.titel));
+      grupp.appendChild(el(tagg, 'kelev-avsnitt-rubrik', rubrik));
+      (a.fragor || []).forEach(function (f) { grupp.appendChild(byggFragaBlock(a, f)); });
+      return grupp;
+    }
 
-      (a.fragor || []).forEach(function (f) {
-        grupp.appendChild(byggFragaBlock(a, f));
+    if (delGrupper) {
+      delGrupper.forEach(function (dg, di) {
+        var dkSek = el('section', 'kelev-delkapitel');
+        dkSek.appendChild(el('h2', 'kelev-delkapitel-rubrik', (di + 1) + '. ' + dg.titel));
+        dg.avsnitt.forEach(function (a, ai) {
+          dkSek.appendChild(byggAvsnitt(a, bokstav(ai) + ') ' + a.titel, 'h3'));
+        });
+        INNEHALL.appendChild(dkSek);
       });
-      INNEHALL.appendChild(grupp);
-    });
+    } else {
+      avsnitt.forEach(function (a) {
+        INNEHALL.appendChild(byggAvsnitt(a, a.nummer + '. ' + a.titel, 'h2'));
+      });
+    }
 
     startaSynk();
   }

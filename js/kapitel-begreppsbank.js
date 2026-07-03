@@ -75,7 +75,7 @@
         return {
           id: b.id, term: b.term || b.rubrik, forklaring: b.expertdefinition || b.forklaring,
           nyckelord: b.nyckelord || [], etymologi: b.etymologi || '',
-          __avsnitt: b.avsnitt, __titel: b.avsnitt_titel
+          __avsnitt: b.avsnitt, __titel: b.avsnitt_titel, __delkapitel: b.delkapitel_titel
         };
       });
     }
@@ -85,7 +85,7 @@
         ut.push({
           id: b.id, term: b.term, forklaring: b.forklaring,
           nyckelord: b.nyckelord || [], etymologi: b.etymologi || '',
-          __avsnitt: a.nummer, __titel: a.titel
+          __avsnitt: a.nummer, __titel: a.titel, __delkapitel: a.delkapitel_titel
         });
       });
     });
@@ -97,7 +97,7 @@
     begrepp.forEach(function (b) {
       var nyckel = b.__avsnitt;
       if (!karta[nyckel]) {
-        karta[nyckel] = { nummer: b.__avsnitt, titel: b.__titel || '', begrepp: [] };
+        karta[nyckel] = { nummer: b.__avsnitt, titel: b.__titel || '', delkapitel: b.__delkapitel, begrepp: [] };
         ordning.push(karta[nyckel]);
       }
       karta[nyckel].begrepp.push(b);
@@ -131,13 +131,38 @@
     bar.appendChild(fyll); stats.appendChild(bar);
     INNEHALL.appendChild(stats);
 
+    // Gruppera avsnitts-grupperna per delkapitel om info finns (annars platt,
+    // bakåtkompatibelt med kapitel utan delkapitel-info).
+    var delGrupper = null;
+    if (grupper.some(function (g) { return g.delkapitel; })) {
+      var ordn = [], dkkarta = {};
+      grupper.forEach(function (g) {
+        var nk = g.delkapitel || 'Övrigt';
+        if (!dkkarta[nk]) { dkkarta[nk] = { titel: nk, grupper: [] }; ordn.push(dkkarta[nk]); }
+        dkkarta[nk].grupper.push(g);
+      });
+      delGrupper = ordn;
+    }
+    function bokstav(i) { return String.fromCharCode(97 + i); }
+
     if (NAV) {
       NAV.innerHTML = '';
-      grupper.forEach(function (g) {
-        var lank = el('a', 'kelev-nav-lank', g.nummer + '. ' + g.titel);
-        lank.href = '#kbeg-avsnitt-' + g.nummer;
-        NAV.appendChild(lank);
-      });
+      if (delGrupper) {
+        delGrupper.forEach(function (dg, di) {
+          NAV.appendChild(el('div', 'kelev-nav-grupp', (di + 1) + '. ' + dg.titel));
+          dg.grupper.forEach(function (g, ai) {
+            var lank = el('a', 'kelev-nav-lank kelev-nav-sub', bokstav(ai) + ') ' + g.titel);
+            lank.href = '#kbeg-avsnitt-' + g.nummer;
+            NAV.appendChild(lank);
+          });
+        });
+      } else {
+        grupper.forEach(function (g) {
+          var lank = el('a', 'kelev-nav-lank', g.nummer + '. ' + g.titel);
+          lank.href = '#kbeg-avsnitt-' + g.nummer;
+          NAV.appendChild(lank);
+        });
+      }
     }
 
     if (!grupper.length) {
@@ -145,15 +170,30 @@
       return;
     }
 
-    grupper.forEach(function (g) {
+    function byggAvsnittGrupp(g, rubrik, tagg) {
       var sektion = el('section', 'avsnitt-grupp');
       sektion.id = 'kbeg-avsnitt-' + g.nummer;
-      sektion.appendChild(el('h2', 'avsnitt-grupp-rubrik', g.nummer + '. ' + g.titel));
+      sektion.appendChild(el(tagg, 'avsnitt-grupp-rubrik', rubrik));
       var grid = el('div', 'begrepp-grid');
       g.begrepp.forEach(function (b) { grid.appendChild(byggKort(b)); });
       sektion.appendChild(grid);
-      INNEHALL.appendChild(sektion);
-    });
+      return sektion;
+    }
+
+    if (delGrupper) {
+      delGrupper.forEach(function (dg, di) {
+        var dkSek = el('section', 'kelev-delkapitel');
+        dkSek.appendChild(el('h2', 'kelev-delkapitel-rubrik', (di + 1) + '. ' + dg.titel));
+        dg.grupper.forEach(function (g, ai) {
+          dkSek.appendChild(byggAvsnittGrupp(g, bokstav(ai) + ') ' + g.titel, 'h3'));
+        });
+        INNEHALL.appendChild(dkSek);
+      });
+    } else {
+      grupper.forEach(function (g) {
+        INNEHALL.appendChild(byggAvsnittGrupp(g, g.nummer + '. ' + g.titel, 'h2'));
+      });
+    }
 
     if (SOK) { kopplaSok(); }
   }

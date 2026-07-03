@@ -3369,3 +3369,24 @@ a.resurs-kort:hover {
     display: none !important;
   }
 }
+
+/* Kapitelverktyg — delkapitel-gruppering (2 nivåer: delkapitel → avsnitt).
+   Aktiveras när datat bär delkapitel_titel (annars platt, oförändrat). */
+.kelev-delkapitel-rubrik {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--ink);
+  border-bottom: 2px solid var(--brass);
+  padding-bottom: 0.3rem;
+  margin: 2.75rem 0 1.5rem;
+  letter-spacing: 0.03em;
+}
+.kelev-delkapitel:first-child .kelev-delkapitel-rubrik { margin-top: 0.5rem; }
+.kelev-nav-grupp {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  color: var(--brass-text);
+  margin: 1rem 0 0.35rem;
+  letter-spacing: 0.02em;
+}
+.kelev-nav-lank.kelev-nav-sub { padding-left: 1rem; }
