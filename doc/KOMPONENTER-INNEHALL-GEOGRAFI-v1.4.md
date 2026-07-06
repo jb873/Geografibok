@@ -7,14 +7,45 @@
 > Innehållssessioner ser inte CSS — bara HTML. För att producera 
 > fungerande markup måste de exakta klassnamnen vara dokumenterade.
 
-**Senast uppdaterad:** 2026-06-21 (v1.3)
-**Version:** 1.3
+**Senast uppdaterad:** 2026-07-03 (v1.4)
+**Version:** 1.4 (Geografi)
+**DELAD-BAS:** v1.0 — måste matcha över alla ämnen
 **Källa för alla mallar:** Geografibokens Geologi-kapitel + Historiabokens 
 producerade scaffold (verifierad mot CSS + JS + live-rendering)
 
 ---
 
+
+
+## Sektions-typ: DELAD vs ÄMNESEGET
+
+Dokumentet innehåller både **delad plattform** (identisk över alla ämnen — gör att eleven känner igen *plattformen*) och **ämneseget** (får skilja sig per ämne — gör att eleven känner igen *ämnet*). Geografi = ljus papper-header (brödsmulor + accent-stav + avsnitt-header).
+
+- 🔗 **DELAD** — synka över alla ämnen. Ändrar du här: ändra i ALLA ämnens KOMPONENTER samtidigt **och höj DELAD-BAS-versionen**.
+- 🎨 **ÄMNESEGET** — får skilja sig per ämne (header-region, färgidentitet, boklokala listor). Ändra fritt.
+
+**DELAD-BAS: v1.0** — höj (i alla ämnen samtidigt) närhelst en 🔗-sektion ändras. Visar två ämnen olika DELAD-BAS har den gemensamma grunden glidit isär. Bok-versionen får skilja sig mellan ämnen; DELAD-BAS får det inte.
+
+### Sektionskarta
+
+| Sektion | Typ |
+|---|---|
+| Princip / Dokumentationsprincip | 🔗 DELAD |
+| DEL 1 — Scaffold: header-region | 🎨 ÄMNESEGET |
+| DEL 1 — Scaffold: flikrad och nedåt | 🔗 DELAD |
+| DEL 2 — Brödtext-principer per nivå | 🔗 DELAD |
+| DEL 3 — Bildstöd-mönstret per nivå | 🔗 DELAD |
+| DEL 4.1–4.4 — fordj-kort, brodtext-bild, karnpunkter, bildguide | 🔗 DELAD |
+| DEL 5 — Ej dokumenterade (boklokal lista) | 🎨 ÄMNESEGET |
+| DEL 6 — Process | 🔗 DELAD |
+| DEL 7 — Föreläsning | 🔗 DELAD |
+| Bilagor / Revisionshistorik | 🎨 boklokal |
+
+---
+
 ## Princip
+**🔗 DELAD**
+
 
 Plattformskomponenter har **exakta klassnamn och struktur** som CSS:n kräver. Innehållsproducenten:
 
@@ -33,6 +64,8 @@ Verifieringskrav: HTML + CSS + renderad sida måste stämma innan dokumentation 
 ---
 
 ## DEL 1 — Avsnitts-scaffold (kanonisk)
+**🔀 BLANDAD** — header-regionen överst är 🎨 ämneseget; allt från flikraden och nedåt är 🔗 delat.
+
 
 > Detta är **facit för flik-/underdels-/nivå-strukturen** på en avsnittssida.
 > Klipp och fyll i. Verifierad mot `css/geografi.css` + `js/avsnitt.js`.
@@ -247,6 +280,8 @@ Underdels-sektioner behöver **ingen `id`**. `avsnitt.js` läser `location.hash`
 ---
 
 ## DEL 2 — Brödtext-principer per nivå
+**🔗 DELAD**
+
 
 > Pedagogiska regler för hur brödtext skrivs på de tre nivåerna. 
 > Tillkom efter Joachims observation att Enkel-nivån blev för svårläst 
@@ -284,6 +319,8 @@ Historiografi, kontroverser, "frågor som inte har enkla svar".
 ---
 
 ## DEL 3 — Bildstöd-mönstret per nivå
+**🔗 DELAD**
+
 
 > Hur bilder hanteras över de tre textnivåerna. Tillkom efter Joachims 
 > påminnelse att Enkel-nivån behöver bildstöd och bildguide.
@@ -314,6 +351,8 @@ Eleven känner igen bilden från Enkel när hen byter till Standard. Det skapar 
 ---
 
 ## DEL 4 — HTML-komponenter
+**🔗 DELAD** — alla komponenter här (4.1–4.4) är delade. (Historia har dessutom en 4.5 hero-banner som är ämnesegen; Geografi har ingen.)
+
 
 ### 4.1 fordj-kort (djupdykningskort)
 
@@ -416,6 +455,8 @@ Se DEL 3 för bildstöd-mönstret per nivå.
 ---
 
 ## DEL 5 — Komponenter som inte är dokumenterade ännu
+**🎨 ÄMNESEGET** — boklokal lista, får skilja sig.
+
 
 Dokumenteras när konkret behov uppstår eller felmönster observeras:
 
@@ -432,6 +473,8 @@ Vid första felmönster i någon av dessa: logga som Typ C-ändring i `PLATTFORM
 ---
 
 ## DEL 6 — Process när nya komponenter behöver dokumenteras
+**🔗 DELAD**
+
 
 ### Verifieringskrav
 
@@ -456,6 +499,8 @@ Om HTML och CSS är internt motstridiga: **CSS vinner**. HTML-kvarlevor som inte
 ---
 
 ## DEL 7 — Föreläsnings-komponenten
+**🔗 DELAD**
+
 
 ### Pedagogisk funktion
 
@@ -626,6 +671,8 @@ Detta krockar med JS:n som tömmer containern och fyller på själv.
 ---
 
 ## Bilagor — referensimplementationer
+**🎨 boklokal** — referenser skiljer sig per ämne.
+
 
 - **Avsnitts-scaffold:** Historiabokens producerade mall (2026-06-19, verifierad mot `css/geografi.css` + `js/avsnitt.js`)
 - **fordj-kort:** `delkapitel/geologi/avsnitt-3-jordbavningar.html` (notera: HTML har `<h2>` istället för `<span class="sektion-label">` — CSS:n stödjer båda)
@@ -642,6 +689,9 @@ När osäker — kolla referensimplementationen **plus** CSS:n **plus** JS:n.
 ---
 
 ## Revisionshistorik
+**🎨 boklokal** — bok-versionen skiljer sig per ämne; DELAD-BAS ska matcha.
+
+- **v1.4 (2026-07-03):** Sektions-typmärkning tillagd (🔗 DELAD / 🎨 ÄMNESEGET) + DELAD-BAS-stämpel v1.0 + sektionskarta. Ingen komponent ändrad. Geografi behåller sin ljusa papper-header — medvetet ämnesegen visuell identitet, inte eftersläpning.
 
 - **v1.3 (2026-06-21):** Tillagt DEL 7 (Föreläsnings-komponenten) — HTML-mall + JSON-schema för YouTube-föreläsningar via flik-mönster. Verifierad mot Geologi-avsnitt 2 (Plattektonik). Inkluderar plattformsbeteende: flikknappen blir disabled när inga föreläsningar finns för avsnittet (kräver plattformsändring i `forelasningar.js` — se separat arbetsorder). Femte fallgropen tillagd i DEL 1.
 
