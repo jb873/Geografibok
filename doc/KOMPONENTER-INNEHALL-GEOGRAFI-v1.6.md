@@ -7,9 +7,9 @@
 > Innehållssessioner ser inte CSS — bara HTML. För att producera 
 > fungerande markup måste de exakta klassnamnen vara dokumenterade.
 
-**Senast uppdaterad:** 2026-07-03 (v1.4)
-**Version:** 1.4 (Geografi)
-**DELAD-BAS:** v1.0 — måste matcha över alla ämnen
+**Senast uppdaterad:** 2026-07-03 (v1.6)
+**Version:** 1.6 (Geografi)
+**DELAD-BAS:** v1.1 — måste matcha över alla ämnen
 **Källa för alla mallar:** Geografibokens Geologi-kapitel + Historiabokens 
 producerade scaffold (verifierad mot CSS + JS + live-rendering)
 
@@ -19,23 +19,25 @@ producerade scaffold (verifierad mot CSS + JS + live-rendering)
 
 ## Sektions-typ: DELAD vs ÄMNESEGET
 
-Dokumentet innehåller både **delad plattform** (identisk över alla ämnen — gör att eleven känner igen *plattformen*) och **ämneseget** (får skilja sig per ämne — gör att eleven känner igen *ämnet*). Geografi = ljus papper-header (brödsmulor + accent-stav + avsnitt-header).
+Dokumentet innehåller både **delad plattform** (identisk över alla ämnen — gör att eleven känner igen *plattformen*) och **ämneseget** (får skilja sig per ämne — gör att eleven känner igen *ämnet*). Geografi = **blå hero-banner** (samma banner-struktur som Historia, egen signaturfärg).
 
 - 🔗 **DELAD** — synka över alla ämnen. Ändrar du här: ändra i ALLA ämnens KOMPONENTER samtidigt **och höj DELAD-BAS-versionen**.
 - 🎨 **ÄMNESEGET** — får skilja sig per ämne (header-region, färgidentitet, boklokala listor). Ändra fritt.
 
-**DELAD-BAS: v1.0** — höj (i alla ämnen samtidigt) närhelst en 🔗-sektion ändras. Visar två ämnen olika DELAD-BAS har den gemensamma grunden glidit isär. Bok-versionen får skilja sig mellan ämnen; DELAD-BAS får det inte.
+**DELAD-BAS: v1.1** — höj (i alla ämnen samtidigt) närhelst en 🔗-sektion ändras. Visar två ämnen olika DELAD-BAS har den gemensamma grunden glidit isär. Bok-versionen får skilja sig mellan ämnen; DELAD-BAS får det inte.
 
 ### Sektionskarta
 
 | Sektion | Typ |
 |---|---|
 | Princip / Dokumentationsprincip | 🔗 DELAD |
-| DEL 1 — Scaffold: header-region | 🎨 ÄMNESEGET |
+| DEL 1 — Scaffold: hero-banner (struktur) | 🔗 DELAD |
+| DEL 1 — Scaffold: signaturfärg (blå) | 🎨 ÄMNESEGET |
 | DEL 1 — Scaffold: flikrad och nedåt | 🔗 DELAD |
 | DEL 2 — Brödtext-principer per nivå | 🔗 DELAD |
 | DEL 3 — Bildstöd-mönstret per nivå | 🔗 DELAD |
 | DEL 4.1–4.4 — fordj-kort, brodtext-bild, karnpunkter, bildguide | 🔗 DELAD |
+| DEL 4.5 — hero-banner | 🔗 struktur / 🎨 färg |
 | DEL 5 — Ej dokumenterade (boklokal lista) | 🎨 ÄMNESEGET |
 | DEL 6 — Process | 🔗 DELAD |
 | DEL 7 — Föreläsning | 🔗 DELAD |
@@ -65,6 +67,8 @@ Verifieringskrav: HTML + CSS + renderad sida måste stämma innan dokumentation 
 
 ## DEL 1 — Avsnitts-scaffold (kanonisk)
 **🔀 BLANDAD** — header-regionen överst är 🎨 ämneseget; allt från flikraden och nedåt är 🔗 delat.
+
+> ⚠️ **OBS (v1.6):** Geografi använder den **blå hero-bannern** (DOM-verifierad — se DEL 4.5), **inte** den ljusa papper-headern som scaffold-koden nedan fortfarande visar. Scaffold-koden nedanför är alltså inaktuell i två avseenden: (1) header-regionen ska vara hero-bannern, (2) Geografis relativa sökvägar är **`../../`** (2 nivåer), inte `../../../../`. Header + sökvägar + script-lista är nu låsta i DEL 4.5; resten av scaffold-koden (flikrad och nedåt) är strukturellt korrekt men har fel sökvägsdjup. **Flagga:** Geografi använder `<main class="sida">`, Historia `<div class="sida">` — möjlig inkonsekvens att harmonisera.
 
 
 > Detta är **facit för flik-/underdels-/nivå-strukturen** på en avsnittssida.
@@ -406,6 +410,10 @@ Riktmärke: 1-3 djupdykningskort per avsnitt.
 
 Se DEL 3 för bildstöd-mönstret per nivå.
 
+**Placering:** bilden sitter **inline vid det stycke den hör till** — aldrig staplad före brödtexten. Med bildguide (endast Enkel): löpande text → bildguide (advance organizer) → bild → texten fortsätter. På Standard/Fördjupning (ingen bildguide) sitter bilden inline vid rätt stycke.
+
+**Balans (viktigt):** bilden ska vara ett **stöd**, aldrig en **tröskel**. Sikta på balans text↔bild — för lite text runt bilden gör den kontextlös, för mycket dränker den. Bilden ska bära pedagogiskt arbete just där den står, kopplad till stycket den illustrerar.
+
 ---
 
 ### 4.3 karnpunkter (Det viktigaste-block)
@@ -451,6 +459,55 @@ Se DEL 3 för bildstöd-mönstret per nivå.
 - Bildguide placeras **FÖRE** `<figure class="brodtext-bild">`
 
 **Bildguide visas endast på Enkel-nivå** (se DEL 3).
+
+---
+
+### 4.5 hero-banner (mörk avsnittsbanner) — DOM-verifierad
+
+Mörk banner överst (i Geografi **blå**). Samma delade struktur som i alla ämnen. **DOM-verifierad mot Geologi avsnitt 1 (Jordens uppbyggnad), 2026-07-03.**
+
+```html
+<body>
+  <header class="hero-banner">
+    <div class="hero-inner">
+      <nav class="brodsmulor" aria-label="Brödsmulor">
+        <a href="../../index.html">{{Ämne}}</a>
+        <span class="skiljare" aria-hidden="true">›</span>
+        <a href="index.html">{{Delkapitel}}</a>
+        <span class="skiljare" aria-hidden="true">›</span>
+        <span class="aktuell" aria-current="page">{{N}}. {{Avsnittstitel}}</span>
+      </nav>
+      <span class="avsnitt-label">Avsnitt {{n}}</span>
+      <h1>{{Avsnittstitel}}</h1>
+      <p class="subtitel">— {{kort underrubrik}} —</p>
+    </div>
+  </header>
+
+  <main class="sida"> … </main>
+
+  <script src="../../js/elevbok.js"></script>
+  <script src="../../js/avsnitt.js"></script>
+  <script src="../../js/bildmodal.js" defer></script>
+  <script src="../../js/egna-fragor.js" defer></script>
+  <script src="../../js/avsnitt-elevbok.js" defer></script>
+  <script src="../../js/textbyggar-stodlarare.js" defer></script>
+  <script src="../../js/flipcards.js" defer></script>
+  <script src="../../js/forelasningar.js" defer></script>
+  <script src="../../js/elevfeedback.js" defer></script>
+  <!-- elevfeedback.js injicerar feedback-knapp + overlay -->
+</body>
+```
+
+**Geografis skillnader mot Historia (viktiga — beror på grundare mappstruktur):**
+- **Relativa sökvägar: `../../`** (2 nivåer upp), inte Historias `../../../../` (4 nivåer). Geografi saknar kapitel-nivån: `delkapitel/{delkapitel}/avsnitt-...html`.
+- **Brödsmulor: 3 nivåer** (Ämne › Delkapitel › Avsnitt), inte Historias 4. Aktuell crumb visar nummerprefix: `{{N}}. {{Avsnittstitel}}`.
+- **`<main class="sida">`**, inte Historias `<div class="sida">`. *(Möjlig inkonsekvens — se flagga i DEL 1.)*
+- **Ingen `tidslinje.js`** och **ingen sticky tidslinje-header** (endast Historia).
+
+**Att bekräfta:**
+- **Signaturfärg (blå):** `--accent` i `geografi.css` — hex ej synlig i DOM:en, fyll i. (Bannerns h1-textfärg är `rgba(232,222,200,0.95)` — grädde, delad.)
+- **Avsnitts-label:** DOM visade `Avsnitt I` på avsnitt 1 — bekräfta att det är **arabisk 1** (som Historia), inte romersk `I`.
+- **Data-sökväg** (flipcards m.m.): sannolikt `../data/` eller `../../data/` — bekräfta vid JSON-fasen.
 
 ---
 
@@ -691,6 +748,8 @@ När osäker — kolla referensimplementationen **plus** CSS:n **plus** JS:n.
 ## Revisionshistorik
 **🎨 boklokal** — bok-versionen skiljer sig per ämne; DELAD-BAS ska matcha.
 
+- **v1.6 (2026-07-03):** Geografis hero-banner **DOM-verifierad** (Geologi avsnitt 1). DEL 4.5 låst med Geografis specifika markup: `../../` sökvägar (2 nivåer), 3-nivåers brödsmulor, `<main class="sida">`, script-lista utan `tidslinje.js`. Kvar att bekräfta: blå hex (`--accent`), label 1-vs-I, data-sökväg. DELAD-BAS oförändrad (v1.1) — detta är Geografi-ämnesegna detaljer, ingen delad komponent ändrad.
+- **v1.5 (2026-07-03):** Geografi har fått den blå hero-bannern (Code la den i båda böckerna). Hero-banner tillagd som DEL 4.5 (🔗 struktur / 🎨 blå färg). DEL 1-scaffoldens gamla ljusa header markerad som inaktuell — uppdateras mot Geografis DOM. Bild-i-text-placering + balansregel i DEL 4.2. **DELAD-BAS höjd till v1.1.**
 - **v1.4 (2026-07-03):** Sektions-typmärkning tillagd (🔗 DELAD / 🎨 ÄMNESEGET) + DELAD-BAS-stämpel v1.0 + sektionskarta. Ingen komponent ändrad. Geografi behåller sin ljusa papper-header — medvetet ämnesegen visuell identitet, inte eftersläpning.
 
 - **v1.3 (2026-06-21):** Tillagt DEL 7 (Föreläsnings-komponenten) — HTML-mall + JSON-schema för YouTube-föreläsningar via flik-mönster. Verifierad mot Geologi-avsnitt 2 (Plattektonik). Inkluderar plattformsbeteende: flikknappen blir disabled när inga föreläsningar finns för avsnittet (kräver plattformsändring i `forelasningar.js` — se separat arbetsorder). Femte fallgropen tillagd i DEL 1.
