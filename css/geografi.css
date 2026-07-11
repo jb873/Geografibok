@@ -14,10 +14,10 @@
   --terra: #b06a3a;        /* terrakotta */
   --brass: #b8902a;        /* kompassmässing (dekorativt) */
   --brass-text: #785b13;   /* brass för text — WCAG AA (4.9:1) på paper */
-  --las-bredd: 770px;      /* fast läsbredd för brödtext-block (= brödtextens 64ch i px) */
+  --las-bredd: 770px;      /* fast läsbredd för brödtext-block (~85ch @19px; 700-förslaget återtaget — Omg.1-korr rev.) */
   --blood: #6e2e1e;        /* sparsamt, för viktiga begrepp */
-  --muted: #6b5e4c;
-  --ink-blue: #4a6a85;     /* blåtonad ink – kap VI */
+  --muted: #625646;        /* mörkad ett komfortsteg — WCAG 5.5:1 på paper (Design Omg.1) */
+  --ink-blue: #496882;     /* blåtonad ink – kap VI — mörkad till WCAG AA 4.5:1 (Design Omg.1) */
 
   /* Bok-accent (default) — används bl.a. av sticky tidslinje-header.
      Geografi ärver dessa; Historia överskriver i historia.css (laddas efter). */
@@ -70,7 +70,7 @@ a {
 /* ---------- Layout ---------- */
 
 .sida {
-  max-width: 1040px;
+  max-width: 1180px;   /* Design Omg.1 Alt A — mindre sidoluft @1366; brödtext hålls på --las-bredd */
   margin: 0 auto;
   padding: 4.5rem 1.5rem 3rem;
 }
@@ -456,7 +456,13 @@ a.resurs-kort:hover {
   display: flex;
   justify-content: center;
   gap: 0.4rem;
-  margin: 1.5rem 0;
+  margin: 1.5rem auto;   /* Sektionsmarkering plats 2: inneslut väljar-kontrollerna */
+  width: fit-content;
+  max-width: 100%;
+  background: var(--paper-light);
+  border: 1px solid rgba(184, 144, 42, 0.28);
+  border-radius: 8px;
+  padding: 0.45rem 0.7rem;
 }
 
 .niva-knapp {
@@ -495,7 +501,13 @@ a.resurs-kort:hover {
   flex-wrap: wrap;
   gap: 0.6rem;
   justify-content: center;
-  margin: 0 0 1.25rem;
+  margin: 0 auto 1.25rem;   /* Sektionsmarkering plats 2: inneslut väljar-kontrollerna */
+  width: fit-content;
+  max-width: 100%;
+  background: var(--paper-light);
+  border: 1px solid rgba(184, 144, 42, 0.28);
+  border-radius: 8px;
+  padding: 0.45rem 0.7rem;
 }
 .underdel-knapp {
   display: flex;
@@ -562,7 +574,7 @@ a.resurs-kort:hover {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  border-bottom: 1px solid rgba(27, 42, 54, 0.15);
+  border-bottom: 1px solid var(--brass);   /* Sektionsmarkering plats 1: tydligare flik→panel-gräns */
   margin: 2rem 0 2.25rem;
 }
 
@@ -2416,7 +2428,7 @@ a.resurs-kort:hover {
   margin-bottom: 0.5em;
 }
 .brodtext h3 {
-  margin-top: 1em;
+  margin-top: 1.6em;   /* Design Omg.1: mer luft ovanför h3 */
   margin-bottom: 0.4em;
 }
 
@@ -2994,10 +3006,10 @@ a.resurs-kort:hover {
   margin-right: auto;
 }
 
-/* B3 — rubriksynlighet */
+/* B3 — rubriksynlighet (Design Omg.1: h3 tydligare över brödtext) */
 .brodtext h3 {
-  font-size: 1.2rem;
-  letter-spacing: 0.02em;
+  font-size: 1.35rem;
+  letter-spacing: 0.06em;
   color: var(--ink);
 }
 .brodtext h2 {
@@ -3042,7 +3054,7 @@ a.resurs-kort:hover {
 }
 
 .tidslinje-inner {
-  max-width: 1040px;
+  max-width: 1180px;   /* följer .sida (Design Omg.1 Alt A) så tidslinjen linjerar med innehållet */
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -3158,7 +3170,7 @@ a.resurs-kort:hover {
 }
 
 .hero-banner .hero-inner {
-  max-width: 1040px;
+  max-width: 1180px;   /* följer .sida (Design Omg.1 Alt A) så hero-innehållet linjerar med sidan */
   margin: 0 auto;
   padding: 0 1rem;
   width: 100%;
