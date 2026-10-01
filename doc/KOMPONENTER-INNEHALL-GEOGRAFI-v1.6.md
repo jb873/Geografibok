@@ -9,7 +9,7 @@
 
 **Senast uppdaterad:** 2026-07-03 (v1.6)
 **Version:** 1.6 (Geografi)
-**DELAD-BAS:** v1.3 — måste matcha över alla ämnen
+**DELAD-BAS:** v1.4 — måste matcha över alla ämnen
 **Källa för alla mallar:** Geografibokens Geologi-kapitel + Historiabokens 
 producerade scaffold (verifierad mot CSS + JS + live-rendering)
 
@@ -24,7 +24,7 @@ Dokumentet innehåller både **delad plattform** (identisk över alla ämnen —
 - 🔗 **DELAD** — synka över alla ämnen. Ändrar du här: ändra i ALLA ämnens KOMPONENTER samtidigt **och höj DELAD-BAS-versionen**.
 - 🎨 **ÄMNESEGET** — får skilja sig per ämne (header-region, färgidentitet, boklokala listor). Ändra fritt.
 
-**DELAD-BAS: v1.3** — höj (i alla ämnen samtidigt) närhelst en 🔗-sektion ändras. Visar två ämnen olika DELAD-BAS har den gemensamma grunden glidit isär. Bok-versionen får skilja sig mellan ämnen; DELAD-BAS får det inte.
+**DELAD-BAS: v1.4** — höj (i alla ämnen samtidigt) närhelst en 🔗-sektion ändras. Visar två ämnen olika DELAD-BAS har den gemensamma grunden glidit isär. Bok-versionen får skilja sig mellan ämnen; DELAD-BAS får det inte.
 
 ### Sektionskarta
 
@@ -40,7 +40,7 @@ Dokumentet innehåller både **delad plattform** (identisk över alla ämnen —
 | DEL 4.5 — hero-banner | 🔗 struktur / 🎨 färg |
 | DEL 5 — Ej dokumenterade (boklokal lista) | 🎨 ÄMNESEGET |
 | DEL 6 — Process | 🔗 DELAD |
-| DEL 6 — Verifieringsregler (V1–V13, A1) | 🔗 DELAD |
+| DEL 6 — Verifieringsregler (V1–V14, A1) | 🔗 DELAD |
 | DEL 7 — Föreläsning | 🔗 DELAD |
 | Bilagor / Revisionshistorik | 🎨 boklokal |
 
@@ -556,7 +556,7 @@ Om HTML och CSS är internt motstridiga: **CSS vinner**. HTML-kvarlevor som inte
 
 ### Verifieringsregler — och vad som vaktar dem
 
-**🔗 DELAD** · DELAD-BAS v1.3 · kanoniserad 2026-10-01, bevisad i matematikbygget (Spår 3) · utökad med V11–V13
+**🔗 DELAD** · DELAD-BAS v1.4 · kanoniserad 2026-10-01, bevisad i matematikbygget (Spår 3) · utökad med V11–V14
 
 **META-PRINCIP: en regel som bara står nedskriven glöms.** Det har hänt sju gånger i
 mattearbetet. Varje *bevisad* regel ska vaktas av en **grind eller ett kontrakt**, inte bara
@@ -584,6 +584,7 @@ bryts. Står cellen tom finns ingen mätning, och regeln bärs bara av att någo
 | V11 | **En grind får inte ha en väg ut som hoppar mätningen.** En early-return, en vakt eller ett undantag som avslutar grinden *utan att mäta* ger grönt utan bevis. Belagt: `if(vs.length < 2) return` i slumpfuzzen lät alla tre injicerade felen passera — grinden mätte inte, och grönt såg ut som ett godkännande. | **—** *byggs* |
 | V12 | **Kör den negativa verifieringen i exakt det läge grinden ska köras i.** Annars godkänner provet ett läge som aldrig prövas. Belagt: samma fel som V11 — den negativa verifieringen kördes med en omgång och grinden med tre, och blev falskt grön i båda ändar. | *disciplin* — kan inte vaktas mekaniskt. Står i grindens huvud och bärs av praxis |
 | V13 | **Mät aldrig något som beror på vem eller var provet körs.** En miljö- eller maskinberoende kontroll är grön där någon tittar och säger ingenting om elevens vy. Mät den renderade elevvyn, inte körmiljön. Belagt: `document.fonts.check` svarar ja om typsnittet är installerat på maskinen — grönt hos byggaren, rött hos eleven. Skärpning av V3 och V4. | **—** *byggs* |
+| V14 | **En sida i grindens lista måste ge minst en mätpunkt.** Ger den noll — noll blad, noll rader, noll ytor — är grinden röd, utom där ett dokumenterat skäl säger annat, och skälet prövas av grinden. V9 garanterar att en sida ligger i listan; V14 garanterar att en sida i listan faktiskt mäts. Belagt: `ak7/k3/d4-ekvationer` kom in i nämnar-grindens lista, gav noll blad, fick inte ens en utskriven rad — och grinden slutade "GRÖN · 107 blad mätta". Ett undantag duger bara som rad i en lista med ett skäl grinden kan verifiera, aldrig som tyst noll. | **—** *byggs* |
 
 #### Arkitektur — alla ämnen
 
@@ -591,7 +592,7 @@ bryts. Står cellen tom finns ingen mätning, och regeln bärs bara av att någo
 |---|---|---|
 | A1 | **Delade moduler, inte kopior.** En kopia driver isär även när den är märkt som kopia. DELAD-basen ärvs/synkas; kopieras aldrig. |  |
 
-**Ingen av de fjorton raderna har ett verktyg i det här repot.** Reglerna gäller ändå; de bärs i dag bara av att någon minns dem. Tomheten är en TODO, inte ett klartecken — utom V12, som inte kan vaktas mekaniskt och är disciplin.
+**Ingen av de femton raderna har ett verktyg i det här repot.** Reglerna gäller ändå; de bärs i dag bara av att någon minns dem. Tomheten är en TODO, inte ett klartecken — utom V12, som inte kan vaktas mekaniskt och är disciplin.
 
 > **Vad den här sektionen ersätter.** Av de elva reglerna stod **en** nedskriven förut: V1,
 > som prosa i DEL 6 i Kemiboken och Svenskboken. Det blockcitatet står kvar ordagrant där
@@ -606,6 +607,12 @@ bryts. Står cellen tom finns ingen mätning, och regeln bärs bara av att någo
 > verifiering som kördes i ett annat läge än grinden. **Regel före vakt** — de canoniseras nu
 > med ärlig vaktkolumn, och vakterna byggs i en senare omgång. V12 får ingen: den kan inte
 > vaktas mekaniskt.
+
+> **V14 (2026-10-01).** Komplementet till V9, och belagt av samma tråd som V11 och V12: grön
+> medan noll mäts. V9 stängde hålet att en sida kan stå utanför listan; V14 stänger hålet att
+> en sida kan stå i listan och ändå inte mätas. Vakten tvingar fram ett val som förut gjordes
+> av tystnaden: en **avsiktlig** nolla (grinden mäter en sorts rad sidan inte har) skrivs som
+> skäl med bevis, en **oavsiktlig** nolla är ett fynd att utreda. Förut var båda tyst gröna.
 
 ---
 
@@ -802,6 +809,7 @@ När osäker — kolla referensimplementationen **plus** CSS:n **plus** JS:n.
 ## Revisionshistorik
 **🎨 boklokal** — bok-versionen skiljer sig per ämne; DELAD-BAS ska matcha.
 
+- **DELAD-BAS v1.4 (2026-10-01):** Verifieringsreglerna utökade med V14 i DEL 6 — en sida i grindens lista måste ge minst en mätpunkt, och ett undantag gäller bara som rad med ett skäl grinden kan verifiera. Komplementet till V9: medlemskap garanterar inte mätning. Belagt i matematikbygget (en sida i listan gav noll blad och grinden blev grön). Byggd i matte, byggs i övriga ämnen. Inget befintligt ersatt. **DELAD-BAS höjd till v1.4** (höjs i alla ämnen samtidigt). Bokversionen i filnamnet oförändrad.
 - **DELAD-BAS v1.3 (2026-10-01):** Verifieringsreglerna utökade med V11–V13 i DEL 6 — en grind får inte ha en väg ut som hoppar mätningen; den negativa verifieringen körs i samma läge som grinden; mät aldrig något som beror på vem eller var provet körs. Alla tre belagda i matematikbygget. Regel före vakt: vakterna byggs senare, V12 kan inte vaktas mekaniskt. Inget befintligt ersatt. **DELAD-BAS höjd till v1.3** (höjs i alla ämnen samtidigt). Bokversionen i filnamnet oförändrad.
 - **DELAD-BAS v1.2 (2026-10-01):** Verifieringsreglerna kanoniserade i DEL 6 — tio verifieringsregler (V1–V10) och en arkitekturregel (A1), bevisade i matematikbygget, med kolumnen *vad vaktar den* per ämne. Inget befintligt ersatt: headless-posten i DEL 6 står kvar ordagrant och utökas. **DELAD-BAS höjd till v1.2** (höjs i alla ämnen samtidigt). Bokversionen i filnamnet oförändrad.
 - **v1.6 (2026-07-03):** Geografis hero-banner **DOM-verifierad** (Geologi avsnitt 1). DEL 4.5 låst med Geografis specifika markup: `../../` sökvägar (2 nivåer), 3-nivåers brödsmulor, `<main class="sida">`, script-lista utan `tidslinje.js`. Kvar att bekräfta: blå hex (`--accent`), label 1-vs-I, data-sökväg. DELAD-BAS oförändrad (v1.1) — detta är Geografi-ämnesegna detaljer, ingen delad komponent ändrad.
