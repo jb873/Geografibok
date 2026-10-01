@@ -65,6 +65,7 @@
 
 | Datum | Ändring | Spec-version | Migration kvar |
 |---|---|---|---|
+| 2026-10-01 | Verifieringsreglerna kanoniserade: tio verifieringsregler (V1–V10) + en arkitekturregel (A1) i KOMPONENTER DEL 6, med kolumnen *vad vaktar den* per ämne. Av de elva stod **en** nedskriven förut (V1, headless — som prosa i Kemis och Svenskas DEL 6; Geografi och Historia hade den inte). **V10, äkta oberoende slump med runs-test, fanns inte nedskriven någonstans.** Inget ersatt: headless-posten står kvar ordagrant och utökas. | DELAD-BAS v1.2 | Nio av elva rader är tomma i alla ämnen utom matte. Två grindar byggs nu i matte (ny sida in i grindarnas listor; runs-test på generatorernas slump) och saknar motsvarighet i övriga ämnen. Geografi, Historia och Svenska har inget verifieringsverktyg i repot alls. |
 | 2026-06-15 | Plattformsspec för elevbok/begreppsbank/självskattning/elevdata | Lager 2-3 v0.1 | Geografi: harmoniseras till `as-`-prefix vid BEM-migration |
 
 ---
