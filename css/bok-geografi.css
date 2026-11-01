@@ -1,0 +1,30 @@
+/* Bokmotorn i geografins färger.
+ *
+ * Bokmotorn (bokskal/) är kopierad ordagrant från fysikboken och ändras inte här. Den har fysikens färger inbyggda
+ * i bok.css; den här filen laddas efter bok.css (se mall/delkapitel/index.html) och byter bara färgerna till
+ * geografins: havsblå accent (#1e5c7a), mässing, och samma mörka ocean-banner som geografins live-sidor
+ * (css/geografi.css .hero-banner). Basen (papper, bläck, Marcellus SC, EB Garamond) är redan gemensam.
+ *
+ * Kontrast mot papperet #ece2c8 (WCAG 2.1): --accent 6,3:1, --accent-2-mork 4,9:1 (geografins brass-text).
+ * --accent-2 (mässing) bara för linjer och dekor, aldrig text på papper.
+ */
+:root {
+  --accent: #1e5c7a;          /* geografins havsblå (ocean) */
+  --accent-2: #b8902a;        /* mässing (brass) */
+  --accent-2-mork: #785b13;   /* mässing för text på papperet (brass-text) */
+  --accent-2-ljus: #b8902a;   /* mässing på mörk botten: bannern och boklisterna */
+  /* Faktarutan: papper-ljus med en svag havsblå ton */
+  --ruta-ton: rgba(30, 92, 122, .07);
+  --ruta-kant: rgba(30, 92, 122, .35);
+  --ruta: #e5e2cf;            /* papper-ljus + 7 % havsblått som fast färg */
+}
+
+/* Levande papper som geografins sidor: terrakotta uppe till vänster, havsblått nere till höger */
+body {
+  background-image:
+    radial-gradient(ellipse at top left, rgba(176, 106, 58, .06) 0%, rgba(176, 106, 58, 0) 55%),
+    radial-gradient(ellipse at bottom right, rgba(30, 92, 122, .06) 0%, rgba(30, 92, 122, 0) 55%);
+}
+
+/* Bannern: samma mörka ocean som geografins live-sidor */
+.hero-banner { background: linear-gradient(180deg, #0b1f2e 0%, #143a4f 100%); }
