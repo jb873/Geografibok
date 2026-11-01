@@ -1,4 +1,4 @@
-/* Ekonomisk geografi, avsnitt 1 – en bok per avsnitt (bokmotorn från fysikboken, se bokskal/).
+/* Ekonomisk geografi, delkapitel 1 Näringslivet – en bok med texterna A–D (bokmotorn från fysikboken, se bokskal/).
  * Kapitlets sida (avsnittslistan, Självskattning och Begreppsbank) är delkapitel/ekonomisk-geografi/index.html.
  * Bara data här: titel, nivåer och hjälpmedel. Innehållet ligger i innehall/<nivå>.js. */
 Bok.delkapitel({
@@ -7,7 +7,7 @@ Bok.delkapitel({
   smulor: [{ text: 'Geografi', href: '../../index.html' }, { text: 'Ekonomisk geografi', href: '../ekonomisk-geografi/index.html' }],
   nummer: 1,
   titel: 'Näringslivet',
-  undertitel: 'Varor, tjänster, produktion och konsumtion',
+  undertitel: 'Varor, tjänster, sektorer och lokalisering',
   overrad: 'Ekonomisk geografi',
   standardniva: 'standard',
   // Hjälpmedlen finns inte än: utan adress visas de som "kommer".

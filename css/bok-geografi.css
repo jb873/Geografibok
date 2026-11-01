@@ -28,3 +28,6 @@ body {
 
 /* Bannern: samma mörka ocean som geografins live-sidor */
 .hero-banner { background: linear-gradient(180deg, #0b1f2e 0%, #143a4f 100%); }
+
+/* Sidor utan egen rubrik fortsätter avsnittet: de får ingen tom rad i innehållsförteckningen */
+.toc-sidor li:has(> .toc-knapp .toc-titel:empty) { display: none; }

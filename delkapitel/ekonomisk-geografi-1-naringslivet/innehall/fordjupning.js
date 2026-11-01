@@ -1,2 +1,3 @@
-/* Ekonomisk geografi – Fördjupning-nivåns bok. Tom tills den har avsnitt; då visas nivån som "kommer". Se standard.js för formen. */
+/* Ekonomisk geografi, delkapitel 1 Näringslivet – Fördjupning-nivåns bok. Tom tills den bearbetats till samma form som Standard
+ * (en bok med texterna A–D, löpande prosa, få rubriker); visas som "kommer". Tidigare version per text: commit 4fb916f-efter / se git-historiken. */
 Bok.niva('fordjupning', { avsnitt: [] });
