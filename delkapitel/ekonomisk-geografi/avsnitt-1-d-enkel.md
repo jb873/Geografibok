@@ -11,7 +11,9 @@ Från 1850-talet byggdes allt fler fabriker där varor tillverkades med maskiner
 
 Först växte sågverk, järnbruk och fabriker som gjorde tyg. Sedan byggdes järnvägar och stålverk, och Sverige började sälja mycket till andra länder. Kring år 1900 växte verkstäder som gjorde maskiner, och efter 1914 började man göra bilar. Mellan 1950 och 1970 gick det allra bäst för den svenska industrin. Människorna fick det bättre.
 
-Många av Sveriges stora företag startade under den här tiden. Andra har startat senare. Här är några av dem.
+Här är några av de företag som startade under den här tiden.
+
+### Före 1914
 
 | Företag | Grundades | Vad företaget gör |
 |---|---|---|
@@ -24,15 +26,15 @@ Många av Sveriges stora företag startade under den här tiden. Andra har start
 | LKAB | 1890 | Bryter järnmalm i Kiruna och Malmberget |
 | Scania | 1891 | Lastbilar, bussar och motorer |
 | SKF | 1907 | Kullager |
+
+### 1914–1970
+
+| Företag | Grundades | Vad företaget gör |
+|---|---|---|
 | Electrolux | 1919 | Hushållsmaskiner, till exempel spisar och dammsugare |
 | Volvo | 1927 | Lastbilar, bussar och anläggningsmaskiner |
 | Saab | 1937 | Flygplan och försvarsutrustning |
-| IKEA | 1943 | Möbler och heminredning |
-| H&M | 1947 | Kläder |
 | Tetra Pak | 1951 | Förpackningar för mat och dryck |
-| Klarna | 2005 | Betaltjänster för handel på internet |
-| Spotify | 2006 | Strömning av musik och poddar |
-
 
 ## Maskiner och automatisering minskade behovet av industriarbetare
 
@@ -57,7 +59,14 @@ När färre behövdes i jordbruket och i fabrikerna fick människor andra jobb. 
 <figcaption>100 svenskar – då och nu.</figcaption>
 </figure>
 
-
 ## Nya företag växer genom idéer, handel och teknik
 
 Nya företag startar hela tiden. En **entreprenör** är en person som får en idé och startar ett företag. IKEA startade 1943 och sålde möbler som kunderna själva skruvar ihop. H&M startade 1947 och sålde kläder som många hade råd med. Klarna startade 2005 och hjälper människor att betala på nätet, och Spotify startade 2006 och låter människor lyssna på musik via internet. Sådana företag behöver inga stora fabriker, men de behöver kunskap och teknik.
+
+| Företag | Grundades | Vad företaget gör |
+|---|---|---|
+| IKEA | 1943 | Möbler och heminredning |
+| H&M | 1947 | Kläder |
+| Klarna | 2005 | Betaltjänster för handel på internet |
+| Spotify | 2006 | Strömning av musik och poddar |
+
