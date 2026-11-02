@@ -90,6 +90,7 @@
 | 2026-06-14 | Marcellus SC + EB Garamond låsta på plattformsnivå |
 | 2026-06-14 | Geografi-piloten klar (6 avsnitt × 3 nivåer, 145 flipcards, 11 djupdykningar) |
 | 2026-11-02 | B: .karnpunkter-rutorna var bredare än brödtexten: B2-regeln i geografi.css listade .karnpunkt i stället för .karnpunkter. Rättat i Geografibok. Rättat även i Historiabokens geografi.css samma dag. |
+| 2026-11-02 | B: .vintage-tabell-wrapper följer nu läsbredden (B2-regeln i geografi.css). Tabellerna var 1132 px mot brödtextens 770 px. Påverkar ekonomisk geografi avsnitt 1 (D) och demografi avsnitt 4. Mobil oförändrad (horisontell scroll). Historiabok har inga .vintage-tabell-wrapper – ej ändrad där. |
 
 ---
 
