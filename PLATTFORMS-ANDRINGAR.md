@@ -89,7 +89,7 @@
 | 2026-06-14 | Geografibokens palett kodifierad som plattformens Lager 1 |
 | 2026-06-14 | Marcellus SC + EB Garamond låsta på plattformsnivå |
 | 2026-06-14 | Geografi-piloten klar (6 avsnitt × 3 nivåer, 145 flipcards, 11 djupdykningar) |
-| 2026-11-02 | B: .karnpunkter-rutorna var bredare än brödtexten: B2-regeln i geografi.css listade .karnpunkt i stället för .karnpunkter. Rättat i Geografibok. Samma rad finns i Historiabokens geografi.css – rättas separat. |
+| 2026-11-02 | B: .karnpunkter-rutorna var bredare än brödtexten: B2-regeln i geografi.css listade .karnpunkt i stället för .karnpunkter. Rättat i Geografibok. Rättat även i Historiabokens geografi.css samma dag. |
 
 ---
 
