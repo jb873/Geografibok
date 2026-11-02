@@ -2999,6 +2999,7 @@ a.resurs-kort:hover {
 .niva-innehall.brodtext > ol,
 .niva-innehall.brodtext > blockquote,
 .niva-innehall.brodtext > .karnpunkt,
+.niva-innehall.brodtext > .karnpunkter,
 .niva-innehall.brodtext > .bildguide,
 .niva-innehall.brodtext > aside {
   max-width: var(--las-bredd);

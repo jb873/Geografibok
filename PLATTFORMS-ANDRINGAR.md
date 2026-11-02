@@ -38,6 +38,7 @@
 
 | Datum | Typ | Var upptäckt | Observation | Förslag |
 |---|---|---|---|---|
+| 2026-11-02 | B | Ekonomisk geografi avsnitt 1, Enkel | .karnpunkter-rutorna bredare än brödtexten: B2-regeln listade .karnpunkt i stället för .karnpunkter. Rättat i geografi. Samma rad finns i Historiabokens geografi.css. | Rätta även i Historiabok. |
 | | | | | |
 
 *(Tom rad ovan är till för nya poster — fyll på underifrån)*
