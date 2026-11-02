@@ -73,6 +73,12 @@ I dag är fördelningen mellan sektorerna ungefär följande:
 
 Den kvartära sektorn räknas oftast in i tjänsterna när sysselsättningen redovisas.
 
+<figure class="brodtext-bild standard">
+<img src="../../img/ekonomisk-geografi/hundra-svenskar-da-och-nu.webp" alt="Infografik i vintageatlas-stil med tre rader om 100 människofigurer vardera, färgade efter näring: 1870 – 72 jordbruk, 15 industri, 13 handel och tjänster; 1910 – 48 jordbruk, 32 industri, 20 handel och tjänster; i dag – 2 jordbruk, 20 industri, 78 handel och tjänster." loading="lazy">
+<figcaption>100 svenskar 1870, 1910 och i dag. För 1870 och 1910 visas hur stor del av befolkningen som levde av varje näring, för i dag hur de sysselsatta fördelas.</figcaption>
+</figure>
+
+
 ## Nya företag växer genom idéer, handel och teknik
 
 Sveriges näringsliv förändras också genom att nya företag skapas. En **entreprenör** är en person som utvecklar en affärsidé och startar eller bygger upp en verksamhet. En framgångsrik idé kan göra att ett litet företag växer och börjar sälja sina produkter eller tjänster i andra länder.

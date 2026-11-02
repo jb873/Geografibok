@@ -40,6 +40,12 @@ Många råvaror måste bearbetas innan de kan användas. Denna process kallas **
 
 Vissa varor tillverkas i flera steg och i olika länder. En mobiltelefon kan innehålla råvaror från Afrika, komponenter från Asien och teknik som utvecklats i Europa eller USA. Det visar hur produktionen av varor kan knyta samman olika delar av världen.
 
+<figure class="brodtext-bild standard">
+<img src="../../img/ekonomisk-geografi/mobiltelefonens-vag.webp" alt="Världskarta i vintageatlas-stil som visar en mobiltelefons väg i fyra numrerade steg: 1. råvaror (metaller) i Afrika, 2. komponenter tillverkas i Östasien, 3. teknik utvecklas i USA, 4. kunden köper telefonen i Sverige." loading="lazy">
+<figcaption>En mobiltelefons väg – från råvaror i Afrika till en kund i Sverige.</figcaption>
+</figure>
+
+
 ## Tjänster – arbete som utförs åt andra
 
 Alla verksamheter producerar inte fysiska varor. Många erbjuder i stället **tjänster|tjänst**, vilket innebär att någon utför ett arbete eller erbjuder en service åt andra.

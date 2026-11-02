@@ -42,6 +42,22 @@ Förr arbetade väldigt många i fabrikerna. Med tiden började maskiner och rob
 
 När färre behövdes i jordbruket och i fabrikerna fick människor andra jobb. Folk tjänade mer pengar och ville ha mer av butiker, resor, skola och vård. I dag arbetar ungefär 3 av 4 svenskar med tjänster. Därför säger man att Sverige är ett **tjänstesamhälle**.
 
+<div class="bildguide">
+<div class="bildguide-rubrik">👁 Titta på bilden – 100 svenskar – då och nu</div>
+<p>Bilden visar 100 svenskar vid tre olika tider. Varje färg är en typ av arbete. Lägg märke till:</p>
+<ul>
+<li><strong>1870</strong>: de flesta är <strong>gröna</strong> – de lever av jordbruket</li>
+<li><strong>1910</strong>: fler är <strong>orange</strong> – de arbetar i industrin</li>
+<li><strong>I dag</strong>: nästan alla är <strong>blå</strong> – de arbetar med tjänster</li>
+</ul>
+<p class="bildguide-fundera">Fundera: Hur tror du bilden ser ut om 50 år?</p>
+</div>
+<figure class="brodtext-bild enkel">
+<img src="../../img/ekonomisk-geografi/hundra-svenskar-da-och-nu.webp" alt="Infografik i vintageatlas-stil med tre rader om 100 människofigurer vardera, färgade efter näring: 1870 – 72 jordbruk, 15 industri, 13 handel och tjänster; 1910 – 48 jordbruk, 32 industri, 20 handel och tjänster; i dag – 2 jordbruk, 20 industri, 78 handel och tjänster." loading="lazy">
+<figcaption>100 svenskar – då och nu.</figcaption>
+</figure>
+
+
 ## Nya företag växer genom idéer, handel och teknik
 
 Nya företag startar hela tiden. En **entreprenör** är en person som får en idé och startar ett företag. IKEA startade 1943 och sålde möbler som kunderna själva skruvar ihop. H&M startade 1947 och sålde kläder som många hade råd med. Klarna startade 2005 och hjälper människor att betala på nätet, och Spotify startade 2006 och låter människor lyssna på musik via internet. Sådana företag behöver inga stora fabriker, men de behöver kunskap och teknik.

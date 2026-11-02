@@ -25,6 +25,23 @@ Företagen tillverkar det som människor vill köpa. Om många vill köpa en sak
 
 Ofta går det inte att använda en råvara direkt. Den måste först göras om till något annat. Det kallas **förädling**. Ett träd kan till exempel bli brädor, och av brädorna kan man bygga hus och möbler. En mobiltelefon görs inte på ett enda ställe. Metallerna kan komma från Afrika och delarna från Asien. På så sätt binder varorna ihop olika delar av världen.
 
+<div class="bildguide">
+<div class="bildguide-rubrik">👁 Titta på bilden – En mobiltelefons väg</div>
+<p>Bilden visar hur en mobiltelefon blir till i flera länder. Lägg märke till:</p>
+<ul>
+<li>Steg <strong>1</strong>: metallerna, alltså <strong>råvarorna</strong>, kommer från Afrika</li>
+<li>Steg <strong>2</strong>: <strong>delarna</strong> tillverkas i Asien</li>
+<li>Steg <strong>3</strong>: <strong>tekniken</strong> tas fram i USA</li>
+<li>Steg <strong>4</strong>: <strong>kunden</strong> köper telefonen i Sverige</li>
+</ul>
+<p class="bildguide-fundera">Fundera: Vilka länder har varit med och gjort din mobil?</p>
+</div>
+<figure class="brodtext-bild enkel">
+<img src="../../img/ekonomisk-geografi/mobiltelefonens-vag.webp" alt="Världskarta i vintageatlas-stil som visar en mobiltelefons väg i fyra numrerade steg: 1. råvaror (metaller) i Afrika, 2. komponenter tillverkas i Östasien, 3. teknik utvecklas i USA, 4. kunden köper telefonen i Sverige." loading="lazy">
+<figcaption>En mobiltelefons väg genom världen.</figcaption>
+</figure>
+
+
 ## Tjänster – arbete som utförs åt andra
 
 Allt arbete ger inte en sak som du kan ta i. När en frisör klipper ditt hår eller en lärare undervisar dig får du en **tjänst**. En tjänst är arbete som någon gör åt någon annan.
