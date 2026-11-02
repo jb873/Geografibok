@@ -5,6 +5,23 @@
 
 Det finns väldigt många olika jobb. För att få ordning på dem delar man in näringslivet i fyra delar. De kallas sektorer. Hur många som arbetar i varje sektor säger något om hur ett land har utvecklats.
 
+<div class="bildguide">
+<div class="bildguide-rubrik">👁 Titta på bilden – Från skog till kunskap</div>
+<p>Bilden följer en stol genom alla fyra sektorerna. Lägg märke till:</p>
+<ul>
+<li><strong>Primära sektorn</strong>: trädet huggs ner i skogen</li>
+<li><strong>Sekundära sektorn</strong>: i fabriken blir brädorna en stol</li>
+<li><strong>Tertiära sektorn</strong>: stolen säljs i en butik</li>
+<li><strong>Kvartära sektorn</strong>: en designer tar fram nästa stol</li>
+</ul>
+<p class="bildguide-fundera">Fundera: Vilken sektor arbetar de flesta vuxna du känner i?</p>
+</div>
+<figure class="brodtext-bild enkel">
+<img src="../../img/ekonomisk-geografi/fyra-sektorer-kedja.webp" alt="Illustration i vintageatlas-stil med fyra rutor uppifrån och ned: primära sektorn – skogsarbetare fäller träd; sekundära sektorn – en möbelfabrik gör en stol av brädor; tertiära sektorn – en kund köper stolen i en butik; kvartära sektorn – en designer utvecklar en ny stol." loading="lazy">
+<figcaption>Från skog till kunskap – de fyra sektorerna.</figcaption>
+</figure>
+
+
 ## 1. Primära sektorn – Naturens råvaror
 
 Den **primära sektorn** tar råvaror från naturen. Här finns fyra slags arbete. **Jordbruk** är att odla och att ha djur. **Fiske** är att fånga fisk, och det finns mycket fisk i havet runt Norge och Island. **Skogsbruk** är att hugga ner träd som blir till brädor, papper och möbler, och Sverige och Finland har stora skogar. **Gruvdrift** är att hämta metaller ur berget, som järnmalmen i Kiruna och Malmberget.

@@ -5,6 +5,23 @@
 
 Varför ligger sågverk ofta nära skogen? Varför finns teknikföretag ofta i städer med universitet? Ett företag kan inte ligga var som helst. Det som avgör var ett företag placerar sin verksamhet kallas **lokaliseringsfaktorer**. Ett företag vill ligga där det kan tjäna mest pengar. Vad som är viktigast beror på vad företaget gör.
 
+<div class="bildguide">
+<div class="bildguide-rubrik">👁 Titta på bilden – Lokaliseringsfaktorer i Sverige</div>
+<p>Kartan visar fyra platser i Sverige. Varje plats är ett exempel på en lokaliseringsfaktor. Lägg märke till:</p>
+<ul>
+<li><strong>Luleå</strong>: här finns <strong>råvaror</strong> – järnmalm kommer med tåg och kol med båt</li>
+<li><strong>Linköping</strong>: här finns <strong>arbetskraft</strong> – många utbildade ingenjörer</li>
+<li><strong>Sundsvall</strong>: här finns <strong>energi</strong> – mycket el till aluminiumverket</li>
+<li><strong>Stockholm</strong>: här finns <strong>marknaden</strong> – många kunder</li>
+</ul>
+<p class="bildguide-fundera">Fundera: Vilken lokaliseringsfaktor tror du är viktigast för företagen där du bor?</p>
+</div>
+<figure class="brodtext-bild enkel">
+<img src="../../img/ekonomisk-geografi/lokaliseringsfaktorer-sverige.webp" alt="Karta över Sverige i vintageatlas-stil med fyra markerade orter: Luleå – råvaror (järnmalm och kol, Malmbanan från Kiruna), Linköping – arbetskraft (utbildade ingenjörer), Sundsvall – energi (el till aluminiumverk) och Stockholm – marknad (många kunder)." loading="lazy">
+<figcaption>Fyra lokaliseringsfaktorer i Sverige.</figcaption>
+</figure>
+
+
 ## 1. Närhet till råvaror
 
 ### Tunga och stora råvaror

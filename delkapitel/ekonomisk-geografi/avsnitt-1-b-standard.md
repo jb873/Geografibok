@@ -2,6 +2,12 @@
 
 För att förstå hur ett lands näringsliv är uppbyggt brukar man dela in det i fyra sektorer: den **primära sektorn**, den **sekundära sektorn**, den **tertiära sektorn** och den **kvartära sektorn**.
 
+<figure class="brodtext-bild standard">
+<img src="../../img/ekonomisk-geografi/fyra-sektorer-kedja.webp" alt="Illustration i vintageatlas-stil med fyra rutor uppifrån och ned: primära sektorn – skogsarbetare fäller träd; sekundära sektorn – en möbelfabrik gör en stol av brädor; tertiära sektorn – en kund köper stolen i en butik; kvartära sektorn – en designer utvecklar en ny stol." loading="lazy">
+<figcaption>Från skog till kunskap – samma stol går genom alla fyra sektorerna.</figcaption>
+</figure>
+
+
 Genom att undersöka hur stor andel av de sysselsatta som arbetar inom varje sektor kan vi få en bild av landets ekonomiska utveckling. Fördelningen påverkas också av landets naturresurser, tekniska utveckling, utbildningsnivå och handel med andra länder.
 
 ## 1. Primära sektorn – Naturens råvaror

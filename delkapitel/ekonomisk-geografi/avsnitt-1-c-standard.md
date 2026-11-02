@@ -8,6 +8,12 @@ Företag försöker vanligtvis hitta en plats där verksamheten kan bedrivas eff
 
 Vilka faktorer som är viktigast beror på vilken verksamhet företaget bedriver. Vi ska undersöka fyra viktiga lokaliseringsfaktorer.
 
+<figure class="brodtext-bild standard">
+<img src="../../img/ekonomisk-geografi/lokaliseringsfaktorer-sverige.webp" alt="Karta över Sverige i vintageatlas-stil med fyra markerade orter: Luleå – råvaror (järnmalm och kol, Malmbanan från Kiruna), Linköping – arbetskraft (utbildade ingenjörer), Sundsvall – energi (el till aluminiumverk) och Stockholm – marknad (många kunder)." loading="lazy">
+<figcaption>Fyra lokaliseringsfaktorer – fyra svenska exempel.</figcaption>
+</figure>
+
+
 ## 1. Närhet till råvaror
 
 Många industrier behöver stora mängder råvaror för sin tillverkning. Om råvarorna är tunga, skrymmande eller dyra att transportera kan det vara lönsamt att placera industrin nära råvarukällan.
