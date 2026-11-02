@@ -11,6 +11,29 @@ Från 1850-talet byggdes allt fler fabriker där varor tillverkades med maskiner
 
 Först växte sågverk, järnbruk och fabriker som gjorde tyg. Sedan byggdes järnvägar och stålverk, och Sverige började sälja mycket till andra länder. Kring år 1900 växte verkstäder som gjorde maskiner, och efter 1914 började man göra bilar. Mellan 1950 och 1970 gick det allra bäst för den svenska industrin. Människorna fick det bättre.
 
+Många av Sveriges stora företag startade under den här tiden. Andra har startat senare. Här är några av dem.
+
+| Företag | Grundades | Vad företaget gör |
+|---|---|---|
+| Sandvik | 1862 | Stål, verktyg och maskiner för gruvor och industri |
+| Atlas Copco | 1873 | Kompressorer och verktyg för industrin |
+| Ericsson | 1876 | Utrustning för mobilnät och telekommunikation |
+| ASSA (i dag ASSA ABLOY) | 1881 | Lås och säkerhetssystem |
+| ASEA (i dag ABB) | 1883 | Elektrisk utrustning och industrirobotar |
+| Alfa Laval | 1883 | Separatorer, värmeväxlare och pumpar |
+| LKAB | 1890 | Bryter järnmalm i Kiruna och Malmberget |
+| Scania | 1891 | Lastbilar, bussar och motorer |
+| SKF | 1907 | Kullager |
+| Electrolux | 1919 | Hushållsmaskiner, till exempel spisar och dammsugare |
+| Volvo | 1927 | Lastbilar, bussar och anläggningsmaskiner |
+| Saab | 1937 | Flygplan och försvarsutrustning |
+| IKEA | 1943 | Möbler och heminredning |
+| H&M | 1947 | Kläder |
+| Tetra Pak | 1951 | Förpackningar för mat och dryck |
+| Klarna | 2005 | Betaltjänster för handel på internet |
+| Spotify | 2006 | Strömning av musik och poddar |
+
+
 ## Maskiner och automatisering minskade behovet av industriarbetare
 
 Förr arbetade väldigt många i fabrikerna. Med tiden började maskiner och robotar göra jobb som människor gjorde förut. Det kallas **automatisering**. Vissa företag flyttade också sina fabriker till länder där det var billigare. I dag arbetar ungefär 12 av 100 svenskar i fabriker. Ändå är fabrikerna viktiga, eftersom Sverige säljer mycket av det de tillverkar till andra länder.

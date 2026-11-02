@@ -24,6 +24,29 @@ Industrialiseringen skedde i flera steg:
 
 Industrins tillväxt förändrade hela samhället. Nya arbetstillfällen skapades, städerna växte och Sverige kunde sälja allt fler industriprodukter till andra länder. Exportinkomsterna bidrog till att höja levnadsstandarden och utveckla landets ekonomi.
 
+Under industrialiseringen grundades många av de företag som fortfarande hör till Sveriges största. Senare har nya företag tillkommit. Tabellen visar några av dem.
+
+| Företag | Grundades | Vad företaget gör |
+|---|---|---|
+| Sandvik | 1862 | Stål, verktyg och maskiner för gruvor och industri |
+| Atlas Copco | 1873 | Kompressorer och verktyg för industrin |
+| Ericsson | 1876 | Utrustning för mobilnät och telekommunikation |
+| ASSA (i dag ASSA ABLOY) | 1881 | Lås och säkerhetssystem |
+| ASEA (i dag ABB) | 1883 | Elektrisk utrustning och industrirobotar |
+| Alfa Laval | 1883 | Separatorer, värmeväxlare och pumpar |
+| LKAB | 1890 | Bryter järnmalm i Kiruna och Malmberget |
+| Scania | 1891 | Lastbilar, bussar och motorer |
+| SKF | 1907 | Kullager |
+| Electrolux | 1919 | Hushållsmaskiner, till exempel spisar och dammsugare |
+| Volvo | 1927 | Lastbilar, bussar och anläggningsmaskiner |
+| Saab | 1937 | Flygplan och försvarsutrustning |
+| IKEA | 1943 | Möbler och heminredning |
+| H&M | 1947 | Kläder |
+| Tetra Pak | 1951 | Förpackningar för mat och dryck |
+| Klarna | 2005 | Betaltjänster för handel på internet |
+| Spotify | 2006 | Strömning av musik och poddar |
+
+
 ## Maskiner och automatisering minskade behovet av industriarbetare
 
 Under industrins storhetstid arbetade många svenskar inom den sekundära sektorn. Fabrikerna behövde stora mängder arbetskraft för att tillverka bilar, maskiner, stål och andra produkter.
