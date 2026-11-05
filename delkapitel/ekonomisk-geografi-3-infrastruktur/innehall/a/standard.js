@@ -1,12 +1,11 @@
 /* Ekonomisk geografi, delkapitel 3 Infrastruktur och transporter – text a, Standard.
- * Ordagrant ur kallor/a-standard.md (order 12, konv3.js): ## = avsnitt (Inledning onumrerad), ### = rubrik, stycke = text,
- * **begrepp** = *begrepp*, <figure> = figuren bild, rutan sist = Det viktigaste. */
+ * Ordagrant ur kallor/a-standard.md (order 12, konv3.js): ## = avsnitt, ### = rubrik, stycke = text,
+ * **begrepp** = *begrepp*, <figure> = figuren bild, rutan sist = Det viktigaste.
+ * Inledningens stycke står först i avsnitt 1 (inget eget avsnitt), så att en kort inledning inte ger en nästan tom sida. */
 Bok.niva('standard', {
   avsnitt: [
-    { id: 'inledning', titel: "Inledning", numrerad: false, block: [
-      {"typ":"text","text":"När du köper en vara i en butik har den ofta transporterats genom flera länder innan den hamnar på hyllan. För att det ska fungera behövs vägar, hamnar, elektricitet och fungerande kommunikation. Även när du läser en digital lärobok är du beroende av ett nätverk av tekniska system som gör det möjligt att använda internet."}
-    ] },
     { id: 'infrastruktur-ar-det-som', titel: "Infrastruktur är det som får samhället att fungera", block: [
+      {"typ":"text","text":"När du köper en vara i en butik har den ofta transporterats genom flera länder innan den hamnar på hyllan. För att det ska fungera behövs vägar, hamnar, elektricitet och fungerande kommunikation. Även när du läser en digital lärobok är du beroende av ett nätverk av tekniska system som gör det möjligt att använda internet."},
       {"typ":"rubrik","text":"Infrastruktur är samhällets grundläggande anläggningar"},
       {"typ":"text","text":"*Infrastruktur* är de grundläggande anläggningar och system som behövs för att ett samhälle ska fungera. Hit hör vägar, järnvägar, hamnar, flygplatser, elnät, vattenledningar, avlopp, telefonförbindelser och internet. Dessa system gör det möjligt att transportera människor och varor, leverera energi och vatten samt kommunicera över stora avstånd."},
       {"typ":"text","text":"En vanlig missuppfattning är att infrastruktur bara handlar om vägar och järnvägar. Men även elledningarna som förser bostäder med elektricitet och vattenledningarna som ger oss rent dricksvatten är infrastruktur. Utan fungerande infrastruktur skulle många av samhällets viktigaste verksamheter snabbt få problem."},

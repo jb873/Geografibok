@@ -1,12 +1,11 @@
 /* Ekonomisk geografi, delkapitel 3 Infrastruktur och transporter – text b, Standard.
- * Ordagrant ur kallor/b-standard.md (order 12, konv3.js): ## = avsnitt (Inledning onumrerad), ### = rubrik, stycke = text,
- * **begrepp** = *begrepp*, <figure> = figuren bild, rutan sist = Det viktigaste. */
+ * Ordagrant ur kallor/b-standard.md (order 12, konv3.js): ## = avsnitt, ### = rubrik, stycke = text,
+ * **begrepp** = *begrepp*, <figure> = figuren bild, rutan sist = Det viktigaste.
+ * Inledningens stycke står först i avsnitt 1 (inget eget avsnitt), så att en kort inledning inte ger en nästan tom sida. */
 Bok.niva('standard', {
   avsnitt: [
-    { id: 'inledning', titel: "Inledning", numrerad: false, block: [
-      {"typ":"text","text":"Varor kan transporteras på fyra huvudsakliga sätt: med fartyg, järnväg, lastbil och flyg. Dessa kallas *transportslag*, och alla har olika fördelar och nackdelar. Företagen väljer transport efter vilken vara som ska fraktas, hur långt den ska transporteras, hur snabbt den behöver komma fram och vad transporten kostar."}
-    ] },
     { id: 'varje-transportslag-passar-for', titel: "Varje transportslag passar för olika varor", block: [
+      {"typ":"text","text":"Varor kan transporteras på fyra huvudsakliga sätt: med fartyg, järnväg, lastbil och flyg. Dessa kallas *transportslag*, och alla har olika fördelar och nackdelar. Företagen väljer transport efter vilken vara som ska fraktas, hur långt den ska transporteras, hur snabbt den behöver komma fram och vad transporten kostar."},
       {"typ":"rubrik","text":"Fartyg är billigast för stora mängder över långa avstånd"},
       {"typ":"text","text":"*Sjöfart* innebär att varor och människor transporteras med fartyg. Det är ett mycket kostnadseffektivt sätt att frakta stora mängder gods över långa avstånd. Stora lastfartyg kan transportera enorma mängder råvaror och färdiga produkter, vilket gör kostnaden per ton relativt låg. Enligt FN:s handelsorgan UNCTAD transporteras mer än 80 procent av världshandelns varor, räknat i vikt, med fartyg."},
       {"typ":"text","text":"Sjöfartens största nackdel är att transporterna tar lång tid. Fartygen är dessutom beroende av hamnar där varorna kan lastas och lossas. Därför behövs ofta andra transportslag för att varorna ska nå sin slutliga destination. Sjöfarten är särskilt viktig för världshandeln eftersom den gör det möjligt att transportera stora mängder varor mellan olika världsdelar."},
