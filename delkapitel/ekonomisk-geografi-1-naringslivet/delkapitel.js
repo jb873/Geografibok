@@ -1,18 +1,25 @@
-/* Ekonomisk geografi, delkapitel 1 Näringslivet – en bok med texterna A–D (bokmotorn från fysikboken, se bokskal/).
- * Kapitlets sida (avsnittslistan, Självskattning och Begreppsbank) är delkapitel/ekonomisk-geografi/index.html.
- * Bara data här: titel, nivåer och hjälpmedel. Innehållet ligger i innehall/<nivå>.js. */
+/* Ekonomisk geografi, delkapitel 1 Näringslivet – en bok per text (A–D), bokmotorn i bokskal/.
+ * Kapitlets sida är delkapitel/ekonomisk-geografi/index.html. Bara data här: titel, texter, nivåer och hjälpmedel.
+ * Innehållet ligger i innehall/<text>/<nivå>.js, ordagrant ur kallor/<text>-<nivå>.md (order 17).
+ * Den gamla bokversionen (sidformat, v4-text) ligger i Arkiv/naringslivet-gammal-bok/. */
 Bok.delkapitel({
-  id: 'geografi-ekonomisk-1-naringslivet',
+  id: 'geografi-ekonomisk-1-naringslivet-bok',
   amne: 'Geografi',
   smulor: [{ text: 'Geografi', href: '../../index.html' }, { text: 'Ekonomisk geografi', href: '../ekonomisk-geografi/index.html' }],
   nummer: 1,
   titel: 'Näringslivet',
-  undertitel: 'Varor, tjänster, sektorer och lokalisering',
+  undertitel: 'Sektorer, lokalisering och Sveriges näringsliv',
   overrad: 'Ekonomisk geografi',
-  standardniva: 'standard',
+  texter: [
+    { id: 'a', titel: 'Ekonomisk geografi och näringslivet' },
+    { id: 'b', titel: 'Näringslivets sektorer' },
+    { id: 'c', titel: 'Lokaliseringsfaktorer' },
+    { id: 'd', titel: 'Sveriges näringsliv' }
+  ],
+  // Plattformens tre nivåer och djupdykningen som fjärde nivå
+  nivaer: [{ id: 'enkel', namn: 'Enkel', ikon: '📗' }, { id: 'standard', namn: 'Standard', ikon: '📘' },
+    { id: 'fordjupning', namn: 'Fördjupning', ikon: '📕' }, { id: 'djupdykning', namn: 'Djupdykning' }],
   // Hjälpmedlen finns inte än: utan adress visas de som "kommer".
-  // Begreppslistan: geografins begreppsbank (begreppsbank.html per kapitel) har ingen adress per begrepp och tar inte
-  // emot embed=1. Adressen sätts när kapitlet har en begreppsbank.
   hjalpmedel: {
     forelasning:    { href: null },
     ova:            { href: null },

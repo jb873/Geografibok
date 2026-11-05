@@ -41,7 +41,10 @@ const LAGEN = [
   { namn: '1366×633 i fönstret', B: 1366, H: 633, helskarm: false },
   { namn: '1366×768 i fönstret', B: 1366, H: 768, helskarm: false },
   { namn: '1366×768 i helskärm', B: 1366, H: 768, helskarm: true },
-  { namn: 'mobil 390×664', B: 390, H: 664, helskarm: true, mobil: true }
+  { namn: 'mobil 390×664', B: 390, H: 664, helskarm: true, mobil: true },
+  // 13–14-tums Chromebooks med 1920×1080 skalat till 150 % (order 17). Sist, så att LAGEN[0] och LAGEN[3] (mobil) står kvar.
+  { namn: '1536×864 i fönstret', B: 1536, H: 864, helskarm: false },
+  { namn: '1536×864 i helskärm', B: 1536, H: 864, helskarm: true }
 ];
 
 // De fyra felen i den negativa verifieringen. Vart och ett ska ge rött i varje läge (V12: samma läge som grinden).
@@ -65,7 +68,7 @@ const FANGA_FEL = `window.__fel = [];
 function delkapitel(allt) {
   const ut = [];
   for (const omr of fs.readdirSync(ROT, { withFileTypes: true })) {
-    if (!omr.isDirectory() || ['bokskal', 'mall', 'verktyg', 'node_modules'].includes(omr.name) || omr.name.startsWith('.')) continue;
+    if (!omr.isDirectory() || ['bokskal', 'mall', 'verktyg', 'node_modules', 'Arkiv'].includes(omr.name) || omr.name.startsWith('.')) continue;
     for (const d of fs.readdirSync(path.join(ROT, omr.name), { withFileTypes: true })) {
       const mapp = path.join(ROT, omr.name, d.name);
       if (d.isDirectory() && fs.existsSync(path.join(mapp, 'delkapitel.js'))) ut.push({ namn: `${omr.name}/${d.name}`, mapp, prov: false });

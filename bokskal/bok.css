@@ -467,6 +467,11 @@ sub, sup { font-size: .7em; line-height: 0; }
    kapitäler, där g blir G och kg KG */
 .sym { font-family: var(--text); font-variant-caps: normal; text-transform: none; letter-spacing: normal; font-weight: 500; }
 .tabell-fotnot { font-size: .82em; color: var(--dampad); margin: .3em 0 0; }
+/* tabell.kolumner: tabellen i spaltens bredd; en smal kolumn (så smal som innehållet) och en centrerad kolumn */
+.b-tabell table.med-kolumner { width: 100%; font-size: .9em; }   /* tabellens grad (inte brödtextens): som plattformens tabeller */
+.b-tabell table.med-kolumner th, .b-tabell table.med-kolumner td { padding: .12em .7em .12em 0; line-height: 1.32; }
+.b-tabell .kol-smal { width: 1%; white-space: nowrap; }
+.b-tabell .kol-mitt { text-align: center; padding-left: .6em; padding-right: .6em; }
 
 /* Länken ut till hjälpmedlen (blocktypen lank), t.ex. i slutet av ett avsnitt. Den står i sidans fot (bok.js:
    byggSida): en tyst rad under en tunn linje, i stället för det mesta av sidans nedre marginal. */

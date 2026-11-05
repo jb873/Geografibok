@@ -335,7 +335,7 @@ rubrikerna och krymper fortfarande sin egen text (ned till 70 %) om den behöver
 | `jamforelse` | `kolumner: [{rubrik, punkter}]`: två spalter sida vid sida |
 | `formel` | `uttryck`, `forklaring: [[tecken, betydelse], …]` |
 | `exempel` | `rubrik?` (standard "Exempel"), `rader: [...]` |
-| `tabell` | `rubriker?`, `rader: [[...]]`, `fotnot?`. Första kolumnen är radrubrik. |
+| `tabell` | `rubriker?`, `rader: [[...]]`, `fotnot?`, `kolumner?`. Första kolumnen är radrubrik. `kolumner` (Geografibok, order 17 – ska föras över till Fysikbok): en post per kolumn, `{ smal: true }` gör kolumnen så smal som innehållet och `{ mitt: true }` centrerar den; tabellen tar då spaltens bredd, i 90 % av textens grad och med tätare rader (så att en lång tabell ryms på en sida – en tabell delas aldrig). Exempel: årtalskolumnen i Sveriges näringsliv, `kolumner: [{}, { smal: true, mitt: true }, {}]`. |
 
 Ett block får ett eget `id` om det som eleven gör i det ska överleva att block flyttas (för interaktiva block senare).
 Utan eget id heter blocket `<avsnitt>-b<n>` (det n:te blocket), och läsplatsen sparas så. Rubrikernas adresser heter

@@ -186,11 +186,14 @@
     d.forklaring && h('dl', null, d.forklaring.map(([t, f]) => [h('dt', { html: inline(t) }), h('dd', { html: inline(f) })])));
   blocktyper.exempel = d => h('div', { class: 'b-exempel' },
     h('h4', null, symText(d.rubrik || 'Exempel')), d.rader.map(r => h('p', { html: inline(r) })));
+  // kolumner (Geografibok, order 17): valfritt, en post per kolumn – {smal: true} gör kolumnen så smal som innehållet,
+  // {mitt: true} centrerar den (t.ex. ett årtal: [{}, {smal: true, mitt: true}, {}])
+  const kolKlass = (d, i) => { const k = d.kolumner && d.kolumner[i]; return k ? [k.smal && 'kol-smal', k.mitt && 'kol-mitt'].filter(Boolean).join(' ') || null : null; };
   blocktyper.tabell = d => h('div', { class: 'b-tabell' },
-    h('table', null,
-      d.rubriker && h('thead', null, h('tr', null, d.rubriker.map(r => h('th', { scope: 'col', html: symboler(inline(r)) })))),
+    h('table', { class: d.kolumner ? 'med-kolumner' : null },
+      d.rubriker && h('thead', null, h('tr', null, d.rubriker.map((r, i) => h('th', { scope: 'col', class: kolKlass(d, i), html: symboler(inline(r)) })))),
       h('tbody', null, d.rader.map(rad => h('tr', null,
-        rad.map((c, i) => h(i ? 'td' : 'th', { scope: i ? null : 'row', html: inline(c) })))))),
+        rad.map((c, i) => h(i ? 'td' : 'th', { scope: i ? null : 'row', class: kolKlass(d, i), html: inline(c) })))))),
     d.fotnot && h('p', { class: 'tabell-fotnot', html: inline(d.fotnot) }));
   // Figuren specificeras i data och ritas av motorn (figurer.js). Saknas den syns en markering, och ?kontroll säger till.
   blocktyper.figur = d => {
