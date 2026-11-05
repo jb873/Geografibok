@@ -39,6 +39,7 @@
 | Datum | Typ | Var upptäckt | Observation | Förslag |
 |---|---|---|---|---|
 | 2026-11-05 | B | Order 10: bokmotorn bytt till Fysikbokens (e62c0ba) | Datastyrt startsidesprov i bok-grind.js – ska föras över till Fysikbok. Kapitlen letas upp på disken (<kapitel>/kapitel.js + index.html), titel ur kapitel.js, avsnittssidor = kapitlets delkapitel (nummer, ämne ur delkapitel.js); övriga kort prövas allmänt (länk till sida som finns, eller tonat "Kommer"). Utan kapitel.js hoppas provet över. Webbjämförelsen läser samma kapitellista. Provat mot Fysikbok: 23/23 grönt; negativt prov (trasig länk) blir rött. | För över verktyg/bok-grind.js (provaSidorna, kapitlen, delkapitel(allt), jamforWebben) till Fysikbok. |
+| 2026-11-05 | B | Order 11: bildfigur i bokmotorn | Bildfigur (små + klickbara) i bokskal – ska föras över till Fysikbok. Figuren `bild` (figurer.js) och bildfigurstödet i bok.js (bildMatt: storleken i texten ur data, högst 35 % av sidhöjden med bildtexten; visaBild/stangBild: lagret, högst 90 %×85 % av fönstret, aldrig mindre än i texten; bladdra/tangenter avstängda), bok.css (.b-bild, .figur-knapp, .bild-lager), Bok.matSidor() ger också sidor och bilder. Grinden: figurKoll (bb), brytningen innan/efter bildladdning (BLOCKERA, brytningMedBilder). Ingen geografispecifik kod. | För över bokskal/bok.js, bok.css, figurer.js, verktyg/bok-grind.js och README-avsnittet till Fysikbok (provboken: sidan Provsida med bilder och verktyg/provbok/bilder/). |
 | | | | | |
 
 *(Tom rad ovan är till för nya poster — fyll på underifrån)*

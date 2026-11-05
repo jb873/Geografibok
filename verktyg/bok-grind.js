@@ -143,10 +143,14 @@ async function chrome() {
  *  - friktionen: ytorna hakar i varandra utan att gå in i varandra, strecklinjerna korsar inga rubriker, draget åt
  *    höger och friktionen åt vänster, lika långa och från samma punkt på blocket; samma ytor ger samma mönster;
  *  - bildpilarna: fotot laddas, pilarna i lika är lika långa (±1 px på skärmen), ingen pil eller etikett utanför
- *    utsnittet, etiketterna överlappar inte varandra.
- * Klistras in i scenarierna (behöver v och $$). */
+ *    utsnittet, etiketterna överlappar inte varandra;
+ *  - bildfiguren (order 11): högst 35 % av sidhöjden med bildtexten, högst spaltens bredd, bildens proportioner, bilden
+ *    laddas; den första öppnas större (minst som i texten, högst 90 % × 85 % av fönstret, mörk botten), tangenterna
+ *    bläddrar inte, Esc/klick utanför/Stäng stänger, fokus tillbaka, läsplatsen densamma. (Brytningen innan och efter
+ *    att bilderna laddats: i kor, BLOCKERA.)
+ * Klistras in i scenarierna (behöver v, $, $$, tangent och oppen). */
 const FIGURKOLL = String.raw`const figurKoll = async () => {
-    const sett = new Map(), par = new Map(), fr = new Map(), bp = new Map(), tal = new Set(), st = new Map(), fp = new Map(), hs = new Map();
+    const sett = new Map(), par = new Map(), fr = new Map(), bp = new Map(), tal = new Set(), st = new Map(), fp = new Map(), hs = new Map(), bb = new Map();
     // g och N/kg i rubriker, innehållet, sidhuvudet och tabellhuvuden: i vanlig stil med rätt skiftläge (span.sym i
     // EB Garamond, inte kapitäler – där blir g ett G och kg KG)
     const SYMKOLL = /(?<![\p{L}\p{N}\/])(?:N\/kg|g)(?![\p{L}\p{N}\/²³])/gu, symSett = new Set(), symFel = [];
@@ -257,6 +261,60 @@ const FIGURKOLL = String.raw`const figurKoll = async () => {
           // etikettens storlek på skärmen: textens storlek i figurens enheter gånger figurens skala
           minPx: Math.min(...[...s.querySelectorAll('text.fig-bildpil-text')].map(t => parseFloat(getComputedStyle(t).fontSize) * sk)) });
       });
+      // bildfiguren (order 11): figurens höjd med bildtexten mot sidhöjden, bildens storlek mot spalten och data
+      $$('.scen figure.b-bild').forEach(f => {
+        const id = f.dataset.post;
+        if (bb.has(id)) return;
+        const sh = parseFloat($('.scen').style.getPropertyValue('--sh')), r = f.getBoundingClientRect(), i = f.querySelector('.figur-bild img').getBoundingClientRect();
+        bb.set(id, { sida: n, andel: r.height / sh, b: i.width, h: i.height, spalt: f.clientWidth, kvot: f.dataset.bredd / f.dataset.hojd,
+          href: new URL(f.dataset.bild, location.href).href, text: !!f.querySelector('figcaption') });
+      });
+    }
+    // bildfiguren: högst 35 % av sidhöjden med bildtexten, högst spaltens bredd, bildens proportioner (data), bilden laddas
+    const bbFel = [], bbLaddad = {};
+    for (const [id, x] of bb) {
+      const f_ = [];
+      if (!(x.andel <= 0.35 + 0.001)) f_.push('figuren är ' + (100 * x.andel).toFixed(1) + ' % av sidhöjden (högst 35)');
+      if (x.b > x.spalt + 0.5) f_.push('bilden är bredare än spalten: ' + x.b.toFixed(1) + ' > ' + x.spalt);
+      if (Math.abs(x.b / x.h - x.kvot) > 0.01) f_.push('proportionerna ' + (x.b / x.h).toFixed(3) + ' mot ' + x.kvot.toFixed(3) + ' i data');
+      if (!(x.href in bbLaddad)) bbLaddad[x.href] = await new Promise(ok => { const i = new Image(); i.onload = () => ok([i.naturalWidth, i.naturalHeight]); i.onerror = () => ok(null); i.src = x.href; });
+      const nat = bbLaddad[x.href];
+      if (!nat) f_.push('bilden laddas inte (' + x.href.split('/').pop() + ')');
+      else if (Math.abs(nat[0] / nat[1] - x.kvot) > 0.005) f_.push('bildens proportioner ' + nat.join('×') + ' stämmer inte med data');
+      if (f_.length) bbFel.push(id + ': ' + f_.join(', '));
+    }
+    // …och större: den första bildfiguren öppnas med ett klick, mäts och stängs på alla sätt
+    let bbProv = null;
+    const forstaBild = [...bb.entries()][0];
+    if (forstaBild) {
+      const [id, x] = forstaBild;
+      Bok.gaTill(x.sida); await v(60);
+      const f = $('.scen [data-post="' + id + '"]'), knapp = f && f.querySelector('button.figur-knapp'), L = $('.bild-lager');
+      const pf = [];
+      if (!knapp || knapp.getAttribute('aria-label') !== 'Visa större bild') pf.push('figuren är ingen knapp "Visa större bild"');
+      else {
+        const plats = Bok.plats, sida = Bok.sida, iT = f.querySelector('.figur-bild img').getBoundingClientRect();
+        knapp.focus(); knapp.click(); await v(150);
+        const st = $('.bild-stor').getBoundingClientRect(), bg = getComputedStyle(L).backgroundColor.match(/[\d.]+/g).map(Number);
+        const lika = Math.abs(st.width - iT.width) < 1 && Math.abs(st.height - iT.height) < 1;
+        if (L.hidden) pf.push('klicket öppnar inte lagret');
+        if (st.width < iT.width - 0.5 || st.height < iT.height - 0.5) pf.push('större bild ' + Math.round(st.width) + '×' + Math.round(st.height) + ' är mindre än i texten ' + Math.round(iT.width) + '×' + Math.round(iT.height));
+        if (!lika && (st.width > 0.9 * innerWidth + 0.5 || st.height > 0.85 * innerHeight + 0.5)) pf.push('större bild ' + Math.round(st.width) + '×' + Math.round(st.height) + ' över 90 %/85 % av fönstret ' + innerWidth + '×' + innerHeight);
+        if (Math.abs(st.width / st.height - x.kvot) > 0.01) pf.push('den större bildens proportioner');
+        if (!(bg.length === 4 && bg[3] >= 0.6 && bg[3] < 1 && Math.max(bg[0], bg[1], bg[2]) < 60)) pf.push('bakgrunden är inte mörk och genomskinlig: ' + bg.join(','));
+        tangent('ArrowRight'); await v(200); tangent('PageDown'); await v(200);
+        if (Bok.sida !== sida || L.hidden) pf.push('tangenterna bläddrade medan bilden visades (sida ' + sida + ' → ' + Bok.sida + ')');
+        tangent('Escape'); await v(150);
+        if (!L.hidden || !oppen()) pf.push('Esc stänger inte bilden (eller stänger boken)');
+        if (document.activeElement !== knapp) pf.push('fokus går inte tillbaka till figuren');
+        if (Bok.plats !== plats || Bok.sida !== sida) pf.push('läsplatsen ändrades: ' + plats + ' → ' + Bok.plats);
+        knapp.click(); await v(120); L.click(); await v(120);
+        if (!L.hidden) pf.push('klick utanför bilden stänger inte');
+        knapp.click(); await v(120); $('.bild-stang').click(); await v(120);
+        if (!L.hidden || document.activeElement !== knapp) pf.push('Stäng stänger inte (eller fokus går inte tillbaka)');
+        bbProv = { ok: !pf.length, detalj: id + ': ' + (pf.join(', ') || 'i texten ' + Math.round(iT.width) + '×' + Math.round(iT.height) + ', större ' + Math.round(st.width) + '×' + Math.round(st.height) + ' (fönster ' + innerWidth + '×' + innerHeight + ')') };
+      }
+      if (pf.length && !bbProv) bbProv = { ok: false, detalj: id + ': ' + pf.join(', ') };
     }
     const fel = [], lika = (p, q) => Math.abs(p - q) < 0.6;
     for (const [id, x] of sett) {
@@ -343,6 +401,7 @@ const FIGURKOLL = String.raw`const figurKoll = async () => {
       st: { antal: st.size, fel: [...st].flatMap(([id, x]) => x.fel.map(e => id + ': ' + e)) },
       fp: { antal: fp.size, fel: [...fp].flatMap(([id, x]) => x.fel.map(e => id + ': ' + e)) },
       hs: { antal: hs.size, fel: [...hs].flatMap(([id, x]) => x.fel.map(e => id + ': ' + e)) },
+      bb: { antal: bb.size, fel: bbFel, prov: bbProv, andel: bb.size ? Math.max(...[...bb.values()].map(x => x.andel)) : null },
       fr: { antal: fr.size, ytor: [...new Set([...fr.values()].map(x => x.ytor))], pilar: [...fr.values()].map(x => x.pilar.length), monster, fel: frFel }, tal: [...tal] };
   };`;
 
@@ -664,6 +723,13 @@ const SCENARIO = String.raw`async (helskarmLage) => {
     spar.every(x => !x.fp.fel.length), spar.flatMap(x => x.fp.fel).join(' | '));
   if (spar.some(x => x.hs.antal)) prova('figur: den fallande hissen – tyngdkraften lika lång i båda panelerna, i den stilla hissen lika lång som normalkraften, i den fallande ingen normalkraft (' + spar.map(x => x.hs.antal).join(' + ') + ' figurer)',
     spar.every(x => !x.hs.fel.length), spar.flatMap(x => x.hs.fel).join(' | '));
+  if (spar.some(x => x.bb.antal)) {
+    prova('figur: bildfiguren – högst 35 % av sidhöjden med bildtexten, högst spaltens bredd, i bildens proportioner, bilden laddas (' + spar.map(x => x.bb.antal).join(' + ') + ' bilder)',
+      spar.every(x => !x.bb.fel.length), spar.flatMap(x => x.bb.fel).join(' | ') || 'högst ' + (100 * Math.max(...spar.filter(x => x.bb.antal).map(x => x.bb.andel))).toFixed(1) + ' % av sidhöjden');
+    const pr = spar.map(x => x.bb.prov).filter(Boolean);
+    prova('figur: bildfiguren större – ett klick öppnar lagret på mörk botten, bilden minst lika stor som i texten och högst 90 % × 85 % av fönstret, tangenterna bläddrar inte, Esc stänger och fokus går tillbaka till figuren, läsplatsen är densamma, klick utanför och Stäng stänger',
+      pr.length > 0 && pr.every(p => p.ok), pr.map(p => p.detalj).join(' | '));
+  }
   prova('text: tal och enhet (och tusental) står med hårt mellanslag på varje sida, i varje text och nivå (' + spar.length + ' böcker)',
     spar.every(x => !x.tal.length), spar.flatMap(x => x.tal).slice(0, 6).join(' | '));
   prova('text: g och N/kg i rubriker, innehållet, sidhuvudet och tabellhuvuden står i vanlig stil med rätt skiftläge, inte i kapitäler (' + spar.reduce((a, x) => a + x.sym.antal, 0) + ' ställen)',
@@ -983,6 +1049,31 @@ async function provaBlad(c, lage) {
 
 /* ---------- En körning: ett delkapitel i ett läge ---------- */
 
+// Bilderna laddas inte: inga <img> som byggs med innerHTML får en src (bildfiguren i bok.js/figurer.js byggs så).
+const BLOCKERA = String.raw`(() => {
+  const d = Object.getOwnPropertyDescriptor(Element.prototype, 'innerHTML');
+  Object.defineProperty(Element.prototype, 'innerHTML', { configurable: true, get() { return d.get.call(this); },
+    set(v) { d.set.call(this, typeof v === 'string' ? v.replace(/<img\b([^>]*?)\ssrc=/g, '<img$1 data-blockerad=') : v); } });
+})();`;
+
+// Den första textens bok bryts i det aktuella sidmåttet (Bok.matSidor): blocken på varje sida och bildfigurerna.
+// Laddade bilder väntas in (högst 4 s); blockerade väntas inte in.
+async function brytningMedBilder(c, ladda, url, blockerad) {
+  await ladda(url);
+  return c.ev(`(async () => {
+    const v = ms => new Promise(r => setTimeout(r, ms));
+    const t = document.querySelector('.underdel-knapp[data-oppna]');
+    if (!t) return { sidor: [], bilder: [] };
+    t.click(); await v(700);
+    const st = document.querySelector('.scen').style;
+    const g = { sb: parseFloat(st.getPropertyValue('--sb')), sh: parseFloat(st.getPropertyValue('--sh')), fs: parseFloat(st.getPropertyValue('--fs')) };
+    let m = Bok.matSidor(g);
+    for (let i = 0; i < 40 && !${blockerad} && m.bilder.some(b => !b.laddad); i++) { await v(100); m = Bok.matSidor(g); }
+    [...document.querySelectorAll('.bok-stang')].find(e => e.offsetParent).click(); await v(450);
+    return { sidor: m.sidor, bilder: m.bilder };
+  })()`);
+}
+
 async function kor(dk, lage, felkod) {
   const c = await chrome();
   const res = { kontroller: [], fel: [], kontroll: null };
@@ -1006,6 +1097,20 @@ async function kor(dk, lage, felkod) {
     if (dk.prov && !lage.mobil) res.kontroller.push(...await c.ev(`(${PROVSCENARIO})()`));
     const blad = await provaBlad(c, lage);
     res.kontroller.push(...blad); res.bladTid = blad.tid || null;
+    // Bildfiguren: brytningen är densamma innan och efter att bilderna laddats. Boken bryts (i det här sidmåttet) en
+    // gång med bilderna laddade och en gång i en sidladdning där inga <img> får en src (BLOCKERA): samma block på varje
+    // sida och samma bildbredder. Bara för en bok med bildfigurer.
+    const laddad = await brytningMedBilder(c, ladda, url, false);
+    if (laddad.bilder.length) {
+      const { identifier } = await c.send('Page.addScriptToEvaluateOnNewDocument', { source: BLOCKERA });
+      const blockerad = await brytningMedBilder(c, ladda, url, true);
+      await c.send('Page.removeScriptToEvaluateOnNewDocument', { identifier });
+      const matt = x => JSON.stringify(x.bilder.map(b => [b.post, b.bredd, b.hojd]));
+      const lika = JSON.stringify(laddad.sidor) === JSON.stringify(blockerad.sidor) && matt(laddad) === matt(blockerad);
+      res.kontroller.push({ namn: `figur: bildfiguren – brytningen är densamma innan och efter att bilderna laddats (${laddad.bilder.length} bilder)`,
+        ok: lika && laddad.bilder.every(b => b.laddad) && blockerad.bilder.every(b => !b.laddad),
+        detalj: `${laddad.sidor.length} sidor laddade / ${blockerad.sidor.length} blockerade; bredd×höjd ${laddad.bilder.map(b => b.bredd + '×' + b.hojd).join(',')} / ${blockerad.bilder.map(b => b.bredd + '×' + b.hojd).join(',')}; laddade ${laddad.bilder.filter(b => b.laddad).length}/${laddad.bilder.length}, blockerade laddade ${blockerad.bilder.filter(b => b.laddad).length}` });
+    }
     // En adress som pekar på en rubrik (#atomer-2) öppnar boken där rubriken står; Stäng leder till hubben i samma
     // delkapitel. Rubrikernas adresser kommer ur kontrolläget (adress → block).
     const ankare = ((res.kontroll && res.kontroll.ankare) || []).filter(([a, p]) => p !== a && /-\d+$/.test(a));

@@ -25,6 +25,8 @@
  *   bildpilar           bild, bredd, hojd (fotots pixlar), utsnitt?: [x, y, b, h], maxhojd?: 0.2–0.45 (standard 0.45),
  *                       prickar?: [[x, y], …] (lägesmarkeringar), stråle?: {fran, till} (riktningen under prickarna),
  *                       pilar: [{namn, fran: [x, y], till: [x, y], etikett?: [x, y]}], lika?: [[0, 1]], beskrivning (krävs)
+ *   bild                bild, bredd, hojd (bildens pixlar), beskrivning (krävs), bildtext? – en bild, liten i texten (högst
+ *                       35 % av sidhöjden med bildtexten) och klickbar till större (bok.js: bildMatt, visaBild)
  *
  * Figurerna ritas ungefär i textspaltens bredd (440 enheter), så att texten i dem blir läsbar (≈ 14–17 px).
  * Hela partiklar ritas i neutral sandfärg, som i filmernas modeller (bok.py: ATOM). En ny sorts figur är en ny
@@ -544,6 +546,20 @@
     if (d.maxhojd != null && !(d.maxhojd >= 0.2 && d.maxhojd <= 0.45)) fel('bildpilar: maxhojd ska vara mellan 0.2 och 0.45 (andel av sidhöjden)');
     const stil = d.maxhojd != null ? ` style="max-height: calc(var(--sh) * ${d.maxhojd})" data-maxhojd="${d.maxhojd}"` : '';
     return { svg: `<svg viewBox="0 0 440 ${H}" xmlns="http://www.w3.org/2000/svg" data-bildpilar="${pilar.length}" data-lika="${data}"${prickar.length ? ` data-prickar="${prickar.length}"` : ''}${stil}>${s}</svg>`, beskrivning: d.beskrivning };
+  });
+
+  /* Bild (Geografibok, order 11): en bild utan pilar – ett foto, en karta, en infografik. Liten i texten och klickbar
+     till större: motorn (bok.js) gör hela figuren till en knapp och räknar storleken i texten ur bredd och hojd (högst
+     35 % av sidhöjden med bildtexten, högst spaltens bredd), så att brytningen inte beror på när bilden laddas. Ett
+     klick visar bilden i dess egen storlek, högst 90 % av fönstrets bredd och 85 % av dess höjd, aldrig mindre än i
+     texten. Bilden kan inte beskrivas ur data: beskrivning krävs. */
+  Bok.figur('bild', d => {
+    if (!d.bild || !(d.bredd > 0) || !(d.hojd > 0)) fel('bild behöver bild, bredd och hojd (bildens pixlar)');
+    if (!d.beskrivning) fel('bild behöver en beskrivning – bilden kan inte beskrivas ur data');
+    return {
+      html: `<img src="${esc(d.bild)}" alt="" width="${d.bredd}" height="${d.hojd}" decoding="async" style="aspect-ratio: ${d.bredd} / ${d.hojd}">`,
+      beskrivning: d.beskrivning, bild: { src: d.bild, bredd: d.bredd, hojd: d.hojd }
+    };
   });
 
   /* Stoppsträckan (III B Djupdykning, 2026-11-04): liggande staplar, en rad per fart, varje stapel i två delar –

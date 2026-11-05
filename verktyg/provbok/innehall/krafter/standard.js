@@ -15,6 +15,16 @@ Bok.niva('standard', {
             { namn: 'Friktion', riktning: 'vanster', storlek: 4 }
           ] }
         ] },
+        // Bildfiguren (order 11): en stor bild utan bildtext och en med en bildtext på två rader
+        { titel: 'Provsida med bilder', block: [
+          { typ: 'text', text: 'Provtext före den stora bilden. Bilden är större än spalten och ska bli liten i texten och klickbar till större.' },
+          { typ: 'figur', id: 'bild-stor', namn: 'bild', bild: 'bilder/hundra-svenskar-da-och-nu.webp', bredd: 1528, hojd: 936,
+            beskrivning: 'Provbild: hundra figurer i tre rader, färgade efter näring.' },
+          { typ: 'text', text: 'Provtext före bilden med bildtext.' },
+          { typ: 'figur', id: 'bild-bildtext', namn: 'bild', bild: 'bilder/robottathet.webp', bredd: 1448, hojd: 747,
+            beskrivning: 'Provbild: staplar som jämför antalet industrirobotar per anställd i några länder.',
+            bildtext: 'Provbildtext på två rader: bildtexten räknas in i figurens höjd, högst 35 procent av sidan.' }
+        ] },
         { titel: 'Provsida med flyter och sjunker', block: [
           { typ: 'figur', namn: 'flyter_sjunker', foremal: [
             { namn: 'Kork', densitet: 0.25 },

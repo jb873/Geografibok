@@ -65,7 +65,7 @@
   // flytt räknas upp när blockens element flyttas mellan sidor (en ny brytning), så att sidorna byggs om.
   let aktuell = null, plats = null, flytt = 0, typsnittKlara = false, provaRubrikSist = false, provaLangsam = false;
   let tillbaka = null, vandning = 'blad', helskarm = true, reglage = 'alltid', vilaTimer = null;
-  let fokusEfter = null, panelFran = null, senasteEsc = 0;
+  let fokusEfter = null, panelFran = null, senasteEsc = 0, bildNr = 0, bildFran = null;
   const ui = {};
 
   /* ---------- Hjälpfunktioner ---------- */
@@ -195,6 +195,19 @@
     const f = figurer[d.namn];
     if (!f) return h('figure', { class: 'b-figur' }, h('div', { class: 'figur-saknas' }, `Figuren ”${d.namn}” finns inte (bokskal/figurer.js)`));
     const r = f(d), svg = typeof r === 'string' ? r : r.svg;
+    // En bildfigur (r.bild = {src, bredd, hojd}, t.ex. figuren 'bild'): liten i texten och klickbar till större. Hela
+    // figuren är knappen; storleken i texten räknas ur bredd och hojd i data (bildMatt), inte ur den laddade bilden.
+    if (r.bild) {
+      const besk = d.beskrivning || r.beskrivning, id = 'bildbesk-' + (++bildNr);
+      let fig;
+      fig = h('figure', { class: 'b-figur b-bild', 'data-bild': r.bild.src, 'data-bredd': r.bild.bredd, 'data-hojd': r.bild.hojd,
+        onclick: () => visaBild(fig) },
+        h('button', { type: 'button', class: 'figur-knapp', 'aria-label': 'Visa större bild', 'aria-describedby': id },
+          h('span', { class: 'figur-bild', html: r.html })),
+        h('span', { class: 'sr-only', id }, besk),
+        d.bildtext && h('figcaption', { html: inline(d.bildtext) }));
+      return fig;
+    }
     return h('figure', { class: 'b-figur' },
       h('div', { class: 'figur-bild', role: 'img', 'aria-label': d.beskrivning || r.beskrivning || renText(d.bildtext) || d.namn, html: svg }),
       d.bildtext && h('figcaption', { html: inline(d.bildtext) }));
@@ -530,6 +543,7 @@
     ui.lasRemsa.style.width = Math.round((uppslag ? 2 : 1) * g.sb) + 'px';
     // Nytt sidmått: boken bryts om, och läsplatsen (ett block) behålls
     const b = bryt(byggBok(nivaId), g);
+    sattBildB(b.bildB);                            // bildfigurernas bredd för det här sidmåttet (bildMatt)
     if (b !== aktuell) {
       aktuell = b;
       sidor = b.sidor;
@@ -567,6 +581,30 @@
    * Alla block mäts i en spalt i ett enda layoutvarv; sedan packas grupperna med räkning, och varje sida provas en
    * gång i en riktig sida (ryms den inte går den sista gruppen vidare). Brytningen sparas per sidmått. */
 
+  /* Bildfigurens storlek i texten: högst BILD_ANDEL av sidhöjden tillsammans med bildtexten, högst spaltens bredd, i
+   * bildens proportioner (bredd och hojd i data). Räknas ur data och sidmåttet – inte ur den laddade bilden – så att
+   * brytningen är densamma innan och efter att bilden laddats. Ett läsvarv (spaltens bredd och bildtextens höjd, som
+   * inte beror på bilden), sedan sätts bredden (--bild-b) på varje figur. Bredderna sparas med brytningen (bildB) och
+   * sätts igen när brytningen används (layout), eftersom samma element används för alla sidmått. */
+  const BILD_ANDEL = 0.35;
+  function bildMatt(figurer_, g) {
+    const ut = new Map();
+    if (!figurer_.length) return ut;
+    figurer_.forEach(e => e.style.removeProperty('--bild-b'));
+    const las = figurer_.map(e => {
+      const cap = e.querySelector('figcaption');
+      return { e, spalt: e.clientWidth, cap: cap ? cap.getBoundingClientRect().height + parseFloat(getComputedStyle(cap).marginTop) : 0 };
+    });
+    for (const { e, spalt, cap } of las) {
+      const kvot = +e.dataset.bredd / +e.dataset.hojd;
+      const hojd = Math.max(0, Math.min(spalt / kvot, BILD_ANDEL * g.sh - cap));
+      ut.set(e, Math.floor(10 * Math.min(spalt, hojd * kvot)) / 10);
+    }
+    sattBildB(ut);
+    return ut;
+  }
+  function sattBildB(m) { if (m) m.forEach((b, e) => e.style.setProperty('--bild-b', b + 'px')); }
+
   const TUNN = 0.4;                                   // en sida som är mindre fylld än så är tunn
   const NARA = 24;                                    // px: en sida så nära full provas i en riktig sida
   const geoNyckel = g => `${g.sb.toFixed(1)}x${g.sh.toFixed(1)}x${g.fs.toFixed(2)}`;
@@ -602,6 +640,8 @@
     vard.append(h('article', { class: 'sida', style: 'height: auto' }, kinne));
     const flode = bok.poster.filter(iFlodet);
     flode.forEach(p => kinne.append(postElement(p, bok)));
+    // Bildfigurernas bredd för det här sidmåttet (bildMatt), innan blocken mäts
+    const bildB = bildMatt(flode.map(p => p.el).filter(e => e && e.classList.contains('b-bild')), g);
     const bas = kinne.getBoundingClientRect().top, matt = new Map();
     flode.forEach(p => { const rr = p.el.getBoundingClientRect(); matt.set(p, { top: rr.top - bas, bottom: rr.bottom - bas }); });
     // Höjden för block i följd på en sida: från det första till det sista (det sista har ingen marginal under, bok.css)
@@ -718,13 +758,15 @@
       const rubrik = d.poster.slice(0, forsta + 1).reverse().find(p => p.ankare);
       x.ankare = rubrik ? rubrik.ankare : x.avsnitt.id;
     });
-    const r = { sidor, postSida, matt, kap: kap0, g };
+    const r = { sidor, postSida, matt, kap: kap0, g, bildB };
     sidor[0].brytning = r;
     // Innehållsförteckningen (sida 1) ska rymmas; den krymper själv sin text (passaInnehall)
     const toc = sidElement(sidor[0]); vard.append(toc); passaInnehall(toc);
     const ti = toc.querySelector('.sidinnehall');
     sidor[0].over = ti.scrollHeight - ti.clientHeight > 1 ? ti.scrollHeight - ti.clientHeight : 0;
     vard.remove();
+    // En brytning för ett annat sidmått (kontrolläget, tidsprovet) får inte lämna sina bildbredder kvar i boken som visas
+    if (aktuell && aktuell !== r) sattBildB(aktuell.bildB);
     // Provkrok för grindens negativa prov (bara med ?kontroll&prova=langsam): brytningen tar 250 ms längre
     if (provaLangsam) { const slut = performance.now() + 250; while (performance.now() < slut); }
     r.ms = Math.round(10 * (performance.now() - t0)) / 10;
@@ -937,7 +979,8 @@
     history.replaceState({ bok: true }, '', adress(sida(n).ankare));
     rita(Math.sign(efter - fore), !hopp);           // bläddring vänder ett blad, ett hopp gör det inte
   }
-  const bladdra = steg => { const v = synliga(nr); gaTill(steg > 0 ? v[v.length - 1] + 1 : v[0] - 1); };
+  // Medan en bild visas större (visaBild) bläddras inte boken
+  const bladdra = steg => { if (bildVisas()) return; const v = synliga(nr); gaTill(steg > 0 ? v[v.length - 1] + 1 : v[0] - 1); };
   // Adressen: #<rubrik>, och med texter #<text>/<rubrik> (#atomen/periodiska-systemet-2), så att en länk öppnar rätt bok
   const adress = ankare => '#' + (info.texter ? textId + '/' : '') + ankare;
   const platsIAdressen = () => { const x = decodeURIComponent(location.hash.slice(1)); return x || null; };
@@ -1094,7 +1137,7 @@
     if (!oppen) return;
     oppen = false;
     if (bladKlar) bladKlar();
-    stangMeny(false); stangPanel(false); visaNivaLista(false);
+    stangBild(false); stangMeny(false); stangPanel(false); visaNivaLista(false);
     clearTimeout(vilaTimer);
     if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
     ui.app.hidden = true;
@@ -1110,7 +1153,8 @@
   // själv och lämnar helskärmen; det räknas som samma Esc.
   function esc_() {
     senasteEsc = Date.now();
-    if (!ui.panel.hidden) stangPanel();
+    if (bildVisas()) stangBild();
+    else if (!ui.panel.hidden) stangPanel();
     else if (!ui.nivaLista.hidden) { visaNivaLista(false); ui.nivaKnapp.focus(); }
     else if (!ui.meny.hidden) stangMeny();
     else stangBok();
@@ -1172,6 +1216,13 @@
       h('div', { class: 'hm-ruta', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'hm-rubrik' },
         h('div', { class: 'hm-huvud' }, ui.panelRubrik, ui.panelFlik, ui.panelStang), ui.panelRam));
 
+    // En bildfigur visas större ovanpå boken (visaBild): bilden på mörk botten, så att boken anas runt om.
+    ui.bildImg = h('img', { class: 'bild-stor', alt: '' });
+    ui.bildStang = h('button', { type: 'button', class: 'bild-stang', 'aria-label': 'Stäng bilden', onclick: () => stangBild() },
+      h('span', { 'aria-hidden': 'true' }, '✕'), ' Stäng');
+    ui.bildLager = h('div', { class: 'bild-lager', hidden: true, role: 'dialog', 'aria-modal': 'true', 'aria-label': 'Större bild',
+      onclick: e => { if (e.target === ui.bildLager) stangBild(); } }, ui.bildImg, ui.bildStang);
+
     // Dator: bara boken, och reglagen tysta i marginalerna bredvid den (de tar ingen höjd från sidorna).
     ui.lasSidtext = h('div', { class: 'las-sidtext', 'aria-hidden': 'true' });
     ui.lasRemsa = h('div', { class: 'las-remsa las-reglage', 'aria-hidden': 'true' });
@@ -1187,7 +1238,7 @@
       h('header', { class: 'topplist' }, stangKnapp('knapp'), ui.toppNiva, ui.innehall[1]),
       ui.scenRam,
       h('footer', { class: 'bottenlist' }, ui.bak, h('div', { class: 'botten-mitt' }, ui.position, ui.chipar[0]), ui.fram),
-      ui.meny, ui.panel, ui.meddela);
+      ui.meny, ui.panel, ui.bildLager, ui.meddela);
     document.body.append(ui.app);
 
     document.addEventListener('click', e => {
@@ -1209,7 +1260,7 @@
     document.addEventListener('keydown', e => {
       if (!oppen) return;
       if (e.key === 'Escape') { e.preventDefault(); esc_(); return; }
-      if (!ui.meny.hidden || !ui.panel.hidden || !ui.nivaLista.hidden) return;
+      if (bildVisas() || !ui.meny.hidden || !ui.panel.hidden || !ui.nivaLista.hidden) return;
       const mal = e.target instanceof Element ? e.target : null;
       if (e.altKey || e.ctrlKey || e.metaKey || (mal && mal.closest('input, textarea, select, [contenteditable], [data-egna-tangenter]'))) return;
       const k = { ArrowRight: () => bladdra(1), PageDown: () => bladdra(1), ArrowLeft: () => bladdra(-1),
@@ -1329,6 +1380,32 @@
     ui.panel.hidden = true;
     bytRam({ title: '' });
     if (fokus && panelFran && document.contains(panelFran)) panelFran.focus();
+  }
+
+  // En bildfigur större: bildens egen storlek (bredd och hojd i data), men högst BILD_STOR av fönstret – och aldrig
+  // mindre än i texten. Klick utanför bilden, ✕ Stäng och Esc stänger; fokus går tillbaka till figuren. Medan bilden
+  // visas bläddras inte boken (bladdra, tangenterna).
+  const BILD_STOR = { bredd: 0.9, hojd: 0.85 };
+  const bildVisas = () => !!ui.bildLager && !ui.bildLager.hidden;
+  function visaBild(fig) {
+    if (!oppen || bildVisas()) return;
+    const B = +fig.dataset.bredd, H = +fig.dataset.hojd, kvot = B / H;
+    const iTexten = fig.querySelector('.figur-bild img').getBoundingClientRect();
+    let b = Math.min(B, BILD_STOR.bredd * innerWidth, BILD_STOR.hojd * innerHeight * kvot);
+    if (b < iTexten.width) b = iTexten.width;
+    bildFran = fig.querySelector('.figur-knapp');
+    ui.bildImg.src = fig.dataset.bild;
+    ui.bildImg.alt = (fig.querySelector('.sr-only') || {}).textContent || '';
+    ui.bildImg.style.width = b.toFixed(1) + 'px';
+    ui.bildImg.style.height = (b / kvot).toFixed(1) + 'px';
+    ui.bildLager.hidden = false;
+    ui.bildStang.focus({ preventScroll: true });
+  }
+  function stangBild(fokus = true) {
+    if (!bildVisas()) return;
+    ui.bildLager.hidden = true;
+    if (fokus && bildFran && document.contains(bildFran)) bildFran.focus({ preventScroll: true });
+    bildFran = null;
   }
 
   function bytNiva(id) {
@@ -1522,7 +1599,11 @@
       const g = storlek ? Object.assign({ uppslag }, storlek) : geometri(MALSKARMAR[0][1], MALSKARMAR[0][2], false);
       const bok = byggBok(nivaId), r = paginera(bok, g);
       if (oppen) { aktuell = null; layout(); rita(null); }
-      return { for_stora: r.sidor.filter(s => s.over).map(s => ({ sida: s.nr, px: s.over })), ...regelkoll(r, bok) };
+      // sidor: blocken (post-id) på varje sida – grinden jämför brytningen innan och efter att bilderna laddats
+      return { for_stora: r.sidor.filter(s => s.over).map(s => ({ sida: s.nr, px: s.over })), ...regelkoll(r, bok),
+        sidor: r.sidor.map(s => s.poster.filter(iFlodet).map(p => p.id)),
+        bilder: [...r.bildB.keys()].map(e => { const p = bok.poster.find(q => q.el === e), m = p && r.matt.get(p);
+          return { post: e.dataset.post, laddad: e.querySelector('img').naturalWidth > 0, bredd: r.bildB.get(e), hojd: m ? Math.round(10 * (m.bottom - m.top)) / 10 : null }; }) };
     },
     // Brytningens tid (ms) för varje bok (text × nivå med innehåll), som för eleven (inte strikt), utan sparad
     // brytning. Ett varv bryter boken i vart och ett av Chromebookens två mått och räknar det längsta av de två. Först
