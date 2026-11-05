@@ -14,3 +14,8 @@ desktop.ini
 # Editor
 .vscode/
 .idea/
+# Bokmotorn (som i Fysikbok)
+*.zip
+verktyg/bilder/
+RAM.md
+Arkiv/
