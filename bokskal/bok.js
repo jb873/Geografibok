@@ -1018,8 +1018,17 @@
     ui.texter = h('div', { class: 'underdel-valjare', role: 'group', 'aria-label': 'Textval' });
     ui.nivaval = h('div', { class: 'niva-valjare', role: 'group', 'aria-label': 'Textnivå' });
     ui.lasLage = h('p', { class: 'intro' });
+    // villVetaMer (Geografibok, order 18): kort till fristående sidor (djupdykningar) längst ned i Läs, med plattformens
+    // mönster rakt av (section.vill-veta-mer, .fordj-kort-grid, a.fordj-kort). Data: [{href, ikon?, titel, sammanfattning?}].
+    const villVetaMer = (info.villVetaMer || []).length > 0 && h('section', { class: 'vill-veta-mer' },
+      h('h2', null, 'Vill du veta mer?'),
+      h('div', { class: 'fordj-kort-grid' }, info.villVetaMer.map(k => h('a', { class: 'fordj-kort', href: k.href },
+        h('span', { class: 'fordj-kort-ikon', 'aria-hidden': 'true' }, k.ikon || ''),
+        h('span', { class: 'fordj-kort-text' },
+          h('span', { class: 'fordj-kort-titel' }, k.titel),
+          k.sammanfattning && h('span', { class: 'fordj-kort-sammanfattning' }, k.sammanfattning))))));
     ui.flikInnehall = FLIKAR.map(([id, namn]) => h('section', { class: 'flik-innehall' + (id === 'laes' ? '' : ' dold'),
-      'data-flik': id, role: 'tabpanel', 'aria-label': namn }, id === 'laes' && [ui.texter, ui.nivaval, ui.lasLage]));
+      'data-flik': id, role: 'tabpanel', 'aria-label': namn }, id === 'laes' && [ui.texter, ui.nivaval, ui.lasLage, villVetaMer]));
     const hero = h('header', { class: 'hero-banner' },
       h('div', { class: 'hero-inner' },
         h('nav', { class: 'brodsmulor', 'aria-label': 'Brödsmulor' },

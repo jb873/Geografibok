@@ -139,6 +139,21 @@ main.sida {
 .niva-valjare .niva-knapp:hover { background-color: rgba(74, 45, 102, .1); }
 .niva-valjare .niva-knapp.aktiv { background-color: var(--accent); color: var(--papper); border-color: var(--accent); }
 .niva-valjare .niva-knapp[aria-disabled="true"] { opacity: .4; cursor: not-allowed; background-color: transparent; }
+/* villVetaMer (Geografibok, order 18): plattformens kort "Vill du veta mer?" (geografi.css: .vill-veta-mer, .fordj-kort)
+   rakt av, i motorns variabler – brass → --accent-2, brass-text → --accent-2-mork, ink → --black, muted → --dampad. */
+.vill-veta-mer { margin-top: 2.75rem; padding-top: 1.75rem; border-top: 1px solid rgba(27, 42, 54, .15); }
+.vill-veta-mer h2 { font-family: var(--rubrik); font-weight: 400; color: var(--black); line-height: 1.15; font-size: 1.5rem;
+  letter-spacing: .03em; margin: 2.25rem 0 1rem; }   /* plattformens .flik-innehall h2 */
+.fordj-kort-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+.fordj-kort { display: flex; align-items: flex-start; gap: .85rem; background-color: var(--papper-ljus);
+  border: 1px solid rgba(27, 42, 54, .14); border-left: 3px solid var(--accent-2); border-radius: 3px; padding: 1rem 1.1rem;
+  color: inherit; text-decoration: none; transition: background-color .15s ease, transform .15s ease; }
+.fordj-kort:hover { background-color: #faf4e4; transform: translateY(-1px); }
+.fordj-kort-ikon { flex: 0 0 auto; width: 24px; height: 24px; color: var(--accent-2-mork); margin-top: .1rem;
+  font-size: 1.4rem; line-height: 1; text-align: center; }
+.fordj-kort-text { display: flex; flex-direction: column; gap: .2rem; }
+.fordj-kort-titel { font-family: var(--rubrik); color: var(--black); font-size: 1.05rem; letter-spacing: .03em; }
+.fordj-kort-sammanfattning { color: var(--dampad); font-size: .92rem; line-height: 1.4; }
 
 .footnote { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid rgba(27, 42, 54, .18); text-align: center;
   font-style: italic; color: var(--dampad); font-size: .98rem; }

@@ -167,6 +167,11 @@ Bok.delkapitel({
    `<a class="kapitel-kort" href="<delkapitel>/index.html">`, som de som redan finns.
 6. Kör grinden: `node verktyg/bok-grind.js`. Den hittar det nya delkapitlet av sig själv.
 
+**Vill du veta mer?** (Geografibok, order 18 – ska föras över till Fysikbok): `villVetaMer: [{ href, ikon?, titel,
+sammanfattning? }]` i `delkapitel.js` ger kort längst ned i Läs på delkapitlets sida, till fristående sidor (till exempel
+geografins djupdykningar). Mönstret är plattformens rakt av: `section.vill-veta-mer`, `.fordj-kort-grid`, `a.fordj-kort`
+(stilen i `bok.css`). Grinden prövar att varje kort går till en sida som finns.
+
 **Elevtext:** all text som eleven läser är data. Titel och undertitel sätter Joachim, så skriv aldrig en beskrivning
 själv.
 

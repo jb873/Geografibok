@@ -1114,6 +1114,15 @@ async function kor(dk, lage, felkod) {
     if (BILDER) await bild(c, dk, lage, 'hubb');
     res.kontroller = await c.ev(`(${SCENARIO})(${lage.helskarm})`);
     if (dk.prov && !lage.mobil) res.kontroller.push(...await c.ev(`(${PROVSCENARIO})()`));
+    // villVetaMer (order 18): korten längst ned i Läs går till sidor som finns (på disken, eller under BAS med --webb)
+    const vvm = await c.ev(`[...document.querySelectorAll('.vill-veta-mer a.fordj-kort')].map(a => a.href)`);
+    if (vvm.length) {
+      const finns = async u => WEBB ? (await fetch(u).catch(() => ({ ok: false }))).ok
+        : u.startsWith('file:') && fs.existsSync(require('url').fileURLToPath(u.split('#')[0].split('?')[0]));
+      const saknas = []; for (const u of vvm) if (!(await finns(u))) saknas.push(decodeURI(u).split('/').slice(-2).join('/'));
+      res.kontroller.push({ namn: `hubben: Vill du veta mer? – de ${vvm.length} korten går till sidor som finns`, ok: !saknas.length,
+        detalj: saknas.length ? 'saknas: ' + saknas.join(', ') : vvm.map(u => decodeURI(u).split('/').pop()).join(', ') });
+    }
     const blad = await provaBlad(c, lage);
     res.kontroller.push(...blad); res.bladTid = blad.tid || null;
     // Bildfiguren: brytningen är densamma innan och efter att bilderna laddats. Boken bryts (i det här sidmåttet) en
