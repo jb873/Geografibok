@@ -10,6 +10,8 @@ Varor kan transporteras på fyra huvudsakliga sätt: med fartyg, järnväg, last
 
 Sjöfartens största nackdel är att transporterna tar lång tid. Fartygen är dessutom beroende av hamnar där varorna kan lastas och lossas. Därför behövs ofta andra transportslag för att varorna ska nå sin slutliga destination. Sjöfarten är särskilt viktig för världshandeln eftersom den gör det möjligt att transportera stora mängder varor mellan olika världsdelar.
 
+[FOTO 1: containerfartyg – se arbetsordern]
+
 ### Järnvägen transporterar stora mängder gods över land
 
 Järnvägen är särskilt lämplig för **godstransporter**, alltså transporter av varor, över långa avstånd på land. Ett godståg kan transportera stora mängder gods med relativt låg energiförbrukning per ton. Därför används järnvägen ofta för tunga råvaror som järnmalm, timmer och stål.
@@ -17,6 +19,8 @@ Järnvägen är särskilt lämplig för **godstransporter**, alltså transporter
 Ett svenskt exempel är malmtågen från gruvorna i Kiruna och Malmberget. Järnmalmen transporteras med järnväg till hamnarna i Narvik i Norge och Luleå i Sverige, där den kan lastas på fartyg eller användas inom industrin.
 
 Järnvägens nackdel är att tågen är bundna till järnvägsspåren. Om en fabrik eller butik inte ligger vid järnvägen måste godset transporteras vidare, till exempel med lastbil. Järnvägar är också dyra att bygga och underhålla, men när de väl finns kan de transportera stora mängder gods effektivt.
+
+[FOTO 2: långt godståg, helst malmtåg på Malmbanan – se arbetsordern]
 
 ### Lastbilar kan leverera varorna hela vägen till kunden
 
@@ -40,6 +44,15 @@ Flyget används därför framför allt när snabbheten är viktigare än transpo
 </figure>
 
 ## Företagen väljer transportslag efter varan
+
+### Avståndet avgör vilket transportslag som är billigast
+
+Varje transport har en fast kostnad för att lasta och lossa varorna, oavsett hur långt de ska. Den kostnaden är låg för lastbilen men hög för fartyget, som behöver hamnar och kranar. Samtidigt kostar varje extra kilometer mest med lastbil och minst med fartyg. Därför är lastbilen ofta billigast på korta sträckor, tåget på medellånga och fartyget på långa.
+
+<figure class="brodtext-bild standard">
+<img src="../../img/ekonomisk-geografi/kostnad-avstand.webp" alt="Linjediagram, tänkt exempel. Lodrät axel: kostnad K i kronor per ton, från 0 till 1 000. Vågrät axel: sträcka s i kilometer, från 0 till 4 000. Lastbilens linje börjar lägst men stiger brantast, tågets börjar högre och stiger långsammare, och fartygets börjar högst men stiger långsammast. Lastbil och tåg kostar lika mycket vid ungefär 500 km, tåg och fartyg vid ungefär 3 000 km. Under axeln visas tre zoner: lastbil billigast upp till 500 km, tåg billigast mellan 500 och 3 000 km och fartyg billigast längre än 3 000 km." loading="lazy">
+<figcaption>Ett tänkt exempel. Där linjerna korsar varandra kostar två transportslag lika mycket – det är där gränserna går.</figcaption>
+</figure>
 
 ### Varans vikt, värde och färskhet avgör transporten
 
