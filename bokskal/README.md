@@ -331,7 +331,7 @@ rubrikerna och krymper fortfarande sin egen text (ned till 70 %) om den behöver
 | `punkter` | `punkter: [...]` |
 | `figur` | `namn`, figurens data, `bildtext?`, `beskrivning?` (se *Figurer*) |
 | `lank` | `till: ['ova', 'sjalvskattning', …]`: länk till plattformens hjälpmedel (se *Hjälpmedel*) |
-| `ruta` | `rubrik?`, `text` eller `punkter`, `stil: 'definition'` för en större definitionsruta |
+| `ruta` | `rubrik?`, `text` eller `punkter`, `fundera?`, `stil: 'definition'` för en större definitionsruta. `fundera` (Geografibok, order 15 – ska föras över till Fysikbok): en fråga att tänka på, kursiv och sist i rutan, efter texten och punkterna – bildguiden i Enkel: `{ typ: 'ruta', rubrik: 'Titta på bilden – X', punkter: [...], fundera: 'Fundera: …' }` direkt efter figuren. |
 | `jamforelse` | `kolumner: [{rubrik, punkter}]`: två spalter sida vid sida |
 | `formel` | `uttryck`, `forklaring: [[tecken, betydelse], …]` |
 | `exempel` | `rubrik?` (standard "Exempel"), `rader: [...]` |

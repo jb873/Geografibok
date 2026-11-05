@@ -173,10 +173,12 @@
   blocktyper.rubrik = d => h('h2', { class: 'sidtitel', html: symboler(inline(d.text, false)) });
   blocktyper.underrubrik = d => h('h3', { class: 'b-rubrik', html: symboler(inline(d.text)) });
   blocktyper.punkter = d => lista(d.punkter);
+  // fundera (Geografibok, order 15): en fråga att tänka på, kursiv och sist i rutan (bildguiden i Enkel)
   blocktyper.ruta = d => h('aside', { class: 'b-ruta' + (d.stil ? ' b-ruta-' + d.stil : '') },
     d.rubrik && h('h4', { html: symboler(inline(d.rubrik)) }),
     d.text && h('p', { html: inline(d.text) }),
-    d.punkter && lista(d.punkter));
+    d.punkter && lista(d.punkter),
+    d.fundera && h('p', { class: 'b-ruta-fundera', html: inline(d.fundera) }));
   blocktyper.jamforelse = d => h('div', { class: 'b-jamforelse' },
     d.kolumner.map(k => h('section', null, h('h4', { html: symboler(inline(k.rubrik)) }), lista(k.punkter))));
   blocktyper.formel = d => h('div', { class: 'b-formel' },

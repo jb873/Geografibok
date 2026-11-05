@@ -150,7 +150,7 @@ async function chrome() {
  *    att bilderna laddats: i kor, BLOCKERA.)
  * Klistras in i scenarierna (behöver v, $, $$, tangent och oppen). */
 const FIGURKOLL = String.raw`const figurKoll = async () => {
-    const sett = new Map(), par = new Map(), fr = new Map(), bp = new Map(), tal = new Set(), st = new Map(), fp = new Map(), hs = new Map(), bb = new Map();
+    const sett = new Map(), par = new Map(), fr = new Map(), bp = new Map(), tal = new Set(), st = new Map(), fp = new Map(), hs = new Map(), bb = new Map(), rf = new Map();
     // g och N/kg i rubriker, innehållet, sidhuvudet och tabellhuvuden: i vanlig stil med rätt skiftläge (span.sym i
     // EB Garamond, inte kapitäler – där blir g ett G och kg KG)
     const SYMKOLL = /(?<![\p{L}\p{N}\/])(?:N\/kg|g)(?![\p{L}\p{N}\/²³])/gu, symSett = new Set(), symFel = [];
@@ -260,6 +260,16 @@ const FIGURKOLL = String.raw`const figurKoll = async () => {
           strale: [...s.querySelectorAll('g.fig-bildpil-strale line.fig-bildpil-rod')].map(l => [l.x1.baseVal.value, l.y1.baseVal.value, l.x2.baseVal.value, l.y2.baseVal.value]),
           // etikettens storlek på skärmen: textens storlek i figurens enheter gånger figurens skala
           minPx: Math.min(...[...s.querySelectorAll('text.fig-bildpil-text')].map(t => parseFloat(getComputedStyle(t).fontSize) * sk)) });
+      });
+      // rutans fundera (order 15): kursiv och sist i rutan, efter punktlistan
+      $$('.scen aside.b-ruta .b-ruta-fundera').forEach(p => {
+        const id = p.closest('[data-post]').dataset.post;
+        if (rf.has(id)) return;
+        const ruta = p.parentElement, lista = ruta.querySelector(':scope > .b-punkter'), f_ = [];
+        if (ruta.lastElementChild !== p) f_.push('fundera står inte sist i rutan');
+        if (lista && !(lista.compareDocumentPosition(p) & Node.DOCUMENT_POSITION_FOLLOWING)) f_.push('fundera står före punkterna');
+        if (getComputedStyle(p).fontStyle !== 'italic') f_.push('fundera är inte kursiv');
+        rf.set(id, f_);
       });
       // bildfiguren (order 11): figurens höjd med bildtexten mot sidhöjden, bildens storlek mot spalten och data
       $$('.scen figure.b-bild').forEach(f => {
@@ -402,6 +412,7 @@ const FIGURKOLL = String.raw`const figurKoll = async () => {
       fp: { antal: fp.size, fel: [...fp].flatMap(([id, x]) => x.fel.map(e => id + ': ' + e)) },
       hs: { antal: hs.size, fel: [...hs].flatMap(([id, x]) => x.fel.map(e => id + ': ' + e)) },
       bb: { antal: bb.size, fel: bbFel, prov: bbProv, andel: bb.size ? Math.max(...[...bb.values()].map(x => x.andel)) : null },
+      rf: { antal: rf.size, fel: [...rf].flatMap(([id, f_]) => f_.map(e => id + ': ' + e)) },
       fr: { antal: fr.size, ytor: [...new Set([...fr.values()].map(x => x.ytor))], pilar: [...fr.values()].map(x => x.pilar.length), monster, fel: frFel }, tal: [...tal] };
   };`;
 
@@ -618,12 +629,14 @@ const SCENARIO = String.raw`async (helskarmLage) => {
       const mal = bakat.map(id => listor[i].find(a => a.id === id)).find(Boolean);
       await valjNiva(i);
       const s = sidaMed(Bok.plats), dar = s && s.querySelector('.sh-namn').textContent.trim();
-      if (!mal || !dar || !dar.includes(mal.titel)) fel.push(nivaVal()[i].textContent + ': ' + dar + ' (väntat ' + (mal && mal.titel) + ')');
-      vag.push(nivaVal()[i].textContent + ' ' + (mal && mal.titel));
-      if (mal) nu = mal.id;
+      // Har den nya nivån inget av avsnitten (Geografibok order 15: Fördjupning med bara egna avsnitt) går nivåbytet
+      // till bokens början – innehållsförteckningen (sida 1) eller omslaget (0) – som från en djupdykning
+      if (mal ? !dar || !dar.includes(mal.titel) : !(Bok.sida <= 1)) fel.push(nivaVal()[i].textContent + ': ' + dar + ' (väntat ' + (mal ? mal.titel : 'bokens början') + ', sida ' + Bok.sida + ')');
+      vag.push(nivaVal()[i].textContent + ' ' + (mal ? mal.titel : 'bokens början'));
+      nu = mal ? mal.id : null;
       fran = i;
     }
-    prova('nivå: nivåbyte i boken (' + [franNiva, ...ovriga, franNiva].map(i => nivaVal()[i].textContent).join(' → ') + ') hamnar i samma avsnitt, eller i det närmaste föregående som finns på nivån',
+    prova('nivå: nivåbyte i boken (' + [franNiva, ...ovriga, franNiva].map(i => nivaVal()[i].textContent).join(' → ') + ') hamnar i samma avsnitt, eller i det närmaste föregående som finns på nivån, och utan något sådant i bokens början',
       !fel.length, 'från ”' + mitt[1] + '”: ' + (fel.length ? fel.join(' | ') : vag.join(' → ')));
     for (const i of ovriga) { await valjNiva(i); spar.push(await figurKoll()); }
     // Ett avsnitt som bara finns på en nivå (III A Fördjupning: Att räkna på rörelse): nivåbytet därifrån går till det
@@ -638,8 +651,9 @@ const SCENARIO = String.raw`async (helskarmLage) => {
       await valjNiva(fall.x); Bok.gaTill(fall.a.till); await v(80);
       await valjNiva(fall.y);
       const s = sidaMed(Bok.plats), dar = s && s.querySelector('.sh-namn').textContent.trim();
-      prova('nivå: från ett avsnitt som bara finns på en nivå går nivåbytet till närmaste föregående avsnitt på den nya nivån',
-        !!fall.mal && !!dar && dar.includes(fall.mal.titel), '”' + fall.a.titel + '” (' + nivaVal()[fall.x].textContent + ') → ' + nivaVal()[fall.y].textContent + ': ' + dar + ' (väntat ' + (fall.mal && fall.mal.titel) + ')');
+      prova('nivå: från ett avsnitt som bara finns på en nivå går nivåbytet till närmaste föregående avsnitt på den nya nivån, och utan något sådant till bokens början',
+        fall.mal ? !!dar && dar.includes(fall.mal.titel) : Bok.sida <= 1,
+        '”' + fall.a.titel + '” (' + nivaVal()[fall.x].textContent + ') → ' + nivaVal()[fall.y].textContent + ': ' + dar + ' (väntat ' + (fall.mal ? fall.mal.titel : 'bokens början') + ', sida ' + Bok.sida + ')');
     }
     await valjNiva(franNiva);
   }
@@ -723,6 +737,8 @@ const SCENARIO = String.raw`async (helskarmLage) => {
     spar.every(x => !x.fp.fel.length), spar.flatMap(x => x.fp.fel).join(' | '));
   if (spar.some(x => x.hs.antal)) prova('figur: den fallande hissen – tyngdkraften lika lång i båda panelerna, i den stilla hissen lika lång som normalkraften, i den fallande ingen normalkraft (' + spar.map(x => x.hs.antal).join(' + ') + ' figurer)',
     spar.every(x => !x.hs.fel.length), spar.flatMap(x => x.hs.fel).join(' | '));
+  if (spar.some(x => x.rf.antal)) prova('ruta: fundera står kursiv och sist i rutan, efter punkterna (' + spar.map(x => x.rf.antal).join(' + ') + ' rutor)',
+    spar.every(x => !x.rf.fel.length), spar.flatMap(x => x.rf.fel).join(' | '));
   if (spar.some(x => x.bb.antal)) {
     prova('figur: bildfiguren – högst 35 % av sidhöjden med bildtexten, högst spaltens bredd, i bildens proportioner, bilden laddas (' + spar.map(x => x.bb.antal).join(' + ') + ' bilder)',
       spar.every(x => !x.bb.fel.length), spar.flatMap(x => x.bb.fel).join(' | ') || 'högst ' + (100 * Math.max(...spar.filter(x => x.bb.antal).map(x => x.bb.andel))).toFixed(1) + ' % av sidhöjden');

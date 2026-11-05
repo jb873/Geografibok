@@ -23,7 +23,9 @@ Bok.niva('standard', {
           { typ: 'text', text: 'Provtext före bilden med bildtext.' },
           { typ: 'figur', id: 'bild-bildtext', namn: 'bild', bild: 'bilder/robottathet.webp', bredd: 1448, hojd: 747,
             beskrivning: 'Provbild: staplar som jämför antalet industrirobotar per anställd i några länder.',
-            bildtext: 'Provbildtext på två rader: bildtexten räknas in i figurens höjd, högst 35 procent av sidan.' }
+            bildtext: 'Provbildtext på två rader: bildtexten räknas in i figurens höjd, högst 35 procent av sidan.' },
+          // rutans fundera (order 15): bildguiden – rubrik, punkter och en kursiv fråga sist
+          { typ: 'ruta', rubrik: 'Titta på bilden – Provbilden', punkter: ['Provpunkt ett.', 'Provpunkt två.'], fundera: 'Fundera: En provfråga sist i rutan?' }
         ] },
         { titel: 'Provsida med flyter och sjunker', block: [
           { typ: 'figur', namn: 'flyter_sjunker', foremal: [
