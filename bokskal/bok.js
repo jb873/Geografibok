@@ -206,7 +206,7 @@
         onclick: () => visaBild(fig) },
         h('button', { type: 'button', class: 'figur-knapp', 'aria-label': 'Visa större bild', 'aria-describedby': id },
           h('span', { class: 'figur-bild', html: r.html })),
-        h('span', { class: 'sr-only', id }, besk),
+        h('span', { class: 'sr-only', id }, bindTal(besk)),            // samma typografi som texten (hårda mellanslag)
         d.bildtext && h('figcaption', { html: inline(d.bildtext) }));
       return fig;
     }
