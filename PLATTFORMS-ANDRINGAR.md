@@ -38,6 +38,7 @@
 
 | Datum | Typ | Var upptäckt | Observation | Förslag |
 |---|---|---|---|---|
+| 2026-11-05 | B | Order 10: bokmotorn bytt till Fysikbokens (e62c0ba) | Datastyrt startsidesprov i bok-grind.js – ska föras över till Fysikbok. Kapitlen letas upp på disken (<kapitel>/kapitel.js + index.html), titel ur kapitel.js, avsnittssidor = kapitlets delkapitel (nummer, ämne ur delkapitel.js); övriga kort prövas allmänt (länk till sida som finns, eller tonat "Kommer"). Utan kapitel.js hoppas provet över. Webbjämförelsen läser samma kapitellista. Provat mot Fysikbok: 23/23 grönt; negativt prov (trasig länk) blir rött. | För över verktyg/bok-grind.js (provaSidorna, kapitlen, delkapitel(allt), jamforWebben) till Fysikbok. |
 | | | | | |
 
 *(Tom rad ovan är till för nya poster — fyll på underifrån)*

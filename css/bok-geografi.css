@@ -31,3 +31,6 @@ body {
 
 /* Sidor utan egen rubrik fortsätter avsnittet: de får ingen tom rad i innehållsförteckningen */
 .toc-sidor li:has(> .toc-knapp .toc-titel:empty) { display: none; }
+/* De två ställen där bok.css har fysikens indigo hårdkodad (inte i --accent): samma värden i geografins havsblå */
+.niva-valjare .niva-knapp:hover { background-color: rgba(30, 92, 122, .1); }
+a.begrepp { text-decoration-color: rgba(30, 92, 122, .45); }
