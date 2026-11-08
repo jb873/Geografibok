@@ -132,6 +132,8 @@ Allt fungerar från disken (file://), utan server. Dubbelklicka på ett delkapit
 
 - `index.html#atomen/periodiska-systemet-2` öppnar boken vid den rubriken (utan texter: `#periodiska-systemet-2`).
   Adressen följer med när eleven bläddrar och pekar på sidans rubrik.
+  Går eleven bakåt ur boken och sedan framåt igen öppnas boken vid läsplatsen, om den står på en senare sida med samma
+  adress (på mobilen syns en sida i taget) – inte vid rubriken. (Geografibok, order 19 – ska föras över till Fysikbok.)
 - `index.html?niva=enkel` väljer nivå, och `index.html?text=atomen` väljer text när texterna är egna böcker.
 - `index.html?kontroll` visar kontrollpanelen (se *Kontrollera*).
 

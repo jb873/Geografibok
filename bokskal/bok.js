@@ -1132,6 +1132,12 @@
     tillbaka = null;
     vakna();
     layout();                                      // bryter boken efter sidmåttet
+    // Tillbaka via historiken (bakåt, sedan framåt): adressen pekar på sidans rubrik, men läsplatsen kan stå på en senare
+    // sida med samma adress (på mobilen syns en sida i taget). Då öppnas boken vid läsplatsen. (Geografibok, order 19)
+    if (historik) {
+      const sparad = lager.hamta(platsNyckel(textId, nivaId), null);
+      if (sparad && sparad !== mal && sparad !== 'innehall' && sparad !== 'omslag' && sida(sidaFor(sparad)).ankare === mal) mal = sparad;
+    }
     nr = sidaFor(mal);
     const p = postFor(byggBok(nivaId), mal);
     plats = p && iFlodet(p) ? p.id : platsFor(sida(nr));            // läsplatsen följer med när sidmåttet ändras
