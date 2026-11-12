@@ -1,0 +1,71 @@
+## Handeln med omvärlden byggde Sveriges välstånd
+
+Sverige är i dag ett rikt land med stora företag som säljer varor och tjänster över hela världen. Under långa perioder var Sverige ändå ett fattigt och glest befolkat jordbruksland i utkanten av Europa. Sverige hade stora tillgångar av skog, järnmalm och vattenkraft. Men naturresurser räcker inte för att göra ett land rikt. Det behövs också kunskap, investeringar och människor som vill köpa det som tillverkas. Genom kontakterna med andra länder fick Sverige tillgång till allt detta. Köpmän, hantverkare och företagare kom hit med kunskap och pengar, och andra länder ville köpa det som Sverige hade att sälja. Det bidrog till att förvandla ett fattigt jordbruksland till ett modernt industriland.
+
+### Hansan byggde upp städerna
+
+Under medeltiden levde nästan alla svenskar på landsbygden. De odlade sin egen mat, och det fanns få städer och lite pengar i omlopp. Handeln runt Östersjön styrdes av **Hansan**, ett förbund av tyska handelsstäder med Lübeck som centrum. Hansan hade skeppen, kontakterna och kunskapen som behövdes för att köpa och sälja varor över stora avstånd.
+
+Tyska köpmän bosatte sig i Visby, Stockholm, Kalmar och andra svenska städer. De köpte järn från Bergslagen, koppar från Falun och smör och hudar från landsbygden. I utbyte sålde de salt, tyg och vin. Saltet var särskilt viktigt, eftersom det behövdes för att maten skulle hålla över vintern.
+
+Tyskarna blev så många i städerna att lagen begränsade deras makt: högst hälften av dem som styrde en stad fick vara tyskar. Påverkan syns än i dag i språket. Ord som *handla*, *betala*, *borgmästare* och *fönster* kommer från tyskan.
+
+För Sverige innebar Hansan att städerna växte och att handel med pengar blev vanligare. Landet knöts samman med handeln i Europa. Men Hansan hade länge en så stark ställning att svenska köpmän hade svårt att konkurrera. De tyska köpmännen kunde därför påverka både handeln och priserna. Under 1500-talet började kungamakten, med Gustav Vasa, minska Hansans inflytande, och efter hand tog svenska köpmän över en större del av handeln.
+
+### Vallonerna gjorde svenskt järn mer eftertraktat
+
+På 1600-talet var Sverige i krig nästan hela tiden, och kungen behövde både pengar och vapen. Sverige hade gott om järnmalm, skog till träkol och forsar som kunde driva hammare och blåsbälgar. Sverige hade tillverkat och sålt järn sedan medeltiden, men det mesta höll inte den högsta kvaliteten.
+
+I Vallonien, i dagens södra Belgien, kunde smederna en bättre metod som kallas **vallonsmide**. Med den blev järnet rent och segt, så att det gick att böja utan att spricka. Affärsmannen Louis De Geer, som själv kom från Vallonien, lånade ut pengar till den svenska kungen och fick i gengäld driva järnbruk i Sverige. Han tog hit hundratals vallonska smedfamiljer.
+
+Vallonerna bosatte sig vid **bruken** i norra Uppland, till exempel Lövsta och Österby. Ett bruk var en liten industriort med masugn, smedjor och bostäder för arbetarna. Malmen kom från Dannemoragruvan, som var känd för sin rena malm. Av den gjorde smederna **stångjärn**, alltså järn i långa stänger som var lätta att frakta och sälja.
+
+Vallonerna skapade alltså inte den svenska järnhanteringen, men deras specialistkunskap gjorde det bästa svenska järnet mycket eftertraktat. För Sverige innebar det att landet blev en av Europas största järnexportörer. Stångjärnet såldes framför allt till England, där det blev till stål. Pengarna från järnet och kanonerna från bruken hjälpte Sverige att bli en stormakt. Kunskapen stannade dessutom kvar, eftersom vallonerna lärde upp svenska smeder.
+
+## Kunskap och kapital utifrån skapade industrin
+
+### Skottarna öppnade Göteborg mot världen
+
+På 1700-talet ville Sverige tjäna pengar på den lönsamma handeln med Asien, men svenskarna saknade erfarenhet av så långa resor. Skotten Colin Campbell var med och startade Svenska Ostindiska kompaniet i Göteborg år 1731. Göteborg hade grundats 1621 och hade redan från början byggts upp med hjälp av holländska handelsmän. Nu fick staden också starka band till Skottland och Storbritannien. Ostindiska kompaniets skepp seglade ända till Kanton i Kina och kom hem med te, porslin och siden. Det mesta såldes vidare till andra länder i Europa med stor vinst.
+
+Många skottar flyttade till Göteborg, och staden blev Sveriges viktigaste hamn mot väster. Under 1800-talet använde skottarna sitt **kapital**, alltså pengar som kan investeras i nya verksamheter, för att starta företag. Alexander Keiller startade till exempel en mekanisk verkstad som senare blev varvet Götaverken.
+
+William Chalmers lämnade efter sin död pengar till en skola som skulle utbilda unga människor för industrin. Skolan heter i dag Chalmers tekniska högskola och utbildar fortfarande ingenjörer.
+
+För Sverige innebar skottarna att Göteborg blev landets port mot världen. Sverige fick både kapital och kunskap från Storbritannien, som var på väg att bli världens första industriland.
+
+### Storbritannien köpte svenska råvaror
+
+Under 1800-talet genomgick Storbritannien en **industrialisering**. Det betyder att arbetet flyttade från jordbruket till fabriker där maskiner tillverkade varorna. Städerna växte snabbt, och landet behövde mer råvaror än det själv hade. Till hus, gruvor och järnvägar behövdes trä. Till maskinerna behövdes järn. Och till alla hästar som drog vagnar i städerna behövdes havre.
+
+Allt detta fanns i Sverige. Längs Norrlandskusten byggdes hundratals sågverk vid älvarnas mynningar. Timret fälldes i skogarna inåt landet och flottades ner längs älvarna. **Flottning** betyder att stockarna flyter med strömmen ner till kusten. Vid sågverken sågades timret till plank och bräder, som skeppades till Storbritannien. Runt Sundsvall växte ett av världens största sågverksdistrikt fram.
+
+Med pengarna från exporten kom ny teknik till Sverige, som ångmaskiner och järnvägar. Staten byggde **stambanor**, järnvägar som band ihop landets olika delar. Nu kunde varor och människor fraktas snabbt även långt från kusten.
+
+### Uppfinningar blev exportföretag
+
+Sverige stannade inte vid att sälja råvaror. I slutet av 1800-talet gjorde svenska uppfinnare upptäckter som blev grunden till stora företag. Lars Magnus Ericsson tillverkade telefoner, och hans företag Ericsson finns kvar än i dag. Gustaf de Laval uppfann separatorn, som skiljer grädde från mjölk, och den blev grunden till företaget Alfa Laval. Sven Wingquist konstruerade ett nytt kullager, och år 1907 startade han SKF. Alfred Nobel uppfann dynamiten, som användes för att spränga i gruvor och bygga vägar och järnvägar.
+
+Företagen sålde snart sina produkter över hela världen. Tidigare hade Sverige framför allt tjänat pengar på att sälja sådant som fanns i naturen, som trä och järn. Nu började landet också exportera avancerade produkter som byggde på forskning, uppfinningar och teknisk kunskap. Det gjorde att Sverige kunde tjäna pengar på betydligt mer än sina naturresurser.
+
+För Sverige innebar industrialiseringen att landet gick från att vara ett fattigt jordbruksland till att bli ett industriland. Människor flyttade från landsbygden till sågverk, fabriker och städer. Här lades grunden till den export som Sverige har än i dag.
+
+## Kriget gav Sverige ett försprång
+
+### Europas återuppbyggnad ökade exporten
+
+Under andra världskriget, 1939–1945, bombades städer, fabriker, broar och järnvägar i stora delar av Europa. Sverige var neutralt och stod utanför kriget, även om landet sålde både järnmalm och kullager till Tyskland. När freden kom var de svenska fabrikerna, järnvägarna och hamnarna hela.
+
+Europa skulle nu byggas upp igen. Då behövdes stål till broar och hus, trä och papper, och maskiner till nya fabriker. Länderna som hade förstörts kunde inte tillverka allt själva, men Sverige kunde leverera direkt. Svenska företag som Volvo, Saab, ASEA och SKF fick fler beställningar än de hann med.
+
+Fabrikerna behövde så mycket folk att det inte räckte med svenska arbetare. Under 1950- och 1960-talen kom tiotusentals människor från Finland, Italien, Jugoslavien, Grekland och Turkiet för att arbeta i svensk industri. Det kallas **arbetskraftsinvandring**.
+
+Åren från början av 1950-talet till början av 1970-talet kallas **rekordåren**. Lönerna steg, och den växande ekonomin gav staten större skatteinkomster. Därmed kunde **välfärden**, som redan hade börjat byggas upp före kriget, utvecklas mycket mer. Välfärd är det stöd som samhället ger alla invånare, som skola, sjukvård, pensioner och bostäder. Sverige blev ett av världens rikaste länder.
+
+Om man ser på hela Sveriges historia finns det ett mönster. Sverige har haft egna resurser, och gång på gång har landet fått det som behövdes för att använda dem bättre utifrån: handel från tyskarna, kunskap från vallonerna, kapital från skottarna och köpare från Storbritannien och resten av Europa. Därför är kontakter och handel med andra länder fortfarande så viktiga för Sverige.
+
+> - Hansan byggde upp städerna och knöt Sverige till handeln i Europa.
+> - Vallonernas kunskap gjorde svenskt järn mer eftertraktat, och Sverige blev en av Europas största järnexportörer.
+> - Skottarna förde med sig kapital och kunskap och gjorde Göteborg till Sveriges port mot världen.
+> - Storbritanniens industrialisering och svenska uppfinningar gjorde Sverige till ett industriland.
+> - Efter andra världskriget ökade exporten när Europa byggdes upp igen, och rekordåren gjorde det möjligt att bygga ut välfärden.

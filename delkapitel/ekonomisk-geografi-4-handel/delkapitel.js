@@ -1,6 +1,6 @@
-/* Ekonomisk geografi, delkapitel 4 Handel – en bok per text (A; fler texter läggs till senare), bokmotorn i bokskal/.
+/* Ekonomisk geografi, delkapitel 4 Handel – en bok per text (A–B; fler texter läggs till senare), bokmotorn i bokskal/.
  * Kapitlets sida är delkapitel/ekonomisk-geografi/index.html. Bara data här: titel, texter och hjälpmedel.
- * Innehållet ligger i innehall/<text>/<nivå>.js, ordagrant ur kallor/<text>-<nivå>.md (order 19). */
+ * Innehållet ligger i innehall/<text>/<nivå>.js, ordagrant ur kallor/<text>-<nivå>.md (order 19, text B order 21). */
 Bok.delkapitel({
   id: 'geografi-ekonomisk-4-handel',
   amne: 'Geografi',
@@ -10,7 +10,8 @@ Bok.delkapitel({
   undertitel: 'Varför länder handlar med varandra',
   overrad: 'Ekonomisk geografi',
   texter: [
-    { id: 'a', titel: 'Därför handlar länder med varandra' }
+    { id: 'a', titel: 'Därför handlar länder med varandra' },
+    { id: 'b', titel: 'Sveriges historiska bakgrund' }
   ],
   // Hjälpmedlen finns inte än: utan adress visas de som "kommer".
   hjalpmedel: {
