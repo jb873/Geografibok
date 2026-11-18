@@ -15,6 +15,18 @@ producerade scaffold (verifierad mot CSS + JS + live-rendering)
 
 ---
 
+## Regel 0 — inga beslut utan Joachims godkännande
+
+Reglerna i det här repot är kontraktet. Varje chatt och varje Code-pass som rör boken läser dem **FÖRST** och bygger på det som redan står här.
+
+- Finns en konvention: följ den exakt och bygg på **funktionen** där den bor — kopiera aldrig in en parallell variant.
+- Saknas en regel för det som behövs: **stanna, lägg fram alternativ, fråga Joachim.** Gissa aldrig, "kör inte bara på".
+- Inget nytt designval, ny komponent eller ny regel införs utan Joachims godkännande. En ny plattformsobservation skrivs i [`PLATTFORMS-ANDRINGAR.md`](../PLATTFORMS-ANDRINGAR.md) tills den är beslutad.
+
+**Vad vaktar den:** — (ingen grind; bärs av att den står först och att varje pass läser den.)
+
+---
+
 
 
 ## Sektions-typ: DELAD vs ÄMNESEGET
